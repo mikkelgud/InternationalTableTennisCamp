@@ -6,7 +6,7 @@ align-items: center;
 &:hover {
     color: red;
 }
-@media (max-width: 860px){
+@media (max-width: 861px){
     display: none;
 }
 `;
