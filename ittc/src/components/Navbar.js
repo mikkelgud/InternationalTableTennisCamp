@@ -47,7 +47,7 @@ padding:0;
 const NavBar = props => {
 return(
 <NavBarWrapper>
-<AppTitle>ITTC{pingPongEmoji}</AppTitle>
+<AppTitle onClick={()=> {props.history.push("/home")}} >ITTC{pingPongEmoji}</AppTitle>
 <StyledLink to="/leaders" ><StyledDiv>Coaches and leaders</StyledDiv></StyledLink>
 <StyledLink to=""><StyledDiv>Plan</StyledDiv></StyledLink>
 <StyledLink to=""><StyledDiv>Rules</StyledDiv></StyledLink>
