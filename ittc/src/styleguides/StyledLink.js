@@ -6,4 +6,7 @@ export const StyledLink = Styled(({ ...props }) => <Link {...props} />)`
   text-decoration: none;
   color: black;
   cursor: pointer;
+  &:hover {
+    color: red;
+}
 `;

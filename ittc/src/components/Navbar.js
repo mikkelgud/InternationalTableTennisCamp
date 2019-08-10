@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import styled, {keyframes} from "styled-components";
-import { StyledDiv } from "../styleguides/StyledNavDiv";
-import { StyledLink } from "../styleguides/StyledLink";
+import styled, { keyframes } from "styled-components";
 import { withRouter } from "react-router-dom";
+import NavigationLink from "./NavigationLink";
+import NavigationLinkMenu from "./NavigationLinkMenu";
+import NavigationLinkEmoji from "./NavigationLinkEmoji";
 
 const homeEmoji = "🏠";
 const pingPongEmoji = "🏓";
@@ -43,28 +44,9 @@ const MobileMenuWrapper = styled.div`
   }
 `;
 
-const MenuTitle = styled.p``;
-
 const menuFadeInTop = keyframes`
-0% { opacity: 0.2; }
-100% { opacity: 1; }
-`;
-
-
-const Menu = styled.ul`
-  list-style: none;
-  width: 100vw;
-  top: 70px;
-  left: 0;
-  position: absolute;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-
-  li:not(:last-child) {
-      border-bottom: 1px solid #dddddd;
-  }
-  animation: ${menuFadeInTop} 0.10s cubic-bezier(0.13, 0.54, 0.68, 0.93) 1;
+0% { top-250px; opacity: 0.1; }
+100% { top-65px; opacity:2; }
 `;
 
 const MenuItem = styled.li`
@@ -76,95 +58,79 @@ const MenuItem = styled.li`
   background: #ffffff;  
 `;
 
+
+const Menu = styled.ul`
+  list-style: none;
+  width: 100vw;
+  top: 65px;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+
+  li:not(:last-child) {
+      border-bottom: 1px solid #dddddd;
+  }
+  animation: ${menuFadeInTop} 0.35s cubic-bezier(0.13, 0.54, 0.68, 0.93) 1;
+`;
+
+
+const navigationLinksText = [
+  {
+    link: "/leaders",
+    category: "Coaches and leaders"
+  },
+  {
+    link: "/",
+    category: "Plan"
+  },
+  {
+    link: "/",
+    category: "Rules"
+  },
+  {
+    link: "/",
+    category: "Schedule"
+  },
+  {
+    link: "/",
+    category: "Stay"
+  },
+  {
+    link: "/",
+    category: "Expences"
+  },
+  {
+    link: "/",
+    category: "About us"
+  },
+  {
+    link: "/",
+    category: "Sign up!"
+  },
+]
+
+const navigationLinksEmoji = [
+  {link: "/home", category: homeEmoji},
+  {link: "/home", category: worldEmoji}
+];
+
+
+
 const NavBar = props => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <NavBarWrapper>
-      <AppTitle
-        onClick={() => {
-          props.history.push("/home");
-        }}
-      >
-        ITTC{pingPongEmoji}
-      </AppTitle>
-      <StyledLink to="/leaders">
-        <StyledDiv>Coaches and leaders</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Plan</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Rules</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Schedule</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Stay</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Expences</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>About us</StyledDiv>
-      </StyledLink>
-      <StyledLink to="">
-        <StyledDiv>Sign up!</StyledDiv>
-      </StyledLink>
-      <StyledLink to="/home">
-        <EmojiTextStyleHover>{homeEmoji}</EmojiTextStyleHover>
-      </StyledLink>
-      <StyledLink to="">
-        <EmojiTextStyleHover>{worldEmoji}</EmojiTextStyleHover>
-      </StyledLink>
-      <MobileMenuWrapper onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        <MenuTitle>{isMenuOpen ? "Close" : "Menu"}</MenuTitle>
+      <AppTitle onClick={() => { props.history.push("/home"); }}>ITTC{pingPongEmoji} </AppTitle>
 
-        {isMenuOpen && (
-          <Menu>
-            <MenuItem>
-              <StyledLink to="/leaders">
-               Coaches and leaders
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-                Plan
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-               Rules
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-                Schedule
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-                Stay
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-                Expences
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-                About us
-              </StyledLink>
-            </MenuItem>
-            <MenuItem>
-              <StyledLink to="">
-               Sign up!
-              </StyledLink>
-            </MenuItem>
-          </Menu>
-        )}
+{navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}
+{navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category} />))}
+
+      <MobileMenuWrapper onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <EmojiTextStyleHover>{isMenuOpen ? "➖" : " 🧐 "}</EmojiTextStyleHover>
+        {isMenuOpen && (<Menu>{navigationLinksText.map(navLink => (<MenuItem><NavigationLinkMenu to={navLink.link} category={navLink.category} /></MenuItem>))} </Menu>)}
       </MobileMenuWrapper>
     </NavBarWrapper>
   );
