@@ -18,19 +18,19 @@ const liFenPictureSource = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9
 const persons = [
     {
         name: "Mikkel Gudmundsen",
-        age: "21",
+        age: "21 år",
         picture: mikkelPictureSource,
         text: mikkelText
     },
     {
         name: "Li Fen",
-        age: "21",
+        age: "42 år",
         picture: liFenPictureSource,
         text: testText
     },
     {
         name: "Hilding Persson",
-        age: "21",
+        age: "21 år",
         picture: hildingPictureSource,
         text: testText
 

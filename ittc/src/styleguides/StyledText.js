@@ -1,5 +1,7 @@
 import Styled from 'styled-components';
 
 export const StyledText = Styled.p`
-margin:0;
+font-family: 'Oswald', sans-serif;
+margin: 20px;
+font-size: 1.3rem;
 `;

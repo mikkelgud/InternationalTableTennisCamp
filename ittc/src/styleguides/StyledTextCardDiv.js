@@ -2,29 +2,30 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const boxWrapper = styled.div`
+const CardWrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 1.6rem;
 `;
 
 
 const CardBox = styled.div`
-width: 80vw;
-padding: 1rem;
+  max-width: 20rem; 
+  padding: 1.8rem;
   border-radius: 15px;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
   border: 0.3px solid #000000;
+  transition: all 0.12678s ease-in-out;
 `;
 
 
-export default function Box(props) {
+export default function Card(props) {
     return(
-<boxWrapper>
+       <CardWrapper>
          <CardBox>
           {props.children}
         </CardBox>
-  </boxWrapper>
+       </CardWrapper>
     )
 }

@@ -5,7 +5,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import history from './utils/history';
+import fontAwesomeLibraryLoader from './utils/faLibraryLoader';
 
+fontAwesomeLibraryLoader();
 
 ReactDOM.render(
     <Router history={history}>

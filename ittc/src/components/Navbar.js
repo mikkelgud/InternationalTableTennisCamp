@@ -4,9 +4,10 @@ import { withRouter } from "react-router-dom";
 import NavigationLink from "./NavigationLink";
 import NavigationLinkMenu from "./NavigationLinkMenu";
 import NavigationLinkEmoji from "./NavigationLinkEmoji";
+import Logo from "../Logo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const homeEmoji = "🏠";
-const pingPongEmoji = "🏓";
 const worldEmoji = "🌐";
 
 const NavBarWrapper = styled.div`
@@ -15,9 +16,12 @@ const NavBarWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: ;
+  background-color: #ffffff;
   padding: 2rem;
   border-bottom: 1px solid black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 `;
 
 const AppTitle = styled.h1`
@@ -29,6 +33,7 @@ const AppTitle = styled.h1`
 
 const EmojiTextStyleHover = styled.p`
   transition: all 0.1s ease-in-out;
+  color: red;
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
@@ -75,12 +80,15 @@ const Menu = styled.ul`
   animation: ${menuFadeInTop} 0.35s cubic-bezier(0.13, 0.54, 0.68, 0.93) 1;
 `;
 
+const StyledImageLogo = styled.img`
+margin:8px 0px 0 0 ;
+padding: 0 0px 0 0 ;
+height: 78px;
+width: 78px;
+`;
+
 
 const navigationLinksText = [
-  {
-    link: "/leaders",
-    category: "Coaches and leaders"
-  },
   {
     link: "/",
     category: "Plan"
@@ -102,12 +110,8 @@ const navigationLinksText = [
     category: "Expences"
   },
   {
-    link: "/",
+    link: "/leaders",
     category: "About us"
-  },
-  {
-    link: "/",
-    category: "Sign up!"
   },
 ]
 
@@ -123,13 +127,13 @@ const NavBar = props => {
 
   return (
     <NavBarWrapper>
-      <AppTitle onClick={() => { props.history.push("/home"); }}>ITTC{pingPongEmoji} </AppTitle>
+      <AppTitle onClick={() => { props.history.push("/home"); }}><StyledImageLogo src={Logo}/></AppTitle>
 
 {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}
 {navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category} />))}
 
       <MobileMenuWrapper onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        <EmojiTextStyleHover>{isMenuOpen ? "➖" : " 🧐 "}</EmojiTextStyleHover>
+      <EmojiTextStyleHover><FontAwesomeIcon icon={isMenuOpen ? "times" : "bars"} /></EmojiTextStyleHover>
         {isMenuOpen && (<Menu>{navigationLinksText.map(navLink => (<MenuItem><NavigationLinkMenu to={navLink.link} category={navLink.category} /></MenuItem>))} </Menu>)}
       </MobileMenuWrapper>
     </NavBarWrapper>
