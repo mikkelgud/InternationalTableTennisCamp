@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
+import { withNamespaces, NamespacesConsumer, Trans } from 'react-i18next';
 import { withRouter } from "react-router-dom";
 import NavigationLink from "./NavigationLink";
 import NavigationLinkMenu from "./NavigationLinkMenu";
@@ -73,6 +74,7 @@ const Menu = styled.ul`
   z-index: 2;
   margin: 0;
   padding: 0;
+  border-bottom: 1px solid black;
 
   li:not(:last-child) {
       border-bottom: 1px solid #dddddd;
@@ -117,7 +119,7 @@ const navigationLinksText = [
 
 const navigationLinksEmoji = [
   {link: "/home", category: homeEmoji},
-  {link: "/home", category: worldEmoji}
+  {link: "/languages", category: worldEmoji}
 ];
 
 

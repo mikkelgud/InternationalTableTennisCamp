@@ -4,6 +4,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Leaders from './components/Leaders';
 import Home from './components/Home';
+import Languages from './components/Language';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home}/>
         <Route path="/leaders" exact component={Leaders} />
+        <Route path="/languages" exact component={Languages} />
       </Switch>
     </div>
   );
