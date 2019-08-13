@@ -16,7 +16,7 @@ const EmojiTextStyleHover = styled.p`
 
 const NavigationsLinkEmoji = props => {
   return(   
-      <StyledLink to={props.to}>
+      <StyledLink onClick={props.clicked} to={props.to}>
   <EmojiTextStyleHover>{props.emoji}</EmojiTextStyleHover>
         </StyledLink>
   )}

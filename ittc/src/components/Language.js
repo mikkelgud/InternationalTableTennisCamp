@@ -1,21 +1,22 @@
 import React from 'react';
-import { StyledDiv } from "../styleguides/StyledNavDiv";
-import { StyledLink } from "../styleguides/StyledLink";
 import { withRouter } from "react-router-dom";
+import { StyledDiv } from '../styleguides/StyledNavDiv';
+
+import NavigationLinkEmoji from './NavigationLinkEmoji';
+
 
 const norwegianFlag = "🇳🇴";
 const englishFlag = "🇬🇧";
+
 const Language = props => {
   return( 
       <>
-      <StyledDiv>
-      🇳<StyledLink>{norwegianFlag}</StyledLink>
-      </StyledDiv>
-      <StyledDiv>
-      <StyledLink>{englishFlag}</StyledLink>
-      </StyledDiv>
+    <NavigationLinkEmoji emoji={norwegianFlag} />
+   <NavigationLinkEmoji emoji={englishFlag}/>
+   <NavigationLinkEmoji emoji={norwegianFlag} />
+   <NavigationLinkEmoji emoji={englishFlag}/>
       </>
    )}
-export default Language;
+export default withRouter(Language);
 
 
