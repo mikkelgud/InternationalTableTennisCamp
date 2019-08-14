@@ -7,10 +7,12 @@ import NavigationLinkMenu from "./NavigationLinkMenu";
 import NavigationLinkEmoji from "./NavigationLinkEmoji";
 import Logo from "../Logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import LanguageSelctorMenu from "./Language";
+import LanguageSelctorMenu, { englishLanguage } from "./Language";
+import useLocalStorage from "../hooks/useLocalStorage";
+
+
 
 const homeEmoji = "🏠";
-const worldEmoji = "🌐";
 
 const NavBarWrapper = styled.div`
   height: 1px;
@@ -29,14 +31,12 @@ const NavBarWrapper = styled.div`
 const AppTitle = styled.h1`
 font-family: 'Oswald', sans-serif;
   cursor: pointer;
-  color: #0;
   margin: 0;
 `;
 
 const EmojiTextStyleHover = styled.p`
 font-family: 'Oswald', sans-serif;
   transition: all 0.1s ease-in-out;
-  color: red;
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
@@ -91,11 +91,6 @@ height: 78px;
 width: 78px;
 `;
 
-const Actions = styled.div`
-display: none;
-`
-
-
 const navigationLinksText = [
   {
     link: "/",
@@ -126,45 +121,45 @@ const navigationLinksText = [
 
 
 const navigationLinksEmoji = [
-  {link: "/home", category: homeEmoji},
+  { link: "/home", category: homeEmoji },
 ];
+const initialLanguage = { selectedLanguageIcon: "🇬🇧" };
 
+function NavBar(props) {
 
-
-
-const NavBar = props => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isNormalMenuOpen, setIsNormalMenuOpen] = useState(true);
   const [isLanguageSelectorOpen, setIsLanguageSelectorOpen] = useState(false);
+  const [storedLanguage] = useLocalStorage("Language", englishLanguage);
+  const [language, setLanguage] = useState(storedLanguage);
 
-const LanguageOnClickHandeler = () => {
-  if(isLanguageSelectorOpen === false){
-    setIsLanguageSelectorOpen(true);
-    console.log("soemt");
-  }else{
-    setIsLanguageSelectorOpen(false);
-    console.log("soefaemt");
+
+  const toggleLanguageSelector = () => {
+    setIsNormalMenuOpen(!isNormalMenuOpen)
+    setIsLanguageSelectorOpen(!isLanguageSelectorOpen);
+
+
   }
-}
-
-
 
   return (
     <NavBarWrapper>
-     <AppTitle onClick={() => { props.history.push("/home"); }}><StyledImageLogo src={Logo}/></AppTitle>
-     { !isLanguageSelectorOpen ?
-     <>
-{navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category}  />))}
-{navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category}/>))}
- </>: null}
+      <AppTitle onClick={() => { props.history.push("/home"); }}><StyledImageLogo src={Logo} /></AppTitle>
+      {isNormalMenuOpen && <>
+        {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}
+        {navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category} />))}
+        <NavigationLinkEmoji emoji={language ? language.selectedLanguageIcon : initialLanguage.selectedLanguageIcon} clicked={() => toggleLanguageSelector()}></NavigationLinkEmoji>
+      </>}
 
-<NavigationLinkEmoji emoji={worldEmoji} clicked={()=>LanguageOnClickHandeler()}></NavigationLinkEmoji>
-{isLanguageSelectorOpen ? <LanguageSelctorMenu/> :null}
+      {isLanguageSelectorOpen && <LanguageSelctorMenu onItemSelected={item => {
+        toggleLanguageSelector();
+        setLanguage(item)
+      }} />}
 
       <MobileMenuWrapper onClick={() => setIsMenuOpen(!isMenuOpen)}>
-      <EmojiTextStyleHover><FontAwesomeIcon icon={isMenuOpen ? "times" : "bars"} /></EmojiTextStyleHover>
+        <EmojiTextStyleHover><FontAwesomeIcon icon={isMenuOpen ? "times" : "bars"} /></EmojiTextStyleHover>
         {isMenuOpen && (<Menu>{navigationLinksText.map(navLink => (<MenuItem><NavigationLinkMenu to={navLink.link} category={navLink.category} /></MenuItem>))} </Menu>)}
       </MobileMenuWrapper>
     </NavBarWrapper>
   );
-};
+}
 export default withRouter(NavBar);

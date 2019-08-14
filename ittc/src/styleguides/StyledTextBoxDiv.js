@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const boxWrapper = styled.div`
+const BoxWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +21,10 @@ padding: 1rem;
 
 export default function Box(props) {
     return(
-<boxWrapper>
+<BoxWrapper>
          <CardBox>
           {props.children}
         </CardBox>
-  </boxWrapper>
+  </BoxWrapper>
     )
 }

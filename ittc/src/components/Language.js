@@ -1,22 +1,61 @@
 import React from 'react';
-import { withRouter } from "react-router-dom";
-import { StyledDiv } from '../styleguides/StyledNavDiv';
+import useLocalStorage from '../hooks/useLocalStorage';
 
-import NavigationLinkEmoji from './NavigationLinkEmoji';
+import styled from 'styled-components';
 
 
-const norwegianFlag = "🇳🇴";
-const englishFlag = "🇬🇧";
+export const norwegianLanguage =  {
+   selectedLanguageIcon: `🇳🇴`,
+   key: "NO",
+   name: "Norwegian"
+};
 
-const Language = props => {
-  return( 
+export const englishLanguage = {
+   selectedLanguageIcon: `🇬🇧`,
+   key: "GB",
+   name: "English"
+};
+export const swedishLanguage = {
+   selectedLanguageIcon: `🇸🇪`,
+   key: "SE",
+   name: "Swedish"
+};
+
+const ChangeLanguageLinkEmoji = styled.p`
+  transition: all 0.1s ease-in-out;
+  font-size: 2rem;
+  
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    font-size: 2.8rem;
+  }
+`;
+
+const Language = ({ onItemSelected }) => {
+   // eslint-disable-next-line
+  const [storedLanguage, setStoredLanguage] = useLocalStorage("Language", englishLanguage);
+  
+
+   return( 
       <>
-    <NavigationLinkEmoji emoji={norwegianFlag} />
-   <NavigationLinkEmoji emoji={englishFlag}/>
-   <NavigationLinkEmoji emoji={norwegianFlag} />
-   <NavigationLinkEmoji emoji={englishFlag}/>
+   <ChangeLanguageLinkEmoji onClick={() => {
+      setStoredLanguage(englishLanguage)
+      onItemSelected(englishLanguage)
+   }
+}>{englishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
+   <ChangeLanguageLinkEmoji onClick={() => {
+      setStoredLanguage(norwegianLanguage)
+      onItemSelected(norwegianLanguage)
+   }
+   }>{norwegianLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
+   <ChangeLanguageLinkEmoji onClick={() => {
+      onItemSelected(swedishLanguage);
+      setStoredLanguage(swedishLanguage);
+   }}>{swedishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji> 
       </>
    )}
-export default withRouter(Language);
+export default Language;
 
 
