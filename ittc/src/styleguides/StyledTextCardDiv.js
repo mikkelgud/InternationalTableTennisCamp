@@ -6,17 +6,24 @@ const CardWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 1.6rem;
+  width: 100%; 
+  height: 100%;
 `;
 
 
 const CardBox = styled.div`
-  max-width: 20rem; 
-  padding: 1.8rem;
+padding: 2.5rem;
+  height: 100%;
+  width: 100%; 
   border-radius: 15px;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
   border: 0.3px solid #000000;
   transition: all 0.12678s ease-in-out;
+  @media (max-width: 706px){
+    max-width: 23rem;
+  padding: 1.8rem;
+        
+    }
 `;
 
 

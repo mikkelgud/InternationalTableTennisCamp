@@ -7,6 +7,9 @@ import * as serviceWorker from './serviceWorker';
 import history from './utils/history';
 import fontAwesomeLibraryLoader from './utils/faLibraryLoader';
 
+// import i18n (needs to be bundled ;))
+import './utils/i18n';
+
 fontAwesomeLibraryLoader();
 
 ReactDOM.render(

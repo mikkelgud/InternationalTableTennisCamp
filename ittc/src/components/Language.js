@@ -1,35 +1,36 @@
 import React from 'react';
 import useLocalStorage from '../hooks/useLocalStorage';
-
 import styled from 'styled-components';
 
 
 export const norwegianLanguage =  {
    selectedLanguageIcon: `🇳🇴`,
-   key: "NO",
+   key: "no",
    name: "Norwegian"
 };
 
 export const englishLanguage = {
    selectedLanguageIcon: `🇬🇧`,
-   key: "GB",
+   key: "en",
    name: "English"
 };
 export const swedishLanguage = {
    selectedLanguageIcon: `🇸🇪`,
-   key: "SE",
+   key: "se",
    name: "Swedish"
 };
 
 const ChangeLanguageLinkEmoji = styled.p`
   transition: all 0.1s ease-in-out;
-  font-size: 2rem;
-  
+  font-size: 2.6rem;
+  margin-right: 3rem;
   padding: 0;
   cursor: pointer;
-
   &:hover {
     font-size: 2.8rem;
+  }
+  @media(max-width: 500px){
+     margin-right: 0;
   }
 `;
 
