@@ -5,7 +5,7 @@ import { StyledText } from "../styleguides/StyledText";
 export default function Expences() {
   return (
       <StyledText>
-      hello world wtf
+      hello world 
       </StyledText>
   );
 }

@@ -6,7 +6,7 @@ import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader'
 
 export default function PersonProfile(props) {
     return (
-        <StyledTextBoxDiv>
+        <StyledTextBoxDiv background={"grey"}>
             <StyledTextSectionHeader>
                 {props.personName} {props.age}
             </StyledTextSectionHeader>

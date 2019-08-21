@@ -25,12 +25,6 @@ const persons = [
         text: info
     },
     {
-        name: "Peter Sartz",
-        // age: "21",
-        picture: peterPictureSource,
-        text: info
-    },
-    {
         name: "Mikkel",
         // age: "21 år",
         picture: mikkelPictureSource,
@@ -41,7 +35,6 @@ const persons = [
         // age: "21 år",
         picture: hildingPictureSource,
         text: info
-
     }
    
 ]

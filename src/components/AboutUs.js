@@ -18,7 +18,7 @@ const StyledImage = styled.img`
 width: 39%;
 margin: 0 1rem ;
 border: 0.5rem solid #69696908;
-border-radius: 10px;
+border-radius: 10px;s
 `;
 
 
