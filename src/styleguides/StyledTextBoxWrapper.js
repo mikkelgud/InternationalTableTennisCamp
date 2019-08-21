@@ -5,7 +5,6 @@ display: grid;
 grid-template-columns: auto auto;
 grid-gap: 2rem;
 margin: 2rem;
-
 @media (min-width: 1050px){
     grid-template-columns: auto auto auto;
 }

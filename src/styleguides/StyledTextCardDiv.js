@@ -19,15 +19,17 @@ padding: 2.5rem;
   border-radius: 15px;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
   border: 0.3px solid #000000;
-  transition: all 0.32678s ease-in-out;
+  transition: all 0.22678s ease-in-out;
+  background-image: url(${props => props.backgorund});
+  background-repeat: no-repeat;
+  background-size: cover;
   &:hover {
     background-color: #4267b2;
     color: white;
 }
   @media (max-width: 706px){
     max-width: 23rem;
-  padding: 1.8rem;
-        
+   padding: 1.8rem; 
     }
 `;
 
@@ -35,7 +37,7 @@ padding: 2.5rem;
 export default function Card(props) {
     return(
        <CardWrapper>
-         <CardBox>
+         <CardBox backgorund={props.background}>
           {props.children}
         </CardBox>
        </CardWrapper>

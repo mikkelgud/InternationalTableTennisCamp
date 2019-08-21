@@ -6,5 +6,7 @@ width: 19rem;
 height: 14rem;
 padding: 0;
 border-radius: 10px;
-border: 1px solid black;
+border: 0px;
+//  filter: blur(99999999px);
+
 `;
