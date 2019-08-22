@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import NavigationLink from "./NavigationLink";
 // import NavigationLinkMenu from "./NavigationLinkMenu";
 import NavigationLinkEmoji from "./NavigationLinkEmoji";
-import Logo from "../Logo.png";
+import Logo from '../Assets/Bordtennislogo.png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
@@ -15,17 +15,18 @@ import useLocalStorage from "../hooks/useLocalStorage";
 // const homeEmoji = "🏠";
 
 const NavBarWrapper = styled.div`
-  height: 1px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 2rem 1rem;
+  
   // border-bottom: 1px solid black;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  height: 0;
 `;
 
 const AppTitle = styled.h1`
@@ -85,10 +86,10 @@ font-family: 'Oswald', sans-serif;
 // `;
 
 const StyledImageLogo = styled.img`
-margin:8px 0px 0 0 ;
+margin:4px 0px 0 0 ;
 padding: 0 0px 0 0 ;
-height: 4rem;
-width: 4rem;
+height: 3rem;
+width: 3rem;
 `;
 
 const navigationLinksText = [

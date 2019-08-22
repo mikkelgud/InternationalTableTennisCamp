@@ -4,7 +4,7 @@ import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from "../styleguides/StyledText";
 import { StyledTextSectionHeader } from "../styleguides/StyledtextSectionHeader";
 import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
-import Logo from '../Logo2.png';
+import Logo from '../Assets/Bordtennislogo.png';
 import { Trans } from 'react-i18next';
 
 const pingPongEmoji = "🏓";
