@@ -13,8 +13,8 @@ const CardWrapper = styled.div`
 
 const CardBox = styled.div`
 padding: 2.5rem;
-  height: 300px;
-  width: 300px; 
+  height: 340px;
+  width: 340px; 
   border-radius: 100%;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
   border: 0.3px solid #000000;
@@ -24,12 +24,13 @@ padding: 2.5rem;
   background-size: cover;
   &:hover {
     color: white;
-  border-radius: 30%;
+  border-radius: 20%;
 
 }
-  @media (max-width: 706px){
+  @media (max-width: 836px){
     max-width: 23rem;
-
+    height: 300px;
+    width: 300px; 
     color: white;
     }
 `;

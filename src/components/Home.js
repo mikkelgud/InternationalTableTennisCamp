@@ -20,29 +20,31 @@ const leadersEmoji = "👩🏻‍🏫";
 const aboutUsEmoji= "🏆";
 const singUpEmoji = "🤝";
 
-const travelHeader = "Travel "+flightEmoji;
-const travelText = "Read about how we plan our travel to China and how we plan the traveling process. Everything from the beginning to the end!";
-const travelTo= "/travel";
-
+//travels
+const travelHeader = "Travels "+flightEmoji;
+const travelText = "Read about our traveling plans to both China and Poland. Everything from the beginning to the end!";
+const travelTo= "/travels";
+//stay
 const stayHeader = "Stay "+ stayEmoji;
-const stayText = "Read about our stay in China. Everything about how we will stay, where we will sleep and day to day life on the camp";
+const stayText = "Read about our stay in China and Poland. Everything about where we will stay, how we will stay and day to day life on the camps.";
 const stayTo = "/stay";
-
+//safety
 const safteyHeader = "Safety "+safetyEmoji;
-const safteyText = "Read everything about how we will keep everybody safe during the travel, stay and return. And read information about what we need from you to make this as safe as possible"
+const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
 const safteyTo= "/safety";
-
+//leaders
 const leadersHeader = "Our Leaders"+leadersEmoji;
 const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get the contact information of all coaches and leaders. They will gladly answer any question you may have.";
 const leadersTo = "/leaders";
-
+//about us
 const aboutUsHeader = "About Us "+aboutUsEmoji;
-const aboutUsText = "Read about ITTC, our goals and motivation for holding the camp. Here you can also learn more about the camp, and see what we are all about!";
+const aboutUsText = "Read about ITTC, our goals and motivation for holding the camps. Here you can also learn more about the camps, and see what we are all about!";
 const aboutUsTo = "/aboutus";
-
+//sign up
 const signUpHeader = "Sign Up "+singUpEmoji
-const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation precidures"
+const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation porcedures"
 const signUpTo = "/Signup";
+
 
  const informationLinks= [
  {
