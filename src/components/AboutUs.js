@@ -3,22 +3,32 @@ import styled from 'styled-components';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from "../styleguides/StyledText";
 import { StyledTextSectionHeader } from "../styleguides/StyledtextSectionHeader";
-import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
 import Logo from '../Assets/Bordtennislogo.png';
 import { Trans } from 'react-i18next';
 
-const pingPongEmoji = "🏓";
+const Wrapper = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+@media (min-width: 1050px){
+
+}
+@media (max-width: 706px){
+
+}
+`;
+
+
 
 const StyledImageLogo = styled.img`
-width: 18%;
+width: 10%;
 margin: 2rem 2rem 0 0 ;
 `; 
 
 const StyledImage = styled.img`
-width: 39%;
+width: 10rem;
 margin: 0 1rem ;
-border: 0.5rem solid #69696908;
-border-radius: 10px;
+border-radius: 100000px;
 `;
 
 
@@ -26,8 +36,7 @@ export default function AboutUs() {
   return (
     <Wrapper>
       <StyledDiv>
-      <Trans ><StyledTextSectionHeader>Welcome to ITTC {pingPongEmoji}</StyledTextSectionHeader></Trans>
-      <StyledImage src="https://media.mnn.com/assets/images/2016/04/obama-cameron-pingpong-01.jpg.838x0_q80.jpg"/>
+      <Trans ><StyledTextSectionHeader>Welcome to ITTC  <StyledImageLogo src={Logo} /> </StyledTextSectionHeader></Trans>
       <StyledImage src="https://media.mnn.com/assets/images/2016/04/obama-cameron-pingpong-01.jpg.838x0_q80.jpg"/>
         <StyledText>
           We in ITTC-Team are proud to introduce what we consider to be the best opportunity for players in north-Europe to improve their table tennis game. We have been planning this for a great period of time, and we are finally ready!
@@ -56,7 +65,6 @@ export default function AboutUs() {
         <StyledText> <li key="1">Enjoy nice company and experience the culture with fellow travelers.</li></StyledText>
         </ul>
       </StyledDiv>
-      <StyledImageLogo src={Logo} />
     </Wrapper>
   );
 }

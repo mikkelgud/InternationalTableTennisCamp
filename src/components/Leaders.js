@@ -1,9 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import PersonProfilePresentation from './PersonProfilePresentation';
 import { StyledLink } from '../styleguides/StyledLink';
 import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
 
+const LeadersSectionsWrapper = styled.div`
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+`
 
 //Presentation-text
 //Test-text
@@ -41,9 +49,11 @@ const persons = [
 export default function Leaders() {
     return (
         <>
+        <LeadersSectionsWrapper>
         <StyledTextSectionHeader>Leaders</StyledTextSectionHeader>
+        </LeadersSectionsWrapper>
             <Wrapper>
-                {persons.map(person => (<StyledLink><PersonProfilePresentation age={person.age} personName={person.name} text={person.text} background={person.picture} source={person.picture} /></StyledLink>))}
+                {persons.map(person => (<StyledLink><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} /></StyledLink>))}
             </Wrapper>
         </>
         )

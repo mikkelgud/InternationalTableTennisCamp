@@ -9,6 +9,7 @@ import Logo from '../Assets/Bordtennislogo.png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
+import { StyledTextSectionHeader } from "../styleguides/StyledtextSectionHeader";
 
 
 
@@ -19,8 +20,8 @@ const NavBarWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
-  padding: 2rem 1rem;
+  // background-color: #ffffff;
+  padding: 2rem 2rem;
   
   // border-bottom: 1px solid black;
   position: -webkit-sticky; /* Safari */
@@ -86,8 +87,8 @@ font-family: 'Oswald', sans-serif;
 // `;
 
 const StyledImageLogo = styled.img`
-margin:4px 0px 0 0 ;
-padding: 0 0px 0 0 ;
+margin: 4px 0 0 0 ;
+padding: 0 ;
 height: 3rem;
 width: 3rem;
 `;
@@ -141,11 +142,12 @@ function NavBar(props) {
   return (
     <NavBarWrapper>
       <AppTitle onClick={() => { props.history.push("/home"); }}><StyledImageLogo src={Logo} /></AppTitle>
+      <StyledTextSectionHeader></StyledTextSectionHeader>
       {isNormalMenuOpen && <>
         {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}
         {navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category} />))}
         <NavigationLinkEmoji emoji={language ? language.selectedLanguageIcon : initialLanguage.selectedLanguageIcon} clicked={() => toggleLanguageSelector()}></NavigationLinkEmoji>
-      </>}
+      </>} 
 
       {isLanguageSelectorOpen && <LanguageSelctorMenu onItemSelected={item => {
         toggleLanguageSelector();

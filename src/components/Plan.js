@@ -37,7 +37,7 @@ const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get th
 const leadersTo = "/leaders";
 
 const aboutUsHeader = "About Us "+aboutUsEmoji;
-const aboutUsText = "Read about ITTC, our goals and motivation for the holding the camp. Here you can also learn more about the camp and see what we are all about!";
+const aboutUsText = "Read about ITTC, our goals and motivation for holding the camp. Here you can also learn more about the camp, and see what we are all about!";
 const aboutUsTo = "/aboutus";
 
 const signUpHeader = "Sign Up "+singUpEmoji
