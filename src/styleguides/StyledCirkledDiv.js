@@ -29,7 +29,8 @@ padding: 2.5rem;
 }
   @media (max-width: 706px){
     max-width: 23rem;
-   padding: 1.8rem; 
+
+    color: white;
     }
 `;
 

@@ -18,18 +18,10 @@ justify-content: center;
 }
 `;
 
-
-
 const StyledImageLogo = styled.img`
 width: 10%;
 margin: 2rem 2rem 0 0 ;
 `; 
-
-const StyledImage = styled.img`
-width: 10rem;
-margin: 0 1rem ;
-border-radius: 100000px;
-`;
 
 
 export default function AboutUs() {
@@ -37,9 +29,9 @@ export default function AboutUs() {
     <Wrapper>
       <StyledDiv>
       <Trans ><StyledTextSectionHeader>Welcome to ITTC  <StyledImageLogo src={Logo} /> </StyledTextSectionHeader></Trans>
-      <StyledImage src="https://media.mnn.com/assets/images/2016/04/obama-cameron-pingpong-01.jpg.838x0_q80.jpg"/>
         <StyledText>
-          We in ITTC-Team are proud to introduce what we consider to be the best opportunity for players in north-Europe to improve their table tennis game. We have been planning this for a great period of time, and we are finally ready!
+          We in ITTC-Team are proud to introduce what we consider to be the best opportunity for tabel tennis players to improve their game. 
+          We have been planning this for a great period of time, and we are finally ready!
  </StyledText>
         <StyledText>
           In two groups we will travel all together 40 players to the land of opportunities, you guesst it, China!
