@@ -9,6 +9,7 @@ import Stay from './components/Stay';
 import Expences from './components/Expences';
 import Travels from './components/Travels';
 import Stays from './components/Stays';
+import SignUp from './components/SignUp';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/travels" exact component={Travels}/>
         <Route path="/stay/China" exact component={Stay}/>
         <Route path="/stay/Poland" exact component={Stay}/>
+        <Route path="/signup" exact component={SignUp}/>
       </Switch>
     </div>
   );

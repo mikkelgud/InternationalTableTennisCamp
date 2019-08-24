@@ -83,7 +83,7 @@ export default function Plan(props) {
         <StyledTextSectionHeader>Welcome to ITTC! <StyledText>What would you like to know about us?</StyledText> </StyledTextSectionHeader>
         </HeaderWrap>
         <Wrapper>
-       {informationLinks.map( info => <PlanLinkDiv to={info.to} header={info.header} text={info.text}/>)}
+       {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text}/>)}
         </Wrapper>
         <HeaderWrap><StyledText>Click one of the links to read more about each category.</StyledText></HeaderWrap>
         </>

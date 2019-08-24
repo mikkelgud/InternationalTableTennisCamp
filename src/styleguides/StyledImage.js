@@ -8,5 +8,6 @@ height: 10rem;
 padding: 0;
 border-radius: 10px;
 border: 0px;
+display: flex;
 //  
 `;
