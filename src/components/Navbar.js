@@ -20,7 +20,7 @@ const NavBarWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e7e8ead9;
+  background-color: #e4edffd6;
   padding: 2rem 2rem;
   
   // border-bottom: 1px solid black;
