@@ -12,7 +12,7 @@ export default function PolandTravel(){
     return(
   <StyledTextBoxDiv>
   <StyledTextSectionHeader>
-      Mikkel Gudmundsen 
+      Mikkel Gudmundsen
       <StyledImage src={Mikkel}/>
         </StyledTextSectionHeader>
         <StyledText> {mikkelText}</StyledText>
