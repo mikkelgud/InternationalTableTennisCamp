@@ -11,10 +11,6 @@ import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { StyledTextSectionHeader } from "../styleguides/StyledtextSectionHeader";
 
-
-
-// const homeEmoji = "🏠";
-
 const NavBarWrapper = styled.div`
   position: relative;
   display: flex;
@@ -22,6 +18,7 @@ const NavBarWrapper = styled.div`
   justify-content: space-between;
   background-color: #e4edffd6;
   padding: 2rem 2rem;
+  border-radius: 0 0 0 20%;
   
   // border-bottom: 1px solid black;
   position: -webkit-sticky; /* Safari */

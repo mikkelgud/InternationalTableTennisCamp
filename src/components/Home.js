@@ -85,7 +85,7 @@ export default function Plan(props) {
         <Wrapper>
        {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text}/>)}
         </Wrapper>
-        <HeaderWrap><StyledText>Click one of the links to read more about each category.</StyledText></HeaderWrap>
+        <HeaderWrap><StyledText>Click the links for more info.</StyledText></HeaderWrap>
         </>
     )
 }

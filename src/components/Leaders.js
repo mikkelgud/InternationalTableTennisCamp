@@ -28,19 +28,22 @@ const persons = [
         name: "Li Fen",
         // age: "42 år",
         picture: liFenPictureSource,
-        text: info
+        text: info,
+        to: "leaders/Li-Fen"
     },
     {
         name: "Mikkel  Gudmundsen",
         // age: "21 år",
         picture: mikkelPictureSource,
-        text: info
+        text: info,
+        to: "leaders/Mikkel-Gudmundsen"
     },
     {
         name: "Hilding Persson",
         // age: "21 år",
         picture: hildingPictureSource,
-        text: info
+        text: info,
+        to: "leaders/Hilding-Persson"
     },
    
 ]
@@ -52,7 +55,7 @@ export default function Leaders() {
         <StyledTextSectionHeader>Leaders</StyledTextSectionHeader>
         </LeadersSectionsWrapper>
             <Wrapper>
-                {persons.map(person => (<StyledLink><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} /></StyledLink>))}
+                {persons.map(person => (<StyledLink to={person.to}><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} /></StyledLink>))}
             </Wrapper>
         </>
         )

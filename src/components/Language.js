@@ -27,7 +27,8 @@ const ChangeLanguageLinkEmoji = styled.p`
   padding: 0;
   cursor: pointer;
   &:hover {
-    font-size: 2.8rem;
+  border-bottom: 1px solid #453886;
+
   }
   @media(max-width: 500px){
      margin-right: 0;

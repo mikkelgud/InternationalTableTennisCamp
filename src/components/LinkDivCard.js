@@ -3,7 +3,7 @@ import Card from '../styleguides/StyledTextCardDiv';
 import { StyledLink } from '../styleguides/StyledLink';
 import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
-import { StyledImage } from '../styleguides/StyledImage';
+// import { StyledImage } from '../styleguides/StyledImage';
 
 export default function PlanLinkDiv(props) {
     // const [isPropsSource, setIspropsSource] = useState(false);
@@ -21,7 +21,7 @@ export default function PlanLinkDiv(props) {
             <Card>
                 <StyledTextSectionHeader>{props.header}</StyledTextSectionHeader>
                 {/* //{isPropsSource ?  */}
-                <StyledImage src={props.src}/> 
+                {/* <StyledImage src={props.src}/>  */}
                 {/* : null} */}
                 <StyledText>{props.text}</StyledText>
              </Card>
