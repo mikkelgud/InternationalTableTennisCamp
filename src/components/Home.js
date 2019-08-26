@@ -14,7 +14,7 @@ justify-content: center;
 `
 
 const flightEmoji = "✈️";
-const stayEmoji = "🏯";
+const stayEmoji = "🏠";
 const safetyEmoji= "👨‍👩‍👧‍👦";
 const leadersEmoji = "👩🏻‍🏫";
 const aboutUsEmoji= "🏆";
