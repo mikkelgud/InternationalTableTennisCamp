@@ -13,9 +13,9 @@ import SignUp from './components/SignUp';
 import PolandTravel from './components/PolandTravel';
 import ChinaTravel from './components/ChinaTravel';
 import Safety from './components/Safety';
-import Mikkel from './leaders/Mikkel';
-import Hilding from './leaders/HildingPersson';
-import Fen from './leaders/LiFen';
+import Mikkel from './Leaders/Mikkel';
+import Hilding from './Leaders/HildingPersson';
+import Fen from './Leaders/LiFen';
 
 function App() {
   return (
