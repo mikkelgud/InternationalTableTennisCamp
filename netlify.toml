@@ -1,5 +1,15 @@
-[[redirects]]
-from = "/*"
 to = "/index.html"
 status = 200
+force = false
+
+[[redirects]]
+from = "https://ittcamp.netlify.com"
+to = "https://ittcamp.com"
+status = 301
+force = false
+
+[[redirects]]
+from = "https://ittcamp.netlify.com/*"
+to = "https://ittcamp.com/:splat"
+status = 301
 force = false
