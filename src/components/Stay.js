@@ -13,7 +13,7 @@ const dayToDayHeader = "Outside camp life";
 const dayToDayText = "Read about activities we plan to do during the travels outside the camp."
 
 const facilitiesHeader = "facilities";
-const facilitiesText = "Read about the facilities on the camp and what you can do with our sparetime.";
+const facilitiesText = "Read about the facilities on the camp and what we can do with our sparetime.";
 
 
 

@@ -11,6 +11,7 @@ const HeaderWrap = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+margin-left: 2rem;
 `
 
 const flightEmoji = "✈️";
@@ -76,11 +77,11 @@ const signUpTo = "/Signup";
 }
 ];
 
-export default function Plan(props) {
+export default function Home(props) {
     return (
         <>
         <HeaderWrap>
-        <StyledTextSectionHeader>Welcome to ITTC! <StyledText>What would you like to know about us?</StyledText> </StyledTextSectionHeader>
+        <StyledTextSectionHeader>Welcome to International Table Tennis Camp! <StyledText>What would you like to know about us?</StyledText> </StyledTextSectionHeader>
         </HeaderWrap>
         <Wrapper>
        {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text}/>)}
