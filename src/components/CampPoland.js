@@ -1,6 +1,6 @@
 import React from 'react';
-import PlanLinkDiv from './LinkDivCard';
 import styled from 'styled-components';
+import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
@@ -30,20 +30,20 @@ const facilitiesText = "Read about the facilities on the camp and what we can do
 
 export default function Stay(props) {
     return (
-<React.Fragment>
-            <HeaderWrap>
-                <StyledTextSectionHeader>
-                    Welcome to ITTC China
-                <StyledText>What would you like to know about?
-                </StyledText>
-                </StyledTextSectionHeader>
-            </HeaderWrap>
-                    <Wrapper>
-            <PlanLinkDiv to="/stay/China/shedule" text={scheduleText} header={scheduleHeader} />
-            <PlanLinkDiv to="/stay/China/rules" text={rulesText} header={rulesHeader} />
-            <PlanLinkDiv to="/stay/China/social" text={SocialText} header={SocialHeader} />
-            <PlanLinkDiv to="/stay/China/facilities" text={facilitiesText} header={facilitiesHeader} />
-        </Wrapper>
-        </React.Fragment>
+        <React.Fragment>
+        <HeaderWrap>
+            <StyledTextSectionHeader>
+                Welcome to ITTC Poland
+            <StyledText>What would you like to know about?
+            </StyledText>
+            </StyledTextSectionHeader>
+        </HeaderWrap>
+                <Wrapper>
+        <PlanLinkDiv to="/stay/Poland/shedule" text={scheduleText} header={scheduleHeader} />
+        <PlanLinkDiv to="/stay/Poland/rules" text={rulesText} header={rulesHeader} />
+        <PlanLinkDiv to="/stay//Poland/social" text={SocialText} header={SocialHeader} />
+        <PlanLinkDiv to="/stay/Poland/facilities" text={facilitiesText} header={facilitiesHeader} />
+    </Wrapper>
+    </React.Fragment>
     )
 }

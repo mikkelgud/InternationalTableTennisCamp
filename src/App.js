@@ -5,7 +5,6 @@ import { Switch, Route } from 'react-router-dom';
 import Leaders from './components/Leaders';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
-import Stay from './components/Stay';
 import Expences from './components/Expences';
 import Travels from './components/Travels';
 import Stays from './components/Stays';
@@ -17,6 +16,8 @@ import Mikkel from './Leaders/Mikkel';
 import Hilding from './Leaders/HildingPersson';
 import Fen from './Leaders/LiFen';
 import Login from './components/Login';
+import CampChina from './components/CampChina';
+import CampPoland from './components/CampPoland';
 
 function App() {
   return (
@@ -34,8 +35,8 @@ function App() {
         <Route path="/expances" exact component={Expences} />
         <Route path="/aboutus" exact component={AboutUs} />
         <Route path="/travels" exact component={Travels}/>
-        <Route path="/stay/China" exact component={Stay}/>
-        <Route path="/stay/Poland" exact component={Stay}/>
+        <Route path="/stay/China" exact component={CampChina}/>
+        <Route path="/stay/Poland" exact component={CampPoland}/>
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/travels/Poland" exact component={PolandTravel}/>
         <Route path="/travels/China" exact component={ChinaTravel}/>
