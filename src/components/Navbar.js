@@ -18,14 +18,13 @@ const NavBarWrapper = styled.div`
   justify-content: space-between;
   background-color: #e4edffd6;
   padding: 2rem 2rem;
-  border-radius: 0 0 0 20%;
-  
-  // border-bottom: 1px solid black;
+  border-radius: 0 0 0 16%;
+  border-bottom: 1px solid #0a1c983b;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   height: 0;
-`;
+`; 
 
 const AppTitle = styled.h1`
 font-family: 'Oswald', sans-serif;
