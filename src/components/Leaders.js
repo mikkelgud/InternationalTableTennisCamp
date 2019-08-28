@@ -56,19 +56,19 @@ const persons = [
         to: "leaders/Oscar-Perman"
     },
     {
-        name: "Mikkel  Gudmundsen",
-        // age: "21 år",
-        picture: mikkelPictureSource,
-        text: info,
-        to: "leaders/Mikkel-Gudmundsen"
-    },
-    {
         name: "Hilding Persson",
         // age: "21 år",
         picture: hildingPictureSource,
         text: info,
         to: "leaders/Hilding-Persson"
     },
+    {
+        name: "Mikkel  Gudmundsen",
+        // age: "21 år",
+        picture: mikkelPictureSource,
+        text: info,
+        to: "leaders/Mikkel-Gudmundsen"
+    }
 
    
 ]
