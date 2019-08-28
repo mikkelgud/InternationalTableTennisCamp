@@ -16,13 +16,14 @@ import Safety from './components/Safety';
 import Mikkel from './Leaders/Mikkel';
 import Hilding from './Leaders/HildingPersson';
 import Fen from './Leaders/LiFen';
+import Login from './components/Login';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={Login} />
         <Route path="/home" exact component={Home} />
         <Route path="/plan" exact component={AboutUs} />
         <Route path="/leaders" exact component={Leaders} />
