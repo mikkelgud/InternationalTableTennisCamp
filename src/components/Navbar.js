@@ -138,7 +138,7 @@ function NavBar(props) {
 
   return (
     <NavBarWrapper>
-      <AppTitle onClick={() => { props.history.push("/home"); }}><StyledImageLogo src={Logo} /></AppTitle>
+      <AppTitle onClick={() => { props.history.push("/"); }}><StyledImageLogo src={Logo} /></AppTitle>
       <StyledTextSectionHeader></StyledTextSectionHeader>
       {isNormalMenuOpen && <>
         {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}
