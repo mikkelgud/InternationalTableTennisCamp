@@ -26,8 +26,8 @@ export default function Login({history}) {
     const [password, setPassword] = useState("");
 
     const checkIfCorrect = (props)=>{
-        if (props.Login === "aclekrbvkjAWEJDOAJWEOPDJAWÆEJDOAWE!" && props.username === "ITTCAMP"){
-            history.push('/home')
+        if (password === "Hilding" && username === "Fen"){
+            history.push('/home');
             return null;
         }
     }
