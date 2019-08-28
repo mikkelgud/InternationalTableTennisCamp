@@ -10,6 +10,7 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 20px;
 `
 
 //Presentation-text
@@ -69,7 +70,7 @@ export default function Leaders() {
     return (
         <>
         <LeadersSectionsWrapper>
-        <StyledTextSectionHeader>Leaders</StyledTextSectionHeader>
+        <StyledTextSectionHeader>Leaders and Coaches for ITTC</StyledTextSectionHeader>
         </LeadersSectionsWrapper>
             <Wrapper>
                 {persons.map(person => (<StyledLink to={person.to}><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} /></StyledLink>))}

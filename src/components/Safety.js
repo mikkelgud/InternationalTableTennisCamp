@@ -21,7 +21,6 @@ export default function PolandTravel() {
             <StyledText>
                 Are you under 18years old and traveling alone?
                 Then there is a few things we need from your parents:
-
                 <ul>
                     <li>A Signature to ensure that all rules are red, and understood.</li>
                     <li>A signature that alowes the person under 18 to swim in the swimming pool.</li>
@@ -33,10 +32,10 @@ export default function PolandTravel() {
             <StyledText>
                 <br />
                 For us, saftey is more than just making everyone safe.
-                It's also about creating an environment that is warm and stable beetwen the travelers.
-                We are all different people, with different backgrounds, from different contries and with a different set of goals and motivations.
-                In this camp we want to cross those borders, and make everyone feel like a worthy part of the group.
-                We will therefore arrange several social events during the camp, and spend some time learning to know each other.
+                It's also about creating an environment that is warm and stable between the travelers.
+                {/* It's gonna be different people joining the camp, with different backgrounds, from different contries and with a different set of goals and motivations. */}
+                {/* In this camp we want to cross those borders, and make everyone feel like a worthy part of the group. */}
+                We will therefore arrange several social events during the camp, and spend time learning to know each other.
             </StyledText>
             <StyledLink to="stay/social">Read about the social life on camp here</StyledLink>
             <br/>
@@ -51,5 +50,6 @@ export default function PolandTravel() {
             <br/>
             <br/>
             <br/>
-        </StyledDiv>)
+        </StyledDiv>
+        )
 }

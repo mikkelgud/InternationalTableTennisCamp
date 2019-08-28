@@ -34,7 +34,7 @@ const safteyHeader = "Safety "+safetyEmoji;
 const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
 const safteyTo= "/safety";
 //leaders
-const leadersHeader = "Our Leaders"+leadersEmoji;
+const leadersHeader = "Leaders "+leadersEmoji;
 const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get the contact information of all coaches and leaders. They will gladly answer any question you may have.";
 const leadersTo = "/leaders";
 //about us
