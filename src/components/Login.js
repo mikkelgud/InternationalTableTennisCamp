@@ -15,7 +15,7 @@ margin: 1rem 0rem
 font: small-caption	
 font-size: 1rem
 width: calc(100% - 50px)
-color: $dark-blue-light
+color: blue;
 outline: none
 line-height: 1.5
 border-radius: 15px` ;
