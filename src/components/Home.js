@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledText } from '../styleguides/StyledText';
-import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../styleguides/StyledTextCardDiv';
 import { StyledLink } from '../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 // import { StyledImage } from '../styleguides/StyledImage';
 

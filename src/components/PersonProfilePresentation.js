@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledText } from '../styleguides/StyledText';
 import StyledCirkledDiv from '../styleguides/StyledCirkledDiv';
-import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 
 
 

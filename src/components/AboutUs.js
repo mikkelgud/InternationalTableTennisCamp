@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from "../styleguides/StyledText";
-import { StyledTextSectionHeader } from "../styleguides/StyledTextSectionHeader";
+import { StyledTextSectionHeader } from "../styleguides/StyledSectionHeader";
 import Logo from '../Assets/Bordtennislogo.png';
 import { Trans } from 'react-i18next';
 

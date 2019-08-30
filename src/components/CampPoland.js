@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 
 
@@ -12,7 +12,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 2rem;
-`
+`;
 
 
 const scheduleHeader = "Schedule";

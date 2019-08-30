@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import PersonProfilePresentation from './PersonProfilePresentation';
 import { StyledLink } from '../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 
 const LeadersSectionsWrapper = styled.div`
 width: 100%;
