@@ -4,7 +4,6 @@ import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -15,15 +14,14 @@ justify-content: center;
 margin-left: 2rem;
 `
 
-const flightEmoji = "✈️";
 const stayEmoji = "🏠";
 const safetyEmoji= "👨‍👩‍👧‍👦";
 const leadersEmoji = "👩🏻‍🏫";
 const aboutUsEmoji= "🏆";
-const singUpEmoji = "🤝";
 
 //travels
-const travelHeader = "Travels "+flightEmoji;
+const travelHeader = "Travels";
+const travelIcon = "route";
 const travelText = "Read about our traveling plans to both China and Poland. Everything from the beginning to the end!";
 const travelTo= "/travels";
 //stay
@@ -43,17 +41,18 @@ const aboutUsHeader = "About Us "+aboutUsEmoji;
 const aboutUsText = "Read about ITTC, our goals and motivation for holding the camps. Here you can also learn more about the camps, and see what we are all about!";
 const aboutUsTo = "/aboutus";
 //sign up
-const signUpHeader = "Sign Up "+singUpEmoji
+const signUpHeader = "Sign Up ";
+const signUpIcon = "door-open"
 const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation porcedures"
 const signUpTo = "/Signup";
 
 
  const informationLinks= [
  {
-    emoji: flightEmoji,
     header: travelHeader,
     text: travelText,
-    to: travelTo
+    to: travelTo,
+    icon: travelIcon
 },
 {
     header: aboutUsHeader,
@@ -74,7 +73,8 @@ const signUpTo = "/Signup";
 }, {
     header: signUpHeader,
     text: signUpText,
-    to: signUpTo
+    to: signUpTo,
+    icon: signUpIcon
 }
 ];
 
@@ -85,9 +85,10 @@ export default function Home(props) {
         <StyledTextSectionHeader>Welcome to International Table Tennis Camp! <StyledText>What would you like to know about us?</StyledText> </StyledTextSectionHeader>
         </HeaderWrap>
         <Wrapper>
-       {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text}/>)}
+       {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text} icon={info.icon}/>)}
         </Wrapper>
-        <HeaderWrap><StyledText>Click the links for more info.</StyledText></HeaderWrap>
+        <HeaderWrap><StyledText>Click the links for more info. </StyledText></HeaderWrap>
+       
         </>
     )
 }

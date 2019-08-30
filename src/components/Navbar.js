@@ -17,8 +17,8 @@ const NavBarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: #e4edffd6;
-  padding: 2rem 2rem;
-  border-radius: 0 0 0 16%;
+  padding: 2.3341231415rem 2rem;
+  border-radius: 0 0 0 20%;
   border-bottom: 1px solid #0a1c983b;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -83,10 +83,10 @@ font-family: 'Oswald', sans-serif;
 // `;
 
 const StyledImageLogo = styled.img`
-margin: 4px 0 0 0 ;
+margin: 7px 0 0 20px ;
 padding: 0 ;
-height: 3rem;
-width: 3rem;
+height: 4rem;
+width: 4rem;
 `;
 
 const navigationLinksText = [

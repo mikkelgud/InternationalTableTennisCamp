@@ -3,10 +3,11 @@ import Card from '../styleguides/StyledTextCardDiv';
 import { StyledLink } from '../styleguides/StyledLink';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 // import { StyledImage } from '../styleguides/StyledImage';
 
 export default function PlanLinkDiv(props) {
-    // const [isPropsSource, setIspropsSource] = useState(false);
 
     
     // const checkProps =(props)=>{
@@ -14,12 +15,13 @@ export default function PlanLinkDiv(props) {
     //      console.log("worked as it should");
     //     }
     // }    
+    
  
 
     return (
         <StyledLink to={props.to}>
             <Card>
-                <StyledTextSectionHeader>{props.header}</StyledTextSectionHeader>
+    <StyledTextSectionHeader>{props.header}<FontAwesomeIcon icon={props.icon}/></StyledTextSectionHeader>
                 {/* //{isPropsSource ?  */}
                 {/* <StyledImage src={props.src}/>  */}
                 {/* : null} */}
