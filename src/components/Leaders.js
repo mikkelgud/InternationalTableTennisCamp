@@ -19,7 +19,7 @@ const info = "Click to read";
 
 
 //Picture-sources
-const mikkelPictureSource  = "https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.0-1/p320x320/14446041_1407013685980727_6868917381349948762_n.jpg?_nc_cat=106&_nc_oc=AQnjVpe0ZHpvjjhsXtbdLd9sq-6xye-PzpVSVWx8vyCHlPpygS517IHvmAoeuL-kSyI&_nc_ht=scontent.fsvg1-1.fna&oh=6493a2c05319a4a5457eed793e69e92f&oe=5DCF57D4";
+const mikkelPictureSource  = "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-0/p526x296/69349056_1293340327513251_5279275428312252416_n.jpg?_nc_cat=111&_nc_oc=AQlcL0okR_0Wv1vlsLoFlAejwxKS6X-7DEcpALFRZJt4So8W3Ld0MtmukMZgxfjywF9-xc2tkj01xWmG3RHIOSr9&_nc_ht=scontent-arn2-1.xx&oh=a36e78284d1fa92c1ae238aa3ea95442&oe=5DD04121";
 const hildingPictureSource = "https://bordtennis.eai.se/wp-content/uploads/2018/06/Hilding.jpg";
 const liFenPictureSource = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdb3D6E9xEnq257tirCXB6famJXHSQmR1iWKOJ8HAuU2uR6GkKmQ"
 const oscarPictureSource = "https://www.ttcw.ch/clubdesk/fileservlet?inline=true&type=image&id=1000148";
