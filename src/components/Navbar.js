@@ -9,7 +9,7 @@ import Logo from '../Assets/Bordtennislogo.png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
-import { StyledTextSectionHeader } from "../styleguides/StyledtextSectionHeader";
+import { StyledTextSectionHeader } from "../styleguides/StyledTextSectionHeader";
 
 const NavBarWrapper = styled.div`
   position: relative;

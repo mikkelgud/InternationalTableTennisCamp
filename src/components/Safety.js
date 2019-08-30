@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledLink } from '../styleguides/StyledLink';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 
-export default function PolandTravel() {
+export default function Safety() {
     return (
         <StyledDiv>
             <StyledTextSectionHeader>Safety during the camp</StyledTextSectionHeader>

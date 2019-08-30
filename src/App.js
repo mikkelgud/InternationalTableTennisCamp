@@ -11,6 +11,7 @@ import Stays from './components/Stays';
 import SignUp from './components/SignUp';
 import PolandTravel from './components/PolandTravel';
 import ChinaTravel from './components/ChinaTravel';
+import NorwayTravel from './components/NorwayTravel'
 import Safety from './components/Safety';
 import Mikkel from './Leaders/Mikkel';
 import Hilding from './Leaders/HildingPersson';
@@ -40,6 +41,7 @@ function App() {
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/travels/Poland" exact component={PolandTravel}/>
         <Route path="/travels/China" exact component={ChinaTravel}/>
+        <Route path="/travels/Norway" exact component={NorwayTravel}/>
         <Route path="/safety" exact component={Safety}/>
       </Switch>
     </div>

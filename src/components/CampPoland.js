@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 
 

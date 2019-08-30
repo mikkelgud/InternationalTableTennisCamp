@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 

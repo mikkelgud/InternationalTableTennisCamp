@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import PersonProfilePresentation from './PersonProfilePresentation';
 import { StyledLink } from '../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../styleguides/StyledtextSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledTextSectionHeader';
 
 const LeadersSectionsWrapper = styled.div`
 width: 100%;
@@ -32,35 +32,40 @@ const persons = [
         // age: "42 år",
         picture: liFenPictureSource,
         text: info,
-        to: "leaders/Li-Fen"
+        to: "leaders/Li-Fen",
+        willJoin: "ITTC: Norway, Poland, China"
     },
     {
         name: "Maria Xiao",
         // age: "21 år",
         picture: MariaPictureSource,
         text: info,
-        to: "leaders/Maria-Xiao"
+        to: "leaders/Maria-Xiao",
+        willJoin: "ITTC: Poland"
     },
     {
         name: "Oscar Perman",
         // age: "21 år",
         picture: oscarPictureSource,
         text: info,
-        to: "leaders/Oscar-Perman"
+        to: "leaders/Oscar-Perman",
+        willJoin: "ITTC: Norway, Poland, China"
     },
     {
         name: "Hilding Persson",
         // age: "21 år",
         picture: hildingPictureSource,
         text: info,
-        to: "leaders/Hilding-Persson"
+        to: "leaders/Hilding-Persson",
+        willJoin: "ITTC: Norway, Poland, China"
     },
     {
         name: "Mikkel  Gudmundsen",
         // age: "21 år",
         picture: mikkelPictureSource,
         text: info,
-        to: "leaders/Mikkel-Gudmundsen"
+        to: "leaders/Mikkel-Gudmundsen",
+        willJoin: "ITTC: Norway, Poland, China"
     }
 
    
@@ -73,7 +78,7 @@ export default function Leaders() {
         <StyledTextSectionHeader>Leaders and Coaches for ITTC</StyledTextSectionHeader>
         </LeadersSectionsWrapper>
             <Wrapper>
-                {persons.map(person => (<StyledLink to={person.to}><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} /></StyledLink>))}
+                {persons.map(person => (<StyledLink to={person.to}><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} willJoin={person.willJoin}/></StyledLink>))}
             </Wrapper>
         </>
         )
