@@ -21,7 +21,10 @@ export default function PlanLinkDiv(props) {
     return (
         <StyledLink to={props.to}>
             <Card>
-    <StyledTextSectionHeader>{props.header}<FontAwesomeIcon icon={props.icon}/></StyledTextSectionHeader>
+    <StyledTextSectionHeader>
+    {props.header} 
+    <FontAwesomeIcon icon={props.icon}/>
+     </StyledTextSectionHeader>
                 {/* //{isPropsSource ?  */}
                 {/* <StyledImage src={props.src}/>  */}
                 {/* : null} */}

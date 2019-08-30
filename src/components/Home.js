@@ -34,7 +34,7 @@ const safteyText = "Read everything about how we will keep everybody safe during
 const safteyTo= "/safety";
 //leaders
 const leadersHeader = "Leaders "+leadersEmoji;
-const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get the contact information of all coaches and leaders. They will gladly answer any question you may have.";
+const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get to know the people who will make you climb the levels in table tennis, aswell as taking care of you.";
 const leadersTo = "/leaders";
 //about us
 const aboutUsHeader = "About Us "+aboutUsEmoji;
@@ -43,7 +43,7 @@ const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
 const signUpIcon = "door-open"
-const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation porcedures"
+const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation procedures"
 const signUpTo = "/Signup";
 
 

@@ -11,7 +11,7 @@ export default function Safety() {
             <StyledTextSectionHeader>Safety during the camp</StyledTextSectionHeader>
             <StyledText>
                 First of all.
-                The camp starts when we meet at the airport.
+                The camp starts when we meet at the arranged meeting point.
                 This is important to have in mind, because from this point the camp rules are law.
                 These rules are made to ensure that everyone is safe and feel safe during the camp.
             </StyledText>

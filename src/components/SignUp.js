@@ -9,9 +9,6 @@ const HeaderAligner = styled.div`
  display: flex;
  align-items: flex-start;
  justify-content: felx-start;
- @media(max-width: 810px){
-    margin-left: 2rem;
- }
  `;
 
  const MyWrapper = styled.div`
