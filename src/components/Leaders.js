@@ -23,6 +23,7 @@ const info = "Click to read";
 
 
 //Picture-sources
+const Harestua = "https://scontent.fosl3-2.fna.fbcdn.net/v/t1.0-9/14332997_328338614181135_165321474244639133_n.jpg?_nc_cat=103&_nc_oc=AQnFyx5OWGfG9waVwGOB6-61_KcFFGD-zwPgMzgh8lDndWU78Zi3cP2Fj25DBi75HuM&_nc_ht=scontent.fosl3-2.fna&oh=e4a5af849f32723f59b905da1cf927e3&oe=5E132AE3";
 const hildingPictureSource = "https://bordtennis.eai.se/wp-content/uploads/2018/06/Hilding.jpg";
 const oscarPictureSource = "https://www.ttcw.ch/clubdesk/fileservlet?inline=true&type=image&id=1000148";
 
@@ -67,7 +68,15 @@ const persons = [
         text: info,
         to: "leaders/Mikkel-Gudmundsen",
         willJoin: "ITTC: Norway, Poland, China"
-    }
+    },
+    {
+        name: "'  ",
+        // age: "21 år",
+        picture: Harestua,
+        text: "",
+        to: "leaders",
+        willJoin: "ITTC: Norway"
+    },
 
    
 ]

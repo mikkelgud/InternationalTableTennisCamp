@@ -14,23 +14,31 @@ justify-content: center;
 margin-left: 2rem;
 `
 
+const scheduleEmoji = "🗓";
+const rulesEmoji = "📋";
+const socialEmoji = "🎭";
+const facilitiesEmoji = "🛏";
+const packEmoji = "🎒";
+const pricesEmoji = "⚖️";
 
-const scheduleHeader = "Schedule";
+
+
+const scheduleHeader = "Schedule " + scheduleEmoji;
 const scheduleText = "Read about how our days will be, practice, food etc.";
 
-const rulesHeader = "Rules";
+const rulesHeader = "Rules " + rulesEmoji;
 const rulesText = "Read about our rules and consequences. This a must read page, so please learn the rules before the travel and camps.";
 
-const SocialHeader = "Social";
+const SocialHeader = "Social " + socialEmoji;
 const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
 
-const facilitiesHeader = "Facilities";
+const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
 const facilitiesText = "Read about the facilities on the camp and what we can do with our sparetime.";
 
-const pricesHeader = "Prices";
+const pricesHeader = "Prices " + pricesEmoji;
 const priceText = "Read about the price of the Camp on Harestua, and what's included in the price.";
 
-const packHeader = "Pack my Bag";
+const packHeader = "Pack my Bag " + packEmoji;
 const packText = "Read about what you have to remember for camp norway.";
 
 

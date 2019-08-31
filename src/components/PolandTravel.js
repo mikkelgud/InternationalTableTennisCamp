@@ -35,7 +35,6 @@ export default function PolandTravel() {
             <StyledImage src={TennisCourt}/>
             </Wrapper>
             <StyledText>
-
             </StyledText>
         </StyledTextBoxDiv>
     )

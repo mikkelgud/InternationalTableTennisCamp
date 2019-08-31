@@ -29,7 +29,7 @@ export default function Rules() {
                 </ul>
                 <br/>
             </StyledText>
-           
+           <StyledH3>At any deviation against the camp-rules, this can lead to repatriation.</StyledH3>
             <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to ask us on contactus@ittcamp.com by clicking here.</StyledATagLink> 
             <br/>
             <br/>

@@ -16,8 +16,6 @@ import ChinaHallWithPople from '../Assets/ChinaHallwithPeople.png';
 import ChinaParks from '../Assets/ChinaParks.png';
 import ChinaMontain from '../Assets/ChinaMontain.png';
 
-
-
 export default function ChinaTravel() {
     return (
         <StyledTextBoxDiv>

@@ -22,7 +22,7 @@ export default function NorwayTravel() {
             <StyledText> 
              <StyledH3>If you live close to Oslo:</StyledH3>
               <ol>
-              <li>Go to Oslo central station.</li>
+              <li>Get to Oslo central station.</li>
               <li>Take train R30X, R30 or L3 to Harestua train station</li>
               <li>ITTC will come and pick you up</li>
               </ol>
