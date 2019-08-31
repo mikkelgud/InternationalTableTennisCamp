@@ -3,9 +3,6 @@ import { StyledText } from '../styleguides/StyledText';
 import StyledCirkledDiv from '../styleguides/StyledCirkledDiv';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 
-
-
-
 export default function PersonProfile(props) {
     return ( 
         <StyledCirkledDiv background={props.background}>

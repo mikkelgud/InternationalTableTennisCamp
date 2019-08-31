@@ -17,6 +17,8 @@ import Mikkel from './Leaders/Mikkel';
 import Hilding from './Leaders/HildingPersson';
 import Fen from './Leaders/LiFen';
 import Login from './components/Login';
+import CampNorway from './components/CampNorway';
+import NorwaySchedule from './components/NorwaySchedule';
 // import CampChina from './components/CampChina';
 // import CampPoland from './components/CampPoland';
 
@@ -38,6 +40,8 @@ function App() {
         <Route path="/travels" exact component={Travels}/>
         <Route path="/stay/China" exact component={ChinaTravel}/>
         <Route path="/stay/Poland" exact component={PolandTravel}/>
+        <Route path="/stay/Norway" exact component={CampNorway}/>
+        <Route path="/stay/Norway/schedule" exact component={NorwaySchedule}/>
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/travels/Poland" exact component={PolandTravel}/>
         <Route path="/travels/China" exact component={ChinaTravel}/>

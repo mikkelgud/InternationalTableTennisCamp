@@ -44,7 +44,7 @@ const informationLinks = [
     },
 ];
 
-export default function Plan(props) {
+export default function Stays(props) {
     return (
         <>
             <HeaderWrap>

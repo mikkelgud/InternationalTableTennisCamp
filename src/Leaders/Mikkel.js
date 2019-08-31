@@ -1,29 +1,63 @@
 import React from 'react';
+import styled from "styled-components";
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledImage } from '../styleguides/StyledImage';
-import Mikkel from '../Assets/MikkelProfile.jpg';
-import MikkelGuitar from '../Assets/MikkelPlayingGuitar.jpg';
+import Mikkel from '../Assets/MikkelCut.jpg';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
+import { StyledH3 } from '../styleguides/Styledh3';
+import {StyledATagLink} from '../styleguides/StyledATagLink';
 
-const mikkelText = "Mikkel er 21 år og er til daglig trener i Fornebu BTK og Harestua IL, samtidig jobber han som trener under samlinger for region øst. Han har bodd i kina og studert bordtennis og kinesisk på Kina sitt beste sportsuniversitet; Beijing Sport University. Han snakker derfor mandarin og forstår seg godt på kulturen i kina. Mikkel har tidligere spilt på landslaget i Norge, og har deltat på store mesterskap som foreksempel U-EM.";
+const StyledImageLocal = styled.img`
+display: flex;
+width: 70%;
+height: 30rem;
+border-radius: 10px;
+`;
+
+const HWrapper = styled.div`
+display: flex;
+align-itmes: flex-start;
+justify-content: flex-start;
+margin-left: 2rem;
+`;
+
 
 export default function MikkelGudmundsen() {
   return (
     <StyledTextBoxDiv>
       <StyledTextSectionHeader>
-        Mikkel Gudmundsen
-        <div>
+      <HWrapper> Mikkel Gudmundsen 21</HWrapper>
         <Wrapper>
-          <StyledImage src={Mikkel} />
-          <StyledImage src={MikkelGuitar} />
-          <StyledImage src={Mikkel} />
+<StyledImageLocal src={Mikkel}/>
         </Wrapper>
-        </div>
       </StyledTextSectionHeader>
-      <StyledText> {mikkelText}
-      </StyledText>
+      <StyledText> 
+   Mikkel is a Norwegian tabel tennis player and coach.
+   Today he playes for Harestua, where the first camp will be arranged.
+   He Workes as coach in Fornebu BTK, Studies computer engeneering in Oslo and Practise table tennis every day.
+   He's currently in the Senior national team training group in Norway, and he is still trying to reach new goals himself. 
+   He has been playing in the top elite divition of Norway for B-72 and Oslo BTK the last 3 years, but will this year play 1.Diviton with he's first club, Harestua.<br/><br/>
+   </StyledText>
+  <StyledText>
+    Mikkel has played table tennis since he was 11 and has experienced playing for the norwegian junior-national team in Youth European Championships in Zagreb 2016.
+    He went to NTG highschool (The top school for sports in Norway). 
+    He kept on with he's carrier after highschool, and moved to China to learn from the best.
+    Therefore he also speaks Chinese which will come in handy when traveling to China. 
+    <br/>
+    <br/>
+    </StyledText> 
+    <StyledH3>Responsibilities</StyledH3>
+        <StyledText>       
+        <ul>
+           <li>Coach the younger players</li>
+           <li>prevent problems occurring during the camp</li>
+           <li>Thechnical responsible</li>
+        </ul>
+        <br/>
+        And BTW; He made this webPage, and would like to here if there is any improvements that will make this page better.
+        <StyledATagLink href="mailto: q&r@ittcamp.com">If so: Click me!</StyledATagLink>
+        </StyledText>
     </StyledTextBoxDiv>
   )
 }
