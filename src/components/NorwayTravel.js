@@ -12,7 +12,9 @@ export default function NorwayTravel() {
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
             <StyledText> 
                 We choose to target scandinavian players for this camp.
-                Therefore we will only arrange pickups at the Harestua train station.
+                Therefore we will only arrange pickups at the Harestua train station. 
+                If the participant can't travel alone, we will arrange somone to meet you at the airport,
+                and help out with the practical thing, and travel with the traveler from Gardemoen to Harestua.
             </StyledText>
             <br/>
             <StyledSTextSectionHeader>Our travel recomendations </StyledSTextSectionHeader>
@@ -33,8 +35,9 @@ export default function NorwayTravel() {
               <li>ITTC will pick you up</li>
               </ol>
               <br/> 
-            <StyledATagLink href="mailto: Q&R@ittcamp.com"> 
+            <StyledATagLink href="mailto: contactus@ittcamp.com"> 
              If you have any trouble with your travel to Harestua, don´t hessitate asking us for help at q&r@ittcamp.com, by clicking here.
+
              </StyledATagLink> 
             </StyledText>
         </StyledTextBoxDiv>

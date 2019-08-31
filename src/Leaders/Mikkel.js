@@ -50,13 +50,13 @@ export default function MikkelGudmundsen() {
     <StyledH3>Responsibilities</StyledH3>
         <StyledText>       
         <ul>
-           <li>Coach the younger players</li>
+           <li>Coach</li>
            <li>prevent problems occurring during the camp</li>
            <li>Thechnical responsible</li>
         </ul>
         <br/>
         And BTW; He made this webPage, and would like to here if there is any improvements that will make this page better.
-        <StyledATagLink href="mailto: q&r@ittcamp.com">If so: Click me!</StyledATagLink>
+        <StyledATagLink href="mailto: contactus@ittcamp.com">If so: Click me!</StyledATagLink>
         </StyledText>
     </StyledTextBoxDiv>
   )

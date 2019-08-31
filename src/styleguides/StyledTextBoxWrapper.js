@@ -7,7 +7,7 @@ grid-gap: 2rem;
 margin: 2rem;
 position: absoulte;
 
-@media (min-width: 1050px){
+@media (min-width: 1129px){
     grid-template-columns: auto auto auto;
 }
 @media (max-width: 850px){

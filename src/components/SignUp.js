@@ -47,8 +47,8 @@ export default function SignUp() {
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader><span role="img" aria-label="Thinking-emoji">🕵🏻‍</span>Anything we can help you with?<span role="img" aria-label="Thinking-emoji">🕵🏻‍♀️</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledATagLink href="mailto: Q&R@ittcamp.com">
-                    <StyledText>Ask us any question at Q&R@ittcamp.com</StyledText>
+                <StyledATagLink href="mailto: contactus@ittcamp.com">
+                    <StyledText>Ask us any question at contactus@ittcamp.com</StyledText>
                 </StyledATagLink>
             </StyledDiv>
         </MyWrapper>

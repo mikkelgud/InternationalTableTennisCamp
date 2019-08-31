@@ -19,6 +19,8 @@ import Fen from './Leaders/LiFen';
 // import Login from './components/Login';
 import CampNorway from './components/CampNorway';
 import NorwaySchedule from './components/NorwaySchedule';
+import Maria from './Leaders/MariaXiao';
+import Rules from './components/Rules';
 // import CampChina from './components/CampChina';
 // import CampPoland from './components/CampPoland';
 
@@ -33,6 +35,7 @@ function App() {
         <Route path="/leaders" exact component={Leaders} />
         <Route path="/leaders/Mikkel-Gudmundsen" exact component={Mikkel}/>
         <Route path="/leaders/Hilding-Persson" exact component={Hilding}/>
+        <Route path="/leaders/Maria-Xiao" exact component={Maria}/>
         <Route path="/leaders/Li-Fen" exact component={Fen}/>
         <Route path="/stay" exact component={Stays} />
         <Route path="/expenses" exact component={Expenses} />
@@ -42,6 +45,7 @@ function App() {
         <Route path="/stay/Poland" exact component={PolandTravel}/>
         <Route path="/stay/Norway" exact component={CampNorway}/>
         <Route path="/stay/Norway/schedule" exact component={NorwaySchedule}/>
+        <Route path="/stay/Norway/rules" exact component={Rules}/>
         <Route path="/pack-my-bag-please" exact component={Home} />
 
         {/* HomePageLinks  */}

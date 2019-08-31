@@ -83,7 +83,7 @@ font-family: 'Oswald', sans-serif;
 // `;
 
 const StyledImageLogo = styled.img`
-margin: 2px 0 0 13px;
+margin: 6px 0 0 13px;
 padding: 0 ;
 height: 3.9rem;
 width: 3.9rem;

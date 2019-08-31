@@ -46,7 +46,7 @@ export default function Safety() {
                  to ensure everyones Safety, is priority number one.
             </StyledText>
             <br/>
-            <StyledATagLink href="mailto: Q&R@ittcamp.com">If you have any questions, please don't hesitate to ask us on q&r@ittcamp.com by clicking here.</StyledATagLink> 
+            <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to ask us on q&r@ittcamp.com by clicking here.</StyledATagLink> 
             <br/>
             <br/>
             <br/>
