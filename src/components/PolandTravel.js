@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
+import StyledTextBoxDiv from '../styleguides/StyledImageShoverDivBox';
 import { StyledText } from '../styleguides/StyledText';
 import {StyledImage} from '../styleguides/StyledImage';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';

@@ -3,6 +3,7 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
+import { StyledH3 } from '../styleguides/Styledh3';
 
 export default function Pack() {
     return (
@@ -10,9 +11,12 @@ export default function Pack() {
             <StyledTextSectionHeader>Packing list</StyledTextSectionHeader>
             <StyledText>
             Try to pack your bags according to the weather. We will spend some time outside...
-            We do NOT offer bed, duvet, pillow or bed sheets. 
+            We do NOT offer bed, duvet, pillow or bed sheets.
+            <br/>
+            <br/>
             </StyledText>
         <StyledText>
+            <StyledH3>Remember:</StyledH3>
                 <ul>
                 <li>Racket and other table tennis equipment(Water bottle, towel..etc)</li>
                 <li>Clothes for 6 days (for table tennis, outside sport and sparetime)</li>
