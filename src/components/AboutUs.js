@@ -6,7 +6,7 @@ import { StyledTextSectionHeader } from "../styleguides/StyledSectionHeader";
 import Logo from '../Assets/Bordtennislogo.png';
 import { Trans } from 'react-i18next';
 import { StyledH3 } from "../styleguides/Styledh3";
-import { StyledLink } from "../styleguides/StyledLink";
+import  StyledLink from "./LinkDivCard";
 import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
 
 const LocalWrapper = styled.div`
@@ -20,12 +20,6 @@ const StyledImageLogo = styled.img`
 width: 30px;
 margin: 2rem 2rem 0 0 ;
 `; 
-
-const Hover = styled.p`
-&: hover{
-background-color: #edf1ff;
-}
-`
 
 
 
@@ -50,14 +44,15 @@ export default function AboutUs() {
        <Wrapper>
           <div>
         <StyledH3> We are a group of 3 Leaders;<br/></StyledH3>
-         <Hover><StyledLink src="/leaders/Li-Fen">Li Fen</StyledLink><br/></Hover>
-         <Hover><StyledLink src="/leaders/Mikkel-Gudmundsen">Mikkel Gudmundsen</StyledLink><br/></Hover>
-         <Hover><StyledLink src="/leaders/Hilding-Persson">Hilding Persson</StyledLink><br/></Hover>
+         <StyledLink to="/leaders/Li-Fen" text="Li Fen"></StyledLink><br/>
+         <StyledLink to="/leaders/Mikkel-Gudmundsen" text="Mikkel Gudmundsen"></StyledLink><br/>
+         <StyledLink to="/leaders/Hilding-Persson" text="Hilding Persson"></StyledLink><br/>
          </div>
          <div>
          <StyledH3> 2 Emplyed coaches;<br/></StyledH3>
-         <Hover><StyledLink src="/leaders/Maria-Xiao">Maria Xiao</StyledLink><br/></Hover>
-         <Hover> <StyledLink src="/leaders/Oscar-Perman">Oscar Perman</StyledLink><br/></Hover>
+         <StyledLink to="/leaders/Maria-Xiao" text="Maria Xiao"/><br/>
+         <StyledLink to="/leaders/Oscar-Perman" text="Oscar Perman"/><br/>
+         <StyledLink to="/leaders" text="Harestua coaches"/><br/>
          </div>
          <div>
            <StyledH3>And our dear volunteers</StyledH3>

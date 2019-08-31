@@ -73,7 +73,7 @@ const persons = [
         name: "'  ",
         // age: "21 år",
         picture: Harestua,
-        text: "",
+        text: "Coaches and parents from the Harestua club",
         to: "leaders",
         willJoin: "ITTC: Norway"
     },

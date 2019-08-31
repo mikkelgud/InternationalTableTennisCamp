@@ -8,7 +8,7 @@ import { StyledATagLink } from '../styleguides/StyledATagLink';
 export default function Safety() {
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Safety during the camp</StyledTextSectionHeader>
+            <StyledTextSectionHeader>Safety during the camps</StyledTextSectionHeader>
             <StyledText>
                 First of all.
                 The camp starts when we meet at the arranged meeting point.
