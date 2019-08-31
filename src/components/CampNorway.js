@@ -46,7 +46,7 @@ export default function Stay(props) {
             </HeaderWrap>
                     <Wrapper>
             <PlanLinkDiv to="/stay/Norway/schedule" text={scheduleText} header={scheduleHeader} />
-            <PlanLinkDiv to="/stay/Norway/rules" text={rulesText} header={rulesHeader} />
+            <PlanLinkDiv to="/stay/rules" text={rulesText} header={rulesHeader} />
             <PlanLinkDiv to="/stay/Norway/social" text={SocialText} header={SocialHeader} />
             <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Norway/prices" text={priceText} header={pricesHeader} />

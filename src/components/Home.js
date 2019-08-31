@@ -14,26 +14,26 @@ justify-content: center;
 margin-left: 2rem;
 `
 
-const stayEmoji = "🏠";
-const safetyEmoji= "👨‍👩‍👧‍👦";
-const leadersEmoji = "👩🏻‍🏫";
-const aboutUsEmoji= "🏆";
+const aboutUsEmoji= "👨🏽‍💻👩🏻‍💻👨🏼‍💻";
 
 //travels
-const travelHeader = "Travels";
+const travelHeader = "Route";
 const travelIcon = "route";
-const travelText = "Read about our traveling plans to both China and Poland. Everything from the beginning to the end!";
+const travelText = "Read about your travel to Norway, China and Poland. Everything from the beginning to the end!";
 const travelTo= "/travels";
 //stay
-const stayHeader = "Stay "+ stayEmoji;
-const stayText = "Read about our stay in China and Poland. Everything about where we will stay, how we will stay and day to day life on the camps.";
+const stayHeader = "Camps ";
+const stayText = "Read about our stay in Norway, China and Poland. Everything about where we will stay, how we will stay and the day to day life on the camps.";
 const stayTo = "/stay";
+const stayIcon = "home";
 //safety
-const safteyHeader = "Safety "+safetyEmoji;
+const safteyHeader = "Safety ";
+const safteyIcon = "user-shield";
 const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
 const safteyTo= "/safety";
 //leaders
-const leadersHeader = "Leaders "+leadersEmoji;
+const leadersHeader = "Leaders ";
+const leadersIcon = "users";
 const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get to know the people who will make you climb the levels in table tennis, aswell as taking care of you.";
 const leadersTo = "/leaders";
 //about us
@@ -61,15 +61,18 @@ const signUpTo = "/Signup";
 }, {
     header: safteyHeader,
     text: safteyText,
-    to: safteyTo
+    to: safteyTo,
+    icon: safteyIcon
 }, {
     header: stayHeader,
     text: stayText,
-    to: stayTo
+    to: stayTo,
+    icon: stayIcon
 }, {
     header: leadersHeader,
     text: leadersText,
-    to: leadersTo
+    to: leadersTo,
+    icon: leadersIcon
 }, {
     header: signUpHeader,
     text: signUpText,

@@ -6,7 +6,6 @@ import NavigationLink from "./NavigationLink";
 // import NavigationLinkMenu from "./NavigationLinkMenu";
 import NavigationLinkEmoji from "./NavigationLinkEmoji";
 import Logo from '../Assets/Bordtennislogo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
 import {StyledTextSectionHeader} from '../styleguides/StyledSectionHeader'
@@ -137,7 +136,7 @@ function NavBar(props) {
 
   return (
     <NavBarWrapper>
-      <AppTitle onClick={() => { props.history.push("/"); }}> <FontAwesomeIcon icon="plane-arriving" /><StyledImageLogo src={Logo} /></AppTitle>
+      <AppTitle onClick={() => { props.history.push("/"); }}> <StyledImageLogo src={Logo} /></AppTitle>
       <StyledTextSectionHeader></StyledTextSectionHeader>
       {isNormalMenuOpen && <>
         {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}

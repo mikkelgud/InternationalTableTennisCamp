@@ -14,21 +14,23 @@ const HWrapper = styled.div`
 display: flex;
 align-itmes: flex-start;
 justify-content: flex-start;
-margin-left: 4rem;
+margin-left: 13rem;
 `;
 
 
 
 export default function Hilding() {
   return (
-    <StyledTextBoxDiv>
+    <>
       <StyledTextSectionHeader>
       <HWrapper> Hilding Persson 21</HWrapper>
      <Wrapper>
      <StyledCricleDiv background={HildingROR}/>
      <StyledCricleDiv background={HildingPlaying}/>
+     <StyledCricleDiv background={HildingPlaying}/>
         </Wrapper>
       </StyledTextSectionHeader>
+      <StyledTextBoxDiv>
       <StyledText>
     Hilding is from Norway, and has been playing table tennis for a long time,
     and is one of the most active players from Norway.
@@ -42,7 +44,7 @@ export default function Hilding() {
         </StyledText>
         <StyledText>
           He's known for he's hard working spirit, and kindness.
-          Due to this, he has astablished many great friendships with profesional players, 
+          Due to this, he has established many great friendships with profesional players, 
           and know what it takes to reach the top-level in table tennis.
           We are very lucky to have him on our team. 
           <br/><br/>
@@ -60,6 +62,7 @@ export default function Hilding() {
         you will find a trusting good friend in Hidling.<br/>
         Remember, you can always ask whatever you want, and ITTC-leaders will always take you serious.
         </StyledText>
-    </StyledTextBoxDiv>
+        </StyledTextBoxDiv>
+    </>
   )
 }

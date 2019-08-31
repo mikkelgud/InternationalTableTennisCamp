@@ -23,6 +23,7 @@ import Maria from './Leaders/MariaXiao';
 import Rules from './components/Rules';
 // import CampChina from './components/CampChina';
 // import CampPoland from './components/CampPoland';
+import Pack from './components/PackMyBags';
 
 function App() {
   return (
@@ -45,8 +46,9 @@ function App() {
         <Route path="/stay/Poland" exact component={PolandTravel}/>
         <Route path="/stay/Norway" exact component={CampNorway}/>
         <Route path="/stay/Norway/schedule" exact component={NorwaySchedule}/>
-        <Route path="/stay/Norway/rules" exact component={Rules}/>
+        <Route path="/stay/rules" exact component={Rules}/>
         <Route path="/pack-my-bag-please" exact component={Home} />
+        <Route path="/stay/Norway/pack-my-bag-please" exact component={Pack} />
 
         {/* HomePageLinks  */}
         <Route path="/signup" exact component={SignUp}/>

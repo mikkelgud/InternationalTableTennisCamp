@@ -1,9 +1,9 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faTimes, faRoute, faDoorClosed, faDoorOpen, faPlaneArrival } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes, faRoute, faDoorClosed, faDoorOpen, faPlaneArrival, faUserShield, faUsers, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faComment  } from '@fortawesome/free-regular-svg-icons';
 
 
 
 export default function loadFontAwesome() {
-    library.add(faBars, faComment, faTimes, faRoute, faDoorClosed, faDoorOpen, faPlaneArrival);
+    library.add(faBars, faComment, faTimes, faRoute, faDoorClosed, faDoorOpen, faPlaneArrival, faUserShield, faUsers, faHome);
 }

@@ -43,18 +43,21 @@ const Language = ({ onItemSelected }) => {
    return( 
       <>
    <ChangeLanguageLinkEmoji onClick={() => {
-      setStoredLanguage(englishLanguage)
-      onItemSelected(englishLanguage)
+      setStoredLanguage(englishLanguage);
+      onItemSelected(englishLanguage);
+      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
    }
 }>{englishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
    <ChangeLanguageLinkEmoji onClick={() => {
       setStoredLanguage(norwegianLanguage)
-      onItemSelected(norwegianLanguage)
+      onItemSelected(norwegianLanguage);
+      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
    }
    }>{norwegianLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
    <ChangeLanguageLinkEmoji onClick={() => {
       onItemSelected(swedishLanguage);
       setStoredLanguage(swedishLanguage);
+      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
    }}>{swedishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji> 
       </>
    )}
