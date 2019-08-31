@@ -6,7 +6,7 @@ import NavigationLink from "./NavigationLink";
 // import NavigationLinkMenu from "./NavigationLinkMenu";
 import NavigationLinkEmoji from "./NavigationLinkEmoji";
 import Logo from '../Assets/Bordtennislogo.png';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
 import {StyledTextSectionHeader} from '../styleguides/StyledSectionHeader'
@@ -17,7 +17,7 @@ const NavBarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: #e4edffd6;
-  padding: 2.3341231415rem 2rem;
+  padding: 2.02345324234rem 2rem;
   border-radius: 0 0 0 20%;
   border-bottom: 1px solid #0a1c983b;
   position: -webkit-sticky; /* Safari */
@@ -83,10 +83,10 @@ font-family: 'Oswald', sans-serif;
 // `;
 
 const StyledImageLogo = styled.img`
-margin: 7px 0 0 20px ;
+margin: 2px 0 0 13px;
 padding: 0 ;
-height: 4rem;
-width: 4rem;
+height: 3.9rem;
+width: 3.9rem;
 `;
 
 const navigationLinksText = [
@@ -137,7 +137,7 @@ function NavBar(props) {
 
   return (
     <NavBarWrapper>
-      <AppTitle onClick={() => { props.history.push("/"); }}><StyledImageLogo src={Logo} /></AppTitle>
+      <AppTitle onClick={() => { props.history.push("/"); }}> <FontAwesomeIcon icon="plane-arriving" /><StyledImageLogo src={Logo} /></AppTitle>
       <StyledTextSectionHeader></StyledTextSectionHeader>
       {isNormalMenuOpen && <>
         {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))}

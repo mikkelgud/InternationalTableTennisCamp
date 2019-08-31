@@ -11,8 +11,8 @@ export default function NorwayTravel() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
             <StyledText> 
-                We choose to only have scandinavian players for this camp.
-                Therefore we will only arrange pickups at the airport and the train station.
+                We choose to target scandinavian players for this camp.
+                Therefore we will only arrange pickups at the Harestua train station.
             </StyledText>
             <br/>
             <StyledSTextSectionHeader>Our travel recomendations </StyledSTextSectionHeader>
@@ -28,11 +28,13 @@ export default function NorwayTravel() {
               <StyledH3> If you live further away from Oslo:</StyledH3>
               <ol>
               <li>Take flight from your closest airport to Gardemoen.</li>
-              <li>ITTC come and follow you to the final destionation.</li>
+              <li>Take the speed-train to Oslo Central Station (Oslo S / Jernbanetorget)</li>
+              <li>Take train R30X, R30 or L3 to Harestua train station</li>
+              <li>ITTC will pick you up</li>
               </ol>
               <br/> 
             <StyledATagLink href="mailto: Q&R@ittcamp.com"> 
-             If you have any trouble with your travel to Harestua, don´t hessitate asking us anything at q&r@ittcamp.com, by clicking here.
+             If you have any trouble with your travel to Harestua, don´t hessitate asking us for help at q&r@ittcamp.com, by clicking here.
              </StyledATagLink> 
             </StyledText>
         </StyledTextBoxDiv>

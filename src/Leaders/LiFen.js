@@ -4,6 +4,7 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
+import { StyledH3 } from '../styleguides/Styledh3';
 
 const HWrapper = styled.div`
 display: flex;
@@ -24,14 +25,12 @@ border-radius: 10px;
 export default function LiFen() {
     return (
         <StyledTextBoxDiv>
-            
             <StyledTextSectionHeader>
             <HWrapper>    Li Fen 42   </HWrapper>
              <Wrapper>
                     <StyledImageLocal src="https://farm1.static.flickr.com/806/26049640567_5df994de64_b.jpg" />
                 </Wrapper>
             </StyledTextSectionHeader>
-           
             <StyledText>
                 <ul>
                     <li>In 2013 she became Europen champion in women singles.</li>
@@ -56,7 +55,20 @@ export default function LiFen() {
                 With all her experience and knowledge, she will be the main headcoach of our camps.
                 We know everyone will learn a lot from her during the camps.
                 She's also a warm and kind person who will be taking good care of everyone.
+                <br/>
                 <br />
+            </StyledText>
+            <StyledH3>Responsibilites during the camps</StyledH3>
+            <StyledText>
+                <ul>
+                <li>Head coach of the camp, and is responsible to facilitate everyones improvment.</li>
+                </ul>
+                <br/>
+            </StyledText>
+            <StyledText>
+                Li Fen will be everyones mother during travels,
+                so don't be affraid to ask her any questions you may have.
+                Everyone can learn alot from her, so use that oppurtunity when you got it.
             </StyledText>
         </StyledTextBoxDiv>
     )
