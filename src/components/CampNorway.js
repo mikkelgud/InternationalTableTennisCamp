@@ -33,7 +33,7 @@ const SocialHeader = "Social " + socialEmoji;
 const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
 
 const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
-const facilitiesText = "Read about the facilities on the camp and what we can do with our sparetime.";
+const facilitiesText = "Read about the facilities on the camp, where we will sleep and where we will stay.";
 
 const pricesHeader = "Prices " + pricesEmoji;
 const priceText = "Read about the price of the Camp on Harestua, and what's included in the price.";

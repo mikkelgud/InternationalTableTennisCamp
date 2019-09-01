@@ -60,7 +60,7 @@ export default function Schedule(props) {
             21.00-21-45-  The games must continue  <br/>      
             22:00- In bed, no phones 22:30 totaly quiet <br/><br/>
             </StyledText>
-            <StyledH3>Day 3 - It's time to l</StyledH3>
+            <StyledH3>Day 3 - It's time learn tactics.</StyledH3>
             <StyledText>
             07.00- The show must go on, wake up.<br/>    
             07.20-  Gathering, be ready to go outside.<br/>

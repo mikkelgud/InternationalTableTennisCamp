@@ -25,6 +25,7 @@ import Rules from './components/Rules';
 // import CampPoland from './components/CampPoland';
 import Pack from './components/PackMyBags';
 import Social from './components/Social';
+import FacilitiesNorway from './components/NorwayFacilities';
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
         <Route path="/stay/rules" exact component={Rules}/>
         <Route path="/pack-my-bag-please" exact component={Home} />
         <Route path="/stay/Norway/pack-my-bag-please" exact component={Pack} />
-
+        <Route path= "/stay/Norway/Facilities" exact component={FacilitiesNorway}/>
         {/* HomePageLinks  */}
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/safety" exact component={Safety}/>

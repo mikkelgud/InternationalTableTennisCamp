@@ -11,12 +11,18 @@ export default function NorwayTravel() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
             <StyledText> 
-                We choose to target scandinavian players for this camp.
-                Therefore we will only arrange pickups at the Harestua train station. 
-                If the participant can't travel alone, we will arrange somone to meet you at the airport,
-                and help out with the practical thing, and travel with the traveler from Gardemoen to Harestua.
+                We choose to target scandinavian players for this camp because it's only 32 available spaces.
+                Therefore we will only arrange pickups at the Harestua train station to begin with (It could be changes to this if there is many players from outside Norway). 
+                If the participant can't travel alone, we will arrange someone to meet you at the airport,
+                and help out with the practical things, and travel with the traveler from Gardemoen to Harestua.
+                Wanna drive? 
+                <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828">(Get destination)</StyledATagLink>
             </StyledText>
             <br/>
+            <StyledText>
+                If you're traveling from denmark(kastrup), 
+                Oscar Perman will meet you at the airport and help you to the gate.
+            </StyledText>
             <StyledSTextSectionHeader>Our travel recomendations </StyledSTextSectionHeader>
             <br/>
             <StyledText> 
@@ -35,10 +41,7 @@ export default function NorwayTravel() {
               <li>ITTC will pick you up</li>
               </ol>
               <br/> 
-            <StyledATagLink href="mailto: contactus@ittcamp.com"> 
-             If you have any trouble with your travel to Harestua, don´t hessitate asking us for help at q&r@ittcamp.com, by clicking here.
-
-             </StyledATagLink> 
+            <StyledATagLink href="mailto: contactus@ittcamp.com"> If you have any trouble with your travel to Harestua, don´t hesitate asking us for help at contactus@ittcamp.com, by clicking here. </StyledATagLink> 
             </StyledText>
         </StyledTextBoxDiv>
     )
