@@ -30,7 +30,7 @@ position: absoulte;
 
 @media (min-width: 1129px){
     grid-template-columns: auto auto auto auto;
-    margin: 2rem 2rem 2rem 10.5rem;
+    margin: 2rem 2rem 2rem 7.5rem;
 }
 @media (max-width: 510px){
     grid-template-columns: auto;
