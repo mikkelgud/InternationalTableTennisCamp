@@ -20,6 +20,9 @@ display: flex;
 width: 100%;
 height: 27rem;
 border-radius: 10px;
+@media(max-width: 600px){
+    height: 200px;
+  }
 
 //  
 `;

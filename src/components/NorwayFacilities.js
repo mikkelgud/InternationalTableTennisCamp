@@ -3,7 +3,6 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
-import { StyledH3 } from '../styleguides/Styledh3';
 import {StyledATagLink} from '../styleguides/StyledATagLink';
 
 export default function NorwayTravel() {
