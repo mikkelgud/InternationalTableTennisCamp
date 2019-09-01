@@ -15,8 +15,10 @@ import ChinaHall from '../Assets/ChinaHall.png';
 import ChinaHallWithPople from '../Assets/ChinaHallwithPeople.png';
 import ChinaParks from '../Assets/ChinaParks.png';
 import ChinaMontain from '../Assets/ChinaMontain.png';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 export default function ChinaTravel() {
+    ScrollTop();
     return (
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>China - Work in progress 

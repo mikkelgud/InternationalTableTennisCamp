@@ -4,8 +4,11 @@ import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledH3 } from '../styleguides/Styledh3';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 export default function Rules() {
+    ScrollTop();
+
     return (
         <StyledDiv>
             <StyledTextSectionHeader>Rules</StyledTextSectionHeader>

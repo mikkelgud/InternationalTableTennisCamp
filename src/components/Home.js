@@ -4,6 +4,7 @@ import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 
@@ -82,6 +83,7 @@ const signUpTo = "/Signup";
 ];
 
 export default function Home(props) {
+    ScrollTop();
     return (
         <>
         <HeaderWrap>
@@ -90,7 +92,7 @@ export default function Home(props) {
         <Wrapper>
        {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text} icon={info.icon}/>)}
         </Wrapper>
-        <HeaderWrap><StyledText>Click the links for more info. </StyledText></HeaderWrap>
+        <HeaderWrap><StyledText> </StyledText></HeaderWrap>
        
         </>
     )

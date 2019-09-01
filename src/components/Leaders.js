@@ -7,6 +7,7 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import Mikkel from '../Assets/MikkelCut.jpg';
 import Maria from '../Assets/MariaXiao.jpg';
 import LiFen from '../Assets/LiFen.jpg';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 const LeadersSectionsWrapper = styled.div`
@@ -82,6 +83,7 @@ const persons = [
 ]
 
 export default function Leaders() {
+    ScrollTop();
     return (
         <>
         <LeadersSectionsWrapper>

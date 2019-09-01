@@ -8,6 +8,7 @@ import { Trans } from 'react-i18next';
 import { StyledH3 } from "../styleguides/Styledh3";
 import  StyledLink from "./LinkDivCard";
 import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
+import { ScrollTop } from "../utils/ScrollToTopp";
 
 const LocalWrapper = styled.div`
 display: flex;
@@ -24,6 +25,7 @@ margin: 2rem 2rem 0 0 ;
 
 
 export default function AboutUs() {
+  ScrollTop();
   return (
     <LocalWrapper>
       <StyledDiv>

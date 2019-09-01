@@ -8,16 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { StyledImage } from '../styleguides/StyledImage';
 
 export default function PlanLinkDiv(props) {
-
-    
-    // const checkProps =(props)=>{
-    // if(props !== "" || null) { 
-    //      console.log("worked as it should");
-    //     }
-    // }    
-    
- 
-
     return (
         <StyledLink to={props.to}>
             <Card>

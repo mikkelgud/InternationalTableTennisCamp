@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
@@ -17,12 +17,18 @@ const StyledImageLocal = styled.img`
 display: flex;
 width: 100%;
 border-radius: 10px;
-
 //  
 `;
 
+const ScrollToTopp = () => {useEffect(() => {
+    window.scrollTo(0, 0);
+    }, []);
+  }
+
 
 export default function LiFen() {
+
+   ScrollToTopp();
     return (
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>
@@ -71,5 +77,6 @@ export default function LiFen() {
                 Everyone can learn alot from her, so use that oppurtunity when you got it.
             </StyledText>
         </StyledTextBoxDiv>
+        
     )
 }

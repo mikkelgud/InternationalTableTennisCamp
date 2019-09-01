@@ -6,6 +6,8 @@ import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
 import Maria from '../Assets/MariaXiao.jpg';
+import {ScrollTop}  from '../utils/ScrollToTopp';
+
 
 
 const HWrapper = styled.div`
@@ -28,6 +30,7 @@ border-radius: 10px;
 `;
 
 export default function MariaXiao() {
+    ScrollTop();
     return (
 <StyledTextBoxDiv>
             <StyledTextSectionHeader>

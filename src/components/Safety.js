@@ -5,8 +5,10 @@ import { StyledText } from '../styleguides/StyledText';
 import { StyledLink } from '../styleguides/StyledLink';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledH3 } from '../styleguides/Styledh3';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 export default function Safety() {
+    ScrollTop();
     return (
         <StyledDiv>
             <StyledTextSectionHeader>Safety during the camps</StyledTextSectionHeader>

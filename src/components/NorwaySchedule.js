@@ -3,11 +3,13 @@ import { StyledText } from '../styleguides/StyledText';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledH3 } from '../styleguides/Styledh3';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 
 
 export default function Schedule(props) {
+    ScrollTop();
     return (
         <StyledDiv>
             <StyledTextSectionHeader>

@@ -4,6 +4,7 @@ import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 
@@ -29,6 +30,7 @@ const facilitiesText = "Read about the facilities on the camp and what we can do
 
 
 export default function Stay(props) {
+    ScrollTop();
     return (
         <React.Fragment>
         <HeaderWrap>

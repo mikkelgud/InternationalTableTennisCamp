@@ -13,9 +13,12 @@ import Reception from '../Assets/PolenReception.png';
 import BathAndSauna from '../Assets/PolandPoolSauna.png';
 import Handball from '../Assets/PolandHandBallField.png';
 import DiningHall from '../Assets/PolenSpiseSall.png';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 export default function PolandTravel() {
+    ScrollTop();
+
     return (
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Poland - Work in progress 

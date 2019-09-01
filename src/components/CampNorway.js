@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 
@@ -43,6 +44,7 @@ const packText = "Read about what you have to remember for camp norway.";
 
 
 export default function Stay(props) {
+    ScrollTop();
     return (
 <React.Fragment>
             <HeaderWrap>

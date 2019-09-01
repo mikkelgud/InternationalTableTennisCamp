@@ -4,6 +4,7 @@ import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader.js';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 const HeaderAligner = styled.div`
  display: flex;
@@ -21,26 +22,27 @@ const HeaderAligner = styled.div`
 
 
 export default function SignUp() {
+    ScrollTop();
     return (
         <MyWrapper>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to Norway<span role="img" aria-label="NO-flag">🇳🇴</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledATagLink href="mailto: joinnorway@ittcamp.com">
-                    <StyledText>You sign up by sending the application form to joinNorway@ittcamp.com <br/>
+                <StyledATagLink href="mailto: join@ittcamp.com">
+                    <StyledText>You sign up by sending the application form to join@ittcamp.com <br/>
                     Click to send email.</StyledText>
                     {/* You sign up by sending the application form to joinPoland@ittcamp.com */}
                 </StyledATagLink>
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to Poland<span role="img" aria-label="PO-flag">🇵🇱</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledATagLink href="mailto: Joinpoland@ittcamp.com">
+                <StyledATagLink href="mailto: Join@ittcamp.com">
                     <StyledText>Coming soon, it's already possible to tell us how excited you are for ITTC Poland!</StyledText>
                     {/* You sign up by sending the application form to joinPoland@ittcamp.com */}
                 </StyledATagLink>
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to China<span role="img" aria-label="CH-flag">🇨🇳</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledATagLink href="mailto: Joinchina@ittcamp.com">
+                <StyledATagLink href="mailto: Join@ittcamp.com">
                     <StyledText>Coming soon, it's already possible to tell us how excited you are for ITTC China!</StyledText>
                     {/* You sign up by sending the application form to joinChina@ittcamp.com */}
                 </StyledATagLink>

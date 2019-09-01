@@ -6,17 +6,18 @@ import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import Mikkel from '../Assets/MikkelCut.jpg';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
+import {ScrollTop}  from '../utils/ScrollToTopp';
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 50%;
-height: 300px;
+
+// object-fit: contain;
 border-radius: 10px;
-@media(max-width: 500px){
-  height: 200px;
+@media(max-width: 800px){
+  object-fit: fill;
 }
 @media(max-width: 1800px){
-  width: 70%;
+  width: 60%;
 }
 `;
 
@@ -29,6 +30,7 @@ margin-left: 2rem;
 
 
 export default function MikkelGudmundsen() {
+  ScrollTop();
   return (
     <StyledTextBoxDiv>
       <StyledTextSectionHeader>

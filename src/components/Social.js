@@ -3,8 +3,11 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledH3 } from '../styleguides/Styledh3';
+import { ScrollTop } from '../utils/ScrollToTopp';
+
 
 export default function Social() {
+    ScrollTop();
     return (
         <StyledDiv>
             <StyledTextSectionHeader>Social life at the camp</StyledTextSectionHeader>

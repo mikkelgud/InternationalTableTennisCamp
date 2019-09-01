@@ -8,6 +8,8 @@ import HildingPlaying from '../Assets/HildingPlaying.jpg';
 import StyledCricleDiv from '../styleguides/StyledCirkledDiv';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
+import { ScrollTop } from '../utils/ScrollToTopp';
+
 
 
 const HWrapper = styled.div`
@@ -20,6 +22,7 @@ margin-left: 13rem;
 
 
 export default function Hilding() {
+  ScrollTop();
   return (
     <>
       <StyledTextSectionHeader>

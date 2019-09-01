@@ -2,13 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledText } from '../styleguides/StyledText';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 const HeaderWrap = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+`
+const LocalWrapper = styled.div`
+display: flex;
+flex-direction: column;
+
 `
 const chinaFlagEmoji = "🇨🇳";
 const polandFlagEmoji = "🇵🇱";
@@ -42,20 +47,18 @@ const informationLinks = [
         text: travelText,
         to: travelTo
     },
-
-
 ];
 
 export default function Plan(props) {
+    ScrollTop();
     return (
-        <>
+        <LocalWrapper>
             <HeaderWrap>
                 <StyledTextSectionHeader>Choose your camp</StyledTextSectionHeader>
             </HeaderWrap>
             <Wrapper>
                 {informationLinks.map(info => <PlanLinkDiv to={info.to} header={info.header} text={info.text} />)}
             </Wrapper>
-            <HeaderWrap><StyledText>Click one of the links to read more about each camp.</StyledText></HeaderWrap>
-        </>
+        </LocalWrapper>
     )
 }

@@ -5,8 +5,10 @@ import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
 import { StyledH3 } from '../styleguides/Styledh3';
 import {StyledATagLink} from '../styleguides/StyledATagLink';
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 export default function NorwayTravel() {
+    ScrollTop();
     return (
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>

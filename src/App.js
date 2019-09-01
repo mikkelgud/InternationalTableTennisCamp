@@ -26,13 +26,16 @@ import Rules from './components/Rules';
 import Pack from './components/PackMyBags';
 import Social from './components/Social';
 import FacilitiesNorway from './components/NorwayFacilities';
+import NorwayPrices from './components/NorwayPrices';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Switch>
-      <Route path="/" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
         <Route path="/plan" exact component={AboutUs} />
         <Route path="/leaders" exact component={Leaders} />
@@ -53,6 +56,7 @@ function App() {
         <Route path="/pack-my-bag-please" exact component={Home} />
         <Route path="/stay/Norway/pack-my-bag-please" exact component={Pack} />
         <Route path= "/stay/Norway/Facilities" exact component={FacilitiesNorway}/>
+        <Route path= "/stay/Norway/Prices" exact component={NorwayPrices}/>
         {/* HomePageLinks  */}
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/safety" exact component={Safety}/>
@@ -61,6 +65,7 @@ function App() {
         <Route path="/travels/China" exact component={ChinaTravel}/>
         <Route path="/travels/Norway" exact component={NorwayTravel}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }

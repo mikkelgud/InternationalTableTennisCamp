@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledText } from '../styleguides/StyledText';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+import { ScrollTop } from '../utils/ScrollToTopp';
+
 
 const HeaderWrap = styled.div`
 display: flex;
@@ -45,6 +46,7 @@ const informationLinks = [
 ];
 
 export default function Stays(props) {
+    ScrollTop();
     return (
         <>
             <HeaderWrap>
@@ -53,7 +55,6 @@ export default function Stays(props) {
             <Wrapper>
                 {informationLinks.map(info => <PlanLinkDiv to={info.to} header={info.header} text={info.text} />)}
             </Wrapper>
-            <HeaderWrap><StyledText>Click the links for more info.</StyledText></HeaderWrap>
         </>
     )
 }
