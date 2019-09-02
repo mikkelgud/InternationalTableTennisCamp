@@ -5,7 +5,6 @@ import { Switch, Route } from 'react-router-dom';
 import Leaders from './components/Leaders';
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
-import Expenses from './components/Expenses';
 import Travels from './components/Travels';
 import Stays from './components/Stays';
 import SignUp from './components/SignUp';
@@ -44,7 +43,6 @@ function App() {
         <Route path="/leaders/Maria-Xiao" exact component={Maria}/>
         <Route path="/leaders/Li-Fen" exact component={Fen}/>
         <Route path="/stay" exact component={Stays} />
-        <Route path="/expenses" exact component={Expenses} />
         <Route path="/aboutus" exact component={AboutUs} />
         <Route path="/travels" exact component={Travels}/>
         <Route path="/stay/China" exact component={ChinaTravel}/>
