@@ -10,7 +10,7 @@ import {ScrollTop}  from '../utils/ScrollToTopp';
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 70%;
+width: 60%;
  object-fit: contain;
 border-radius: 10px;
 @media (max-width: 1000px){
@@ -59,7 +59,7 @@ export default function MikkelGudmundsen() {
       <StyledText>
         <ul>
           <li>Coach</li>
-          <li>prevent problems occurring during the camp</li>
+          <li>Plan the camp, and prevent problems occurring during the camp</li>
           <li>Thechnical responsible</li>
         </ul>
         <br />

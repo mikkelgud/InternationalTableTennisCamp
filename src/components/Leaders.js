@@ -8,7 +8,10 @@ import Mikkel from '../Assets/MikkelCut.jpg';
 import Maria from '../Assets/MariaXiao.jpg';
 import LiFen from '../Assets/LiFen.jpg';
 import HildingROR from '../Assets/HildingPlaying.jpg';
+import {StyledATagLink} from '../styleguides/StyledATagLink';
+
 import { ScrollTop } from '../utils/ScrollToTopp';
+
 
 
 const LeadersSectionsWrapper = styled.div`
@@ -53,7 +56,7 @@ const persons = [
         picture: oscarPictureSource,
         text: info,
         to: "leaders/Oscar-Perman",
-        willJoin: "ITTC: Norway, Poland, China"
+        willJoin: "ITTC: Poland, China"
     },
     {
         name: "Hilding Persson",
@@ -70,17 +73,17 @@ const persons = [
         text: info,
         to: "leaders/Mikkel-Gudmundsen",
         willJoin: "ITTC: Norway, Poland, China"
-    },
-    {
-        name: "'  ",
-        // age: "21 år",
-        picture: Harestua,
-        text: "Coaches and parents from the Harestua club",
-        to: "leaders",
-        willJoin: "ITTC: Norway"
-    },
+    },  
+]
 
-   
+const harestua = [
+    { name: " . ",
+    // age: "21 år",
+    picture: Harestua,
+    text: "Coaches and parents from the Harestua club",
+    src:"https://www.harestua.info/harestua-il/bordtennis.html",
+    willJoin: "ITTC: Norway"
+}
 ]
 
 export default function Leaders() {
@@ -91,8 +94,8 @@ export default function Leaders() {
         <StyledTextSectionHeader>Leaders and Coaches for ITTC</StyledTextSectionHeader>
         </LeadersSectionsWrapper>
             <Wrapper>
-                {persons.map(person => (<StyledLink to={person.to}><PersonProfilePresentation onMouseEnter={person.blur} age={person.age} personName={person.name} text={person.text} background={person.picture} willJoin={person.willJoin}/></StyledLink>))}
-            </Wrapper>
+                {persons.map(person => (<StyledLink src={person.src} to={person.to}><PersonProfilePresentation age={person.age} personName={person.name} text={person.text} background={person.picture} willJoin={person.willJoin}/></StyledLink>))}
+           <StyledATagLink><PersonProfilePresentation personName={harestua[0].name} background={harestua[0].picture} text={harestua[0].text} willJoin={harestua[0].willJoin} /></StyledATagLink></Wrapper>
         </>
         )
 }

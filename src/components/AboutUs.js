@@ -68,7 +68,7 @@ export default function AboutUs(props) {
         <br/>
         <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
         <br/>
-        <StyledH3>Camp Norway</StyledH3>
+        <StyledH3>Camp Norway -From xx.xx.xxxx too xx.xx.xxxx</StyledH3>
         <StyledText>
           Camp Norway will be arrange in a small place called Harestua.
           With our strategy; "start small and build it up step by step with high quality", no place would be more suitable.
@@ -77,13 +77,13 @@ export default function AboutUs(props) {
           <br/>
           <StyledH3>
           <ol>
-            <li>Minimum of 20 participants.</li>
+            <li>Minimum of x participants.</li>
          <br/>
-            <li>Maximum of 32 participants</li>
+            <li>Maximum of x participants</li>
           </ol>
           <br/>
           </StyledH3>
-        <StyledH3>How we choose the 32 participants</StyledH3>
+        <StyledH3>How we choose the x participants</StyledH3>
         <StyledText>
           We don't care about your level, we care about your motivation and spirit.
           Although this are often equivalent.
