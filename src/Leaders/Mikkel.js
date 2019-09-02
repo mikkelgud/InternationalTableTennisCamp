@@ -35,9 +35,7 @@ export default function MikkelGudmundsen() {
     <StyledTextBoxDiv>
       <StyledTextSectionHeader>
         <HWrapper> Mikkel Gudmundsen 21</HWrapper>
-        <HWrapper>
           <StyledImageLocal src={Mikkel} />
-        </HWrapper>
       </StyledTextSectionHeader>
       <StyledText>
         Mikkel is a Norwegian tabel tennis player and coach.
