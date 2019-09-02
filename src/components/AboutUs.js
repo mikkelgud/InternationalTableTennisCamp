@@ -70,6 +70,7 @@ export default function AboutUs(props) {
         <br/>
         <StyledH3>Camp Norway -From xx.xx.xxxx too xx.xx.xxxx</StyledH3>
         <StyledText>
+          Harestua IL and ITTC invite you to join ITTCamp- Harestua 
           Camp Norway will be arrange in a small place called Harestua.
           With our strategy; "start small and build it up step by step with high quality", no place would be more suitable.
           Because of the short notice, there are two conditions that we had to make for it to be possible for us to complete the camp.

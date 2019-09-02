@@ -95,7 +95,7 @@ export default function Leaders() {
         </LeadersSectionsWrapper>
             <Wrapper>
                 {persons.map(person => (<StyledLink src={person.src} to={person.to}><PersonProfilePresentation age={person.age} personName={person.name} text={person.text} background={person.picture} willJoin={person.willJoin}/></StyledLink>))}
-           <StyledATagLink><PersonProfilePresentation personName={harestua[0].name} background={harestua[0].picture} text={harestua[0].text} willJoin={harestua[0].willJoin} /></StyledATagLink></Wrapper>
+           <StyledATagLink target="blank" href={harestua[0].src}><PersonProfilePresentation personName={harestua[0].name} background={harestua[0].picture} text={harestua[0].text} willJoin={harestua[0].willJoin} /></StyledATagLink></Wrapper>
         </>
         )
 }
