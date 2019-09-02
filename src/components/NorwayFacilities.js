@@ -9,13 +9,31 @@ import { ScrollTop } from '../utils/ScrollToTopp';
 import Hall from '../Assets/Harestuahall.png';
 import Hall1 from '../Assets/HarestuaHall1.png';
 import Buildning from '../Assets/HarestuaHallBygg.png';
+import Buildning2 from '../Assets/HaresuaBuilding.jpeg';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
+import { StyledH3 } from '../styleguides/Styledh3';
+import Station from '../Assets/HarestuaStasjon.jpeg';
+import Kiwi from '../Assets/HarestuaKiwi.jpg';
 
 const StyledImage = styled.img`
 width: 90%;
 object-fit: contain;
 border-radius: 20px;
 `;
+const StyledImageLocal = styled.img`
+width: 300px;
+height: 220px;
+object-fit: fill;
+border-radius: 20px;
+@media (max-width: 400px){
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+`;
+
+
 
 export default function NorwayTravel() {
     ScrollTop();
@@ -28,9 +46,9 @@ export default function NorwayTravel() {
                 Harestua is in the district of Lunner that’s only 30 minutes train from Oslo central station.
                 Lunner is a small area of the municipality of Oppland.
                 The population of Harestua is only 2323, so it's a very small and safe place.
-               The sport arena where we will have our camp, was built in 2016, it’s a modern table tennis,
-                athletics and gymnastics hall.
-                 kitchen, wardrobe´s and relaxing sections will also be at our disposal.
+               The sport arena is 2700 square meters, It has a modern table tennis,
+                athletics and gymnastics hall. It was built in 2016 and has a
+                 kitchen, wardrobe´s and confortable relaxing sections that will be at our disposal during the camp.
                 This facilities and placement is perfect for our players table tennis developement.
             </StyledText>
             <br />
@@ -38,19 +56,27 @@ export default function NorwayTravel() {
 
             <StyledSTextSectionHeader>Harestua facility pictures  </StyledSTextSectionHeader>
 
-            <StyledSTextSectionHeader>The practice-hall</StyledSTextSectionHeader>
+            <StyledH3>The practice-hall</StyledH3>
             <Wrapper>
                 <StyledImage src={Hall} />
                 <StyledImage src={Hall1} />
             </Wrapper>
-            <StyledSTextSectionHeader>The buildning</StyledSTextSectionHeader>
+            <StyledH3>The buildning</StyledH3>
             <Wrapper>
-                <StyledImage src={Buildning} />
+            <StyledImageLocal src={Buildning} />
+            <StyledImageLocal src={Buildning2} />
             </Wrapper>
-            <StyledSTextSectionHeader>Suroundings</StyledSTextSectionHeader>
+            <StyledH3>Suroundings</StyledH3>
             <Wrapper>
+            <StyledImageLocal src={Station} />
+            <StyledImageLocal src={Kiwi} />
             </Wrapper>
-            <StyledATagLink href="mailto: contactus@ittcamp.com">
+           <StyledATagLink href="https://sagparken.no/hva-er-sagparken/">
+               Want to see and read more from Harestua?
+               </StyledATagLink>
+               <br/>
+               <br/>
+            <StyledATagLink  target="blank" href="mailto: contactus@ittcamp.com">
                 If you have any trouble with your travel to Harestua, don´t hessitate asking us for help at contactus@ittcamp.com, by clicking here.
                 Harestua
              </StyledATagLink>

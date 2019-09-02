@@ -5,7 +5,6 @@ import { StyledText } from "../styleguides/StyledText";
 import { StyledTextSectionHeader } from "../styleguides/StyledSectionHeader";
 import Logo from '../Assets/Bordtennislogo.png';
 import { StyledH3 } from "../styleguides/Styledh3";
-import  StyledLink from "./LinkDivCard";
 import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
 import { ScrollTop } from "../utils/ScrollToTopp";
 import { StyledSTextSectionHeader } from "../styleguides/StyledSemiTextSectionHeader";
@@ -36,7 +35,7 @@ margin-left: 2rem;
 
 
 
-export default function AboutUs() {
+export default function AboutUs(props) {
   ScrollTop();
   return (
     <LocalWrapper>
@@ -101,15 +100,15 @@ export default function AboutUs() {
        <Wrapper>
           <div>
         <StyledH3> We are a group of 3 Leaders;<br/></StyledH3>
-         <StyledLink to="/leaders/Li-Fen" text="Li Fen"></StyledLink><br/>
-         <StyledLink to="/leaders/Mikkel-Gudmundsen" text="Mikkel Gudmundsen"></StyledLink><br/>
-         <StyledLink to="/leaders/Hilding-Persson" text="Hilding Persson"></StyledLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders/Li-Fen"); }}>Li Fen</StyledATagLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders/Mikkel-Gudmundsen"); }}>Mikkel Gudmundsen</StyledATagLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders/Hilding-Persson"); }}>Hilding Persson</StyledATagLink><br/>
          </div>
          <div>
          <StyledH3> 2 Empolyed coaches and other contributers;<br/></StyledH3>
-         <StyledLink to="/leaders/Maria-Xiao" text="Maria Xiao"/><br/>
-         <StyledLink to="/leaders/Oscar-Perman" text="Oscar Perman"/><br/>
-         <StyledLink to="/leaders" text="»Read more about our team«"/><br/>
+         <StyledATagLink onClick={() => { props.history.push("/leaders/Maria-Xiao"); }}>Maria Xiao</StyledATagLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders/Oscar-Perman"); }}>Oscar Perman</StyledATagLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>»Read more about our team«</StyledATagLink><br/>
          </div>
          <div>
            <StyledH3>And our dear volunteers</StyledH3>
