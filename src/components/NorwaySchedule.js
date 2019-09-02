@@ -16,7 +16,7 @@ export default function Schedule(props) {
                 Schedule 
             </StyledTextSectionHeader>
             <StyledText> 
-                Phones are aloved during the camp, 
+                Phones are allowed during the camp, 
                 but after bedtime they are strictly forbidden. 
                 It's very important to get enough sleep to fully benefit from this camp.
                 If you are alergic to something, please tell us before the camp.

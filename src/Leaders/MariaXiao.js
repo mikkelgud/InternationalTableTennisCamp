@@ -18,7 +18,7 @@ margin-left: 0rem;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 55%;
+width: 50%;
 border-radius: 10px;
 object-fit: contain;
 @media (max-width: 1000px){

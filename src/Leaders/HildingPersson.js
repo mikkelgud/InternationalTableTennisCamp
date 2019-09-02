@@ -22,7 +22,7 @@ margin-left: 0rem;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 70%;
+width: 50%;
 object-fit: contain;
 border-radius: 10px;
 @media (max-width: 1000px){

@@ -66,7 +66,7 @@ export default function NorwayTravel() {
             <StyledImageLocal src={Buildning} />
             <StyledImageLocal src={Buildning2} />
             </Wrapper>
-            <StyledH3>Suroundings</StyledH3>
+            <StyledH3>Surroundings</StyledH3>
             <Wrapper>
             <StyledImageLocal src={Station} />
             <StyledImageLocal src={Kiwi} />
