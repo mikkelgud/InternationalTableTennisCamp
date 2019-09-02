@@ -24,7 +24,7 @@ export default function Schedule(props) {
                 <br/>
                 <br/>
             </StyledText>
-            <StyledH3>Day 0 /Sunday 29.09.2019 -Welcome to Harestua</StyledH3>
+            <StyledH3>Day 0 /Sunday xx.xx.xxxx -Welcome to Harestua</StyledH3>
             <StyledText>
                 15.00-17.00- Arrival- Instalation and welcome to International Table Tennis Camp Norway. <br/>
                 Lunch and dinner will be served at appropriate times.<br/>

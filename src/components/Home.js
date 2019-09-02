@@ -44,7 +44,7 @@ const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
 const signUpIcon = "door-open"
-const signUpText = "Read about prices and how to sign up here. Please read the following about payment and inforamation procedures"
+const signUpText = "Read about prices and how to sign up here. Please read the following about payment and information procedures"
 const signUpTo = "/Signup";
 
 
