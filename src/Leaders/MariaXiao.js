@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
 import Maria from '../Assets/MariaXiao.jpg';
 import {ScrollTop}  from '../utils/ScrollToTopp';
@@ -12,33 +11,31 @@ import {ScrollTop}  from '../utils/ScrollToTopp';
 
 const HWrapper = styled.div`
 display: flex;
-align-itmes: flex-start;
-justify-content: flex-start;
-margin-left: 2rem;
+align-itmes: center;
+justify-content: left;
+margin-left: 0rem;
 `;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 100%;
-height: 27rem;
+width: 55%;
 border-radius: 10px;
-@media(max-width: 600px){
-    height: 200px;
-  }
-
+object-fit: contain;
 //  
 `;
+
+
 
 export default function MariaXiao() {
     ScrollTop();
     return (
 <StyledTextBoxDiv>
             <StyledTextSectionHeader>
-            <HWrapper>  Maria Xiao 25 </HWrapper>
-             <Wrapper>
-                    <StyledImageLocal src={Maria} />
-                </Wrapper>
+            <HWrapper>  Maria Xiao 25  </HWrapper>
+            <HWrapper>   <StyledImageLocal src={Maria} /> </HWrapper>
             </StyledTextSectionHeader>
+            <br/>
+
             <StyledH3>Accomplishments</StyledH3>
             <StyledText>
                 <ul>
@@ -51,6 +48,7 @@ export default function MariaXiao() {
                     <li>2019 Spanish Cup , Spanish League and ETTU Cup champion.</li>
                     <li>Spanish National Champion 3 times singles.</li>
                 </ul>
+                <br/>
                 <br/>
             </StyledText>
             <StyledText>

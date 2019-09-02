@@ -11,7 +11,7 @@ position: absoulte;
     grid-template-columns: auto auto auto;
 }
 @media (max-width: 850px){
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
 }
 `;
 

@@ -3,18 +3,18 @@ import styled from "styled-components";
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import Mikkel from '../Assets/MikkelCut.jpg';
+import Mikkel from '../Assets/Mikkel.jpg';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import {ScrollTop}  from '../utils/ScrollToTopp';
 
 const StyledImageLocal = styled.img`
 display: flex;
-
-// object-fit: contain;
+width: 70%;
+ object-fit: contain;
 border-radius: 10px;
 @media(max-width: 800px){
-  object-fit: fill;
+
 }
 @media(max-width: 1800px){
   width: 60%;

@@ -24,6 +24,7 @@ padding: 2.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   &:hover {
+    background-color: black;
     color: white;
   border-radius: 20%;
 

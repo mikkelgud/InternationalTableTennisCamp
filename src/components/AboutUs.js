@@ -51,7 +51,7 @@ export default function AboutUs() {
          <StyledLink to="/leaders/Hilding-Persson" text="Hilding Persson"></StyledLink><br/>
          </div>
          <div>
-         <StyledH3> 2 Empolyed coaches;<br/></StyledH3>
+         <StyledH3> 2 Empolyed coaches and other contributers;<br/></StyledH3>
          <StyledLink to="/leaders/Maria-Xiao" text="Maria Xiao"/><br/>
          <StyledLink to="/leaders/Oscar-Perman" text="Oscar Perman"/><br/>
          <StyledLink to="/leaders" text="»Read about leaders«"/><br/>

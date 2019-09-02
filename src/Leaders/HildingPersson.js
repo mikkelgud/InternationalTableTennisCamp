@@ -3,9 +3,7 @@ import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import HildingROR from '../Assets/HildingROR.jpg';
 import HildingPlaying from '../Assets/HildingPlaying.jpg';
-import StyledCricleDiv from '../styleguides/StyledCirkledDiv';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { ScrollTop } from '../utils/ScrollToTopp';
@@ -16,7 +14,19 @@ const HWrapper = styled.div`
 display: flex;
 align-itmes: flex-start;
 justify-content: flex-start;
-margin-left: 13rem;
+margin-left: 2rem;
+
+@media (max-width: 520px){
+  margin-left: 20px;
+}
+`;
+
+const StyledImageLocal = styled.img`
+display: flex;
+width: 60%;
+object-fit: contain;
+border-radius: 10px;
+//  
 `;
 
 
@@ -24,16 +34,14 @@ margin-left: 13rem;
 export default function Hilding() {
   ScrollTop();
   return (
-    <>
+ <StyledTextBoxDiv>
       <StyledTextSectionHeader>
       <HWrapper> Hilding Persson 21</HWrapper>
      <Wrapper>
-     <StyledCricleDiv background={HildingROR}/>
-     <StyledCricleDiv background={HildingPlaying}/>
-     <StyledCricleDiv background={HildingPlaying}/>
+     <StyledImageLocal src={HildingPlaying}/>
         </Wrapper>
       </StyledTextSectionHeader>
-      <StyledTextBoxDiv>
+     
       <StyledText>
     Hilding is from Norway, and has been playing table tennis for a long time,
     and is one of the most active players from Norway.
@@ -66,6 +74,5 @@ export default function Hilding() {
         Remember, you can always ask whatever you want, and ITTC-leaders will always take you serious.
         </StyledText>
         </StyledTextBoxDiv>
-    </>
   )
 }

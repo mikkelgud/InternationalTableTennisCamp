@@ -15,7 +15,8 @@ margin-left: 2rem;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 100%;
+width: 70%;
+object-fit: contain;
 border-radius: 10px;
 //  
 `;
