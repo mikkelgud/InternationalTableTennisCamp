@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
 
 const HWrapper = styled.div`
@@ -15,17 +14,17 @@ margin-left: 2rem;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 70%;
+width: 60%;
 object-fit: contain;
 border-radius: 10px;
 @media (max-width: 1000px){
-    width: 80%;
+    width: 70%;
 }
 @media (max-width: 600px){
-    width: 100%;
+    width: 90%;
 }
 @media (max-width: 348px){
-    width: 120%;
+    width: 105%;
 }
 //  
 `;
@@ -43,10 +42,17 @@ export default function LiFen() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>
             <HWrapper>    Li Fen 42   </HWrapper>
-             <Wrapper>
                     <StyledImageLocal src="https://farm1.static.flickr.com/806/26049640567_5df994de64_b.jpg" />
-                </Wrapper>
             </StyledTextSectionHeader>
+            <StyledText>
+                <br />
+                Li Fen was born in ShanDong, China.
+                The European Champion is currently living in EsLöv, Sweden.
+                Where she on daily basis, practice with Eslöv Table Tennis club.
+                We in ITTC are very lucky to have her in our team, and with through out all three camps this year.
+                <br /> <br />
+            </StyledText>
+            <StyledH3>Accomplishments </StyledH3>
             <StyledText>
                 <ul>
                     <li>In 2013 she became Europen champion in women singles.</li>
@@ -57,15 +63,7 @@ export default function LiFen() {
                     <li>October 2014, She was world ranked number 12.</li>
                     <li>From 2017-2018 she coached the Swedish national Junior Girls team.</li>
                 </ul>
-            </StyledText>
-            <StyledText>
-                <br />
-                Li Fen was born in ShanDong, China.
-                The European Champion is currently living in EsLöv, Sweden.
-                Where she on daily basis, practice with Eslöv Table Tennis club.
-                We in ITTC are very lucky to have her in our team, and with through out all three camps this year.
-                <br /> <br />
-            </StyledText>
+            </StyledText> <br/>
             <StyledText>
                 Li Fen speaks fluent English, Swedish and Chinese.
                 With all her experience and knowledge, she will be the main headcoach of our camps.

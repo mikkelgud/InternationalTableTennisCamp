@@ -13,19 +13,21 @@ display: flex;
 width: 70%;
  object-fit: contain;
 border-radius: 10px;
-@media(max-width: 800px){
-
+@media (max-width: 1000px){
+  width: 70%;
 }
-@media(max-width: 1800px){
-  width: 60%;
+@media (max-width: 600px){
+  width: 90%;
 }
-`;
+@media (max-width: 348px){
+  width: 105%;
+}
+;`
 
 const HWrapper = styled.div`
 display: flex;
 align-itmes: flex-start;
 justify-content: flex-start;
-margin-left: 2rem;
 `;
 
 
@@ -37,6 +39,7 @@ export default function MikkelGudmundsen() {
         <HWrapper> Mikkel Gudmundsen 21</HWrapper>
           <StyledImageLocal src={Mikkel} />
       </StyledTextSectionHeader>
+      <br/>
       <StyledText>
         Mikkel is a Norwegian tabel tennis player and coach.
         Today he playes for Harestua, where the first camp will be arranged.
