@@ -10,7 +10,7 @@ position: absoulte;
 @media (min-width: 1129px){
     grid-template-columns: auto auto auto;
 }
-@media (max-width: 850px){
+@media (max-width: 909px){
     grid-template-columns: auto;
 }
 `;

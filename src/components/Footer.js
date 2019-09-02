@@ -59,7 +59,7 @@ font-family: 'Oswald', sans-serif;
                 </div>
                 <div>
                 <StyledATagLink onClick={() => { props.history.push("/aboutus/"); }}>
-                <StyledTextLocal>about us</StyledTextLocal>
+                <StyledTextLocal>About us</StyledTextLocal>
                 </StyledATagLink>
                 </div>
                 <div>
