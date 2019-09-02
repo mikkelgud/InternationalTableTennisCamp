@@ -41,7 +41,8 @@ export default function MariaXiao() {
 <StyledTextBoxDiv>
             <StyledTextSectionHeader>
             <HWrapper>  Maria Xiao 25  </HWrapper>
-            <HWrapper>   <StyledImageLocal src={Maria} /> </HWrapper>
+            
+               <StyledImageLocal src={Maria} />
             </StyledTextSectionHeader>
             <br/>
 
