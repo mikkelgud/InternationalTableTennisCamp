@@ -18,6 +18,15 @@ display: flex;
 width: 70%;
 object-fit: contain;
 border-radius: 10px;
+@media (max-width: 1000px){
+    width: 80%;
+}
+@media (max-width: 600px){
+    width: 100%;
+}
+@media (max-width: 348px){
+    width: 120%;
+}
 //  
 `;
 

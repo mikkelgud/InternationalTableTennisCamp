@@ -21,6 +21,15 @@ display: flex;
 width: 55%;
 border-radius: 10px;
 object-fit: contain;
+@media (max-width: 1000px){
+    width: 70%;
+}
+@media (max-width: 600px){
+    width: 90%;
+}
+@media (max-width: 348px){
+    width: 105%;
+}
 //  
 `;
 

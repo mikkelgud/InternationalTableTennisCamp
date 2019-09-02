@@ -4,7 +4,6 @@ import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import HildingPlaying from '../Assets/HildingPlaying.jpg';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { ScrollTop } from '../utils/ScrollToTopp';
 
@@ -14,19 +13,27 @@ const HWrapper = styled.div`
 display: flex;
 align-itmes: flex-start;
 justify-content: flex-start;
-margin-left: 2rem;
+margin-left: 0rem;
 
 @media (max-width: 520px){
-  margin-left: 20px;
+  margin-left: 0;
 }
 `;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 60%;
+width: 70%;
 object-fit: contain;
 border-radius: 10px;
-//  
+@media (max-width: 1000px){
+  width: 80%;
+}
+@media (max-width: 600px){
+  width: 100%;
+}
+@media (max-width: 348px){
+  width: 105%;
+}
 `;
 
 
@@ -37,10 +44,11 @@ export default function Hilding() {
  <StyledTextBoxDiv>
       <StyledTextSectionHeader>
       <HWrapper> Hilding Persson 21</HWrapper>
-     <Wrapper>
+    
      <StyledImageLocal src={HildingPlaying}/>
-        </Wrapper>
+       
       </StyledTextSectionHeader>
+      <br/>
      
       <StyledText>
     Hilding is from Norway, and has been playing table tennis for a long time,
