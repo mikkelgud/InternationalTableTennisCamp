@@ -5,6 +5,8 @@ import { StyledText } from '../styleguides/StyledText';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader.js';
 import { ScrollTop } from '../utils/ScrollToTopp';
+import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
+
 
 const HeaderAligner = styled.div`
  display: flex;
@@ -28,7 +30,7 @@ export default function SignUp() {
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to Norway<span role="img" aria-label="NO-flag">🇳🇴</span></StyledSTextSectionHeader></HeaderAligner>
                 <StyledATagLink href="mailto: join@ittcamp.com">
-                    <StyledText>You sign up by sending the application form to join@ittcamp.com <br/>
+                    <StyledText>You sign up by sending the <StyledATagLink href={ApplicationForm}> Application form</StyledATagLink> to join@ittcamp.com <br/>
                     Click to send email.</StyledText>
                     {/* You sign up by sending the application form to joinPoland@ittcamp.com */}
                 </StyledATagLink>

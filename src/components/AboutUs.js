@@ -9,6 +9,7 @@ import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
 import { ScrollTop } from "../utils/ScrollToTopp";
 import { StyledSTextSectionHeader } from "../styleguides/StyledSemiTextSectionHeader";
 import { StyledATagLink } from "../styleguides/StyledATagLink";
+import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
 
 const LocalWrapper = styled.div`
 display: flex;
@@ -89,7 +90,7 @@ export default function AboutUs(props) {
           We don't care about your level, we care about your motivation and spirit.
           Although this are often equivalent.
           Therefore the Registration/sign up for the camp will be done with filling in this
-          <StyledATagLink href="file.doc"> Application form</StyledATagLink>, and send it to 
+          <StyledATagLink href={ApplicationForm}> Application form</StyledATagLink>, and send it to 
            <StyledATagLink href="mailto: join@ittcamp.com"> THIS EMAIL: join@ittcamp.com</StyledATagLink>
         </StyledText>
         <br/>

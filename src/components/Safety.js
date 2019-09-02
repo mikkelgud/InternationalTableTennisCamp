@@ -6,6 +6,7 @@ import { StyledLink } from '../styleguides/StyledLink';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { ScrollTop } from '../utils/ScrollToTopp';
+import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
 
 export default function Safety() {
     ScrollTop();
@@ -30,7 +31,7 @@ export default function Safety() {
                     <li>Everyone need to provide travelinsurance prove if traveling outside Scandinavia.</li>
                 </ul>
             </StyledText>
-            <StyledATagLink>
+            <StyledATagLink href={ApplicationForm}>
                  It's also listed in the application form, 
                  if you haven't got it yet, you can click here.</StyledATagLink>
 
