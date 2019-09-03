@@ -32,7 +32,7 @@ export default function Schedule(props) {
                  Welcome to a healthy and tasty food experience. 
                  Our camp is very lucky to have Classic Catering company serve us food. 
                  Thank you for your support! 
-                 ITTC appreciate it alot, and so will the participants.
+                 ITTC appreciate it a lot, and so will the participants.
                   </StyledATagLink>
                 </StyledText>
                 <br/>

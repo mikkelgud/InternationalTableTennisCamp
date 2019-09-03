@@ -107,16 +107,19 @@ export default function AboutUs(props) {
        <StyledATagLink onClick={() => { props.history.push("/leaders/Hilding-Persson"); }}>Hilding Persson</StyledATagLink><br/>
          </div>
          <div>
-         <StyledH3> 2 Empolyed coaches and other contributers;<br/></StyledH3>
+         <StyledH3> 3 Empolyed coaches and other contributers;<br/></StyledH3>
          <StyledATagLink onClick={() => { props.history.push("/leaders/Maria-Xiao"); }}>Maria Xiao</StyledATagLink><br/>
-       <StyledATagLink onClick={() => { props.history.push("/leaders/Oscar-Perman"); }}>Oscar Perman</StyledATagLink><br/>
+         <StyledATagLink onClick={() => { props.history.push("/leaders/Oscar-Perman"); }}>Oscar Perman</StyledATagLink><br/>
+       <StyledATagLink onClick={() => { props.history.push("/leaders/Eskil-Lindholm"); }}>Eskil Lindholm</StyledATagLink><br/>
        <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>»Read more about our team«</StyledATagLink><br/>
          </div>
          <div>
-           <StyledH3>And our dear volunteers</StyledH3>
-           <StyledText>  This wouldn't be possible<br/>
-            without you <span role="img" aria-label="glory">😇</span> <br/>
-           Thank you! <br/></StyledText>
+           <StyledH3>And our dear volunteers and sponsors:</StyledH3>
+           <StyledATagLink href="http://www.classiccatering.no" target="blank">Classic catering</StyledATagLink><br/>
+           <StyledATagLink href="https://www.harestua.info/harestua-il/bordtennis.html" target="blank">Harestua IL</StyledATagLink><br/>
+           <StyledATagLink href="https://www.ttex.no" target="blank">TTEX oslo</StyledATagLink><br/>
+           <StyledText>
+           Thank you!<span role="img" aria-label="glory">😇</span></StyledText>
          </div>
          </Wrapper>
          <LeadersHeaderWrapper>We hope to see you soon! <br/><br/>

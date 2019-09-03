@@ -82,7 +82,7 @@ export default function LiFen() {
             <StyledText>
                 Li Fen will be everyones mother during travels,
                 so don't be affraid to ask her any questions you may have.
-                Everyone can learn alot from her, so use that oppurtunity when you got it.
+                Everyone can learn a lot from her, so use that oppurtunity when you got it.
             </StyledText>
         </StyledTextBoxDiv>
         
