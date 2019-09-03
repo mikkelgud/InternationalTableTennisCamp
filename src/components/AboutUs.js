@@ -8,8 +8,19 @@ import { StyledH3 } from "../styleguides/Styledh3";
 import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
 import { ScrollTop } from "../utils/ScrollToTopp";
 import { StyledSTextSectionHeader } from "../styleguides/StyledSemiTextSectionHeader";
-import { StyledATagLink } from "../styleguides/StyledATagLink";
+import {StyledATagLink} from '../styleguides/StyledATagLink';
 import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
+
+export const StyledATagLinkLocal = styled.a`
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+  &:hover{
+    color: #1f448c;
+  }
+`
+
+
 
 const LocalWrapper = styled.div`
 display: flex;
@@ -82,15 +93,20 @@ export default function AboutUs(props) {
             <li>Minimum of 20 participants.</li>
          <br/>
             <li>Maximum of 32 participants</li>
+            <br/>
+            <li>Deadline: Monday 23.10.2019 19:00. <br/>
+            (At this point everyone will receive the camp-status, and how many participants that will join camp.) </li>
           </ol>
           <br/>
+          
           </StyledH3>
+          <StyledText>Monday 23.10.2019 19.00 o'clock will be the deadline for signing up to the camp. </StyledText>
         <StyledH3>How we choose the x participants</StyledH3>
         <StyledText>
           We don't care about your level, we care about your motivation and spirit.
           Although this are often equivalent.
           Therefore the Registration/sign up for the camp will be done with filling in this
-          <StyledATagLink href={ApplicationForm}> Application form</StyledATagLink>, and send it to 
+          <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to 
            <StyledATagLink href="mailto: join@ittcamp.com"> THIS EMAIL: join@ittcamp.com</StyledATagLink>
         </StyledText>
         <br/>

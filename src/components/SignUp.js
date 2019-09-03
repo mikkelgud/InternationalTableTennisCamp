@@ -8,6 +8,16 @@ import { ScrollTop } from '../utils/ScrollToTopp';
 import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
 
 
+
+export const StyledATagLinkLocal = styled.a`
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+  &:hover{
+    color: #1f448c;
+  }
+`
+
 const HeaderAligner = styled.div`
  display: flex;
  align-items: flex-start;
@@ -23,17 +33,18 @@ const HeaderAligner = styled.div`
  `;
 
 
-export default function SignUp() {
+export default function SignUp(props) {
     ScrollTop();
     return (
         <MyWrapper>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to Norway<span role="img" aria-label="NO-flag">🇳🇴</span></StyledSTextSectionHeader></HeaderAligner>
                 <StyledATagLink href="mailto: join@ittcamp.com">
-                    <StyledText>You sign up by sending the <StyledATagLink href={ApplicationForm}> Application form</StyledATagLink> to join@ittcamp.com <br/>
-                    Click to send email.</StyledText>
+                    <StyledText>You sign up by sending the <StyledATagLinkLocal href={ApplicationForm}>Sign up form</StyledATagLinkLocal> to join@ittcamp.com <br/>
+                    Click to send email or <StyledATagLinkLocal href={ApplicationForm}>download sign up form.</StyledATagLinkLocal></StyledText>
                     {/* You sign up by sending the application form to joinPoland@ittcamp.com */}
-                </StyledATagLink>
+                </StyledATagLink> <br/>
+                <StyledATagLink onClick={()=>{props.history.push("/stay/Norway/prices")}}>"Read about Prices"</StyledATagLink>
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to Poland<span role="img" aria-label="PO-flag">🇵🇱</span></StyledSTextSectionHeader></HeaderAligner>

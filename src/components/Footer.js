@@ -53,7 +53,7 @@ font-family: 'Oswald', sans-serif;
         <FooterStyleDivWrapper>
                 <Wrapper>
                     <div>
-                <StyledATagLink href="mailto: join@ittcamp.com">
+                <StyledATagLink href="mailto: join@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
                 <StyledTextLocal>Join camp</StyledTextLocal> 
                 </StyledATagLink>
                 </div>
