@@ -16,7 +16,7 @@ export default function Expences(props) {
       <StyledText>
           <ul>
           <li>Whole camp (5 days): 3000 NOK (Norwegian kroner) Or 300 euro. </li>
-          <li>Drop in days without sleep: 700 Norwegian kroner or 70 euro each day. (Only if we got space. Contact us if you want to do drop in days. )</li>
+          <li>Drop in days without sleep: 700 NOK (Norwegian kroner) or 70 euro each day. (Only if we got space. Contact us if you want to do drop in days. )</li>
           </ul>
       </StyledText>
       <br/>
@@ -39,11 +39,14 @@ export default function Expences(props) {
       <br/>
       <StyledH3>Payment</StyledH3>
       <StyledText>
-          After you sign up for the camp, you will get a confirmation-mail back after a little while.
-          Then, just wait for us to look at all the applications to select participants.
-          So no worries, the sign up is not binding. <br/>
+          After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
+          Then, if there is over 32 participants, we will choose out 32 people according to our impression from the sign up forms.
+          And if unfortunately there is under 16 participants that sign up for the camp, the camp will be canceled.
+          This will be decided on Monday 23.10 19:00, one week before the camp begins. 
+          And everyone will get an email about the decition. <br/>
           Payment will be done after you get the confirmation. 
-          In this mail you will also get all the information you need about how to pay.
+          In this email you will also get all the information you need about how to make the payment.
+          The payment should happen before the camp starts or at the first camp day.
          <br/>
          <br/>
          The payment-

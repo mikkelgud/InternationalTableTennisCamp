@@ -20,8 +20,6 @@ export const StyledATagLinkLocal = styled.a`
   }
 `
 
-
-
 const LocalWrapper = styled.div`
 display: flex;
 align-items: space-in-between;
