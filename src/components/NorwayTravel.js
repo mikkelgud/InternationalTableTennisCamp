@@ -13,7 +13,8 @@ export default function NorwayTravel() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
             <StyledText> 
-                We choose to target scandinavian players for this camp because it's only 32 available spaces.
+                We choose to target Scandinavian players for our first camp. 
+                And we hope to see as many nationalities as possible.
                 Therefore we will only arrange pickups at the Harestua train station to begin with (It could be changes to this if there is many players from outside Norway). 
                 If the participant can't travel alone, we will arrange someone to meet you at the airport,
                 and help out with the practical things, and travel with the traveler from Gardemoen to Harestua.

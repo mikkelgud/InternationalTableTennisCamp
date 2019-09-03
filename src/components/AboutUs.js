@@ -69,7 +69,7 @@ export default function AboutUs(props) {
         <br/>
         <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
         <br/>
-        <StyledH3>Camp Norway -From xx.xx.xxxx too xx.xx.xxxx</StyledH3>
+        <StyledH3>Camp Norway -From 30.09.2019 too 04.10.2019</StyledH3>
         <StyledText>
           Harestua IL and ITTC invite you to join ITTCamp- Harestua 
           Camp Norway will be arrange in a small place called Harestua.
@@ -79,9 +79,9 @@ export default function AboutUs(props) {
           <br/>
           <StyledH3>
           <ol>
-            <li>Minimum of x participants.</li>
+            <li>Minimum of 20 participants.</li>
          <br/>
-            <li>Maximum of x participants</li>
+            <li>Maximum of 32 participants</li>
           </ol>
           <br/>
           </StyledH3>
