@@ -27,6 +27,7 @@ import Social from './components/Social';
 import FacilitiesNorway from './components/NorwayFacilities';
 import NorwayPrices from './components/NorwayPrices';
 import Footer from './components/Footer';
+import Eskil from './Leaders/EskilLindholm';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path="/leaders/Hilding-Persson" exact component={Hilding}/>
         <Route path="/leaders/Maria-Xiao" exact component={Maria}/>
         <Route path="/leaders/Li-Fen" exact component={Fen}/>
+        <Route path="/leaders/Eskil-Lindholm" exact component={Eskil}/>
         <Route path="/stay" exact component={Stays} />
         <Route path="/aboutus" exact component={AboutUs} />
         <Route path="/travels" exact component={Travels}/>
