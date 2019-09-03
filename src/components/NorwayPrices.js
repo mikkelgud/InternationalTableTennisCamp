@@ -15,8 +15,8 @@ export default function Expences(props) {
       <StyledH3>Prices</StyledH3>
       <StyledText>
           <ul>
-          <li>Whole camp (5 days): 460 euro. Or 4600 Norwegian kroner</li>
-          <li>Drop in days: 120 euro each day. Or 1200 Norwegian kroner (Only if we hav space. Contact us if you wanna do drop in days.)</li>
+          <li>Whole camp (5 days): 300 euro. Or 3000 Norwegian kroner</li>
+          <li>Drop in days without sleep: 70 euro each day. Or 700 Norwegian kroner (Only if we got space. Contact us if you want to do drop in days.)</li>
           </ul>
       </StyledText>
       <br/>
