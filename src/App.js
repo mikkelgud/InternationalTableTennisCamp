@@ -28,6 +28,7 @@ import FacilitiesNorway from './components/NorwayFacilities';
 import NorwayPrices from './components/NorwayPrices';
 import Footer from './components/Footer';
 import Eskil from './Leaders/EskilLindholm';
+import Oscar from './Leaders/OscarPerman';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path="/leaders/Maria-Xiao" exact component={Maria}/>
         <Route path="/leaders/Li-Fen" exact component={Fen}/>
         <Route path="/leaders/Eskil-Lindholm" exact component={Eskil}/>
+        <Route path="/leaders/Oscar-Perman" exact component={Oscar}/>
         <Route path="/stay" exact component={Stays} />
         <Route path="/aboutus" exact component={AboutUs} />
         <Route path="/travels" exact component={Travels}/>
