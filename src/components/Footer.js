@@ -58,12 +58,12 @@ font-family: 'Oswald', sans-serif;
                 </StyledATagLink>
                 </div>
                 <div>
-                <StyledATagLink onClick={() => { props.history.push("/aboutus/"); }}>
+                <StyledATagLink onClick={() => { props.history.push("/aboutus"); }}>
                 <StyledTextLocal>About us</StyledTextLocal>
                 </StyledATagLink>
                 </div>
                 <div>
-                <StyledATagLink onClick={() => { props.history.push("/leaders/"); }}>
+                <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>
                 <StyledTextLocal>ITTC-team</StyledTextLocal>
                 </StyledATagLink>
                 </div> 
