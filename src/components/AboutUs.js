@@ -70,7 +70,7 @@ export default function AboutUs(props) {
           We have a goal that everyone of our camp members, will reach the next step in their table tennis career during our camps. 
           And we are sure that with the new knowledge absored and with the right guidance,
           it will be clear what you have to work with in the future.
-          We also offer a great social experience, and hopefully you will find life lasting relationships on our camps.
+          We offer great social experiences, and hopefully you will find life lasting relationships on our camps.
           At the moment we offer 3 camps in respectively Norway, Poland and China.
           Keep up with ittcamp.com to get the newest information about our camps.
         </StyledText>
@@ -121,14 +121,14 @@ export default function AboutUs(props) {
        <StyledATagLink onClick={() => { props.history.push("/leaders/Hilding-Persson"); }}>Hilding Persson</StyledATagLink><br/>
          </div>
          <div>
-         <StyledH3> 3 Empolyed coaches and other contributers;<br/></StyledH3>
+         <StyledH3> 3 Empolyed coaches;<br/></StyledH3>
          <StyledATagLink onClick={() => { props.history.push("/leaders/Maria-Xiao"); }}>Maria Xiao</StyledATagLink><br/>
          <StyledATagLink onClick={() => { props.history.push("/leaders/Oscar-Perman"); }}>Oscar Perman</StyledATagLink><br/>
        <StyledATagLink onClick={() => { props.history.push("/leaders/Eskil-Lindholm"); }}>Eskil Lindholm</StyledATagLink><br/>
        <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>»Read more about our team«</StyledATagLink><br/>
          </div>
          <div>
-           <StyledH3>And our dear volunteers and sponsors:</StyledH3>
+           <StyledH3>And our dear volunteers, sponsors and other contributers:</StyledH3>
            <StyledATagLink href="http://www.classiccatering.no" target="blank">Classic catering</StyledATagLink><br/>
            <StyledATagLink href="https://www.harestua.info/harestua-il/bordtennis.html" target="blank">Harestua IL</StyledATagLink><br/>
            <StyledATagLink href="https://www.ttex.no" target="blank">TTEX oslo</StyledATagLink><br/>
