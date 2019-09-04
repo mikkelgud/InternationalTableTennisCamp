@@ -50,7 +50,7 @@ export default function Stays(props) {
     return (
         <>
             <HeaderWrap>
-                <StyledTextSectionHeader>Where do you wanna go first?</StyledTextSectionHeader>
+                <StyledTextSectionHeader>Choose your camp</StyledTextSectionHeader>
             </HeaderWrap>
             <Wrapper>
                 {informationLinks.map(info => <PlanLinkDiv to={info.to} header={info.header} text={info.text} />)}

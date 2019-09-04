@@ -5,10 +5,14 @@ import NavigationLinkEmoji from "./NavigationLinkEmoji";
 import Logo from '../Assets/Bordtennislogo.png';
 import LanguageSelctorMenu, { englishLanguage } from "./Language";
 import useLocalStorage from "../hooks/useLocalStorage";
-import {StyledTextSectionHeader} from '../styleguides/StyledSectionHeader';
+import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+// import { keyframes } from 'styled-components';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 // import { withNamespaces, NamespacesConsumer, Trans } from 'react-i18next';
-// import NavigationLink from "./NavigationLink";
-// import NavigationLinkMenu from "./NavigationLinkMenu";
+//  import NavigationLink from "./NavigationLink";
+//  import NavigationLinkMenu from "./NavigationLinkMenu";
 
 const NavBarWrapper = styled.div`
   position: relative;
@@ -23,7 +27,7 @@ const NavBarWrapper = styled.div`
   position: sticky;
   top: 0;
   height: 0;
-`; 
+`;
 
 const AppTitle = styled.h1`
 font-family: 'Oswald', sans-serif;
@@ -38,10 +42,80 @@ height: 3.6rem;
 width: 3.6rem;
 `;
 
+// const MobileMenuWrapper = styled.div`
+//    cursor: pointer;
+//    @media (min-width: 861px) {
+//      display: none;
+//    }
+//  `;
+
+// const menuFadeInTop = keyframes`
+//  0% { top-250px; opacity: 0.1; }
+// 100% { top-65px; opacity:2; }
+//  `;
+
+// const MenuItem = styled.li`
+//    padding: 0.5rem 0.7rem;
+//    align-items: center;
+//    justify-content: center;
+//    width: 100%;
+//    display: flex;
+//   background: #ffffff;  
+//  `;
+
+
+// const Menu = styled.ul`
+//    list-style: none;
+//    width: 100vw;
+//    top: 65px;
+//    left: 0;
+//    position: absolute;
+//    z-index: 2;
+//    margin: 0;
+//    padding: 0;
+//    border-bottom: 1px solid black;
+
+//    li:not(:last-child) {
+//        border-bottom: 1px solid #dddddd;
+//    }
+//    animation: ${menuFadeInTop} 0.35s cubic-bezier(0.13, 0.54, 0.68, 0.93) 1;
+//  `;
+
+
+
+
 
 const initialLanguage = { selectedLanguageIcon: "🇬🇧" };
 
 function NavBar(props) {
+
+  // const navigationLinksText = [
+  //   {
+  //     link: "/aboutus",
+  //     category: "Aboutus"
+  //   },
+  //   {
+  //     link: "/rules",
+  //     category: "Rules"
+  //   },
+  //   {
+  //     link: "/stay/Norway/schedule",
+  //     category: "Schedule"
+  //   },
+  //   {
+  //     link: "/stay",
+  //     category: "Stay"
+  //   },
+  //   {
+  //     link: "/stay/Norway/price",
+  //     category: "Prices"
+  //   },
+  //   {
+  //     link: "/leaders",
+  //     category: "Leaders"
+  //   },
+  // ];
+
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isNormalMenuOpen, setIsNormalMenuOpen] = useState(true);
   const [isLanguageSelectorOpen, setIsLanguageSelectorOpen] = useState(false);
@@ -57,10 +131,18 @@ function NavBar(props) {
     <NavBarWrapper>
       <AppTitle onClick={() => { props.history.push("/"); }}> <StyledImageLogo src={Logo} /></AppTitle>
       <StyledTextSectionHeader>{props.header}</StyledTextSectionHeader>
-       {isLanguageSelectorOpen ? null: <NavigationLinkEmoji emoji={language ? language.selectedLanguageIcon : initialLanguage.selectedLanguageIcon} clicked={() => toggleLanguageSelector()}></NavigationLinkEmoji>}  {isLanguageSelectorOpen && <LanguageSelctorMenu onItemSelected={item => {
+      {isLanguageSelectorOpen ? null
+        : <NavigationLinkEmoji
+          emoji={language ? language.selectedLanguageIcon : initialLanguage.selectedLanguageIcon}
+          clicked={() => toggleLanguageSelector()} />}
+      {isLanguageSelectorOpen && <LanguageSelctorMenu onItemSelected={item => {
         toggleLanguageSelector();
         setLanguage(item);
       }} />}
+      {/* <MobileMenuWrapper onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <FontAwesomeIcon icon={isMenuOpen ? "times" : "bars"} />
+        {isMenuOpen && (<Menu>{navigationLinksText.map(navLink => (<MenuItem><NavigationLinkMenu to={navLink.link} category={navLink.category} /></MenuItem>))} </Menu>)}
+      </MobileMenuWrapper> */}
     </NavBarWrapper>
   );
 }
@@ -156,7 +238,7 @@ export default withRouter(NavBar);
 // {/* {isNormalMenuOpen && <> */}
 //   {/* {navigationLinksText.map(navLink => (<NavigationLink to={navLink.link} category={navLink.category} />))} */}
 //   {/* {navigationLinksEmoji.map(navLinkEmoji => (<NavigationLinkEmoji to={navLinkEmoji.link} emoji={navLinkEmoji.category} />))} */}
-  
+
 //    {/* </>}  */}
 
 // {isLanguageSelectorOpen && <LanguageSelctorMenu onItemSelected={item => {
