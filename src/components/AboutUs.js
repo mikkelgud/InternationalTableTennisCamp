@@ -88,7 +88,7 @@ export default function AboutUs(props) {
           <br/>
           <StyledH3>
           <ol>
-            <li>Minimum of 20 participants.</li>
+            <li>Minimum of 16 participants.</li>
          <br/>
             <li>Maximum of 32 participants</li>
             <br/>
