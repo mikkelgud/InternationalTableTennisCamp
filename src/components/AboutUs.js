@@ -56,10 +56,10 @@ export default function AboutUs(props) {
         <br/>
         <StyledH3>Our goals</StyledH3>
         <StyledText>
-        Our Goal is to make the best table tennis camps in the world.
+        Our goal is to make the most developing, higest quality and greatest socially table tennis camps in the world for everyone, at any level.
         We wanna make great experiences where people from all over the world, get togheter for one common goal.
         Everyone in the ITTC-team are ambitious people who aim high, and belive we will reach our goal one time in the future.
-        We will start small and try to build it step by step so every camp can be at the highest quality.
+        We will start small and try to build it step by step, so every camp can be at the highest quality from the start.
         </StyledText>
         <br/>
         <StyledH3>We offer</StyledH3>

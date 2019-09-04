@@ -67,14 +67,6 @@ const persons = [
         willJoin: "ITTC: Poland, China"
     },
     {
-        name: "Hilding Persson",
-        // age: "21 år",
-        picture: HildingROR,
-        text: info,
-        to: "leaders/Hilding-Persson",
-        willJoin: "ITTC: Norway, Poland, China"
-    },
-    {
         name: "Mikkel  Gudmundsen",
         // age: "21 år",
         picture: Mikkel,
@@ -82,6 +74,14 @@ const persons = [
         to: "leaders/Mikkel-Gudmundsen",
         willJoin: "ITTC: Norway, Poland, China"
     },  
+    {
+        name: "Hilding Persson",
+        // age: "21 år",
+        picture: HildingROR,
+        text: info,
+        to: "leaders/Hilding-Persson",
+        willJoin: "ITTC: Norway, Poland, China"
+    },
    
 ]
 

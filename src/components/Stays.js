@@ -33,15 +33,16 @@ const informationLinks = [
         text: NorwayTravelText,
         to: NorwayTravelTo
     },
-    {
-        header: travelHeader,
-        text: travelText,
-        to: travelTo
-    },
+   
     {
         header: polandTravelHeader,
         text: polandTravelText,
         to: polandTravelTo
+    },
+    {
+        header: travelHeader,
+        text: travelText,
+        to: travelTo
     },
 ];
 
