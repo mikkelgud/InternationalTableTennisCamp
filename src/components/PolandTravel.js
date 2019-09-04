@@ -20,12 +20,14 @@ export default function PolandTravel() {
     ScrollTop();
 
     return (
+        <>
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Poland - Work in progress 
                 <span role="img" aria-label="work-emoji">👨🏽‍💻</span>
                 <span role="img" aria-label="work-emoji">👩🏻‍💻</span>
                 <span role="img" aria-label="work-emoji">👨🏼‍💻</span>
                 </StyledTextSectionHeader>
+                </StyledTextBoxDiv>
             <Wrapper> 
             <StyledImage src={Campus}/>
             <StyledImage src={Reception}/>
@@ -39,6 +41,6 @@ export default function PolandTravel() {
             </Wrapper>
             <StyledText>
             </StyledText>
-        </StyledTextBoxDiv>
+        </>
     )
 }

@@ -20,12 +20,14 @@ import { ScrollTop } from '../utils/ScrollToTopp';
 export default function ChinaTravel() {
     ScrollTop();
     return (
+        <>
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>China - Work in progress 
                 <span role="img" aria-label="work-emoji">👨🏽‍💻</span>
                 <span role="img" aria-label="work-emoji">👩🏻‍💻</span>
                 <span role="img" aria-label="work-emoji">👨🏼‍💻</span>
                 </StyledTextSectionHeader>
+                </StyledTextBoxDiv>
             <Wrapper> 
             <StyledImage src={ChinaHall}/>
             <StyledImage src={ChinaHallWithPople}/>
@@ -43,6 +45,6 @@ export default function ChinaTravel() {
             <StyledText>
 
             </StyledText>
-        </StyledTextBoxDiv>
+        </>
     )
 }

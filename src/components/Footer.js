@@ -29,7 +29,7 @@ margin: 2rem 2rem 2rem 2rem;
 position: absoulte;
 
 @media (min-width: 1129px){
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     margin: 2rem 2rem 2rem 7.5rem;
 }
 @media (max-width: 510px){
@@ -52,11 +52,7 @@ font-family: 'Oswald', sans-serif;
         <LocalWrapper>
         <FooterStyleDivWrapper>
                 <Wrapper>
-                    <div>
-                <StyledATagLink href="mailto: join@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
-                <StyledTextLocal>Join camp</StyledTextLocal> 
-                </StyledATagLink>
-                </div>
+               
                 <div>
                 <StyledATagLink onClick={() => { props.history.push("/aboutus"); }}>
                 <StyledTextLocal>About us</StyledTextLocal>
@@ -67,6 +63,16 @@ font-family: 'Oswald', sans-serif;
                 <StyledTextLocal>ITTC-team</StyledTextLocal>
                 </StyledATagLink>
                 </div> 
+                <div>
+                <StyledATagLink href="mailto: join@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
+                <StyledTextLocal>Join camp</StyledTextLocal> 
+                </StyledATagLink>
+                </div>
+                <div>
+                <StyledATagLink href="mailto: contactus@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
+                <StyledTextLocal>Questions?</StyledTextLocal> 
+                </StyledATagLink>
+                </div>
                 <div>
                 <StyledATagLink href="mailto: mikkel_gudmundsen@hotmail.com">
                 <StyledTextLocal>Developer Mikkel<span role="img" aria-label="mail">📩</span></StyledTextLocal>

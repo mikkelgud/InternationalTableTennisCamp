@@ -39,8 +39,9 @@ export default function MikkelGudmundsen() {
       </StyledTextSectionHeader>
       <br/>
       <StyledText>
-          Oscar is headcoach in B-75, and too busy working ther during camp-Norway. He is ready for camp Poland and China when that time comes.<br/><br/>
-  More information about Oscar will come soon.
+          Oscar is headcoach in B-75. He will be too busy working there during camp-Norway.
+          But luckly for us, he is with us on camp Poland and China when that time comes.<br/><br/>
+          More information about Oscar will come soon.
       </StyledText>
     </StyledTextBoxDiv>
   )

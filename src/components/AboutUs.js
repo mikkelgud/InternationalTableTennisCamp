@@ -78,7 +78,7 @@ export default function AboutUs(props) {
         <br/>
         <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
         <br/>
-        <StyledH3>Camp Norway -From 30.09.2019 too 04.10.2019</StyledH3>
+        <StyledH3>Camp Norway -From 30.09.2019 to 04.10.2019</StyledH3>
         <StyledText>
           Harestua IL and ITTC invite you to join ITTCamp- Harestua 
           Camp Norway will be arrange in a small place called Harestua.
@@ -99,7 +99,7 @@ export default function AboutUs(props) {
           
           </StyledH3>
           <StyledText>Monday 23.10.2019 19.00 o'clock will be the deadline for signing up to the camp. </StyledText>
-        <StyledH3>How we choose the x participants</StyledH3>
+        <StyledH3>How we choose the 32 participants</StyledH3>
         <StyledText>
           We don't care about your level, we care about your motivation and spirit.
           Although this are often equivalent.
