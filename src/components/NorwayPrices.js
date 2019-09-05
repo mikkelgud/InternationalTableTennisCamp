@@ -42,7 +42,7 @@ export default function Expences(props) {
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
           Then, if there is over 32 participants, we will choose out 32 people according to our impression from the sign up forms.
           And if unfortunately there is under 16 participants that sign up for the camp, the camp will be canceled.
-          This will be decided on Monday 23.10 19:00, one week before the camp begins. 
+          This will be decided on Monday 23.09 19:00, one week before the camp begins. 
           And everyone will get an email about the decition. <br/>
           Payment will be done after you get the confirmation. 
           In this email you will also get all the information you need about how to make the payment.

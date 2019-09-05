@@ -102,7 +102,7 @@ export default function AboutUs(props) {
         <StyledText>
           We don't care about your level, we care about your motivation and spirit.
           Although this are often equivalent.
-          Therefore the Registration/sign up for the camp will be done with filling in this
+          Therefore the Registration/sign up for the camp will be done by filling in this
           <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to 
            <StyledATagLink href="mailto: join@ittcamp.com"> THIS EMAIL: join@ittcamp.com</StyledATagLink>
         </StyledText>
