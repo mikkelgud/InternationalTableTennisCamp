@@ -98,7 +98,6 @@ export default function AboutUs(props) {
           <br/>
           
           </StyledH3>
-          <StyledText>Monday 23.10.2019 19.00 o'clock will be the deadline for signing up to the camp. </StyledText>
         <StyledH3>How we choose the 32 participants</StyledH3>
         <StyledText>
           We don't care about your level, we care about your motivation and spirit.
