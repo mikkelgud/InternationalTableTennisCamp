@@ -26,6 +26,8 @@ padding: 2.5rem;
   &:hover {
     background-color: #4267b2;
     color: white;
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.2);
+
 }
 `;
 

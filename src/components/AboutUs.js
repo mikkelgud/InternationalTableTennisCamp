@@ -92,7 +92,7 @@ export default function AboutUs(props) {
          <br/>
             <li>Maximum of 32 participants</li>
             <br/>
-            <li>Deadline: Monday 23.10.2019 19:00. <br/>
+            <li>Deadline: Monday 23.09.2019 19:00. <br/>
             (At this point everyone will receive the camp-status, and how many participants that will join camp.) </li>
           </ol>
           <br/>
