@@ -69,7 +69,7 @@ font-family: 'Oswald', sans-serif;
                 </StyledATagLink>
                 </div>
                 <div>
-                <StyledATagLink href="mailto: contactus@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
+                <StyledATagLink href="mailto: contactus@ittcamp.com" >
                 <StyledTextLocal>Questions?</StyledTextLocal> 
                 </StyledATagLink>
                 </div>
