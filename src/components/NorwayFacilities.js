@@ -71,15 +71,15 @@ export default function NorwayTravel() {
             <StyledImageLocal src={Station} />
             <StyledImageLocal src={Kiwi} />
             </Wrapper>
-           <StyledATagLink href="https://sagparken.no/hva-er-sagparken/">
+           <StyledATagLink target="blank" href="https://sagparken.no/hva-er-sagparken/">
                Want to see and read more from Harestua?
                </StyledATagLink>
                <br/>
                <br/>
             <StyledATagLink  target="blank" href="mailto: contactus@ittcamp.com">
-                If you have any trouble with your travel to Harestua, don´t hessitate asking us for help at contactus@ittcamp.com, by clicking here.
-                Harestua
+                If you have any trouble with your travel to Harestua, don´t hesitate to contact us at contactus@ittcamp.com.
              </StyledATagLink>
+             
         </StyledTextBoxDiv>
     )
 }

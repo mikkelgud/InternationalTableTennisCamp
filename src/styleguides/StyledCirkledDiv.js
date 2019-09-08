@@ -29,7 +29,7 @@ padding: 2.5rem;
   border-radius: 20%;
 
 }
-  @media (max-width: 836px){
+  @media (max-width: 1030px){
     max-width: 23rem;
     height: 300px;
     width: 300px; 

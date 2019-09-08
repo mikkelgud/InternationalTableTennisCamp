@@ -34,7 +34,7 @@ export default function Pack() {
                 <br/>
         </StyledText>
            
-            <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to ask us on contactus@ittcamp.com by clicking here.</StyledATagLink> 
+        <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, don't hesitate to contact us at contactus@ittcamp.com.</StyledATagLink> 
             <br/>
             <br/>
         </StyledDiv>

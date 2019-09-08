@@ -18,7 +18,6 @@ padding: 2.5rem;
   width: 100%; 
   border-radius: 25px;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
-  border: 0.3px solid #000000;
   transition: all 0.22678s ease-in-out;
   background-image: url(${props => props.backgorund});
   background-repeat: no-repeat;

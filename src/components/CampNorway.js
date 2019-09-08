@@ -42,6 +42,11 @@ const priceText = "Read about the price of the Camp on Harestua, and what's incl
 const packHeader = "Pack my Bag " + packEmoji;
 const packText = "Read about what you have to remember for camp norway.";
 
+// const safteyHeader = "Safety ";
+// const safteyIcon = "user-shield";
+// const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
+// const safteyTo= "/safety";
+
 
 export default function Stay(props) {
     ScrollTop();

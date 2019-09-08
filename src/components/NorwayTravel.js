@@ -44,7 +44,7 @@ export default function NorwayTravel() {
               <li>ITTC will pick you up</li>
               </ol>
               <br/> 
-            <StyledATagLink href="mailto: contactus@ittcamp.com"> If you have any trouble with your travel to Harestua, don´t hesitate asking us for help at contactus@ittcamp.com, by clicking here. </StyledATagLink> 
+            <StyledATagLink href="mailto: contactus@ittcamp.com"> If you have any trouble with your travel to Harestua, don´t hesitate to contact us at contactus@ittcamp.com. </StyledATagLink> 
             </StyledText>
         </StyledTextBoxDiv>
     )
