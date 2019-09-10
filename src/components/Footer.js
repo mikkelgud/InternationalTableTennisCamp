@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { withRouter } from "react-router-dom";
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  
 
 
 const LocalWrapper = styled.div`
@@ -77,6 +78,16 @@ font-family: 'Oswald', sans-serif;
                 <StyledTextLocal>Developer Mikkel<span role="img" aria-label="mail">📩</span></StyledTextLocal>
                 </StyledATagLink>
                 </div> 
+                {/* <div>
+                <StyledATagLink href="facebook.com">
+                <StyledTextLocal><FontAwesomeIcon icon="facebook" /></StyledTextLocal>
+                </StyledATagLink>
+               </div>
+               <div>
+                <StyledATagLink href="instagram.com">
+                <StyledTextLocal><FontAwesomeIcon icon="instagram" /></StyledTextLocal>
+                </StyledATagLink>
+                </div>  */}
             </Wrapper>
         </FooterStyleDivWrapper>
         </LocalWrapper>
