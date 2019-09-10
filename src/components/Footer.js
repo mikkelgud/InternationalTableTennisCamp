@@ -52,7 +52,6 @@ font-family: 'Oswald', sans-serif;
         <LocalWrapper>
         <FooterStyleDivWrapper>
                 <Wrapper>
-               
                 <div>
                 <StyledATagLink onClick={() => { props.history.push("/aboutus"); }}>
                 <StyledTextLocal>About us</StyledTextLocal>

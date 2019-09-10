@@ -51,13 +51,13 @@ export default function Hilding() {
       <br/>
      
       <StyledText>
-    Hilding is from Norway, and has been playing table tennis for a long time,
-    and is one of the most active players from Norway.
-    He studied in NTG-bærum, which is the top sport gymnasium in Norway.
-    After that, Hilding went to Sweden, and lived in Eslöv for two years for table tennis practice only.
-    There he buidt up great expirience both in table tennis and life. 
-     He has played 3 matches in Pingisligaen ( top divisjon in Sweden) for Eslöv,
-    and he also played Elit divisjon in Norway for Heros BTK last year. 
+    Hilding's from Norway, and has been playing table tennis for 9 years.
+    He's still one of the most active players from Norway.
+    He studied in NTG-bærum, which is the top rated sport gymnasium in Norway.
+    After that, Hilding went to Sweden, and lived in Eslöv for two years for profesional table tennis practice only.
+    There he built up great expiriences both in table tennis and life. 
+     He has played 3 matches in Pingisligaen ( top divisjon in Sweden ) for Eslöv,
+    and he also played Elit divition in Norway for Heros BTK last year. 
      He is currently working on the ITTC-project and studying massage in Oslo. 
      <br/><br/>
         </StyledText>
