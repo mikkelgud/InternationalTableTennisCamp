@@ -25,22 +25,22 @@ const pricesEmoji = "⚖️";
 
 
 const scheduleHeader = "Schedule " + scheduleEmoji;
-const scheduleText = "Read about how our days will be, practice, food etc.";
+const scheduleText = "Read about how our days will be in Harestua. Practice, bedtimes, food etc.";
 
 const rulesHeader = "Rules " + rulesEmoji;
-const rulesText = "Read about our rules and consequences. This a must read page, so please learn the rules before the travel and camps.";
+const rulesText = "Read about our rules and consequences. This is a must read page, so please learn the rules before attending the camps.";
 
 const SocialHeader = "Social " + socialEmoji;
 const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
 
 const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
-const facilitiesText = "Read about the facilities on the camp, where we will sleep and where we will stay.";
+const facilitiesText = "Read about the facilities at the Harestua camp. Read about where we will sleep and where we will stay.";
 
 const pricesHeader = "Prices " + pricesEmoji;
 const priceText = "Read about the price of the Camp on Harestua, and what's included in the price.";
 
 const packHeader = "Pack my Bag " + packEmoji;
-const packText = "Read about what you have to remember for camp norway.";
+const packText = "Read about what you should to remember for camp norway.";
 
 // const safteyHeader = "Safety ";
 // const safteyIcon = "user-shield";

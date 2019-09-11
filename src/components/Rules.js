@@ -21,7 +21,7 @@ export default function Rules() {
             <StyledText>
                 <StyledH3>The Rules</StyledH3>
                 <ul>
-                <li> Golden rule: Respect each other, leaders, equipment and other personal belongings</li>
+                <li> Golden rule: Respect each other, leaders, equipment and others' personal belongings</li>
                 <li>Be responible, and take good care of the person next to you</li>
                 <li>Listen to Coach/leaders, their words are law during the camp</li>
                 <li>Be in time at all times</li>
