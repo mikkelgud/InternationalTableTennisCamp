@@ -5,6 +5,6 @@ text-decoration: none;
   color: black;
   cursor: pointer;
   &:hover{
-    color: #1f448c;
+    color: #4267b2;
   }
 `

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { withRouter } from "react-router-dom";
-//  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   
 
 
@@ -38,11 +38,13 @@ position: absoulte;
 }
 `;
 
-
-
 const StyledTextLocal = styled.p`
 font-family: 'Oswald', sans-serif;
 
+`;
+
+const StyledIcon = styled.h1`
+margin: 0;
 `;
 
 
@@ -78,16 +80,16 @@ font-family: 'Oswald', sans-serif;
                 <StyledTextLocal>Developer Mikkel<span role="img" aria-label="mail">📩</span></StyledTextLocal>
                 </StyledATagLink>
                 </div> 
-                 {/* <div>
-                <StyledATagLink href="facebook.com">
-                <StyledTextLocal><FontAwesomeIcon icon="facebook" /></StyledTextLocal>
+                 <div>
+                <StyledATagLink target="blank"  onClick={()=> alert("Our facebook account is yet under development. Thank you for your interest :)")}>
+                <StyledIcon><FontAwesomeIcon icon={["fab", "facebook"]} /></StyledIcon>
                 </StyledATagLink>
                </div>
                <div>
-                <StyledATagLink href="instagram.com">
-                <StyledTextLocal><FontAwesomeIcon icon="instagram" /></StyledTextLocal>
+                <StyledATagLink target="blank" href="https://www.instagram.com/ittcamp">
+                <StyledIcon><FontAwesomeIcon icon={["fab","instagram"]} /></StyledIcon>
                 </StyledATagLink>
-                </div>   */}
+                </div>   
             </Wrapper>
         </FooterStyleDivWrapper>
         </LocalWrapper>
