@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const StyledATagLink = styled.a`
 text-decoration: none;
-  color: black;
+    color: #4267b2;
   cursor: pointer;
   &:hover{
-    color: #4267b2;
+    color: black;
   }
 `

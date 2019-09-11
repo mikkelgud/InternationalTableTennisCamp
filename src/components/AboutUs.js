@@ -74,7 +74,7 @@ export default function AboutUs(props) {
         <StyledText>
           Our goal is to make the most developing, higest quality and greatest socially table tennis camps in the world for everyone, at any level.
           We wanna make great experiences where people from all over the world, get togheter for one common goal.
-          Everyone in the ITTC-team are ambitious people who aim high, and belive we will reach our goal one time in the future.
+          Everyone in the ITTC-team are ambitious people who aim high. We all hope and belive that one time in the future, we can reach that goal.
           We will start small and try to build it step by step, so every camp can be at the highest quality from the start.
         </StyledText>
         <br />
@@ -82,7 +82,8 @@ export default function AboutUs(props) {
         <StyledText>
           We in International table tennis camp will deliver the higest level of practice for all levels.
           With a proffesional practice program, world-class coaches, custom sparring,
-          the best possible facilities and a positiv and high-skilled team with great spirit we hope to make an unforgettable experience for every participant.
+          the best possible facilities and a high-skilled team with great spirit,
+           we hope to make an unforgettable experience for every participant.
           We have a goal that everyone of our camp members, will reach the next step in their table tennis career during our camps.
           And we are sure that with the new knowledge absored and with the right guidance,
           it will be clear what you have to work with in the future.

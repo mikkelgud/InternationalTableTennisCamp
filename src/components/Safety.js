@@ -2,13 +2,12 @@ import React from 'react';
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import StyledDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../styleguides/StyledText';
-import { StyledLink } from '../styleguides/StyledLink';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { StyledH3 } from '../styleguides/Styledh3';
 import { ScrollTop } from '../utils/ScrollToTopp';
 import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
 
-export default function Safety() {
+export default function Safety(props) {
     ScrollTop();
     return (
         <StyledDiv>
@@ -19,7 +18,7 @@ export default function Safety() {
                 This is important to have in mind, because from this point the camp rules are law.
                 These rules are made to ensure that everyone is safe and feel safe during the camp.
             </StyledText>
-            <StyledLink to="/stay/rules"> If you haven't red the camp rules, click here.</StyledLink>
+            <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>If you haven't red the camp rules, click here.</StyledATagLink>
             <br />
             <br />
             <StyledText>
@@ -43,7 +42,7 @@ export default function Safety() {
                 {/* In this camp we want to cross those borders, and make everyone feel like a worthy part of the group. */}
                 We will therefore arrange several social events during the camp, and spend time learning to know each other.
             </StyledText>
-            <StyledLink to="/stay/Norway/social">Read about the social life on camp here</StyledLink>
+            <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp here</StyledATagLink>
             <br/>
             <br/>
             <StyledText>
