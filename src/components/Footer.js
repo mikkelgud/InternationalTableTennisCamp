@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-  
+
 
 
 const LocalWrapper = styled.div`
@@ -24,15 +24,26 @@ margin-top: 20px;
 
 const Wrapper = styled.div`
 display: grid;
-grid-template-columns: auto auto auto;
 grid-gap: 2rem;
-margin: 2rem 2rem 2rem 2rem;
 position: absoulte;
 
 @media (min-width: 1129px){
-    grid-template-columns: auto auto auto auto auto;
-    margin: 2rem 2rem 2rem 7.5rem;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin: 2rem 2rem 2rem 4rem;
 }
+@media (max-width: 1129px){
+    grid-template-columns: auto auto auto auto auto;
+    margin: 2rem 2rem 2rem 5.5rem;
+}
+@media (max-width: 927px){
+    grid-template-columns: auto auto auto auto;
+margin: 2rem 2rem 2rem 2.5rem;
+}
+@media (max-width: 627px){
+    grid-template-columns: auto auto;
+margin: 2rem 2rem 2rem 1rem;
+}
+
 @media (max-width: 510px){
     grid-template-columns: auto;
 }
@@ -50,50 +61,73 @@ margin: 0;
 
 
 
- function Footer(props) {
+function Footer(props) {
     return (
         <LocalWrapper>
-        <FooterStyleDivWrapper>
+            <FooterStyleDivWrapper>
                 <Wrapper>
-                <div>
-                <StyledATagLink onClick={() => { props.history.push("/aboutus"); }}>
-                <StyledTextLocal>About us</StyledTextLocal>
-                </StyledATagLink>
-                </div>
-                <div>
-                <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>
-                <StyledTextLocal>ITTC-team</StyledTextLocal>
-                </StyledATagLink>
-                </div> 
-                <div>
-                <StyledATagLink href="mailto: join@ittcamp.com" onClick={() => { props.history.push("/signup") }} >
-                <StyledTextLocal>Join camp</StyledTextLocal> 
-                </StyledATagLink>
-                </div>
-                <div>
-                <StyledATagLink href="mailto: contactus@ittcamp.com" >
-                <StyledTextLocal>Questions?</StyledTextLocal> 
-                </StyledATagLink>
-                </div>
-                <div>
-                <StyledATagLink href="mailto: mikkel_gudmundsen@hotmail.com">
-                <StyledTextLocal>Developer Mikkel<span role="img" aria-label="mail">📩</span></StyledTextLocal>
-                </StyledATagLink>
-                </div> 
-                 <div>
-                <StyledATagLink target="blank"  onClick={()=> alert("Our facebook account is yet under development. Thank you for your interest :)")}>
-                <StyledIcon><FontAwesomeIcon icon={["fab", "facebook"]} /></StyledIcon>
-                </StyledATagLink>
-               </div>
-               <div>
-                <StyledATagLink target="blank" href="https://www.instagram.com/ittcamp">
-                <StyledIcon><FontAwesomeIcon icon={["fab","instagram"]} /></StyledIcon>
-                </StyledATagLink>
-                </div>   
-            </Wrapper>
-        </FooterStyleDivWrapper>
+                    <div>
+                        <StyledTextLocal>
+                            <StyledATagLink
+                                onClick={() => { props.history.push("/aboutus"); }}>
+                                About us
+                            </StyledATagLink>
+                        </StyledTextLocal>
+                    </div>
+                    <div>
+                        <StyledTextLocal>
+                            <StyledATagLink
+                                onClick={() => { props.history.push("/leaders"); }}>
+                                ITTC-team
+                                 </StyledATagLink>
+                        </StyledTextLocal>
+                    </div>
+                    <div>
+                        <StyledTextLocal>
+                            <StyledATagLink
+                                href="mailto: join@ittcamp.com"
+                                onClick={() => { props.history.push("/signup") }} >
+                                Join camp
+                                </StyledATagLink>
+                        </StyledTextLocal>
+                    </div>
+                    <div>
+                        <StyledTextLocal>
+                            <StyledATagLink
+                                href="mailto: contactus@ittcamp.com" >
+                                Questions?
+                                </StyledATagLink>
+                        </StyledTextLocal>
+                    </div>
+                    <div>
+                        <StyledTextLocal>
+                            <StyledATagLink
+                                href="mailto: mikkel_gudmundsen@hotmail.com">
+                                Developer<span role="img" aria-label="mail">📩</span>
+                            </StyledATagLink>
+                        </StyledTextLocal>
+                    </div>
+                    <div>
+                        <StyledIcon>
+                            <StyledATagLink
+                                target="blank"
+                                onClick={() => alert("Our facebook account is yet under development. Thank you for your interest :)")}>
+                                <FontAwesomeIcon icon={["fab", "facebook"]} />
+                            </StyledATagLink>
+                        </StyledIcon>
+                    </div>
+                    <div>
+                        <StyledATagLink
+                            target="blank"
+                            href="https://www.instagram.com/ittcamp">
+                            <StyledIcon>
+                                <FontAwesomeIcon icon={["fab", "instagram"]} />
+                            </StyledIcon>
+                        </StyledATagLink>
+                    </div>
+                </Wrapper>
+            </FooterStyleDivWrapper>
         </LocalWrapper>
     );
-
-
-}export default withRouter(Footer);
+}
+export default withRouter(Footer);

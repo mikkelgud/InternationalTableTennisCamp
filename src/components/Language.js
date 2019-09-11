@@ -3,7 +3,7 @@ import useLocalStorage from '../hooks/useLocalStorage';
 import styled from 'styled-components';
 
 
-export const norwegianLanguage =  {
+export const norwegianLanguage = {
    selectedLanguageIcon: `🇳🇴`,
    key: "no",
    name: "Norwegian"
@@ -37,30 +37,33 @@ const ChangeLanguageLinkEmoji = styled.p`
 
 const Language = ({ onItemSelected }) => {
    // eslint-disable-next-line
-  const [storedLanguage, setStoredLanguage] = useLocalStorage("Language", englishLanguage);
-  
+   const [storedLanguage, setStoredLanguage] = useLocalStorage("Language", englishLanguage);
 
-   return( 
+
+   return (
       <>
-   <ChangeLanguageLinkEmoji onClick={() => {
-      setStoredLanguage(englishLanguage);
-      onItemSelected(englishLanguage);
-      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
-   }
-}>{englishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
-   <ChangeLanguageLinkEmoji onClick={() => {
-      setStoredLanguage(norwegianLanguage)
-      onItemSelected(norwegianLanguage);
-      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
-   }
-   }>{norwegianLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
-   <ChangeLanguageLinkEmoji onClick={() => {
-      onItemSelected(swedishLanguage);
-      setStoredLanguage(swedishLanguage);
-      alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
-   }}>{swedishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji> 
+
+         <ChangeLanguageLinkEmoji onClick={() => {
+            setStoredLanguage(norwegianLanguage)
+            onItemSelected(norwegianLanguage);
+            alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
+         }}>{norwegianLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
+
+         <ChangeLanguageLinkEmoji onClick={() => {
+            onItemSelected(swedishLanguage);
+            setStoredLanguage(swedishLanguage);
+            alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
+         }}>{swedishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
+
+         <ChangeLanguageLinkEmoji onClick={() => {
+            setStoredLanguage(englishLanguage);
+            onItemSelected(englishLanguage);
+            alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
+         }}>{englishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
+
       </>
-   )}
+   )
+}
 export default Language;
 
 
