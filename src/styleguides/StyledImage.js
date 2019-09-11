@@ -15,7 +15,7 @@ object-fit: fill;
 }
 
 @media (max-width: 909px){
-    height: 34vw;
+    height: 47vw;
 }
 
 //  
