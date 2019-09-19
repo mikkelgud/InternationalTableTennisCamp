@@ -95,7 +95,7 @@ export default function AboutUs(props) {
         <br />
         <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
         <br />
-        <StyledH3>Camp Norway -From 30.09.2019 to 04.10.2019</StyledH3>
+        <StyledH3>Camp Norway</StyledH3>
         <StyledText>
           Harestua IL and ITTC invite you to join ITTCamp- Harestua
           Camp Norway will be arrange in a small place called Harestua.
@@ -109,7 +109,7 @@ export default function AboutUs(props) {
             <br />
             <li>Maximum of 32 participants</li>
             <br />
-            <li>Deadline: Monday 23.09.2019 19:00. <br />
+            <li>Deadline: Monday. <br />
               (At this point everyone will receive the camp-status, and how many participants that will join camp.) </li>
           </ol>
           <br />
@@ -121,7 +121,7 @@ export default function AboutUs(props) {
           Although this are often equivalent.
           Therefore the Registration/sign up for the camp will be done by filling in this
           <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to
-           <StyledATagLink href="mailto: join@ittcamp.com"> THIS EMAIL: join@ittcamp.com</StyledATagLink>
+           <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>
         </StyledText>
         <br />
         <br />
