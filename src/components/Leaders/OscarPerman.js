@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledText } from '../styleguides/StyledText';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import {ScrollTop}  from '../utils/ScrollToTopp';
-import OscarPermanPicture from '../Assets/OscarPermanPicture.jpeg';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
+import { StyledText } from '../../styleguides/StyledText';
+import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
+import {ScrollTop}  from '../../utils/ScrollToTopp';
+import OscarPermanPicture from '../../Assets/OscarPermanPicture.jpeg';
 
 const StyledImageLocal = styled.img`
 display: flex;

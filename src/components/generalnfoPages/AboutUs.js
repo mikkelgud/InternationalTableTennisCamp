@@ -1,15 +1,15 @@
 import React from "react";
 import styled from 'styled-components';
-import StyledDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledText } from "../styleguides/StyledText";
-import { StyledTextSectionHeader } from "../styleguides/StyledSectionHeader";
-import Logo from '../Assets/Bordtennislogo.png';
-import { StyledH3 } from "../styleguides/Styledh3";
-import { Wrapper } from "../styleguides/StyledTextBoxWrapper";
-import { ScrollTop } from "../utils/ScrollToTopp";
-import { StyledSTextSectionHeader } from "../styleguides/StyledSemiTextSectionHeader";
-import { StyledATagLink } from '../styleguides/StyledATagLink';
-import ApplicationForm from "../Assets/ApplicationITTCAMP.docx";
+import StyledDiv from '../../styleguides/StyledTextBoxDiv';
+import { StyledText } from "../../styleguides/StyledText";
+import { StyledTextSectionHeader } from "../../styleguides/StyledSectionHeader";
+import Logo from '../../Assets/Bordtennislogo.png';
+import { StyledH3 } from "../../styleguides/Styledh3";
+import { Wrapper } from "../../styleguides/StyledTextBoxWrapper";
+import { ScrollTop } from "../../utils/ScrollToTopp";
+import { StyledSTextSectionHeader } from "../../styleguides/StyledSemiTextSectionHeader";
+import { StyledATagLink } from '../../styleguides/StyledATagLink';
+import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
 
 export const StyledATagLinkLocal = styled.a`
   color: black;

@@ -1,21 +1,21 @@
 import React from 'react';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import StyledTextBoxDiv from '../styleguides/StyledImageShoverDivBox';
-import { StyledText } from '../styleguides/StyledText';
-import {StyledImage} from '../styleguides/StyledImage';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import ChinaAbove from '../Assets/ChinaAbove.png';
-import ChinaAbove2 from '../Assets/ChinaAbove2.png';
-import ChinaCity from '../Assets/ChinaCity.png';
-import ChinaCoaches from '../Assets/ChinaCoaches.png';
-import ChinaDiningHall from '../Assets/ChinaDiningHall.png';
-import ChinaFood from '../Assets/ChinaFood.png';
-import ChinaFoodTwo from '../Assets/ChinaFoodTwo.png';
-import ChinaHall from '../Assets/ChinaHall.png';
-import ChinaHallWithPople from '../Assets/ChinaHallwithPeople.png';
-import ChinaParks from '../Assets/ChinaParks.png';
-import ChinaMontain from '../Assets/ChinaMontain.png';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
+import StyledTextBoxDiv from '../../../styleguides/StyledImageShoverDivBox';
+import { StyledText } from '../../../styleguides/StyledText';
+import {StyledImage} from '../../../styleguides/StyledImage';
+import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
+import ChinaAbove from '../../../Assets/ChinaAbove.png';
+import ChinaAbove2 from '../../../Assets/ChinaAbove2.png';
+import ChinaCity from '../../../Assets/ChinaCity.png';
+import ChinaCoaches from '../../../Assets/ChinaCoaches.png';
+import ChinaDiningHall from '../../../Assets/ChinaDiningHall.png';
+import ChinaFood from '../../../Assets/ChinaFood.png';
+import ChinaFoodTwo from '../../../Assets/ChinaFoodTwo.png';
+import ChinaHall from '../../../Assets/ChinaHall.png';
+import ChinaHallWithPople from '../../../Assets/ChinaHallwithPeople.png';
+import ChinaParks from '../../../Assets/ChinaParks.png';
+import ChinaMontain from '../../../Assets/ChinaMontain.png';
+import { ScrollTop } from '../../../utils/ScrollToTopp';
 
 export default function ChinaTravel() {
     ScrollTop();

@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledText } from '../styleguides/StyledText';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledH3 } from '../styleguides/Styledh3';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
+import { StyledText } from '../../styleguides/StyledText';
+import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
+import { StyledH3 } from '../../styleguides/Styledh3';
 
 const HWrapper = styled.div`
 display: flex;

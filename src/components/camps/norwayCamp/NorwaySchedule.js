@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyledText } from '../styleguides/StyledText';
-import StyledDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledH3 } from '../styleguides/Styledh3';
-import { ScrollTop } from '../utils/ScrollToTopp';
-import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader';
-import { StyledATagLink } from '../styleguides/StyledATagLink';
+import { StyledText } from '../../../styleguides/StyledText';
+import StyledDiv from '../../../styleguides/StyledTextBoxDiv';
+import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
+import { StyledH3 } from '../../../styleguides/Styledh3';
+import { ScrollTop } from '../../../utils/ScrollToTopp';
+import { StyledSTextSectionHeader } from '../../../styleguides/StyledSemiTextSectionHeader';
+import { StyledATagLink } from '../../../styleguides/StyledATagLink';
 
 
 

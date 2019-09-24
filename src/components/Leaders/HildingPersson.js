@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledText } from '../styleguides/StyledText';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import HildingPlaying from '../Assets/HildingPlaying.jpg';
-import { StyledH3 } from '../styleguides/Styledh3';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
+import { StyledText } from '../../styleguides/StyledText';
+import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
+import HildingPlaying from '../../Assets/HildingPlaying.jpg';
+import { StyledH3 } from '../../styleguides/Styledh3';
+import { ScrollTop } from '../../utils/ScrollToTopp';
 
 
 

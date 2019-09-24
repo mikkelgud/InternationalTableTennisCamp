@@ -1,10 +1,10 @@
 import React from 'react';
-import PlanLinkDiv from './LinkDivCard';
+import PlanLinkDiv from '../../LinkDivCard';
 import styled from 'styled-components';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledText } from '../styleguides/StyledText';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
+import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
+import { StyledText } from '../../../styleguides/StyledText';
+import { ScrollTop } from '../../../utils/ScrollToTopp';
 
 
 

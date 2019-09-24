@@ -1,7 +1,7 @@
 import React from 'react';
-import PlanLinkDiv from './LinkDivCard';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import PlanLinkDiv from '../LinkDivCard';
+import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
+import { ScrollTop } from '../../utils/ScrollToTopp';
 
 //travels
 const travelHeader = "Route";

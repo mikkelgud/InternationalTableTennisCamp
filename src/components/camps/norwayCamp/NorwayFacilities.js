@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledText } from '../styleguides/StyledText';
-import { StyledATagLink } from '../styleguides/StyledATagLink';
-import { ScrollTop } from '../utils/ScrollToTopp';
-import Hall from '../Assets/Harestuahall.png';
-import Hall1 from '../Assets/HarestuaHall1.png';
-import Buildning from '../Assets/HarestuaHallBygg.png';
-import Buildning2 from '../Assets/HaresuaBuilding.jpeg';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledH3 } from '../styleguides/Styledh3';
-import Station from '../Assets/HarestuaStasjon.jpeg';
-import Kiwi from '../Assets/HarestuaKiwi.jpg';
+import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
+import { StyledSTextSectionHeader } from '../../../styleguides/StyledSemiTextSectionHeader';
+import StyledTextBoxDiv from '../../../styleguides/StyledTextBoxDiv';
+import { StyledText } from '../../../styleguides/StyledText';
+import { StyledATagLink } from '../../../styleguides/StyledATagLink';
+import { ScrollTop } from '../../../utils/ScrollToTopp';
+import Hall from '../../../Assets/Harestuahall.png';
+import Hall1 from '../../../Assets/HarestuaHall1.png';
+import Buildning from '../../../Assets/HarestuaHallBygg.png';
+import Buildning2 from '../../../Assets/HaresuaBuilding.jpeg';
+import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
+import { StyledH3 } from '../../../styleguides/Styledh3';
+import Station from '../../../Assets/HarestuaStasjon.jpeg';
+import Kiwi from '../../../Assets/HarestuaKiwi.jpg';
 
 const StyledImage = styled.img`
 width: 90%;

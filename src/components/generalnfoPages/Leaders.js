@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import PersonProfilePresentation from './PersonProfilePresentation';
-import { StyledLink } from '../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import Mikkel from '../Assets/MikkelCut.jpg';
-import Maria from '../Assets/MariaXiao.jpg';
-import LiFen from '../Assets/LiFen.jpg';
-import HildingROR from '../Assets/HildingPlaying.jpg';
-import {StyledATagLink} from '../styleguides/StyledATagLink';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
+import PersonProfilePresentation from '../PersonProfilePresentation';
+import { StyledLink } from '../../styleguides/StyledLink';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
+import Mikkel from '../../Assets/MikkelCut.jpg';
+import Maria from '../../Assets/MariaXiao.jpg';
+import LiFen from '../../Assets/LiFen.jpg';
+import HildingROR from '../../Assets/HildingPlaying.jpg';
+import {StyledATagLink} from '../../styleguides/StyledATagLink';
+import { ScrollTop } from '../../utils/ScrollToTopp';
 
 
 

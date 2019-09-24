@@ -1,19 +1,19 @@
 import React from 'react';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import StyledTextBoxDiv from '../styleguides/StyledImageShoverDivBox';
-import { StyledText } from '../styleguides/StyledText';
-import {StyledImage} from '../styleguides/StyledImage';
-import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import TennisCourt from '../Assets/PolandTennisCourt.png';
-import Beds from '../Assets/PolenBeds.png';
-import Campus from '../Assets/PolenCampus.png';
-import TableTennis from '../Assets/PolandTableTennis.png';
-import Fotbal2 from '../Assets/PolenFotballBane2.png';
-import Reception from '../Assets/PolenReception.png';
-import BathAndSauna from '../Assets/PolandPoolSauna.png';
-import Handball from '../Assets/PolandHandBallField.png';
-import DiningHall from '../Assets/PolenSpiseSall.png';
-import { ScrollTop } from '../utils/ScrollToTopp';
+import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
+import StyledTextBoxDiv from '../../../styleguides/StyledImageShoverDivBox';
+import { StyledText } from '../../../styleguides/StyledText';
+import {StyledImage} from '../../../styleguides/StyledImage';
+import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
+import TennisCourt from '../../../Assets/PolandTennisCourt.png';
+import Beds from '../../../Assets/PolenBeds.png';
+import Campus from '../../../Assets/PolenCampus.png';
+import TableTennis from '../../../Assets/PolandTableTennis.png';
+import Fotbal2 from '../../../Assets/PolenFotballBane2.png';
+import Reception from '../../../Assets/PolenReception.png';
+import BathAndSauna from '../../../Assets/PolandPoolSauna.png';
+import Handball from '../../../Assets/PolandHandBallField.png';
+import DiningHall from '../../../Assets/PolenSpiseSall.png';
+import { ScrollTop } from '../../../utils/ScrollToTopp';
 
 
 export default function PolandTravel() {

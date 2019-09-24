@@ -1,10 +1,10 @@
 import React from "react";
-import { StyledText } from "../styleguides/StyledText";
-import { ScrollTop } from "../utils/ScrollToTopp";
-import { StyledTextSectionHeader } from "../styleguides/StyledSectionHeader";
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import { StyledH3 } from "../styleguides/Styledh3";
-import { StyledATagLink } from "../styleguides/StyledATagLink";
+import { StyledText } from "../../../styleguides/StyledText";
+import { ScrollTop } from "../../../utils/ScrollToTopp";
+import { StyledTextSectionHeader } from "../../../styleguides/StyledSectionHeader";
+import StyledTextBoxDiv from '../../../styleguides/StyledTextBoxDiv';
+import { StyledH3 } from "../../../styleguides/Styledh3";
+import { StyledATagLink } from "../../../styleguides/StyledATagLink";
 
 
 export default function Expences(props) {

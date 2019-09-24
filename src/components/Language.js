@@ -38,8 +38,6 @@ const ChangeLanguageLinkEmoji = styled.p`
 const Language = ({ onItemSelected }) => {
    // eslint-disable-next-line
    const [storedLanguage, setStoredLanguage] = useLocalStorage("Language", englishLanguage);
-
-
    return (
       <>
 

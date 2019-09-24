@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
-import { StyledText } from '../styleguides/StyledText';
-import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
-import Mikkel from '../Assets/Mikkel.jpg';
-import { StyledH3 } from '../styleguides/Styledh3';
-import { StyledATagLink } from '../styleguides/StyledATagLink';
-import {ScrollTop}  from '../utils/ScrollToTopp';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
+import { StyledText } from '../../styleguides/StyledText';
+import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
+import Mikkel from '../../Assets/Mikkel.jpg';
+import { StyledH3 } from '../../styleguides/Styledh3';
+import { StyledATagLink } from '../../styleguides/StyledATagLink';
+import {ScrollTop}  from '../../utils/ScrollToTopp';
 
 const StyledImageLocal = styled.img`
 display: flex;

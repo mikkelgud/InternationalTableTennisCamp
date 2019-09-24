@@ -2,33 +2,33 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import Leaders from './components/Leaders';
-import AboutUs from './components/AboutUs';
-import Home from './components/Home';
+import Leaders from './components/generalnfoPages/Leaders';
+import AboutUs from './components/generalnfoPages/AboutUs';
+import Home from './components/generalnfoPages/Home';
 import Travels from './components/Travels';
 import Stays from './components/Stays';
 import SignUp from './components/SignUp';
-import PolandTravel from './components/PolandTravel';
-import ChinaTravel from './components/ChinaTravel';
-import NorwayTravel from './components/NorwayTravel'
-import Safety from './components/Safety';
-import Mikkel from './Leaders/Mikkel';
-import Hilding from './Leaders/HildingPersson';
-import Fen from './Leaders/LiFen';
+import PolandTravel from './components/camps/polandCamp/PolandTravel';
+import ChinaTravel from './components/camps/chinaCamp/ChinaTravel';
+import NorwayTravel from './components/camps/norwayCamp/NorwayTravel'
+import Safety from './components/generalnfoPages/Safety';
+import Mikkel from './components/Leaders/Mikkel';
+import Hilding from './components/Leaders/HildingPersson';
+import Fen from './components/Leaders/LiFen';
 // import Login from './components/Login';
-import CampNorway from './components/CampNorway';
-import NorwaySchedule from './components/NorwaySchedule';
-import Maria from './Leaders/MariaXiao';
-import Rules from './components/Rules';
+import CampNorway from './components/camps/norwayCamp/CampNorway';
+import NorwaySchedule from './components/camps/norwayCamp/NorwaySchedule';
+import Maria from './components/Leaders/MariaXiao';
+import Rules from './components/generalnfoPages/Rules';
 // import CampChina from './components/CampChina';
 // import CampPoland from './components/CampPoland';
-import Pack from './components/PackMyBags';
-import Social from './components/Social';
-import FacilitiesNorway from './components/NorwayFacilities';
-import NorwayPrices from './components/NorwayPrices';
+import Pack from './components/camps/norwayCamp/NorwayPackMyBags';
+import Social from './components/camps/norwayCamp/NorwaySocial';
+import FacilitiesNorway from './components/camps/norwayCamp/NorwayFacilities';
+import NorwayPrices from './components/camps/norwayCamp/NorwayPrices';
 import Footer from './components/Footer';
-import Eskil from './Leaders/EskilLindholm';
-import Oscar from './Leaders/OscarPerman';
+import Eskil from './components/Leaders/EskilLindholm';
+import Oscar from './components/Leaders/OscarPerman';
 
 
 function App() {
