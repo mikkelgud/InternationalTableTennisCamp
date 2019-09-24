@@ -9,7 +9,6 @@ import Maria from '../Assets/MariaXiao.jpg';
 import LiFen from '../Assets/LiFen.jpg';
 import HildingROR from '../Assets/HildingPlaying.jpg';
 import {StyledATagLink} from '../styleguides/StyledATagLink';
-
 import { ScrollTop } from '../utils/ScrollToTopp';
 
 
@@ -92,12 +91,10 @@ const persons = [
 ]
 
 const harestua = [
-    { name: " . ",
-    // age: "21 år",
+    { 
+    
     picture: Harestua,
-    text: "Coaches and parents from the Harestua club",
     src:"https://www.harestua.info/harestua-il/bordtennis.html",
-    willJoin: "ITTC: Norway"
 }
 ]
 

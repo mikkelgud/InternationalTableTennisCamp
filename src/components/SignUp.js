@@ -61,7 +61,7 @@ export default function SignUp(props) {
                 </StyledATagLink>
             </StyledDiv>
             <StyledDiv>
-                <HeaderAligner> <StyledSTextSectionHeader><span role="img" aria-label="Thinking-emoji">🕵🏻‍</span>Anything we can help you with?<span role="img" aria-label="Thinking-emoji">🕵🏻‍♀️</span></StyledSTextSectionHeader></HeaderAligner>
+                <HeaderAligner> <StyledSTextSectionHeader>Anything we can help you with?</StyledSTextSectionHeader></HeaderAligner>
                 <StyledATagLink href="mailto: contactus@ittcamp.com">
                     <StyledText>Ask us any question at contactus@ittcamp.com</StyledText>
                 </StyledATagLink>

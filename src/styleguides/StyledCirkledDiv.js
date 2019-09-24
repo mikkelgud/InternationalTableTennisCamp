@@ -17,8 +17,8 @@ padding: 2.5rem;
   width: 340px; 
   border-radius: 100%;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
-  border: 0.3px solid #000000;
-  transition: all 0.32678s ease-in-out;
+  border: 1px solid #000000;
+  transition: all 0.22678s ease-in-out;
   
   background-image: url(${props => props.backgorund});
   background-repeat: no-repeat;
@@ -26,7 +26,9 @@ padding: 2.5rem;
   &:hover {
     background-color: black;
     color: white;
-  border-radius: 20%;
+    border-radius: 20%;
+    box-shadow: 0px 2px 18px 10px rgba(0,0,0,0.2);
+    
 
 }
   @media (max-width: 1030px){
