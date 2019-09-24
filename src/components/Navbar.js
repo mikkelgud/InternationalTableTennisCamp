@@ -20,9 +20,9 @@ const NavBarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: #e4edffd6;
-  padding: 1.92345324234rem 1.4rem;
-  border-radius: 0 0 0 20%;
-  border-bottom: 1px solid #0a1c983b;
+  padding: 1.82345324234rem 1.4rem;
+  border-radius: 0 0 0 42px;
+  border-bottom: 0.5px solid #0a1c983b;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -38,8 +38,8 @@ font-family: 'Oswald', sans-serif;
 const StyledImageLogo = styled.img`
 margin: 6px 0 0 -11px;
 padding: 0 ;
-height: 3.6rem;
-width: 3.6rem;
+height: 3.5rem;
+width: 3.5rem;
 `;
 
 // const MobileMenuWrapper = styled.div`

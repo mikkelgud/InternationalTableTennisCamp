@@ -34,7 +34,7 @@ import Oscar from './Leaders/OscarPerman';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />

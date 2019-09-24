@@ -48,7 +48,7 @@ const packText = "Read about what you should to remember for camp norway.";
 // const safteyTo= "/safety";
 
 
-export default function Stay(props) {
+export default function Stay() {
     ScrollTop();
     return (
 <React.Fragment>

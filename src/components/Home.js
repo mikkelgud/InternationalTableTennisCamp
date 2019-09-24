@@ -1,21 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import PlanLinkDiv from './LinkDivCard';
 import { Wrapper } from '../styleguides/StyledTextBoxWrapper';
-import { StyledText } from '../styleguides/StyledText';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { ScrollTop } from '../utils/ScrollToTopp';
-
-
-
-const HeaderWrap = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 2rem;
-`
-
-// const aboutUsEmoji= "👨🏽‍💻👩🏻‍💻👨🏼‍💻";
 
 //travels
 const travelHeader = "Route";
@@ -87,18 +73,20 @@ const signUpTo = "/Signup";
 }
 ];
 
+
+
+
 export default function Home(props) {
+
     ScrollTop();
     return (
-        <>
-        <HeaderWrap>
-        <StyledTextSectionHeader>Welcome to International Table Tennis Camp! <StyledText>What would you like to know about us?</StyledText> </StyledTextSectionHeader>
-        </HeaderWrap>
+        <React.Fragment>
+        {/* <HeaderWrap>
+        <StyledTextSectionHeader><StyledText>What would you like to know about International Table Tennis Camp?</StyledText> </StyledTextSectionHeader>
+        </HeaderWrap> */}
         <Wrapper>
        {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text} icon={info.icon}/>)}
-        </Wrapper>
-        <HeaderWrap><StyledText> </StyledText></HeaderWrap>
-       
-        </>
+        </Wrapper>       
+        </React.Fragment>
     )
 }

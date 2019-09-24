@@ -1,3 +1,3 @@
-export default {
-    "home.header": "Welcome to International Table Tennis Camp! 🏓"
+export default { 
+    homeHeader: "Welcome to International Table Tennis Camp! 🏓",  
   };

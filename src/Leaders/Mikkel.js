@@ -41,7 +41,7 @@ export default function MikkelGudmundsen() {
       </StyledTextSectionHeader>
       <br/>
       <StyledText>
-        Mikkel is a Norwegian tabel tennis player and coach.
+        Mikkel is a Norwegian table tennis player and coach.
         Today he playes for Harestua, where the first camp will be arranged.
         He Workes as coach in Fornebu BTK, Studies computer engeneering in Oslo and Practise table tennis every day.
         He's currently in the Senior national team training group in Norway, and he is still trying to reach new goals himself.

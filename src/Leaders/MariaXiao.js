@@ -5,8 +5,7 @@ import { StyledText } from '../styleguides/StyledText';
 import StyledTextBoxDiv from '../styleguides/StyledTextBoxDiv';
 import { StyledH3 } from '../styleguides/Styledh3';
 import Maria from '../Assets/MariaXiao.jpg';
-import {ScrollTop}  from '../utils/ScrollToTopp';
-
+import { ScrollTop } from '../utils/ScrollToTopp';
 
 
 const HWrapper = styled.div`
@@ -33,18 +32,15 @@ object-fit: contain;
 //  
 `;
 
-
-
 export default function MariaXiao() {
     ScrollTop();
     return (
-<StyledTextBoxDiv>
+        <StyledTextBoxDiv>
             <StyledTextSectionHeader>
-            <HWrapper>  Maria Xiao 25  </HWrapper>
-               <StyledImageLocal src={Maria} />
+                <HWrapper>  Maria Xiao 25  </HWrapper>
+                <StyledImageLocal src={Maria} />
             </StyledTextSectionHeader>
-            <br/>
-
+            <br />
             <StyledH3>Accomplishments</StyledH3>
             <StyledText>
                 <ul>
@@ -57,12 +53,10 @@ export default function MariaXiao() {
                     <li>2019 Spanish Cup , Spanish League and ETTU Cup champion.</li>
                     <li>Spanish National Champion 3 times singles.</li>
                 </ul>
-                <br/>
-                <br/>
+                <br />
+                <br />
             </StyledText>
             <StyledText>
-                
-                
             </StyledText>
- </StyledTextBoxDiv>);
- }
+        </StyledTextBoxDiv>);
+}
