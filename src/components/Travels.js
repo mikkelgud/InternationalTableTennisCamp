@@ -18,6 +18,7 @@ flex-direction: column;
 const chinaFlagEmoji = "🇨🇳";
 const polandFlagEmoji = "🇵🇱";
 const norwayEmoji = "🇳🇴";
+const taiwanFlagEmoji = "🇹🇼";
 
 const travelHeader = chinaFlagEmoji + "China";
 const travelText = "Read about how we plan our travel to China, and how we plan the traveling process. Everything from the beginning to the end!";
@@ -28,13 +29,17 @@ const polandTravelText = "Read about how we plan our travel to Poland, and how w
 const polandTravelTo = "/travels/Poland";
 
 const norwayTravelHeader = norwayEmoji + "Norway";
-const NorwayTravelText = "Read about your travel opportunities to our camp in Norway.";
+const norwayTravelText = "Read about your travel opportunities to our camp in Norway.";
 const norwayTraveTo = "/travels/Norway";
+
+const taiwanTravelHeader = taiwanFlagEmoji + "Taiwan";
+const taiwanTravelText = "Read about how we plan our travel to Taiwan, and how we plan the traveling process. Everything from the beginning to the end!";
+const taiwanTravelTo = "/travels/Taiwan";
 
 const informationLinks = [
     {
         header: norwayTravelHeader,
-        text: NorwayTravelText,
+        text: norwayTravelText,
         to: norwayTraveTo
     },
     {
@@ -46,6 +51,11 @@ const informationLinks = [
         header: travelHeader,
         text: travelText,
         to: travelTo
+    },
+    {
+        header: taiwanTravelHeader,
+        text: taiwanTravelText,
+        to: taiwanTravelTo
     },
 ];
 

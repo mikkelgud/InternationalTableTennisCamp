@@ -14,6 +14,7 @@ justify-content: center;
 const chinaFlagEmoji = "🇨🇳";
 const polandFlagEmoji = "🇵🇱";
 const norwegianFlagEmoji = "🇳🇴";
+const taiwanFlagEmoji = "🇹🇼";
 
 const travelHeader = chinaFlagEmoji + "China";
 const travelText = " Read everything you need to know about how we plan our stay in China.";
@@ -26,6 +27,12 @@ const polandTravelTo = "/stay/Poland";
 const NorwayTravelHeader = norwegianFlagEmoji + "Norway";
 const NorwayTravelText = "Read everything you need to know about your stay in Norway.";
 const NorwayTravelTo = "/stay/Norway";
+
+const TaiwanTravelHeader = taiwanFlagEmoji + "Taiwan";
+const TaiwanTravelText = "Read everything you need to know about your stay in Taiwan.";
+const TaiwanTravelTo = "/stay/Taiwan";
+
+
 
 const informationLinks = [
     {
@@ -43,6 +50,11 @@ const informationLinks = [
         header: travelHeader,
         text: travelText,
         to: travelTo
+    },
+    {
+        header: TaiwanTravelHeader,
+        text: TaiwanTravelText,
+        to: TaiwanTravelTo
     },
 ];
 

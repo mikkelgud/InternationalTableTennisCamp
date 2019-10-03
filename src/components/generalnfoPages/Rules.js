@@ -31,7 +31,6 @@ export default function Rules() {
                 <li>Keep it clean and tidy at all times</li>
                 <li>Everyone is always welcome to join anyone. Take care and be nice to each other.</li>
                 <li>All use of drugs and alchol will lead to immediate repatriation without refound on own expense </li>
-
                 <li>Read the rules</li>
                 </ul>
                 <br/>

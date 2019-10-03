@@ -16,12 +16,12 @@ const stayIcon = "home";
 //safety
 const safteyHeader = "Safety ";
 const safteyIcon = "user-shield";
-const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
+const safteyText = "Read about how we will keep you safe during the travel, stay and return. Here you can also get information about what we need from you, to make the camp safe."
 const safteyTo= "/safety";
 //leaders
 const leadersHeader = "Leaders ";
 const leadersIcon = "users";
-const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get to know the people who will make you climb the levels in table tennis, aswell as taking care of you.";
+const leadersText = "Read all about the ITTC-team´s coaches and leaders. Get to know the people who will make you reach the next level in your career, aswell as taking care of you.";
 const leadersTo = "/leaders";
 //about us
 const aboutUsHeader = "About Us ";
@@ -31,7 +31,7 @@ const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
 const signUpIcon = "door-open"
-const signUpText = "Read about prices and how to sign up here. Please read the following about payment and information procedures"
+const signUpText = "Read about how to sign up. We are looking forward to have you with us on our camp."
 const signUpTo = "/Signup";
 
 

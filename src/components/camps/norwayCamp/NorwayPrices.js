@@ -15,22 +15,19 @@ export default function Expences(props) {
       <StyledH3>Prices</StyledH3>
       <StyledText>
           <ul>
-          <li>Whole camp (5 days): 2300 NOK (Or 230 euro). </li>
-          <li>Drop in days: 400 NOK each day (or 40 euro each day). (Only if we got space. Contact us if you want to do drop in practices.
-          Drop in is made for people who can't participate the whole camp).
- )</li>
+          <li>Whole camp (3 days): 00 NOK (Or 00 euro). </li>
           </ul>
       </StyledText>
       <br/>
       <StyledH3>This includes</StyledH3>
       <StyledText>
       <ul>
-    <li> 5 days camp with high quality traning.</li>
+    <li> 3 days camp with high quality traning.</li>
     <li> 2 table tennis practices and 1 physical practice every day, except arrival and departure day. <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>(Look at schedule)</StyledATagLink></li>
     <li>Lectures every evening with our coaches, including European champion Li Fen.</li>
     <li>4 nights with sleeping in the hall with all essentials, with night guards awake at all time. <br/>
           (Notice: Madrass, duvet/sleepingbag, sheets and pillow you have to bring yourself)</li>
-    <li>3 meals a day. <br/>
+    <li>3 meals every day. <br/>
           (Notice: If you have any alergies please tell us before the camp).</li>
       <li>Opportunity to get pickup from arrival location and followed to the camp. <br/>
           (Notice: travel expences will not be covered) </li>
