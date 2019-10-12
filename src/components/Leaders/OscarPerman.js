@@ -39,8 +39,10 @@ export default function MikkelGudmundsen() {
       </StyledTextSectionHeader>
       <br/>
       <StyledText>
-          Oscar is headcoach in B-75. He will be too busy working there during camp-Norway.
-          But luckly for us, he is with us on camp Poland and China when that time comes.<br/><br/>
+          Oscar is headcoach in B-75 on daily basis. He is a young hard working coach, 
+          and has been a great player aswell. He has been traveling all around the world playing table tennis. 
+          Therefore he has astablished a lot of experience both in table tennis and with cultures.
+          <br/><br/>
           More information about Oscar will come soon.
       </StyledText>
     </StyledTextBoxDiv>

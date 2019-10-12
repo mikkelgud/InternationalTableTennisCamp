@@ -93,32 +93,34 @@ export default function AboutUs(props) {
         </StyledText>
         <br />
         <br />
+        <StyledH3>Young cancer</StyledH3>
+        <StyledText>
+          10% of all our surprise will be donated to Young cancer foundation. 
+          We hope our small donations will be 
+        </StyledText>
+        <br/>
+        <br/>
         <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
         <br />
         <StyledH3>Camp Norway</StyledH3>
         <StyledText>
-          Harestua IL and ITTC invite you to join ITTCamp- Harestua
-          Camp Norway will be arrange in a small place called Harestua.
-          With our strategy; "start small and build it up step by step with high quality", no place would be more suitable.
-          Because of the short notice, there are two conditions that we had to make for it to be possible for us to complete the camp.
+          ITTC invite you to join ITTCamp- Norway.
+          The camp will be arranged in a small place called Harestua.
+          Unfortunately we wanna start small and will therefore have a:
           </StyledText>
-        <br />
         <StyledH3>
           <ol>
-            <li>Minimum of 16 participants.</li>
             <br />
             <li>Maximum of 32 participants</li>
             <br />
-            <li>Deadline: Monday. <br />
-              (At this point everyone will receive the camp-status, and how many participants that will join camp.) </li>
+            <li>Sign uo deadline: 01.04.2020 <br /> </li>
           </ol>
           <br />
 
         </StyledH3>
-        <StyledH3>How we choose the 32 participants</StyledH3>
+        <StyledH3>How we choose our 32 participants</StyledH3>
         <StyledText>
-          We don't care about your level, we care about your motivation and spirit.
-          Although this are often equivalent.
+          We are looking for motivated players with good spirit and will to join our camp.
           Therefore the Registration/sign up for the camp will be done by filling in this
           <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to
            <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>
@@ -128,7 +130,7 @@ export default function AboutUs(props) {
         <LeadersHeaderWrapper>
           <StyledSTextSectionHeader>Our Team</StyledSTextSectionHeader>
           <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>
-               and leaders
+               Leaders
               </StyledATagLink><br />
         </LeadersHeaderWrapper>
         <StyledText>
@@ -147,7 +149,7 @@ export default function AboutUs(props) {
              
             </div>
             <div>
-              <StyledH3> 3 Empolyed coaches;<br /><br /></StyledH3>
+              <StyledH3>Empolyed coaches;<br /><br /></StyledH3>
               <StyledATagLink onClick={() => { props.history.push("/leaders/Maria-Xiao"); }}>
                 <LinkVeiwMultiplier>Maria Xiao</LinkVeiwMultiplier>
               </StyledATagLink><br />

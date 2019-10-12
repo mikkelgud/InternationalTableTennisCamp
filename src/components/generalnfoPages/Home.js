@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PlanLinkDiv from '../LinkDivCard';
 import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
 import { ScrollTop } from '../../utils/ScrollToTopp';
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 
 
 //stay
@@ -35,6 +36,7 @@ const sponsorIcons = ["far", "handshake"]
 const sponsorText = "Read about our sponsors and collaborators. Without you this wouldn't be possible, thank you.";
 const sponsorTo = "/sponsors"
 
+
 const informationLinks = [
     {
         header: aboutUsHeader,
@@ -66,25 +68,42 @@ const informationLinks = [
         text: signUpText,
         to: signUpTo,
         icon: signUpIcon
-    },
-    {
-        header: sponsorHeader,
-        text: sponsorText,
-        to: sponsorTo,
-        icon: sponsorIcons
-    }];
+    },];
 
-export default function Home(props) {
+export default function Home() {
+
+    const [hoverState, setHoverState] = useState(false);
+    const [sponsorIcon, setSponsorItem] = useState(["far", "handshake"]);
+
+    sponsorIcons.join(sponsorIcon);
+    const sponsorItemOnHoverEffectToggle = () => {
+        setHoverState(!hoverState);
+        // setHoverState(!hoverState);
+        hoverState ? setSponsorItem(["far", "handshake"]) : setSponsorItem(faHandshake);
+    }
 
     ScrollTop();
     return (
         <React.Fragment>
-        {/* <HeaderWrap>
+            {/* <HeaderWrap>
         <StyledTextSectionHeader><StyledText>What would you like to know about International Table Tennis Camp?</StyledText> </StyledTextSectionHeader>
         </HeaderWrap> */}
-        <Wrapper>
-       {informationLinks.map( info => <PlanLinkDiv  to={info.to} header={info.header} text={info.text} icon={info.icon}/>)}
-        </Wrapper>       
+            <Wrapper>
+                {informationLinks.map(
+                    info => <PlanLinkDiv
+                        to={info.to}
+                        header={info.header}
+                        text={info.text}
+                        icon={info.icon} />)}
+                <PlanLinkDiv
+                    onMouseEnter={() => sponsorItemOnHoverEffectToggle()}
+                    onMouseLeave={() => sponsorItemOnHoverEffectToggle()}
+                    to={sponsorTo}
+                    header={sponsorHeader}
+                    text={sponsorText}
+                    icon={sponsorIcon}
+                />
+            </Wrapper>
         </React.Fragment>
     )
 }

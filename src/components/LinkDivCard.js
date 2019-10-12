@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function PlanLinkDiv(props) {
     return (
-        <StyledLink to={props.to}>
+        <StyledLink to={props.to} onMouseEnter={props.onMouseEnter} 
+        onMouseLeave={props.onMouseLeave}>
             <Card>
     <StyledTextSectionHeader>
     {props.header} 

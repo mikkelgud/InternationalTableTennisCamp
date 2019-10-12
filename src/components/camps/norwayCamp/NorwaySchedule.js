@@ -37,7 +37,7 @@ export default function Schedule(props) {
                 </StyledText>
                 <br/>
             </StyledText>
-            <StyledH3>Day 1 Monday xx.xx.xxxx -Welcome to Harestua</StyledH3>
+            <StyledH3>Day 1 Tuesday 07.04.2020 -Welcome to Harestua</StyledH3>
             <StyledText>
                 15.00-17.00- Arrival- Instalation and welcome to International Table Tennis Camp Norway. <br/>
                 17.00-18.00 Light food will be served<br/>
@@ -77,23 +77,7 @@ export default function Schedule(props) {
             21.00-21-45-  The games must continue  <br/>      
             22:00- In bed, no phones 22:30 totaly quiet <br/><br/>
             </StyledText>
-            <StyledH3>Day 4 - Let's see what we have learned</StyledH3>
-            <StyledText>
-            07.00- The show must go on, wake up.<br/>    
-            07.20-  Gathering, be ready to go outside.<br/>
-            07.20-08.00 Games and running outside<br/>    
-            08.15-  Breakfast  <br/>
-            08.45- preapare practice (remember fill bottles, towels and equipment. (camera if you want)) <br/>
-            09.15-11.30-   Matches (Tournament)<br/>
-            12.00-    Lunch <br/>
-            15.00-18.00-   Let the tournament continue<br/>
-            18.30-   Dinner (More information will come soon)<br/>
-            19.30-20.30-   Sum up the tournament<br/>  
-            21.00-22.00-  Pack your bags, tommorow it's time to go home and continue the good work!<br/>   
-            22.00-23.20  Let's have some fun! <br/>       
-            23:59  bed time - everything should now be packed<br/><br/>
-            </StyledText>
-            <StyledH3>Day 5 Friday xx.xx.xxxx Thank you for now and good luck! Focus: Repetition</StyledH3>
+            <StyledH3>Day 4 Friday 10.04.2020 Thank you for now and good luck! Focus: Repetition</StyledH3>
             <StyledText>
                 07.30- Wake up<br/>  
                 07.45- Let's get outside for some fresh air again<br/>  
