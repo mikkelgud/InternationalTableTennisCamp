@@ -62,8 +62,9 @@ export default function Stay() {
             <PlanLinkDiv to="/stay/Taiwan/schedule" text={scheduleText} header={scheduleHeader} />
             <PlanLinkDiv to="/stay/rules" text={rulesText} header={rulesHeader} />
             <PlanLinkDiv to="/stay/Taiwan/social" text={SocialText} header={SocialHeader} />
-            <PlanLinkDiv to="/stay/Taiwan/facilities" text={facilitiesText} header={facilitiesHeader} />
+            <PlanLinkDiv header="Travel" to="/stay/Taiwan/travel" text={"Read about how we plan our travel to Taiwan, how we will order tickets and when we will order tickets."} icon="route" />
             <PlanLinkDiv to="/stay/Taiwan/prices" text={priceText} header={pricesHeader} />
+            <PlanLinkDiv to="/stay/Taiwan/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Taiwan/pack-my-bag-please" text={packText} header={packHeader} />
         </Wrapper>
         </React.Fragment>

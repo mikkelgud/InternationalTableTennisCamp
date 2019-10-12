@@ -3,11 +3,7 @@ import PlanLinkDiv from '../LinkDivCard';
 import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
 import { ScrollTop } from '../../utils/ScrollToTopp';
 
-//travels
-const travelHeader = "Route";
-const travelIcon = "route";
-const travelText = "Read about your travel to Norway, China and Poland. Everything from the beginning to the end!";
-const travelTo= "/travels";
+
 //stay
 const stayHeader = "Camps ";
 const stayText = "Read about our stay in Norway, China and Poland. Everything about where we will stay, how we will stay and the day to day life on the camps.";
@@ -17,7 +13,7 @@ const stayIcon = "home";
 const safteyHeader = "Safety ";
 const safteyIcon = "user-shield";
 const safteyText = "Read about how we will keep you safe during the travel, stay and return. Here you can also get information about what we need from you, to make the camp safe."
-const safteyTo= "/safety";
+const safteyTo = "/safety";
 //leaders
 const leadersHeader = "Leaders ";
 const leadersIcon = "users";
@@ -33,9 +29,13 @@ const signUpHeader = "Sign Up ";
 const signUpIcon = "door-open"
 const signUpText = "Read about how to sign up. We are looking forward to have you with us on our camp."
 const signUpTo = "/Signup";
+//Ung cancer
+const sponsorHeader = "Sponsors ";
+const sponsorIcons = ["far", "handshake"]
+const sponsorText = "Read about our sponsors and collaborators. Without you this wouldn't be possible, thank you.";
+const sponsorTo = "/sponsors"
 
-
- const informationLinks= [
+const informationLinks = [
     {
         header: aboutUsHeader,
         text: aboutUsText,
@@ -54,27 +54,25 @@ const signUpTo = "/Signup";
         to: leadersTo,
         icon: leadersIcon
     },
+
     {
-    header: travelHeader,
-    text: travelText,
-    to: travelTo,
-    icon: travelIcon
-},
- {
-    header: safteyHeader,
-    text: safteyText,
-    to: safteyTo,
-    icon: safteyIcon
-},   {
-    header: signUpHeader,
-    text: signUpText,
-    to: signUpTo,
-    icon: signUpIcon
-}
-];
-
-
-
+        header: safteyHeader,
+        text: safteyText,
+        to: safteyTo,
+        icon: safteyIcon
+    },
+    {
+        header: signUpHeader,
+        text: signUpText,
+        to: signUpTo,
+        icon: signUpIcon
+    },
+    {
+        header: sponsorHeader,
+        text: sponsorText,
+        to: sponsorTo,
+        icon: sponsorIcons
+    }];
 
 export default function Home(props) {
 

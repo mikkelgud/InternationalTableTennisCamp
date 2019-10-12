@@ -14,7 +14,11 @@ export default function TaiwanTravel() {
                 Just get on the plane and you will be fine :)
             </StyledText>
               <br/> 
-            <StyledATagLink href="mailto: contactus@ittcamp.com"> If you have any questions according to the Taiwan traveling process , don´t hesitate to contact us at contactus@ittcamp.com. </StyledATagLink> 
+            <StyledATagLink 
+            href="mailto: contactus@ittcamp.com"> 
+            If you have any questions according to the Taiwan traveling process 
+            , don´t hesitate to contact us at contactus@ittcamp.com.
+             </StyledATagLink> 
         </StyledTextBoxDiv>
     )
 }

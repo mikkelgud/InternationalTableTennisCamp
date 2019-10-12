@@ -5,7 +5,6 @@ import { Switch, Route } from 'react-router-dom';
 import Leaders from './components/generalnfoPages/Leaders';
 import AboutUs from './components/generalnfoPages/AboutUs';
 import Home from './components/generalnfoPages/Home';
-import Travels from './components/Travels';
 import Stays from './components/Stays';
 import SignUp from './components/generalnfoPages/SignUp';
 import PolandTravel from './components/camps/polandCamp/PolandTravel';
@@ -58,11 +57,10 @@ function App() {
         <Route path="/leaders/Oscar-Perman" exact component={Oscar}/>
 
         {/* Travels */}
-        <Route path="/travels" exact component={Travels}/>
-        <Route path="/travels/Poland" exact component={PolandTravel}/>
-        <Route path="/travels/China" exact component={ChinaTravel}/>
-        <Route path="/travels/Norway" exact component={NorwayTravel}/>
-        <Route path="/travels/Taiwan" exact component={TaiwanTravel}/>
+        <Route path="/stay/Poland/travel" exact component={PolandTravel}/>
+        <Route path="/stay/China/travel" exact component={ChinaTravel}/>
+        <Route path="/stay/Norway/travel" exact component={NorwayTravel}/>
+        <Route path="/stay/Taiwan/travel" exact component={TaiwanTravel}/>
       
 
         {/* camps */}

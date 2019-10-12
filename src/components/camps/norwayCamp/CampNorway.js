@@ -22,25 +22,33 @@ const facilitiesEmoji = "🛏";
 const packEmoji = "🎒";
 const pricesEmoji = "⚖️";
 
+//Travel
+const travelText = "Read about your travel possibilities to Harestua, camp Norway.";
+const travelIcon = "route";
 
-
+//Shcedule
 const scheduleHeader = "Schedule " + scheduleEmoji;
 const scheduleText = "Read about how our days will be in Harestua. Practice, bedtimes, food etc.";
 
+//Rules
 const rulesHeader = "Rules " + rulesEmoji;
 const rulesText = "Read about our rules and consequences. This is a must read page, so please learn the rules before attending the camps.";
 
+// Social
 const SocialHeader = "Social " + socialEmoji;
 const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
 
+//Facilities
 const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
 const facilitiesText = "Read about the facilities at the Harestua camp. Read about where we will sleep and where we will stay.";
 
+//Prices
 const pricesHeader = "Prices " + pricesEmoji;
 const priceText = "Read about the price of the Camp on Harestua, and what's included in the price.";
 
+//Pack my bag
 const packHeader = "Pack my Bag " + packEmoji;
-const packText = "Read about what you should to remember for camp norway.";
+const packText = "Read about what you should remember for camp norway.";
 
 // const safteyHeader = "Safety ";
 // const safteyIcon = "user-shield";
@@ -63,8 +71,9 @@ export default function Stay() {
             <PlanLinkDiv to="/stay/Norway/schedule" text={scheduleText} header={scheduleHeader} />
             <PlanLinkDiv to="/stay/rules" text={rulesText} header={rulesHeader} />
             <PlanLinkDiv to="/stay/Norway/social" text={SocialText} header={SocialHeader} />
-            <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
+            <PlanLinkDiv to="/stay/Norway/travel" text={travelText} icon={travelIcon} header={"The Travel"} />
             <PlanLinkDiv to="/stay/Norway/prices" text={priceText} header={pricesHeader} />
+            <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Norway/pack-my-bag-please" text={packText} header={packHeader} />
         </Wrapper>
         </React.Fragment>

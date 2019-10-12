@@ -41,6 +41,7 @@ export default function Stay(props) {
                 </StyledTextSectionHeader>
             </HeaderWrap>
                     <Wrapper>
+            <PlanLinkDiv to="/stay/China/travel" text={"Read about how we plan our travel to Taiwan"} />
             <PlanLinkDiv to="/stay/China/shedule" text={scheduleText} header={scheduleHeader} />
             <PlanLinkDiv to="/stay/China/rules" text={rulesText} header={rulesHeader} />
             <PlanLinkDiv to="/stay/China/social" text={SocialText} header={SocialHeader} />
