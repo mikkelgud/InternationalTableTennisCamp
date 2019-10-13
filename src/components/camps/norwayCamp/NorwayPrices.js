@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import { StyledText } from "../../../styleguides/StyledText";
 import { ScrollTop } from "../../../utils/ScrollToTopp";
 import { StyledTextSectionHeader } from "../../../styleguides/StyledSectionHeader";
@@ -6,20 +7,19 @@ import StyledTextBoxDiv from '../../../styleguides/StyledTextBoxDiv';
 import { StyledH3 } from "../../../styleguides/Styledh3";
 import { StyledATagLink } from "../../../styleguides/StyledATagLink";
 
+const StyledList = styled.li`
+list-style-type: square;
+`;
 
 export default function Expences(props) {
   ScrollTop();
+
+
   return (
       <StyledTextBoxDiv>
       <StyledTextSectionHeader>Camp Norway Expenses</StyledTextSectionHeader>
-      <StyledH3>Prices</StyledH3>
-      <StyledText>
-          <ul>
-          <li>Whole camp (3 days): 00 NOK (Or 00 euro). </li>
-          </ul>
-      </StyledText>
       <br/>
-      <StyledH3>This includes</StyledH3>
+      <StyledH3>Includes</StyledH3>
       <StyledText>
       <ul>
     <li> 3 days camp with high quality traning.</li>
@@ -35,14 +35,18 @@ export default function Expences(props) {
           <li>Camp T-shirt.</li>
       </ul>
       </StyledText>
+      <StyledH3>Prices</StyledH3>
+      <StyledText>
+          <ul>
+          <StyledList>Whole camp of 4 days:<br/>--> 1 300 Norewegian krones </StyledList>
+          </ul>
+      </StyledText>
       <br/>
       <StyledH3>Payment</StyledH3>
       <StyledText>
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          Then, if there is over 32 participants, we will choose out 32 people according to our impression from the sign up forms.
-          And if unfortunately there is under 16 participants that sign up for the camp, the camp will be canceled.
-          This will be decided on Monday 23.09 19:00, one week before the camp begins. 
-          And everyone will get an email about the decition. <br/>
+          Then, if there is over 32 participants, we will select 32 players according to our impression from the sign up forms.
+           <br/>
           Payment will be done after you get the confirmation. 
           In this email you will also get all the information you need about how to make the payment.
           The payment should happen before the camp starts or at the first camp day.

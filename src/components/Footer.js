@@ -28,8 +28,8 @@ display: grid;
 grid-gap: 5rem;
 align-items: center;
 justify-content: center;
-position: absoulte;
 grid-template-columns: auto auto auto auto auto auto;
+position: absoulte;
 margin: 1.3rem;
 
 @media (max-width: 827px){
@@ -42,9 +42,11 @@ grid-gap: 7rem;
 
 const StyledIcon = styled.h1`
 margin: 0;
-font-size: 2.2rem;
+font-size: 1.8rem;
+position: absoulte;
+
 &:hover{
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin: -0.5rem;
 }
 `;
