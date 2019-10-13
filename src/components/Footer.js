@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
+
 const LocalWrapper = styled.div`
 display: flex;
 align-items: space-between;
@@ -24,88 +25,71 @@ margin-top: 20px;
 
 const Wrapper = styled.div`
 display: grid;
-grid-gap: 2rem;
+grid-gap: 5rem;
+align-items: center;
+justify-content: center;
 position: absoulte;
+grid-template-columns: auto auto auto auto auto auto;
+margin: 1.3rem;
 
-@media (min-width: 1129px){
-    grid-template-columns: auto auto auto auto auto auto auto;
-    margin: 2rem 2rem 2rem 4rem;
-}
-@media (max-width: 1129px){
-    grid-template-columns: auto auto auto auto auto;
-    margin: 2rem 2rem 2rem 5.5rem;
-}
-@media (max-width: 927px){
-    grid-template-columns: auto auto auto auto;
-margin: 2rem 2rem 2rem 2.5rem;
-}
-@media (max-width: 627px){
+@media (max-width: 827px){
     grid-template-columns: auto auto;
-margin: 2rem 2rem 2rem 1rem;
+grid-gap: 7rem;
+    
 }
-
-@media (max-width: 510px){
-    grid-template-columns: auto;
-}
-`;
-
-const StyledTextLocal = styled.p`
-font-family: 'Oswald', sans-serif;
 
 `;
 
 const StyledIcon = styled.h1`
 margin: 0;
+font-size: 2.2rem;
+&:hover{
+    font-size: 3rem;
+    margin: -0.5rem;
+}
 `;
 
 
 
 
 function Footer(props) {
+
     return (
         <LocalWrapper>
             <FooterStyleDivWrapper>
                 <Wrapper>
                     <div>
-                        <StyledTextLocal>
+                        <StyledIcon>
                             <StyledATagLink
                                 onClick={() => { props.history.push("/aboutus"); }}>
-                                About us
+                                <FontAwesomeIcon icon="users-cog"/>
                             </StyledATagLink>
-                        </StyledTextLocal>
+                        </StyledIcon>
                     </div>
                     <div>
-                        <StyledTextLocal>
+                        <StyledIcon>
                             <StyledATagLink
                                 onClick={() => { props.history.push("/leaders"); }}>
-                                ITTC-team
+                                <FontAwesomeIcon icon="users"/>
                                  </StyledATagLink>
-                        </StyledTextLocal>
+                        </StyledIcon>
                     </div>
                     <div>
-                        <StyledTextLocal>
+                        <StyledIcon>
                             <StyledATagLink
                                 href="mailto: join@ittcamp.com"
                                 onClick={() => { props.history.push("/signup") }} >
-                                Join camp
+                                <FontAwesomeIcon  icon="door-open"/>
                                 </StyledATagLink>
-                        </StyledTextLocal>
+                        </StyledIcon>
                     </div>
                     <div>
-                        <StyledTextLocal>
+                        < StyledIcon>
                             <StyledATagLink
                                 href="mailto: contactus@ittcamp.com" >
-                                Questions?
+                                <FontAwesomeIcon icon={["far","comments"]}/>
                                 </StyledATagLink>
-                        </StyledTextLocal>
-                    </div>
-                    <div>
-                        <StyledTextLocal>
-                            <StyledATagLink
-                                href="mailto: mikkel_gudmundsen@hotmail.com">
-                                Developer<span role="img" aria-label="mail">📩</span>
-                            </StyledATagLink>
-                        </StyledTextLocal>
+                        </ StyledIcon>
                     </div>
                     <div>
                         <StyledIcon>

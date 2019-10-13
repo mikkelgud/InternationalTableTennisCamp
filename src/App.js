@@ -32,10 +32,19 @@ import CampTaiwan from './components/camps/taiwanCamp/CampTaiwan';
 import TaiwanSchedule from './components/camps/taiwanCamp/TaiwanSchedule';
 import TaiwanTravel from './components/camps/taiwanCamp/TaiwanTravel';
 import TaiwanSocial from './components/camps/taiwanCamp/TaiwanSocial';
+import styled from  'styled-components';
+
+
+const Container = styled.div`
+background-color: #ffffff;
+
+
+`;
 
 function App() {
   return (
     <div className="App">
+      <Container>
       <Navbar/>
       <Switch>
         <Route path="/" exact component={Home} />
@@ -91,6 +100,7 @@ function App() {
        
       </Switch>
       <Footer/>
+      </Container>
     </div>
   );
 }
