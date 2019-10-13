@@ -27,60 +27,81 @@ const aboutUsText = "Read about ITTC, our goals and motivation for holding the c
 const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
-const signUpIcon = "door-open"
 const signUpText = "Read about how to sign up. We are looking forward to have you with us on our camp."
 const signUpTo = "/Signup";
 //Ung cancer
 const sponsorHeader = "Sponsors ";
-const sponsorIcons = ["far", "handshake"]
 const sponsorText = "Read about our sponsors and collaborators. Without you this wouldn't be possible, thank you.";
 const sponsorTo = "/sponsors"
 
 
-const informationLinks = [
-    {
-        header: aboutUsHeader,
-        text: aboutUsText,
-        to: aboutUsTo,
-        icon: aboutUsIcon
-    },
-    {
-        header: stayHeader,
-        text: stayText,
-        to: stayTo,
-        icon: stayIcon
-    },
-    {
-        header: leadersHeader,
-        text: leadersText,
-        to: leadersTo,
-        icon: leadersIcon
-    },
 
-    {
-        header: safteyHeader,
-        text: safteyText,
-        to: safteyTo,
-        icon: safteyIcon
-    },
-    {
-        header: signUpHeader,
-        text: signUpText,
-        to: signUpTo,
-        icon: signUpIcon
-    },];
 
 export default function Home() {
 
     const [hoverState, setHoverState] = useState(false);
+    const [hoverStateSignUp, setHoverStateSignUp] = useState(false);
     const [sponsorIcon, setSponsorItem] = useState(["far", "handshake"]);
+    const [signUpIconState, setSignUpIconState] = useState("door-closed");
 
-    sponsorIcons.join(sponsorIcon);
     const sponsorItemOnHoverEffectToggle = () => {
         setHoverState(!hoverState);
         // setHoverState(!hoverState);
         hoverState ? setSponsorItem(["far", "handshake"]) : setSponsorItem(faHandshake);
     }
+
+    const signUpItemOnHoverEffectToggle = () => {
+        setHoverStateSignUp(!hoverStateSignUp);
+        // setHoverState(!hoverState);
+        hoverStateSignUp ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
+    }
+
+    const informationLinks = [
+        {
+            key: 1,
+            header: aboutUsHeader,
+            text: aboutUsText,
+            to: aboutUsTo,
+            icon: aboutUsIcon
+        },
+        {
+            key: 2,
+            header: stayHeader,
+            text: stayText,
+            to: stayTo,
+            icon: stayIcon
+        },
+        {
+            key: 3,
+            header: leadersHeader,
+            text: leadersText,
+            to: leadersTo,
+            icon: leadersIcon
+        },
+    
+        {
+            key: 4,
+            header: safteyHeader,
+            text: safteyText,
+            to: safteyTo,
+            icon: safteyIcon
+        },
+        {
+            key: 5,
+            header: signUpHeader,
+            text: signUpText,
+            to: signUpTo,
+            icon: signUpIconState
+        },
+        {
+            key: 6,
+            header: sponsorHeader,
+            text: sponsorText,
+            to: sponsorTo,
+            icon: sponsorIcon
+        }
+    
+    ];
 
     ScrollTop();
     return (
@@ -91,18 +112,12 @@ export default function Home() {
             <Wrapper>
                 {informationLinks.map(
                     info => <PlanLinkDiv
+                onMouseEnter={() => info.key===6 ? sponsorItemOnHoverEffectToggle(): info.key ===5 ? signUpItemOnHoverEffectToggle(): null}
+                    onMouseLeave={() => info.key===6 ? sponsorItemOnHoverEffectToggle(): info.key ===5 ? signUpItemOnHoverEffectToggle(): null}
                         to={info.to}
                         header={info.header}
                         text={info.text}
                         icon={info.icon} />)}
-                <PlanLinkDiv
-                    onMouseEnter={() => sponsorItemOnHoverEffectToggle()}
-                    onMouseLeave={() => sponsorItemOnHoverEffectToggle()}
-                    to={sponsorTo}
-                    header={sponsorHeader}
-                    text={sponsorText}
-                    icon={sponsorIcon}
-                />
             </Wrapper>
         </React.Fragment>
     )

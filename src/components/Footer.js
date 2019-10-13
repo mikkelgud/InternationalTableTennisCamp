@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { withRouter } from "react-router-dom";
@@ -55,6 +55,16 @@ position: absoulte;
 
 
 function Footer(props) {
+    const [hoverState, setHoverState] = useState(false);
+    const [signUpIconState, setSignUpIconState] = useState("door-closed");
+
+
+
+    const signUpItemOnHoverEffectToggle = () => {
+        setHoverState(!hoverState);
+        // setHoverState(!hoverState);
+        hoverState ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
+    }
 
     return (
         <LocalWrapper>
@@ -79,9 +89,11 @@ function Footer(props) {
                     <div>
                         <StyledIcon>
                             <StyledATagLink
-                                href="mailto: join@ittcamp.com"
+                            onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
+                            onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
+                            href="mailto: join@ittcamp.com"
                                 onClick={() => { props.history.push("/signup") }} >
-                                <FontAwesomeIcon  icon="door-open"/>
+                                <FontAwesomeIcon  icon={signUpIconState}/>
                                 </StyledATagLink>
                         </StyledIcon>
                     </div>
