@@ -63,8 +63,8 @@ export default function MikkelGudmundsen() {
           <li>Thechnical responsible</li>
         </ul>
         <br />
-        And BTW; He made this webPage, and would like to hear if there is any improvements that will make this page a better experience,
-        <StyledATagLink href="mailto: contactus@ittcamp.com"> if so: Click me!</StyledATagLink>
+        And BTW: He made this webPage and would like to hear if there is any improvements that would make this page a even better user experience.
+        <StyledATagLink href="mailto: mikkel_gudmundsen@hotmail.com"> if so: Click me!</StyledATagLink>
       </StyledText>
     </StyledTextBoxDiv>
   )

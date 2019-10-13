@@ -6,11 +6,11 @@ import { withRouter } from "react-router-dom";
 
 const EmojiTextStyleHover = styled.p`
   transition: all 0.1s ease-in-out;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin: 0;
   padding: 0;
   &:hover {
-    font-size: 1.8rem;
+    border-bottom: 1px solid black;
   }
 `;
 
