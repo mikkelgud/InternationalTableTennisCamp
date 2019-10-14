@@ -21,8 +21,8 @@ const NavBarWrapper = styled.div`
   justify-content: space-between;
   background-color: #e4edffd6;
   padding: 1.82345324234rem;
-  border-radius: 0 0 0 42px;
-  border-bottom: 0.5px solid #0a1c983b;
+  // border-radius: 0 0 0 42px;
+  // border-bottom: 0.5px solid #0a1c983b;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;

@@ -93,11 +93,12 @@ export default function AboutUs(props) {
         </StyledText>
         <br />
         <br />
-        <StyledH3>We Support Young Cancer</StyledH3>
+        <StyledH3>Our Supportage of Young Cancer</StyledH3>
         <StyledText>
           10% of all our surprise will be donated to Young cancer foundation. <br/>
-          We choose to donate ten percent of our surprise to young cancer
-          because our good friend David got cancer at the age of 18.
+          We choose to donate to young cancer
+          because our good friend David got cancer at the age of 18,
+          and we have seen the impact a small contribution can make.
           We hope our humble donations will be helpful to your work.
         </StyledText>
         <br/>

@@ -32,6 +32,9 @@ import CampTaiwan from './components/camps/taiwanCamp/CampTaiwan';
 import TaiwanSchedule from './components/camps/taiwanCamp/TaiwanSchedule';
 import TaiwanTravel from './components/camps/taiwanCamp/TaiwanTravel';
 import TaiwanSocial from './components/camps/taiwanCamp/TaiwanSocial';
+import TaiwanPrices from './components/camps/taiwanCamp/TaiwanPrices';
+import TaiwanPackMyBags from './components/camps/taiwanCamp/TaiwanPackMyBags';
+import TaiwanFacilities from './components/camps/taiwanCamp/TaiwanFacilities';
 import styled from  'styled-components';
 
 
@@ -79,6 +82,10 @@ function App() {
         <Route path="/stay/Taiwan" exact component={CampTaiwan} />
         <Route path="/stay/Taiwan/schedule" exact component={TaiwanSchedule} />
         <Route path="/stay/Taiwan/social" exact component={TaiwanSocial} />
+        <Route path="/stay/Taiwan/facilities" exact component={TaiwanFacilities} />
+        <Route path="/stay/Taiwan/pack-my-bag-please" exact component={TaiwanPackMyBags} />
+        <Route path="/stay/Taiwan/prices" exact component={TaiwanPrices} />
+        
 
          {/* camp Norway */}
          <Route path="/stay/Norway" exact component={CampNorway}/>

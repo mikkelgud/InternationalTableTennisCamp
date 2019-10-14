@@ -21,6 +21,10 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 width: 80%;
 margin: 2rem 0;
+
+@media (max-width: 432px){
+    width: 100%;
+  }
 `;
 
 const StyledIcon = styled.a`
@@ -46,7 +50,11 @@ border-bottom-size: 10%;
 `;
 
 const StyledFooterItemDivContainer = styled.div`
+display: flex;
 width: auto;
+@media (max-width: 432px){
+    width: 10%;
+  }
 `;
 
 
@@ -68,7 +76,6 @@ function Footer(props) {
         <React.Fragment>
             <FooterStyleDivWrapper>
         <TopBorderLine/>
-
                 <Wrapper>
                     <StyledFooterItemDivContainer>
                         <StyledIcon

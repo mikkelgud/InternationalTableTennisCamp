@@ -66,12 +66,6 @@ const persons = [
         willJoin: "ITTC: Norway, Poland, China, Taiwan"
     },
     {
-        name: "Surprise Coach",
-        picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVj8zPyEposVdg6l-GD31wzdsmWyxngHz8ubKkujCLviSKAv3W",
-        text: "More information coming soon",
-        willJoin: ""
-    },
-    {
         name: "Mikkel  Gudmundsen",
         // age: "21 år",
         picture: Mikkel,
@@ -87,6 +81,19 @@ const persons = [
         to: "leaders/Hilding-Persson",
         willJoin: "ITTC: Norway, Poland, China"
     },
+    {
+        name: "Surprise Coach",
+        picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVj8zPyEposVdg6l-GD31wzdsmWyxngHz8ubKkujCLviSKAv3W",
+        text: "More information coming soon",
+        willJoin: ""
+    },
+    {
+        name: "Surprise Coach 2",
+        picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVj8zPyEposVdg6l-GD31wzdsmWyxngHz8ubKkujCLviSKAv3W",
+        text: "More information coming soon",
+        willJoin: ""
+    },
+   
    
 ]
 
