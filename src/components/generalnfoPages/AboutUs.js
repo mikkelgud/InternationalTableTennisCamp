@@ -93,27 +93,29 @@ export default function AboutUs(props) {
         </StyledText>
         <br />
         <br />
-        <StyledH3>Young cancer</StyledH3>
+        <StyledH3>We Support Young Cancer</StyledH3>
         <StyledText>
-          10% of all our surprise will be donated to Young cancer foundation. 
-          We hope our small donations will be 
+          10% of all our surprise will be donated to Young cancer foundation. <br/>
+          We choose to donate ten percent of our surprise to young cancer
+          because our good friend David got cancer at the age of 18.
+          We hope our humble donations will be helpful to your work.
         </StyledText>
         <br/>
         <br/>
-        <StyledSTextSectionHeader>Our first camp</StyledSTextSectionHeader>
+        <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader>
         <br />
         <StyledH3>Camp Norway</StyledH3>
         <StyledText>
           ITTC invite you to join ITTCamp- Norway.
           The camp will be arranged in a small place called Harestua.
-          Unfortunately we wanna start small and will therefore have a:
+           We wanna start small and will therefore have a:
           </StyledText>
         <StyledH3>
           <ol>
             <br />
             <li>Maximum of 32 participants</li>
             <br />
-            <li>Sign uo deadline: 01.04.2020 <br /> </li>
+            <li>Sign up deadline: 15.03.2020 <br /> </li>
           </ol>
           <br />
 
@@ -124,6 +126,47 @@ export default function AboutUs(props) {
           Therefore the Registration/sign up for the camp will be done by filling in this
           <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to
            <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>
+        </StyledText>
+        <br />
+        <br />
+        <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
+        <br />
+        <StyledH3>Camp Taiwan</StyledH3>
+        <StyledText>
+          ITTC invite you to join ITTCamp- Taiwan.
+          The camp will be arranged in a huge town called Tao Yuan.
+          We are looking forward to show you one of the greatest table tennis
+          facilities, and show you the country and culture in Taiwan.
+          Taiwan is also very convenient because we don't need visa,
+          Which make the traveling process a lot easier than for instance China.
+          We would also like to welcome parents and coaches for this camp.
+          We will do our best to make this an experience that every participant, parent and coach can look back on
+          as an outstanding camp where they learned, developed and made good memorable moments for life.
+          The camp will be divided into two camps to ensure the best quality for all players in all levels.
+          </StyledText>
+        <StyledH3>
+          <ul>
+            <br />
+            <li> 2 weeks long camp for everyone who wants to join as long as there is available space.
+               This will be decide by the firs come, first served principle.
+               </li>
+            <br />
+            <li> 3 weeks long camp for players whith ambitions, motivation and high goals in table tennis.
+              Here the application form will decide.           
+              </li> 
+              <br />
+          <li>
+            Deadline: 24.04.2020. 
+          </li>
+          </ul>
+          <br />
+        </StyledH3>
+        <StyledText>
+          </StyledText>
+        <StyledText>
+          Eventhough the first camp is for everyone, we would like you to fill in the application form for both camps.
+          So join the camp by filling in this <StyledATagLinkLocal href={ApplicationForm}> sign up form </StyledATagLinkLocal>, and send it to
+          and send it to <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>.
         </StyledText>
         <br />
         <br />

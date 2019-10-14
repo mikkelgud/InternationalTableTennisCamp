@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
-import { StyledATagLink } from '../styleguides/StyledATagLink';
 import { withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -14,41 +13,35 @@ justify-content: center;
 `;
 
 const FooterStyleDivWrapper = styled.footer`
-align-items: space-between;
-justify-content: center;
+align-items: center;
+justify-content: space-between;
 position: relative;
-padding: 8px 40px;
+padding: 1rem;
 width: 80%;
 border-top: 1px solid #e1e4e8;
-margin-top: 20px;
+margin: 3rem 0;
 `;
 
 const Wrapper = styled.div`
-display: grid;
-grid-gap: 5rem;
+
+display: flex;
 align-items: center;
-justify-content: center;
-grid-template-columns: auto auto auto auto auto auto;
-position: absoulte;
-margin: 1.3rem;
-
-@media (max-width: 827px){
-    grid-template-columns: auto auto;
-grid-gap: 7rem;
-    
-}
-
+justify-content: space-between;
+flex-wrap: wrap;
+width: 80%;
+margin: 1rem;
 `;
 
-const StyledIcon = styled.h1`
-margin: 0;
-font-size: 1.8rem;
-position: absoulte;
-
-&:hover{
-    font-size: 2.6rem;
-    margin: -0.5rem;
-}
+const StyledIcon = styled.a`
+text-decoration: none;
+  color:  black;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  &:hover{
+    color: #283ca6;
+    font-size: 2.2rem;;
+  }
 `;
 
 
@@ -71,57 +64,45 @@ function Footer(props) {
             <FooterStyleDivWrapper>
                 <Wrapper>
                     <div>
-                        <StyledIcon>
-                            <StyledATagLink
+                        <StyledIcon
                                 onClick={() => { props.history.push("/aboutus"); }}>
                                 <FontAwesomeIcon icon="users-cog"/>
-                            </StyledATagLink>
                         </StyledIcon>
                     </div>
                     <div>
-                        <StyledIcon>
-                            <StyledATagLink
+                        <StyledIcon
                                 onClick={() => { props.history.push("/leaders"); }}>
                                 <FontAwesomeIcon icon="users"/>
-                                 </StyledATagLink>
                         </StyledIcon>
                     </div>
                     <div>
-                        <StyledIcon>
-                            <StyledATagLink
+                        <StyledIcon
                             onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
                             onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
                             href="mailto: join@ittcamp.com"
                                 onClick={() => { props.history.push("/signup") }} >
                                 <FontAwesomeIcon  icon={signUpIconState}/>
-                                </StyledATagLink>
                         </StyledIcon>
                     </div>
                     <div>
-                        < StyledIcon>
-                            <StyledATagLink
+                        < StyledIcon
                                 href="mailto: contactus@ittcamp.com" >
                                 <FontAwesomeIcon icon={["far","comments"]}/>
-                                </StyledATagLink>
                         </ StyledIcon>
                     </div>
                     <div>
-                        <StyledIcon>
-                            <StyledATagLink
+                        <StyledIcon
                                 target="blank"
                                 onClick={() => alert("Our facebook account is yet under development. Thank you for your interest :)")}>
-                                <FontAwesomeIcon icon={["fab", "facebook"]} />
-                            </StyledATagLink>
+                                <FontAwesomeIcon alt="facebook" icon={["fab", "facebook"]} />
                         </StyledIcon>
                     </div>
-                    <div>
-                        <StyledATagLink
+                    <div> 
+                        <StyledIcon
                             target="blank"
                             href="https://www.instagram.com/ittcamp">
-                            <StyledIcon>
                                 <FontAwesomeIcon icon={["fab", "instagram"]} />
-                            </StyledIcon>
-                        </StyledATagLink>
+                        </StyledIcon>
                     </div>
                 </Wrapper>
             </FooterStyleDivWrapper>
