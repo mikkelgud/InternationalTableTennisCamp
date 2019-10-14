@@ -5,31 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
-
-const LocalWrapper = styled.div`
-display: flex;
-align-items: space-between;
-justify-content: center;
-`;
-
 const FooterStyleDivWrapper = styled.footer`
+display: flex;
 align-items: center;
-justify-content: space-between;
-position: relative;
-padding: 1rem;
-width: 80%;
-border-top: 1px solid #e1e4e8;
-margin: 3rem 0;
+justify-content: center;
+
+flex-wrap: wrap;
+width: 100vw;
+margin: 2rem 0;
 `;
 
 const Wrapper = styled.div`
-
 display: flex;
-align-items: center;
-justify-content: space-between;
+justify-content: space-evenly;
 flex-wrap: wrap;
 width: 80%;
-margin: 1rem;
+margin: 2rem 0;
 `;
 
 const StyledIcon = styled.a`
@@ -42,6 +33,20 @@ text-decoration: none;
     color: #283ca6;
     font-size: 2.2rem;;
   }
+`;
+
+const TopBorderLine = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 80%;
+border-bottom: 1px solid #e1e4e8;
+border-bottom-size: 10%;
+`;
+
+const StyledFooterItemDivContainer = styled.div`
+width: auto;
 `;
 
 
@@ -60,22 +65,24 @@ function Footer(props) {
     }
 
     return (
-        <LocalWrapper>
+        <React.Fragment>
             <FooterStyleDivWrapper>
+        <TopBorderLine/>
+
                 <Wrapper>
-                    <div>
+                    <StyledFooterItemDivContainer>
                         <StyledIcon
                                 onClick={() => { props.history.push("/aboutus"); }}>
                                 <FontAwesomeIcon icon="users-cog"/>
                         </StyledIcon>
-                    </div>
-                    <div>
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer>
                         <StyledIcon
                                 onClick={() => { props.history.push("/leaders"); }}>
                                 <FontAwesomeIcon icon="users"/>
                         </StyledIcon>
-                    </div>
-                    <div>
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer>
                         <StyledIcon
                             onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
                             onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
@@ -83,30 +90,30 @@ function Footer(props) {
                                 onClick={() => { props.history.push("/signup") }} >
                                 <FontAwesomeIcon  icon={signUpIconState}/>
                         </StyledIcon>
-                    </div>
-                    <div>
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer>
                         < StyledIcon
                                 href="mailto: contactus@ittcamp.com" >
                                 <FontAwesomeIcon icon={["far","comments"]}/>
                         </ StyledIcon>
-                    </div>
-                    <div>
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer>
                         <StyledIcon
                                 target="blank"
                                 onClick={() => alert("Our facebook account is yet under development. Thank you for your interest :)")}>
                                 <FontAwesomeIcon alt="facebook" icon={["fab", "facebook"]} />
                         </StyledIcon>
-                    </div>
-                    <div> 
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer> 
                         <StyledIcon
                             target="blank"
                             href="https://www.instagram.com/ittcamp">
                                 <FontAwesomeIcon icon={["fab", "instagram"]} />
                         </StyledIcon>
-                    </div>
+                    </StyledFooterItemDivContainer>
                 </Wrapper>
             </FooterStyleDivWrapper>
-        </LocalWrapper>
+            </React.Fragment>
     );
 }
 export default withRouter(Footer);
