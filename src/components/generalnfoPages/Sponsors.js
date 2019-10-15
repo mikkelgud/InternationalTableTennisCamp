@@ -4,9 +4,24 @@ import StyledTextBoxDiv  from '../../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../../styleguides/StyledText';
 import { StyledATagLink } from '../../styleguides/StyledATagLink';
 import { StyledImage } from '../../styleguides/StyledImage';
+import classiccatering from '../../Assets/classic.png';
+import ttex from '../../Assets/ttex.png';
+import styled from 'styled-components';
+
+const LocalWrapper = styled.div`
+display: flex;
+justify-content: space-evenly;
+margin-top: 2rem;
+`;
+const LocalContainer = styled.div`
+display: flex;
+justify-content: space-evenly;
+width: 33%;
+`;
 
 
 const Sponsors = () =>{
+const Harestua = "https://scontent.fosl3-2.fna.fbcdn.net/v/t1.0-9/14332997_328338614181135_165321474244639133_n.jpg?_nc_cat=103&_nc_oc=AQnFyx5OWGfG9waVwGOB6-61_KcFFGD-zwPgMzgh8lDndWU78Zi3cP2Fj25DBi75HuM&_nc_ht=scontent.fosl3-2.fna&oh=e4a5af849f32723f59b905da1cf927e3&oe=5E132AE3";
     return(
        <StyledTextBoxDiv>
     <StyledTextSectionHeader>Our Sponsors</StyledTextSectionHeader>
@@ -14,15 +29,15 @@ const Sponsors = () =>{
         We are proud that these companies have faith in our camp and we would officaly
         thank all of them. This wouldn't be possible without you.
     </StyledText>
-    <StyledImage>
-<StyledATagLink href="http://www.classiccatering.no" target="blank">Classic catering</StyledATagLink><br />
-</StyledImage>
-    <StyledImage>
-            <StyledATagLink href="https://www.harestua.info/harestua-il/bordtennis.html" target="blank">Harestua IL</StyledATagLink><br />
-            </StyledImage>
-    <StyledImage>
-            <StyledATagLink href="https://www.ttex.no" target="blank">TTEX oslo</StyledATagLink>
-            </StyledImage>
+    <LocalWrapper>
+    <LocalContainer>
+<StyledATagLink href="http://www.classiccatering.no" target="blank"><StyledImage src={classiccatering}/></StyledATagLink><br />
+</LocalContainer> <LocalContainer>
+            <StyledATagLink href="https://www.harestua.info/harestua-il/bordtennis.html" target="blank"><StyledImage src={Harestua}/></StyledATagLink><br />
+            </LocalContainer>  <LocalContainer>
+            <StyledATagLink href="https://www.ttex.no" target="blank"><StyledImage src={ttex}/></StyledATagLink>
+            </LocalContainer></LocalWrapper>
     </StyledTextBoxDiv>
     )
 }
+export default Sponsors;

@@ -35,6 +35,7 @@ import TaiwanSocial from './components/camps/taiwanCamp/TaiwanSocial';
 import TaiwanPrices from './components/camps/taiwanCamp/TaiwanPrices';
 import TaiwanPackMyBags from './components/camps/taiwanCamp/TaiwanPackMyBags';
 import TaiwanFacilities from './components/camps/taiwanCamp/TaiwanFacilities';
+import Sponsors from './components/generalnfoPages/Sponsors';
 
 
 
@@ -51,6 +52,7 @@ function App() {
         <Route path="/aboutus" exact component={AboutUs} />        
         <Route path="/home" exact component={Home} />
         <Route path="/plan" exact component={AboutUs} />
+        <Route path="/sponsors" exact component={Sponsors}/>
 
         {/* leaders  */}
         <Route path="/leaders" exact component={Leaders} />
