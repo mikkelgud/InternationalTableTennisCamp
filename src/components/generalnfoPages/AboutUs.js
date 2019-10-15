@@ -152,7 +152,7 @@ export default function AboutUs(props) {
                This will be decide by the first to come, first to be served principle.
                </li>
             <br />
-            <li> 3 weeks long camp for players whith high ambitions, motivation and goals in table tennis.
+            <li> 3 weeks long camp for players with high ambitions, motivation and goals in table tennis.
               Here the application form will decide which players we will send.           
               </li> 
               <br />

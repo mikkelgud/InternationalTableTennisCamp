@@ -19,7 +19,7 @@ const NavBarWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e4edffd6;
+  background-image: linear-gradient( #d3e7ffa1,#ffffff);
   padding: 1.82345324234rem;
   // border-radius: 0 0 0 42px;
   // border-bottom: 0.5px solid #0a1c983b;
