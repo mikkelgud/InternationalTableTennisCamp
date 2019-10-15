@@ -20,7 +20,7 @@ display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
 width: 80%;
-margin: 2rem 0;
+margin: 2rem 8px;
 
 @media (max-width: 432px){
     width: 100%;

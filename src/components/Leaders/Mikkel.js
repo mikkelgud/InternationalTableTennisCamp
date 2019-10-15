@@ -43,7 +43,7 @@ export default function MikkelGudmundsen() {
       <StyledText>
         Mikkel is a Norwegian table tennis player and coach.
         Today he playes for Harestua, where the first camp will be arranged.
-        He Workes as coach in Fornebu BTK, Studies computer engeneering in Oslo and Practise table tennis every day.
+        He Works as a coach in Fornebu BTK, Studies computer engeneering in Oslo and is a hard working guy.
         He's currently in the Senior national team training group in Norway, and he is still trying to reach new goals himself.
    He has been playing in the top elite divition of Norway for B-72 and Oslo BTK the last 3 years, but will this year play 1.Diviton with he's first club, Harestua.<br /><br />
       </StyledText>

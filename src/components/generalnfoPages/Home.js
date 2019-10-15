@@ -102,13 +102,9 @@ export default function Home() {
         }
     
     ];
-
     ScrollTop();
     return (
-        <React.Fragment>
-            {/* <HeaderWrap>
-        <StyledTextSectionHeader><StyledText>What would you like to know about International Table Tennis Camp?</StyledText> </StyledTextSectionHeader>
-        </HeaderWrap> */}
+         
             <Wrapper>
                 {informationLinks.map(
                     info => <PlanLinkDiv
@@ -118,7 +114,6 @@ export default function Home() {
                         header={info.header}
                         text={info.text}
                         icon={info.icon} />)}
-            </Wrapper>
-        </React.Fragment>
+        </Wrapper>
     )
 }

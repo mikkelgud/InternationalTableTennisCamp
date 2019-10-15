@@ -47,7 +47,7 @@ const StyledImageLogo = styled.img`
 width: 10px;
 height: 10px;
 margin: -38px 333px 28px;
- @media (max-width: 432px){
+@media (max-width: 432px){
    display: none;
  }
 `;
@@ -149,11 +149,11 @@ export default function AboutUs(props) {
           <ul>
             <br />
             <li> 2 weeks long camp for everyone who wants to join as long as there is available space.
-               This will be decide by the firs come, first served principle.
+               This will be decide by the first to come, first to be served principle.
                </li>
             <br />
-            <li> 3 weeks long camp for players whith ambitions, motivation and high goals in table tennis.
-              Here the application form will decide.           
+            <li> 3 weeks long camp for players whith high ambitions, motivation and goals in table tennis.
+              Here the application form will decide which players we will send.           
               </li> 
               <br />
           <li>
