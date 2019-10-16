@@ -40,10 +40,12 @@ border-radius: 20px;
 const StyledIFrame = styled.iframe`
 width: 100%;
 height: 30rem;
-object-fit: contain;
-border-radius: 10px;
-margin: 2rem 0;
+object-fit: fill;
+border-radius: 20px;
+marign: 2rem 0;
 `;
+
+
 
 
 export default function TaiwanFacilites() {
@@ -58,9 +60,9 @@ export default function TaiwanFacilites() {
                 The light is good and the players are motivaded.
             </StyledText>
             <br />
-            <StyledSTextSectionHeader>Taiwan facility pictures  </StyledSTextSectionHeader>
+            <StyledSTextSectionHeader>Taiwan Facility Pictures  </StyledSTextSectionHeader>
             <br />
-            <StyledH3>The practice-halls</StyledH3>
+            <StyledH3>the Practice-halls</StyledH3>
             <Wrapper>
             <StyledImage src={practice01} />
             <StyledImage src={practice11} />
@@ -75,7 +77,7 @@ export default function TaiwanFacilites() {
             <StyledImage src={practice5} />
             <StyledImage src={practice6} />
             </Wrapper>
-            <StyledH3>The buildning</StyledH3>
+            <StyledH3>The Buildning</StyledH3>
             <Wrapper>
             <StyledImage src={BuildingRoom1} />
             <StyledImage src={BuildingRoom2} />
@@ -94,7 +96,7 @@ export default function TaiwanFacilites() {
            <StyledIFrame  src="https://www.youtube.com/embed/QG1yFIG8w3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
            <br/>
            <StyledIFrame src="https://www.youtube.com/embed/7eufzSHZFlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
-               <br/>
+               <br/>             
                <br/>
         </StyledTextBoxDiv>
     )

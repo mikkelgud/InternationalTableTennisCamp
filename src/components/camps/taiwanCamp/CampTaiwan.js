@@ -34,7 +34,7 @@ const SocialHeader = "Social " + socialEmoji;
 const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
 
 const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
-const facilitiesText = "Read about the facilities at the Taiwan camp. Read about where we will sleep and where we will stay.";
+const facilitiesText = "Read about the facilities at the Taiwan camp. And look at pictures from where we will sleep, and where we will stay.";
 
 const pricesHeader = "Prices " + pricesEmoji;
 const priceText = "Read about the price of the Camp in Taiwan, and what's included in the price.";
