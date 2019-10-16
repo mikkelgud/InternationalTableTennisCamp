@@ -39,6 +39,11 @@ const informationLinks = [
         header: NorwayTravelHeader,
         text: NorwayTravelText,
         to: NorwayTravelTo
+    }, 
+    {
+        header: TaiwanTravelHeader,
+        text: TaiwanTravelText,
+        to: TaiwanTravelTo
     },
    
     {
@@ -51,11 +56,7 @@ const informationLinks = [
         text: travelText,
         to: travelTo
     },
-    {
-        header: TaiwanTravelHeader,
-        text: TaiwanTravelText,
-        to: TaiwanTravelTo
-    },
+   
 ];
 
 export default function Stays(props) {

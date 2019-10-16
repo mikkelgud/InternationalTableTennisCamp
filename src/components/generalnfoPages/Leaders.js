@@ -40,7 +40,7 @@ const persons = [
         picture: LiFen,
         text: info,
         to: "leaders/Li-Fen",
-        willJoin: "ITTC: Norway, Poland, China"
+        willJoin: "ITTC: Norway,Taiwan Poland, China"
     },
     {
         name: "Maria Xiao",
@@ -63,7 +63,7 @@ const persons = [
         picture: oscarPictureSource,
         text: info,
         to: "leaders/Oscar-Perman",
-        willJoin: "ITTC: Norway, Poland, China, Taiwan"
+        willJoin: "ITTC: Norway, Taiwan, Poland, China"
     },
     {
         name: "Mikkel  Gudmundsen",
@@ -71,7 +71,7 @@ const persons = [
         picture: Mikkel,
         text: info,
         to: "leaders/Mikkel-Gudmundsen",
-        willJoin: "ITTC: Norway, Poland, China"
+        willJoin: "ITTC: Norway, Taiwan, Poland, China"
     },  
     {
         name: "Hilding Persson",
@@ -79,7 +79,7 @@ const persons = [
         picture: HildingROR,
         text: info,
         to: "leaders/Hilding-Persson",
-        willJoin: "ITTC: Norway, Poland, China"
+        willJoin: "ITTC: Norway, Taiwan, Poland, China"
     },
     {
         name: "Surprise Coach",

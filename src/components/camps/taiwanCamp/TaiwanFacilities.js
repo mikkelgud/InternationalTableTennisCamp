@@ -4,74 +4,98 @@ import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeade
 import { StyledSTextSectionHeader } from '../../../styleguides/StyledSemiTextSectionHeader';
 import StyledTextBoxDiv from '../../../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../../../styleguides/StyledText';
-import { StyledATagLink } from '../../../styleguides/StyledATagLink';
 import { ScrollTop } from '../../../utils/ScrollToTopp';
-import Hall from '../../../Assets/Harestuahall.png';
-import Buildning2 from '../../../Assets/HaresuaBuilding.jpeg';
 import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../../../styleguides/Styledh3';
+import practice from '../../../Assets/Practise.jpeg';
+import practice1 from '../../../Assets/Practise1.jpeg';
+import practice2 from '../../../Assets/Practise2.jpeg';
+import practice3 from '../../../Assets/Practise3.jpeg';
+import practice4 from '../../../Assets/Practise4.jpeg';
+import practice5 from '../../../Assets/Practise5.jpeg';
+import practice6 from '../../../Assets/Practise7.jpeg';
+import practice01 from '../../../Assets/TaiwanPractise.jpeg';
+import practice11 from '../../../Assets/TaiwanPractise1.jpeg';
+import practice21 from '../../../Assets/TaiwanPractise2.jpeg';
+import practice31 from '../../../Assets/TaiwanPractise3.jpeg';
+import practice41 from '../../../Assets/TaiwanPractise4.jpeg';
+import BuildingRoom1 from '../../../Assets/TaiwanRoom.jpeg';
+import BuildingRoom2 from '../../../Assets/TaiwanRoom1.jpeg';
+import BuildingRoom3 from '../../../Assets/TaiwanRoom2.jpeg';
+import BuildingWash from '../../../Assets/TaiwanWash.jpeg';
+import BuildingLobby from '../../../Assets/TaiwanLobby.jpeg';
+import BuildingBathroom from '../../../Assets/TaiwanBathRoom.jpeg';
+import BuildingBathroom1 from '../../../Assets/TaiwanBathroom1.jpeg';
+import BuildingBathroom2 from '../../../Assets/TaiwanBathroom2.jpeg';
+import BuildingGym from '../../../Assets/TaiwanGym.jpeg';
+import BuildingGym1 from '../../../Assets/TaiwanGym2.jpeg';
+
 
 const StyledImage = styled.img`
-width: 90%;
+width: 100%;
 object-fit: contain;
 border-radius: 20px;
 `;
-const StyledImageLocal = styled.img`
-width: 300px;
-height: 220px;
-object-fit: fill;
-border-radius: 20px;
-@media (max-width: 400px){
-    width: 90%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 20px;
-}
+
+const StyledIFrame = styled.iframe`
+width: 100%;
+height: 30rem;
+object-fit: contain;
+border-radius: 10px;
+margin: 2rem 0;
 `;
 
 
-
-export default function NorwayTravel() {
+export default function TaiwanFacilites() {
     ScrollTop();
     return (
         <StyledTextBoxDiv>
-            <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
+            <StyledTextSectionHeader>Welcome to Camp Taiwan in Tao Yuan</StyledTextSectionHeader>
             <StyledText>
-                We will stay, practice, sleep and eat inside the Harestua Arena.
-                <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828">(Get destination)</StyledATagLink>
-                Harestua is in the district of Lunner that’s only 30 minutes train from Oslo central station.
-                Lunner is a small area of the municipality of Oppland.
-                The population of Harestua is only 2323, so it's a very small and safe place.
-               The sport arena is 2700 square meters, It has a modern table tennis,
-                athletics and gymnastics hall. It was built in 2016 and has a
-                 kitchen, wardrobe´s and confortable relaxing sections that will be at our disposal during the camp.
-                This facilities and placement is perfect for our players table tennis developement.
+                We will live in a hotel placed in a sport complex.
+                It's high standards compared with other hotels nearby, and is placed right beside the training-hall.
+                The halls has good airconditioner and one of them has red table tennis floor placed at the whole floor. 
+                The light is good and the players are motivaded.
             </StyledText>
             <br />
-
-
-            <StyledSTextSectionHeader>Harestua facility pictures  </StyledSTextSectionHeader>
-
-            <StyledH3>The practice-hall</StyledH3>
+            <StyledSTextSectionHeader>Taiwan facility pictures  </StyledSTextSectionHeader>
+            <br />
+            <StyledH3>The practice-halls</StyledH3>
             <Wrapper>
-                <StyledImage src={Hall} />
+            <StyledImage src={practice01} />
+            <StyledImage src={practice11} />
+            <StyledImage src={practice21} />
+            <StyledImage src={practice31} />
+            <StyledImage src={practice41} />
+            <StyledImage src={practice} />
+            <StyledImage src={practice1} />
+            <StyledImage src={practice2} />
+            <StyledImage src={practice3} />
+            <StyledImage src={practice4} />
+            <StyledImage src={practice5} />
+            <StyledImage src={practice6} />
             </Wrapper>
             <StyledH3>The buildning</StyledH3>
             <Wrapper>
-            <StyledImageLocal src={Buildning2} />
+            <StyledImage src={BuildingRoom1} />
+            <StyledImage src={BuildingRoom2} />
+            <StyledImage src={BuildingRoom3} />
+            <StyledImage src={BuildingWash} />
+            <StyledImage src={BuildingLobby} />
+            <StyledImage src={BuildingBathroom} />
+            <StyledImage src={BuildingBathroom1} />
+            <StyledImage src={BuildingBathroom2} />
+            <StyledImage src={BuildingGym} />
+            <StyledImage src={BuildingGym1} />
             </Wrapper>
-            <StyledH3>Surroundings</StyledH3>
-            <Wrapper>
-            </Wrapper>
-           <StyledATagLink target="blank" href="https://sagparken.no/hva-er-sagparken/">
-               Want to see and read more from Harestua?
-               </StyledATagLink>
+               <StyledH3>Want to see and read more from the suroundings and culture in Tao yuan?
+               Here are some videos you might find interesting to watch.</StyledH3>
+               <br/>
+           <StyledIFrame  src="https://www.youtube.com/embed/QG1yFIG8w3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
+           <br/>
+           <StyledIFrame src="https://www.youtube.com/embed/7eufzSHZFlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
                <br/>
                <br/>
-            <StyledATagLink  target="blank" href="mailto: contactus@ittcamp.com">
-                If you have any trouble with your travel to Harestua, don´t hesitate to contact us at contactus@ittcamp.com.
-             </StyledATagLink>
-             
         </StyledTextBoxDiv>
     )
 }

@@ -13,6 +13,7 @@ const BoxWrapper = styled.div`
 
 const CardBox = styled.div`
 width: 78vw;
+background-color: #ffffff;
 padding: 2rem;
 box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
     border-radius: 16px;

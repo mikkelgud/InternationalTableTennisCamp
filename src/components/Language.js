@@ -42,14 +42,14 @@ const Language = ({ onItemSelected }) => {
       <>
 
          <ChangeLanguageLinkEmoji onClick={() => {
-            setStoredLanguage(norwegianLanguage)
-            onItemSelected(norwegianLanguage);
+            setStoredLanguage(englishLanguage)
+            onItemSelected(englishLanguage);
             alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
          }}>{norwegianLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
 
          <ChangeLanguageLinkEmoji onClick={() => {
-            onItemSelected(swedishLanguage);
-            setStoredLanguage(swedishLanguage);
+            onItemSelected(englishLanguage);
+            setStoredLanguage(englishLanguage);
             alert("Translation is yet under development, if there's something that's not clear contact us on contactus@ittcamp.com");
          }}>{swedishLanguage.selectedLanguageIcon}</ChangeLanguageLinkEmoji>
 

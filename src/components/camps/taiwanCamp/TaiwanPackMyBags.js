@@ -12,8 +12,7 @@ export default function Pack() {
         <StyledDiv>
             <StyledTextSectionHeader>Packing list</StyledTextSectionHeader>
             <StyledText>
-            Try to pack your bags according to the weather. We will spend some time outside...
-            We do NOT offer bed, duvet, pillow or bed sheets.
+            Try to pack your bags according to the weather. We will spend some time outside the facilities...
             <br/>
             <br/>
             </StyledText>
@@ -25,11 +24,7 @@ export default function Pack() {
                 <li>Shoes (for table tennis, jogging and sparetime)</li>
                 <li>Camera (if you want for video analyse)</li>
                 <li>Normal clothes for outdoor activities</li>
-                <li>Sleeping mattress, duvet and pillow</li>
-                <li>
-                    We will have a small shop to buy snacks at the camp. 
-                    And there is a supermarket very close. So smart to bring some pocket money for the trip
-                </li>
+                <li>For shopping you can bring your card. It's cheaper to take out money inside Taiwan (currency: 1 Taiwan dollars = 0.3 Norwegian Krones)</li>
                 </ul>
                 <br/>
         </StyledText>
