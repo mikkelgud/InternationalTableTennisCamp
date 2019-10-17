@@ -11,7 +11,7 @@ export default function Safety(props) {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Safety during the camps</StyledTextSectionHeader>
+            <StyledTextSectionHeader>Safety during camps</StyledTextSectionHeader>
             <StyledText>
                 <StyledH3> First of all.</StyledH3>
                 The camp starts when we meet at the arranged meeting point.
@@ -42,7 +42,8 @@ export default function Safety(props) {
                 {/* In this camp we want to cross those borders, and make everyone feel like a worthy part of the group. */}
                 We will therefore arrange several social events during the camp, and spend time learning to know each other.
             </StyledText>
-            <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp here</StyledATagLink>
+            <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp-Norway here</StyledATagLink><br/>
+            <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/social"); }}>Read about the social life on camp-Taiwan here</StyledATagLink>
             <br/>
             <br/>
             <StyledText>

@@ -17,7 +17,8 @@ export default function TaiwanSchedule() {
                 More information will come soon
             </StyledSTextSectionHeader>
             <StyledText>
-                Good morning wake up, eat, practice, eat, sleep, practice, eat, sleep and repeat.
+        Schedule 
+
             </StyledText>
         </StyledDiv>
     )

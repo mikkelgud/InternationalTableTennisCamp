@@ -34,7 +34,7 @@ import BuildingGym1 from '../../../Assets/TaiwanGym2.jpeg';
 const StyledImage = styled.img`
 width: 100%;
 object-fit: contain;
-border-radius: 20px;
+border-radius: 10px;
 `;
 
 const StyledIFrame = styled.iframe`
@@ -90,7 +90,7 @@ export default function TaiwanFacilites() {
             <StyledImage src={BuildingGym} />
             <StyledImage src={BuildingGym1} />
             </Wrapper>
-               <StyledH3>Want to see and read more from the suroundings and culture in Tao yuan?
+               <StyledH3>Want to see and read more about the suroundings and culture in Tao yuan?
                Here are some videos you might find interesting to watch.</StyledH3>
                <br/>
            <StyledIFrame  src="https://www.youtube.com/embed/QG1yFIG8w3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>

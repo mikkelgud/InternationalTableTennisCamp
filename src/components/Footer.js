@@ -107,7 +107,7 @@ function Footer(props) {
                     <StyledFooterItemDivContainer>
                         <StyledIcon
                                 target="blank"
-                                onClick={() => alert("Our facebook account is yet under development. Thank you for your interest :)")}>
+                                href="https://www.facebook.com/ITTCamp-102692547780714/">
                                 <FontAwesomeIcon alt="facebook" icon={["fab", "facebook"]} />
                         </StyledIcon>
                     </StyledFooterItemDivContainer>

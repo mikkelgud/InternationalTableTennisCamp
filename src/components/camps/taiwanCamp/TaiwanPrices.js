@@ -34,16 +34,15 @@ export default function Expences(props) {
       <StyledH3>Prices</StyledH3>
       <StyledText>
           <ul>
-          <StyledList>Whole camp of 2 weeks:<br/>--> 9 000 Norwegian krones </StyledList>
-          <StyledList>Whole camp of 3 weeks:<br/>--> 13 000 Norwegian krones </StyledList>
-          <StyledList>+ flight (6000-8000 Norwegian krones) </StyledList>
+          <StyledList>Whole camp of 16 days:<br/>--> 11 250 Norwegian krones (or equivalent in euro). </StyledList>
+          <StyledList>+ flight (from 5000-8000 Norwegian krones)</StyledList>
           </ul>
       </StyledText>
       <br/>
       <StyledH3>Payment</StyledH3>
       <StyledText>
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          Then you confirm your membership by sending 7500 Norewegian krones for the flight ticket.
+          Then you confirm your membership by sending 7500 Norwegian krones for the flight ticket.
           Then we will buy the best combination of cheap and good tickets the marked can offer, and send back the potensial leftovers.
            <br/>
           Payment of the camp it self will be done after you get the flight-confirmation. 

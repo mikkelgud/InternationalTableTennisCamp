@@ -91,16 +91,6 @@ export default function AboutUs(props) {
           At the moment we offer 3 camps in respectively Norway, Poland and China.
           Keep up with ittcamp.com to get the newest information about our camps.
         </StyledText>
-        <br />
-        <br />
-        <StyledH3>Our Supportage of Young Cancer</StyledH3>
-        <StyledText>
-          10% of all our surprise will be donated to Young cancer foundation. <br/>
-          We choose to donate to young cancer
-          because our good friend David got cancer at the age of 18,
-          and we have seen the impact a small contribution can make.
-          We hope our humble donations will be helpful to your work.
-        </StyledText>
         <br/>
         <br/>
         <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader>
@@ -119,12 +109,9 @@ export default function AboutUs(props) {
             <li>Sign up deadline: 15.03.2020 <br /> </li>
           </ol>
           <br />
-
         </StyledH3>
-        <StyledH3>How we choose our 32 participants</StyledH3>
         <StyledText>
-          We are looking for motivated players with good spirit and will to join our camp.
-          Therefore the Registration/sign up for the camp will be done by filling in this
+          You sign up for the camp by filling in this
           <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to
            <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>
         </StyledText>
@@ -149,15 +136,10 @@ export default function AboutUs(props) {
           <ul>
             <br />
             <li> 2 weeks long camp for everyone who wants to join as long as there is available space.
-               This will be decide by the first to come, first to be served principle.
                </li>
             <br />
-            <li> 3 weeks long camp for players with high ambitions, motivation and goals in table tennis.
-              Here the application form will decide which players we will send.           
-              </li> 
-              <br />
           <li>
-            Deadline: 24.04.2020. 
+            Deadline: 20.03.2020
           </li>
           </ul>
           <br />
@@ -165,8 +147,7 @@ export default function AboutUs(props) {
         <StyledText>
           </StyledText>
         <StyledText>
-          Eventhough the first camp is for everyone, we would like you to fill in the application form for both camps.
-          So join the camp by filling in this <StyledATagLinkLocal href={ApplicationForm}> sign up form </StyledATagLinkLocal>, and send it to
+            You sign up for the camp by filling in this <StyledATagLinkLocal href={ApplicationForm}> sign up form </StyledATagLinkLocal>, and send it to
           and send it to <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>.
         </StyledText>
         <br />
