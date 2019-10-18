@@ -31,10 +31,11 @@ export default function Expences(props) {
     <li>Camp T-shirt.</li>
       </ul>
       </StyledText>
-      <StyledH3>Prices</StyledH3>
+      <StyledH3>Prices for players</StyledH3>
       <StyledText>
           <ul>
-          <StyledList>Whole camp of 16 days:<br/>--> 11 000 Norwegian krones (or equivalent in euro). </StyledList>
+          <StyledList>Whole camp of 16 days for players:<br/>--> 11 000 Norwegian krones (or equivalent in euro). </StyledList>
+          <StyledList>Whole camp of 16 days traveling companions 9 000 Norwegian </StyledList>
           <StyledList>+ flight (from 6-7000 NOK)</StyledList>
           </ul>
       </StyledText>
