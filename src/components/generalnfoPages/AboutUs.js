@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from 'styled-components';
 import StyledDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledText } from "../../styleguides/StyledText";
@@ -9,7 +9,7 @@ import { Wrapper } from "../../styleguides/StyledTextBoxWrapper";
 import { ScrollTop } from "../../utils/ScrollToTopp";
 import { StyledSTextSectionHeader } from "../../styleguides/StyledSemiTextSectionHeader";
 import { StyledATagLink } from '../../styleguides/StyledATagLink';
-import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const StyledATagLinkLocal = styled.a`
   color: black;
@@ -57,11 +57,38 @@ display: flex;
 align-items: felx-start;
 justify-content: felx-start;
 margin-left: 2rem;
-`
+`;
+
+const StyledIcon = styled.a`
+justify-content: center;
+align-items:center;
+text-decoration: none;
+margin: 1rem;
+  color:  black;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  &:hover{
+    color: #283ca6;
+    font-size: 2.2rem;;
+  }
+  @media (max-width: 910px){
+    
+  }
+`;
+
 
 
 
 export default function AboutUs(props) {
+  const [hoverState, setHoverState] = useState(false);
+    const [signUpIconState, setSignUpIconState] = useState("door-closed");
+  
+  const signUpItemOnHoverEffectToggle = () => {
+    setHoverState(!hoverState);
+    // setHoverState(!hoverState);
+    hoverState ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
+}
   ScrollTop();
   return (
     <LocalWrapper>
@@ -102,19 +129,28 @@ export default function AboutUs(props) {
            We wanna start small and will therefore have a:
           </StyledText>
         <StyledH3>
+        <div>
           <ol>
-            <br />
             <li>Maximum of 32 participants</li>
             <br />
             <li>Sign up deadline: 15.03.2020 <br /> </li>
           </ol>
-          <br />
+          </div>
         </StyledH3>
-        <StyledText>
-          You sign up for the camp by filling in this
-          <StyledATagLinkLocal href={ApplicationForm}> sign up form</StyledATagLinkLocal>, and send it to
-           <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>
+          <StyledText>
+          <StyledIcon
+            onMouseEnter={() => signUpItemOnHoverEffectToggle()}
+            onMouseLeave={() => signUpItemOnHoverEffectToggle()}
+            href="mailto: join@ittcamp.com"
+            onClick={() => { props.history.push("/signup") }} >
+            <FontAwesomeIcon icon={signUpIconState} />
+            Sign up
+                        </StyledIcon>
         </StyledText>
+       
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
@@ -133,24 +169,34 @@ export default function AboutUs(props) {
           The camp will be divided into two camps to ensure the best quality for all players in all levels.
           </StyledText>
         <StyledH3>
-          <ul>
+          <ol>
             <br />
-            <li> 2 weeks long camp for everyone who wants to join as long as there is available space.
+            <li> Maximum 24 players
                </li>
             <br />
           <li>
             Deadline: 20.03.2020
           </li>
-          </ul>
-          <br />
+          </ol>
         </StyledH3>
         <StyledText>
           </StyledText>
         <StyledText>
-            You sign up for the camp by filling in this <StyledATagLinkLocal href={ApplicationForm}> sign up form </StyledATagLinkLocal>, and send it to
-          and send it to <StyledATagLink href="mailto: join@ittcamp.com"> join@ittcamp.com</StyledATagLink>.
+        <StyledIcon
+                            onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
+                            onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
+                            href="mailto: join@ittcamp.com"
+                                onClick={() => { props.history.push("/signup") }} >
+                                <FontAwesomeIcon  icon={signUpIconState}/>
+                                Sign up
+                        </StyledIcon>
         </StyledText>
         <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         <br />
         <LeadersHeaderWrapper>
           <StyledSTextSectionHeader>Our Team</StyledSTextSectionHeader>

@@ -53,7 +53,7 @@ const Sponsors = () => {
            <StyledH3>Wanna be our sponsor?</StyledH3>
             <StyledText>
                Contact:
-               Hilding Totland Persson on +47 90231032 for more information.
+               Hilding Totland Persson on +47 90231032 for more information about what we can offer you in return.
            </StyledText>
         </StyledTextBoxDiv>
     )

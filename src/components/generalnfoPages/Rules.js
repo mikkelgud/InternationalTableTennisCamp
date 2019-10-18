@@ -25,7 +25,7 @@ export default function Rules() {
                 <li>Be responible, and take good care of the person next to you</li>
                 <li>Listen to Coach/leaders, their words are law during the camp</li>
                 <li>Be in time at all times</li>
-                <li>Speak only nice or constrcutivly with each other, and about each other.</li>
+                <li>Speak only nice or constructively with each other, and about each other.</li>
                 <li>We are one team with one common goal at ITTC, act accordingly</li>
                 <li>Be cooperative, find solutions, not problems</li>
                 <li>Keep it clean and tidy at all times</li>

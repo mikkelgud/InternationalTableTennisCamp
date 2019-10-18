@@ -17,19 +17,19 @@ const norwegianFlagEmoji = "🇳🇴";
 const taiwanFlagEmoji = "🇹🇼";
 
 const travelHeader = chinaFlagEmoji + "China";
-const travelText = " Read everything you need to know about how we plan our stay in China.";
+const travelText = "Camp China will be ready next autumn for sign up. You can already look at pictures here.";
 const travelTo = "/stay/China";
 
 const polandTravelHeader = polandFlagEmoji + "Poland";
-const polandTravelText = "Read everything you need to know about how we plan our stay in Poland.";
+const polandTravelText = "Camp Poland will be ready next autumn for sign up. You already look at pictures here.";
 const polandTravelTo = "/stay/Poland";
 
 const NorwayTravelHeader = norwegianFlagEmoji + "Norway";
-const NorwayTravelText = "Read everything you need to know about your stay in Norway.";
+const NorwayTravelText = "Read everything you need to know about your stay in Norway 07.04 - 10.04 2020.";
 const NorwayTravelTo = "/stay/Norway";
 
 const TaiwanTravelHeader = taiwanFlagEmoji + "Taiwan";
-const TaiwanTravelText = "Read everything you need to know about your stay in Taiwan.";
+const TaiwanTravelText = "Read everything you need to know about your stay in Taiwan 22.06 - 07.07.2020.";
 const TaiwanTravelTo = "/stay/Taiwan";
 
 
@@ -44,6 +44,11 @@ const informationLinks = [
         header: TaiwanTravelHeader,
         text: TaiwanTravelText,
         to: TaiwanTravelTo
+    }, 
+    {
+        header: travelHeader,
+        text: travelText,
+        to: travelTo
     },
    
     {
@@ -51,15 +56,11 @@ const informationLinks = [
         text: polandTravelText,
         to: polandTravelTo
     },
-    {
-        header: travelHeader,
-        text: travelText,
-        to: travelTo
-    },
+   
    
 ];
 
-export default function Stays(props) {
+export default function Stays() {
     ScrollTop();
     return (
         <>

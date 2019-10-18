@@ -23,7 +23,7 @@ export default function Social() {
         During these conversations everyone will get the chance to tell about their experience during the practices.
         We belive that open honest conversations is the best way for making progress and to make a good enviorment.
         <br/>
-        In the evenings we will look at table tennis matches on big screen with the coaches telling what we can learn from the different matches.
+        In the evenings we will look at table tennis matches on big screen with the coaches telling what you can learn from the different matches.
         We will also spend some time working on the mental aspect of the game, and talk about tactics and mentality of the world-class players.
         Li Fen will also hold lectures based on her many experiences as a world-class player for many years.
         <br/>

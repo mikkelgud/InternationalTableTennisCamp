@@ -34,7 +34,7 @@ export default function MikkelGudmundsen() {
   return (
     <StyledTextBoxDiv>
       <StyledTextSectionHeader>
-        <HWrapper>Oscar Perman</HWrapper>
+        <HWrapper>Oscar Perman 22</HWrapper>
           <StyledImageLocal src={OscarPermanPicture} />
       </StyledTextSectionHeader>
       <br/>

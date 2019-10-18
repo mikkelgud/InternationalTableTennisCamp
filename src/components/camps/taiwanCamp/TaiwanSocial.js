@@ -19,10 +19,10 @@ export default function Social(props) {
             <StyledTextSectionHeader>Social life at the camp</StyledTextSectionHeader>
             <br/>
             <StyledText>
-            <StyledH3>Team-games</StyledH3>
-                In the beginning of the camp we will divide the Participants into groups or teams.
-                These teams will after the afternoon practice play team games and have small funny competitions, as well as taking care of each other.
-               This is a good way for the players to get to know each other, and for everyone to find new friends.
+            <StyledH3>Sunday funday</StyledH3>
+               Every sunday we will use for sightseeing around the city.
+               Taiwan is a very special country with a lot of culture and history.
+               This will be voluntary, but we would recomend to see as much as possible when first traveling so far.
                <br/>
                <br/>
              <StyledH3>Meals</StyledH3>
@@ -30,8 +30,8 @@ export default function Social(props) {
              It's gonna be a great time to experience the culture and food with your new friends.
              We will also go to western restaurants, but be ready for everything 😉.
 <StyledTextLocal> <StyledATagLink onClick={() => { props.history.push("schedule"); }}>Read more about meals during the camp.</StyledATagLink>     </StyledTextLocal>
-             <br/>
-        
+<br/>
+
             <StyledH3>Meetings</StyledH3>
         After every practice, we will have small group talks to sum up the practises.
         During these conversations everyone will get the chance to tell about their experience during the practices.

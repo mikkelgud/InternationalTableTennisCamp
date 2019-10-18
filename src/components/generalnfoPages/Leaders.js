@@ -40,7 +40,7 @@ const persons = [
         picture: LiFen,
         text: info,
         to: "leaders/Li-Fen",
-        willJoin: "ITTC: Norway,Taiwan Poland, China"
+        willJoin: "ITTC: Norway,Taiwan, Poland, China"
     },
     {
         name: "Maria Xiao",

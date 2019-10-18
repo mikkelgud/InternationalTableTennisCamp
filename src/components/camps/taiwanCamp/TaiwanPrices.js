@@ -34,8 +34,8 @@ export default function Expences(props) {
       <StyledH3>Prices</StyledH3>
       <StyledText>
           <ul>
-          <StyledList>Whole camp of 16 days:<br/>--> 11 250 Norwegian krones (or equivalent in euro). </StyledList>
-          <StyledList>+ flight (from 5000-8000 Norwegian krones)</StyledList>
+          <StyledList>Whole camp of 16 days:<br/>--> 11 000 Norwegian krones (or equivalent in euro). </StyledList>
+          <StyledList>+ flight (from 6-7000 NOK)</StyledList>
           </ul>
       </StyledText>
       <br/>

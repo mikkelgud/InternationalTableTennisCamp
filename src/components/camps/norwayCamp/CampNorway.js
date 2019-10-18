@@ -71,7 +71,7 @@ export default function Stay() {
             <PlanLinkDiv to="/stay/Norway/schedule" text={scheduleText} header={scheduleHeader} />
             <PlanLinkDiv to="/stay/rules" text={rulesText} header={rulesHeader} />
             <PlanLinkDiv to="/stay/Norway/social" text={SocialText} header={SocialHeader} />
-            <PlanLinkDiv to="/stay/Norway/travel" text={travelText} icon={travelIcon} header={"The Travel"} />
+            <PlanLinkDiv to="/stay/Norway/travel" text={travelText} icon={travelIcon} header={"Travel"} />
             <PlanLinkDiv to="/stay/Norway/prices" text={priceText} header={pricesHeader} />
             <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Norway/pack-my-bag-please" text={packText} header={packHeader} />
