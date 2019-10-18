@@ -5,7 +5,6 @@ import { StyledText } from '../../styleguides/StyledText';
 import { StyledATagLink } from '../../styleguides/StyledATagLink';
 import { StyledH3 } from '../../styleguides/Styledh3';
 import { ScrollTop } from '../../utils/ScrollToTopp';
-import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
 
 export default function Safety(props) {
     ScrollTop();
@@ -19,6 +18,7 @@ export default function Safety(props) {
                 These rules are made to ensure that everyone is safe and feel safe during the camp.
             </StyledText>
             <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>If you haven't red the camp rules, click here.</StyledATagLink>
+                <br/>
             <br />
             <br />
             <StyledText>
@@ -30,26 +30,19 @@ export default function Safety(props) {
                     <li>Everyone need to provide travelinsurance prove if traveling outside Scandinavia.</li>
                 </ul>
             </StyledText>
-            <StyledATagLink href={ApplicationForm}>
-                 It's also listed in the application form, 
-                 if you haven't got it yet, you can click here.</StyledATagLink>
-
+                 <br/>
+                 <br />
+<StyledH3>Social Safety</StyledH3>
             <StyledText>
-                <br />
+             
                 For us, saftey is more than just making everyone safe.
                 It's also about creating an environment that is warm and inclusive between the travelers.
-                {/* It's gonna be different people joining the camp, with different backgrounds, from different contries and with a different set of goals and motivations. */}
-                {/* In this camp we want to cross those borders, and make everyone feel like a worthy part of the group. */}
                 We will therefore arrange several social events during the camp, and spend time learning to know each other.
             </StyledText>
             <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp-Norway here</StyledATagLink><br/>
             <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/social"); }}>Read about the social life on camp-Taiwan here</StyledATagLink>
             <br/>
             <br/>
-            <StyledText>
-                This is the first year of international table tennis camp, and for us,
-                 to ensure everyones Safety, is priority number one.
-            </StyledText>
             <br/>
             <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to ask us on contactus@ittcamp.com by clicking here.</StyledATagLink> 
             <br/>

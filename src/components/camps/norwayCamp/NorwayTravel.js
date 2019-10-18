@@ -24,7 +24,7 @@ export default function NorwayTravel() {
             <br/>
             <StyledText>
                 If you're traveling from denmark(kastrup), 
-                Oscar Perman will meet you at the airport and help you to the gate.
+                Oscar Perman will meet you at the airport and help you to the gate. <br/><br/>
             </StyledText>
             <StyledSTextSectionHeader>Our travel recomendations </StyledSTextSectionHeader>
             <br/>
@@ -44,6 +44,14 @@ export default function NorwayTravel() {
               <li>ITTC will pick you up</li>
               </ol>
               <br/> 
+              <StyledH3>Drive to Harestua: </StyledH3>
+              <ol>
+              <li>
+                <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828">(Get destination)</StyledATagLink>
+              </li>
+              <li>Start the car and follow the instructions from your device.</li>
+              </ol>
+              <br/>
             <StyledATagLink href="mailto: contactus@ittcamp.com"> If you have any trouble with your travel to Harestua, don´t hesitate to contact us at contactus@ittcamp.com. </StyledATagLink> 
             </StyledText>
         </StyledTextBoxDiv>
