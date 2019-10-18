@@ -93,7 +93,6 @@ function Footer(props) {
                         <StyledIcon
                             onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
                             onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
-                            href="mailto: join@ittcamp.com"
                                 onClick={() => { props.history.push("/signup") }} >
                                 <FontAwesomeIcon  icon={signUpIconState}/>
                         </StyledIcon>

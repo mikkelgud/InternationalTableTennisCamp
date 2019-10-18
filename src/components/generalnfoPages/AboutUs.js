@@ -123,17 +123,19 @@ export default function AboutUs(props) {
         <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader>
         <br />
         <StyledH3>Camp Norway</StyledH3>
+          <br/>
         <StyledText>
           ITTC invite you to join ITTCamp- Norway.
           The camp will be arranged in a small place called Harestua.
            We wanna start small and will therefore have a:
           </StyledText>
+            <br />
         <StyledH3>
         <div>
           <ol>
             <li>Maximum of 32 participants</li>
             <br />
-            <li>Sign up deadline: 15.03.2020 <br /> </li>
+            <li>Sign up deadline: 15.03.2020  </li>
           </ol>
           </div>
         </StyledH3>
@@ -141,7 +143,6 @@ export default function AboutUs(props) {
           <StyledIcon
             onMouseEnter={() => signUpItemOnHoverEffectToggle()}
             onMouseLeave={() => signUpItemOnHoverEffectToggle()}
-            href="mailto: join@ittcamp.com"
             onClick={() => { props.history.push("/signup") }} >
             <FontAwesomeIcon icon={signUpIconState} />
             Sign up
@@ -156,8 +157,15 @@ export default function AboutUs(props) {
         <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
         <br />
         <StyledH3>Camp Taiwan</StyledH3>
+          <br/>
         <StyledText>
           ITTC invite you to join ITTCamp- Taiwan.
+          We will practice with Taiwanese and Chinese sparring partners during the camp.
+          The place has all levels. This make the camp for every table tennis enthusiast, whatever age or level.
+          The coaches at the table tennis center will also coach us. 
+          They speak a little english, but luckly for us Mikkel and Li Fen can translate if needed. 
+          <br/>
+          <br/>
           The camp will be arranged in a huge town called Tao Yuan.
           We are looking forward to show you one of the greatest table tennis
           facilities, and show you the country and culture in Taiwan.
@@ -167,13 +175,14 @@ export default function AboutUs(props) {
           We will do our best to make this an experience that every participant, parent and coach can look back on
           as an outstanding camp where they learned, developed and made good memorable moments for life.
           The camp will be divided into two camps to ensure the best quality for all players in all levels.
+          <br/>
           </StyledText>
         <StyledH3>
           <ol>
             <br />
-            <li> Maximum 24 players
+            <li> Maximum 30 players
                </li>
-            <br />
+               <br />
           <li>
             Deadline: 20.03.2020
           </li>
@@ -185,7 +194,6 @@ export default function AboutUs(props) {
         <StyledIcon
                             onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
                             onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
-                            href="mailto: join@ittcamp.com"
                                 onClick={() => { props.history.push("/signup") }} >
                                 <FontAwesomeIcon  icon={signUpIconState}/>
                                 Sign up

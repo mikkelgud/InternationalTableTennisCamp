@@ -23,10 +23,10 @@ export default function Expences(props) {
       <StyledText>
       <ul>
     <li> 16 days camp with high quality traning in Tao Yuan.</li>
-    <li> 2 table tennis practices every day, except arrival and departure day. <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>(Look at schedule)</StyledATagLink></li>
-    <li>Lectures with our coaches, including European champion Li Fen.</li>
-    <li>15 days stay at a high standard hotel.</li>
-    <li>3 meals every day. (Read more about our meals in Taiwan <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>at the schedule page</StyledATagLink>) <br/>(Notice: If you have any alergies please tell us before the camp). </li>
+    <li> 2 table tennis practices every day, except arrival and departure day. <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/schedule"); }}>(Look at schedule)</StyledATagLink></li>
+    <li>Lectures with our coaches, including European champion Li Fen. <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>(Look at our camp leaders and coaches)</StyledATagLink> </li>
+    <li>15 days stay at a high standard hotel.  <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/facilities"); }}>(Look at facilities)</StyledATagLink> </li>
+    <li>3 meals every day. (Read more about our meals in Taiwan <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/schedule"); }}>in the schedule page</StyledATagLink>) <br/>(Notice: If you have any alergies please tell us before the camp). </li>
     <li>Information from coaches about what you have to work with when you get home.</li>
     <li>Travel from the airport to the hotel.</li>
     <li>Camp T-shirt.</li>

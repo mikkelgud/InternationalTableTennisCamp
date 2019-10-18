@@ -51,14 +51,9 @@ export default function SignUp(props) {
         <MyWrapper>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp-Norway <span role="img" aria-label="NO-flag">🇳🇴</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledText>
-                07.04.2020 - 10.04.2020<br/>
-                    You sign up by sending the
-                <StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink>
-                    to  <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>
-                </StyledText>
                 <br />
                 <ul>
+                    <li>  07.04.2020 - 10.04.2020</li>       <br/>
                     <li>
                        1 300 Norwegian krones
                     </li>
@@ -67,19 +62,21 @@ export default function SignUp(props) {
 
                 </ul>
                 <br />
+                <StyledText>
+                You sign up by sending the
+                <StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink>
+                    to  <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink><br/><br/>
+                    </StyledText>
                 <StyledATagLink onClick={() => { props.history.push("/stay/Norway/prices") }}>Read more about Prices</StyledATagLink>
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp Taiwan<span role="img" aria-label="PO-flag">🇹🇼</span></StyledSTextSectionHeader></HeaderAligner>
-                <StyledText>
-                22.06.2020 - 07.07.2020<br/>
-                    You sign up by sending the<StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink> to
-                        <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>
-                </StyledText>
+               
                 <br />
                 <ul>
-                <li> 16 days: 11 000 Norwegian krones</li>
-                <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about Prices</StyledATagLink>
+                    <li>  22.06.2020 - 07.07.2020</li><br/>
+                <li> 16 days: 11 500 NOK (9 750NOK for companions)</li>
+                <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includs</StyledATagLink>
                 <br/>
                 <br/>
                 <li>+ flight 6-7000 Norwegian krones (Depends where you fly from)</li>
@@ -93,6 +90,11 @@ export default function SignUp(props) {
                 </ul>
                 <br />
                 <br/>
+                <StyledText>
+              
+              You sign up by sending the<StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink> to
+                  <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>
+          </StyledText>
                 
             </StyledDiv>
             <StyledDiv>
