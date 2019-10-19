@@ -63,7 +63,7 @@ const persons = [
         picture: oscarPictureSource,
         text: info,
         to: "leaders/Oscar-Perman",
-        willJoin: "ITTC: Norway, Taiwan, Poland, China"
+        willJoin: "ITTC: Norway, Poland, China"
     },
     {
         name: "Mikkel  Gudmundsen",

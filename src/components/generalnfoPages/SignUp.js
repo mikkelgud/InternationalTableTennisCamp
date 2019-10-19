@@ -70,7 +70,7 @@ export default function SignUp(props) {
                 <StyledATagLink onClick={() => { props.history.push("/stay/Norway/prices") }}>Read more about Prices</StyledATagLink>
             </StyledDiv>
             <StyledDiv>
-                <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp Taiwan<span role="img" aria-label="PO-flag">🇹🇼</span></StyledSTextSectionHeader></HeaderAligner>
+                <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp-Taiwan<span role="img" aria-label="PO-flag">🇹🇼</span></StyledSTextSectionHeader></HeaderAligner>
                
                 <br />
                 <ul>
@@ -85,9 +85,7 @@ export default function SignUp(props) {
                 <br/>
                 <li>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </li>   
                 <br/>
-                <br/>
                 <li>There is no need for visa to enter Taiwan.</li>   
-                <br/>
                 <br/>
                 <li>Deadline: 20.03.2020</li>
                 </ul>
