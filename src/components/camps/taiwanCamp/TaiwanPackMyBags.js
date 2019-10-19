@@ -31,7 +31,7 @@ export default function Pack() {
                 <li>Some crispbread and toppings that will sustain the travel and time.</li>
                 <li>Take out some cash at the airport.
                     For shopping you can bring your card.
-                     It's cheaper to take out money inside Taiwan (currency: 1 Taiwan dollars = 0.3 Norwegian Krones).
+                     It's cheaper to take out money inside Taiwan (currency: 1 Taiwan dollars = 0.3 NOK).
                       Remember, you always have to use cash. Taiwan dosen't use cards to pay with, only phones or cash.
                 </li>
                 </ul>

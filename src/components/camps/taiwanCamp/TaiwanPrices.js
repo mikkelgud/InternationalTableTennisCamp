@@ -29,6 +29,7 @@ export default function Expences(props) {
     <li>3 meals every day. (Read more about our meals in Taiwan <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/schedule"); }}>in the schedule page</StyledATagLink>) <br/>(Notice: If you have any alergies please tell us before the camp). </li>
     <li>Information from coaches about what you have to work with when you get home.</li>
     <li>Travel from the airport to the hotel.</li>
+    <li>Massage.</li>
     <li>Camp T-shirt.</li>
       </ul>
       <br/>
@@ -37,9 +38,9 @@ export default function Expences(props) {
          <br/>
       <StyledText>
           <ul>
-          <StyledList>Whole camp of 16 days for players:<br/>--> 11 500 NOK. </StyledList>
+          <StyledList>Whole camp of 16 days for players:<br/>--> 12 750 NOK. </StyledList>
          <br/>
-          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 9 750 NOK </StyledList>
+          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 750 NOK </StyledList>
           <br/>
           <StyledList>+ flight <br/> --> 6-7000 NOK</StyledList>
           </ul>
@@ -48,7 +49,7 @@ export default function Expences(props) {
       <StyledH3>Payment</StyledH3>
       <StyledText>
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          Then you confirm your membership by sending 7500 Norwegian krones for the flight ticket.
+          Then you confirm your membership by sending 7500 NOK for the flight ticket.
           Then we will buy the best combination of cheap and good tickets the marked can offer, and send back the potensial leftovers.
            <br/>
           Payment of the camp it self will be done after you get the flight-confirmation. 

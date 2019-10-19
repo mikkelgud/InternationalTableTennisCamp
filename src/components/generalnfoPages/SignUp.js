@@ -55,7 +55,7 @@ export default function SignUp(props) {
                 <ul>
                     <li>  07.04.2020 - 10.04.2020</li>       <br/>
                     <li>
-                       1 300 Norwegian krones
+                       1 300 NOK
                     </li>
                     <br/>
                 <li>Deadline: 15.03.2020</li>
@@ -75,15 +75,18 @@ export default function SignUp(props) {
                 <br />
                 <ul>
                     <li>  22.06.2020 - 07.07.2020</li><br/>
-                <li> 16 days: 11 500 NOK (9 750NOK for companions)</li>
+                <li> 16 days: 12 750 NOK (10 750 NOK for companions)</li>
                 <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includs</StyledATagLink>
                 <br/>
                 <br/>
-                <li>+ flight 6-7000 Norwegian krones (Depends where you fly from)</li>
+                <li>+ flight 6-7000 NOK both ways (Depends where you fly from)</li>
                 <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/travel") }}>Read more about the travel</StyledATagLink>
                 <br/>
                 <br/>
                 <li>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </li>   
+                <br/>
+                <br/>
+                <li>There is no need for visa to enter Taiwan.</li>   
                 <br/>
                 <br/>
                 <li>Deadline: 20.03.2020</li>
