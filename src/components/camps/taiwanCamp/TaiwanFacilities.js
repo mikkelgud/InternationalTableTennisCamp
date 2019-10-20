@@ -54,8 +54,10 @@ export default function TaiwanFacilites() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Taiwan in Tao Yuan</StyledTextSectionHeader>
             <StyledText>
-                We will live in a high standard hotel placed few min walking distance from the training-hall.
-                The practice conditions are good with a lot of space and many tables.
+             To ensure everyones practice quality is facilitated for their maximum performance level,
+              we choose to live in a high standard hotel as well as eating nutritious and healthy food.
+               The training center is placed few minutes walking distance from the hall and
+            the training conditions are great with a lot of space and many tables.
             </StyledText>
             <br />
             <StyledSTextSectionHeader>Taiwan Facility Pictures  </StyledSTextSectionHeader>
