@@ -40,22 +40,23 @@ export default function Expences(props) {
           <ul>
           <StyledList>Whole camp of 16 days for players:<br/>--> 12 750 NOK. </StyledList>
          <br/>
-          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 750 NOK </StyledList>
+          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 250 NOK </StyledList>
           <br/>
-          <StyledList>+ flight <br/> --> 6-7000 NOK</StyledList>
+          <StyledList>+ flight <br/> --> 7000 NOK</StyledList>
           </ul>
       </StyledText>
       <br/>
       <StyledH3>Payment</StyledH3>
       <StyledText>
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          Then you confirm your membership by sending 7500 NOK for the flight ticket.
-          Then we will buy the best combination of cheap and good tickets the marked can offer, and send back the potensial leftovers.
-           <br/>
-          Payment of the camp it self will be done after you get the flight-confirmation. 
+          Then you confirm your membership by sending 7000 NOK for the flight ticket or if you want to buy the ticket for yourself, confirm by sending a deposit of 2000 NOK.
+          <br/><StyledATagLink onClick={() => props.history.push("/stay/Taiwan/travels")}>Read more about the travel</StyledATagLink>
+          <br/>
+          <br/>
+          Payment of the camp it self will be done after you get the member confirmation-email. 
           In this email you will also get all the information you need about how to make the payment
-          (We will of course stick to the given price).
-          The payment should happen two weeks before the camp starts.
+          The payment should happen before 01.06.2020. If the payment is not done before the payment-deadline,
+          the participant is not longer considered a member of the camp.
           <br/>
          <br/>
          The payment-

@@ -14,15 +14,22 @@ export default function TaiwanSchedule() {
             <StyledTextSectionHeader>
                 Schedule 
             </StyledTextSectionHeader>
+            <StyledText>
+                We will try to make this camp as exiting, interesting and learning-packed as possible.  
+                Therefore we have arranged a great possibility to come and watch the taiwanese national team practice.
+                During the "show" our coaches will explain what we can learn from seeing the top level players practice,
+                and how this can help you improve your game.
+                We hope this will be both inspiring and developing for you. 
+                </StyledText><br/>
             <StyledSTextSectionHeader>
             Meals
             </StyledSTextSectionHeader>
             <StyledText>
                 To eat nutritious food will be crucial for you if you want to have good quality practice during the whole stay.
-                So remember to eat enough during all meals.
+                We will therefore try to have this option at all meals at the whole camp.
                 We would also recomend you to bring some snacks from your country to the camp.
-                Because after a while the taste of something familiar will be really nice when that far from home.
-                For instance crispbread with some nutella could save your day. So bring some "Just in case" food.
+                Because after a while, the taste of something familiar will be really nice.
+                For instance crispbread with some topping could save your practice.
                 </StyledText><br/>
                 <StyledH3>Breakfast</StyledH3>
                 <StyledText>
@@ -54,7 +61,7 @@ export default function TaiwanSchedule() {
             12.00-13.00    Gathering and go out for Lunch (Included in camp-price) <br/>
             15.00-18.00-   Practice Normal or multi-ball<br/>
             18.30-  Gathering before dinner, go out to a restaurant and eat (Included in camp-price)<br/>
-            20.30-21.00-   Learning table tennis theory and/or Watch matches on video <br/> 
+            20.30-21.00-   Learning table tennis theory and/or Watch matches on video. Or team meeting <br/> 
             21.00-21-45-   Rest<br/>      
             22:30- In bed <br/><br/>
             </StyledText>
@@ -66,7 +73,7 @@ export default function TaiwanSchedule() {
             07.50-  Gathering, be ready for Breakfast.<br/>
             08.00-  Breakfast  <br/>
             The rest of the day we will arrange sightseeing.
-            This will be planned at the camp by everyone. 
+            What we will do with our sightseeing days, will be decided by the traveling-group's interests. 
             </StyledText>
         </StyledDiv>
     )

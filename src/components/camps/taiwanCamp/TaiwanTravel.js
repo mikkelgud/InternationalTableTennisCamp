@@ -30,27 +30,23 @@ export default function TaiwanTravel() {
               <StyledH3>Tickets and general information</StyledH3>
               <br/>
               <StyledText>
-              We recomend you to let us buy the flight tickets so we can arrive at the same time. 
-              We will also arrange the travel from the airport to the camp hotel (Included in camp price).
-              If you want to buy the ticket yourself that's okey, but we need to be informed about this. 
-              Then you confirm your sign up by deposit 2000 Kroners to ittcamp. 
-              If you choose this you also have to pay the travel to the hotel yourself (We will of course help you to arrange the travel). 
-             If we buy your ticket this will be done after we receive the 7000 kroners for the ticket.
-               If the ticket is cheaper than 7000,
-               the rest will count as a part of the payment of the camp.
-               If the ticket is more expensive we will pay the rest for you. 
-               So no worries, the ticket is a maximum of 7000 for you (Of course both ways).
+              If you choose that we buy your tickets, this will be done when we receive the 7000 NOK.
+              We will also arrange the travel from the airport to the camp hotel (Included).
                <br/>
+              If you want to buy the ticket yourself that's okey, but we need to be informed about this. 
+              Then you confirm your sign up by deposit 2000 NOK to ittcamp.
+              If you choose this you also have to pay the travel to the hotel yourself (We will of course help you to arrange the pick up at the airport if wanted). 
+              <br/>
                <br/>
                </StyledText>
               <StyledH3>Travel process if we fix your ticket</StyledH3>
                <br/>
               <StyledText>
               <ol>
-              <li>--> Confirm sign up by sending us 7000 kroners</li>
+              <li>--> Confirm sign up by sending us 7000 NOK</li>
               <li>--> Get your tickets with information about when to meet at the airport</li>
               <li>--> Enjoy the travels and get to know your fellow camp members</li>
-              <li>--> Land in Taiwan where the buss will be waiting for us</li>
+              <li>--> Land in Taiwan where the buss will be waiting for you</li>
               <li>--> Arrive at the hotel and charge batteries for the first practice</li>
               </ol>
             </StyledText>
@@ -59,12 +55,11 @@ export default function TaiwanTravel() {
                <br/>
               <StyledText>
               <ol>
-              <li>--> Confirm sign up by sending us the deposit of 2000 kroners</li>
+              <li>--> Confirm sign up by sending us the deposit of 2000 NOK</li>
               <li>--> Buy your tickets and send us information about when you land at the airport in Tao Yuan</li>
               <li>--> Land in Taiwan where the taxi will be waiting for you</li>
               <li>--> Arrive at the hotel and pay the taxidriver</li>
               <li>--> Charge batteries for the first practice</li>
-             
               </ol>
             </StyledText>
               <br/> 

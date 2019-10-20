@@ -20,7 +20,7 @@ export default function Pack() {
             <StyledH3>Remember:</StyledH3>
                 <ul>
                 <li>Passport</li>
-                <li>Equipment suited for an 16 hours travel</li>
+                <li>Equipment suited for long travel</li>
                 <li>Essentials (Phones, wallet, toiletries...)</li>
                 <li>Racket and other table tennis equipment(Water bottle, towel..etc)</li>
                 <li>Table tennis clothes for 6 days (for table tennis, outside sport and sparetime). It will be possilbe to wash cloths at the hotel.</li>
