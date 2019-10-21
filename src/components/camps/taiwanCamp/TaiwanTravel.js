@@ -23,7 +23,7 @@ export default function TaiwanTravel() {
               <ol>
               <li>Gardemoen, Norway</li>
               <br/>
-              <li>Castrup, Denmark</li>
+              <li>Kastrup, Denmark</li>
               </ol>
               <br/>
               </StyledText>

@@ -13,17 +13,16 @@ export default function NorwayTravel() {
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
             <StyledText> 
-                We choose to target Scandinavian players for our first camp. 
-                And we hope to see as many nationalities as possible.
-                Therefore we will only arrange pickups at the Harestua train station to begin with (It could be changes to this if there is many players from outside Norway). 
-                If the participant can't travel alone, we will arrange someone to meet you at the airport,
-                and help out with the practical things, and travel with the traveler from Gardemoen to Harestua.
-                Wanna drive? 
+                We hope to see as many nationalities as possible on our camp.
+                We will arrange pickups at the Harestua train station to begin with, but if people come in groups from other countries, we will arrange pick ups at the airport. 
+                If a participant under 16 is traveling alone, we will arrange someone to meet you at the airport,
+                and follow you to Harestua (The train tickets will not be covered by ITTC).
+                Wanna drive to Harestua? 
                 <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828">(Get destination)</StyledATagLink>
             </StyledText>
             <br/>
             <StyledText>
-                If you're traveling from denmark(kastrup), 
+                If you're traveling from Denmark, kastrup, 
                 Oscar Perman will meet you at the airport and help you to the gate. <br/><br/>
             </StyledText>
             <StyledSTextSectionHeader>Our travel recomendations </StyledSTextSectionHeader>
@@ -38,7 +37,7 @@ export default function NorwayTravel() {
               <br/>
               <StyledH3> If you live further away from Oslo:</StyledH3>
               <ol>
-              <li>Take flight from your closest airport to Gardemoen.</li>
+              <li>Take the flight from your closest airport to Gardemoen.</li>
               <li>Take the speed-train to Oslo Central Station (Oslo S / Jernbanetorget)</li>
               <li>Take train R30X, R30 or L3 to Harestua train station</li>
               <li>ITTC will pick you up</li>

@@ -40,7 +40,7 @@ export default function MikkelGudmundsen() {
       </StyledTextSectionHeader>
       <br/>
       <StyledText>
-   Eskil Lindholm is a active coach and player for Fornebu BTK. 
+   Eskil Lindholm is an active coach and player for Fornebu BTK. 
    He is currently ranked number 5 on the senior ranking in Norway,
     and play for the Norwegian national team.
     We are gratefull to have you on our team,

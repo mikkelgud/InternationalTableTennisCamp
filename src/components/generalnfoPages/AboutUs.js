@@ -95,27 +95,29 @@ export default function AboutUs(props) {
       <StyledDiv>
         <StyledTextSectionHeader>Welcome to ITTC! </StyledTextSectionHeader>
         <br />
-        <StyledSTextSectionHeader>About us</StyledSTextSectionHeader>
+        <StyledSTextSectionHeader>About Us</StyledSTextSectionHeader>
         <br />
-        <StyledH3>Our goals</StyledH3>
+        <StyledH3>Our Goals</StyledH3>
         <StyledText>
           Our goal is to make the most developing, higest quality and greatest socially table tennis camps in the world for everyone, at any level.
           We wanna make great experiences where people from all over the world, get togheter for one common goal.
-          Everyone in the ITTC-team are ambitious people who aim high. We all hope and belive that one time in the future, we can reach that goal.
+          Everyone in the ITTC-team are ambitious people which aim high. We all hope and belive that one time in the future, we can reach that goal.
           We will start small and try to build it step by step, so every camp can be at the highest quality from the start.
         </StyledText>
         <br />
-        <StyledH3>We offer</StyledH3>
+        <StyledH3>We Offer</StyledH3>
         <StyledText>
-          We in International table tennis camp will deliver the higest level of practice for all levels.
-          With a proffesional practice program, world-class coaches, custom sparring,
+          We in International table tennis camp will deliver the higest level of practice for all levels and ages.
+          With a professional practice program, world-class coaches, custom sparring,
           the best possible facilities and a high-skilled team with great spirit,
            we hope to make an unforgettable experience for every participant.
-          We have a goal that everyone of our camp members, will reach the next step in their table tennis career during our camps.
+          We have a goal that everyone of our camp members, will reach their next step 
+          in their table tennis career during our camps.
           And we are sure that with the new knowledge absored and with the right guidance,
-          it will be clear what you have to work with in the future.
+          it will be clear what you have to work with after the camp.
           We offer great social experiences, and hopefully you will find life lasting relationships on our camps.
-          At the moment we offer 3 camps in respectively Norway, Poland and China.
+          At the moment we offer 2 camps in respectively Norway and Taiwan.
+          We aim to offer 4 camps before 2021, and 6 camps within 5 years. 
           Keep up with ittcamp.com to get the newest information about our camps.
         </StyledText>
         <br/>
@@ -125,7 +127,7 @@ export default function AboutUs(props) {
         <StyledH3>Camp Norway</StyledH3>
           <br/>
         <StyledText>
-          ITTC invite you to join ITTCamp- Norway.
+          ITTC invite you to join ITTCamp- Norway 07.04.2020 - 10.04.2020.
           The camp will be arranged in a small place called Harestua.
            We wanna start small and will therefore have a:
           </StyledText>
@@ -156,31 +158,32 @@ export default function AboutUs(props) {
         <br />
         <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
         <br />
-        <StyledH3>Camp Taiwan</StyledH3>
+        <StyledH3>Camp Taiwan</StyledH3> 
           <br/>
         <StyledText>
-          ITTC invite you to join ITTCamp- Taiwan.
+          ITTC invite you to join ITTCamp- Taiwan 22.06.2020 - 07.07.2020.
           We will practice with Taiwanese and Chinese sparring partners during the camp.
-          The place has all levels. This make the camp for every table tennis enthusiast, whatever age or level.
-          The coaches at the table tennis center will also coach us. 
-          They speak a little english, but luckly for us Mikkel and Li Fen can translate if needed. 
+          The place has all levels, whic makes the camp suitable for every table tennis enthusiast, whatever age or level.
+          The professional coaches at the table tennis center in Taiwan will also coach us. 
+          They speak a little english, but luckly for us Li Fen and Mikkel can translate if needed. 
           <br/>
           <br/>
-          The camp will be arranged in a huge town called Tao Yuan.
-          We are looking forward to show you one of the greatest table tennis
-          facilities, and show you the country and culture in Taiwan.
-          Taiwan is also very convenient because we don't need visa,
-          Which make the traveling process a lot easier than for instance China.
+          The camp will be arranged in a town called Tao Yuan.
+          We are looking forward to show you the table tennis center
+          , country and culture in Taiwan.
+          Taiwan is also very convenient to travel to, because we don't need visa,
+          Which make the traveling process a lot easier and cheaper than traveling to China.
           We would also like to welcome parents and coaches for this camp.
+          We will all live at the same hotel, and eat the meals togheter.
           We will do our best to make this an experience that every participant, parent and coach can look back on
           as an outstanding camp where they learned, developed and made good memorable moments for life.
-          The camp will be divided into two camps to ensure the best quality for all players in all levels.
+          To ensure the quality of the camp we have chosen a:
           <br/>
           </StyledText>
         <StyledH3>
           <ol>
             <br />
-            <li> Maximum 30 players
+            <li> Maximum of 30 players
                </li>
                <br />
           <li>

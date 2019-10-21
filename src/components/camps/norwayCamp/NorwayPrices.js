@@ -24,7 +24,7 @@ export default function Expences(props) {
       <ul>
     <li> 3 days camp with high quality traning.</li>
     <li> 2 table tennis practices and 1 physical practice every day, except arrival and departure day. <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>(Look at schedule)</StyledATagLink></li>
-    <li>Lectures every evening with our coaches, including European champion Li Fen.</li>
+    <li>Lectures or team-building every evening with our coaches, including European champion Li Fen.</li>
     <li>4 nights with sleeping in the hall with all essentials, with night guards awake at all time. <br/>
           (Notice: Madrass, duvet/sleepingbag, sheets and pillow you have to bring yourself)</li>
     <li>3 meals every day. <br/>
