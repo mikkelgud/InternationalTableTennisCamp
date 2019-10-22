@@ -77,9 +77,6 @@ margin: 1rem;
   }
 `;
 
-
-
-
 export default function AboutUs(props) {
   const [hoverState, setHoverState] = useState(false);
     const [signUpIconState, setSignUpIconState] = useState("door-closed");
@@ -99,25 +96,25 @@ export default function AboutUs(props) {
         <br />
         <StyledH3>Our Goals</StyledH3>
         <StyledText>
-          Our goal is to make the most developing, higest quality and greatest socially table tennis camps in the world for everyone, at any level.
-          We wanna make great experiences where people from all over the world, get togheter for one common goal.
-          Everyone in the ITTC-team are ambitious people which aim high. We all hope and belive that one time in the future, we can reach that goal.
-          We will start small and try to build it step by step, so every camp can be at the highest quality from the start.
+          Our goal is to make table tennis camps that are fast developing, high quality and great socially for everyone, at all levels and ages.
+          We wanna make great experiences where people from all over the world,
+          get togheter for one common goal. 
+          And we want to create a platform where life lasting memories can be made.
+          Everyone in the ITTC-team are ambitious people who aim high. 
+          Therefore we hope and belive that one time in the future, we can reach that goal.
         </StyledText>
         <br />
         <StyledH3>We Offer</StyledH3>
         <StyledText>
           We in International table tennis camp will deliver the higest level of practice for all levels and ages.
           With a professional practice program, world-class coaches, custom sparring,
-          the best possible facilities and a high-skilled team with great spirit,
-           we hope to make an unforgettable experience for every participant.
+          the best possible facilities and a high-skilled team with great spirit.
+          We hope to make an unforgettable experience for every participant.
           We have a goal that everyone of our camp members, will reach their next step 
           in their table tennis career during our camps.
-          And we are sure that with the new knowledge absored and with the right guidance,
-          it will be clear what you have to work with after the camp.
-          We offer great social experiences, and hopefully you will find life lasting relationships on our camps.
+          And we are sure that with the new knowledge absored during the camp, this will be possible.
+          We offer great social experiences, and hopefully you will find life lasting friends on our camps.
           At the moment we offer 2 camps in respectively Norway and Taiwan.
-          We aim to offer 4 camps before 2021, and 6 camps within 5 years. 
           Keep up with ittcamp.com to get the newest information about our camps.
         </StyledText>
         <br/>
@@ -148,9 +145,8 @@ export default function AboutUs(props) {
             onClick={() => { props.history.push("/signup") }} >
             <FontAwesomeIcon icon={signUpIconState} />
             Sign up
-                        </StyledIcon>
+          </StyledIcon>
         </StyledText>
-       
         <br />
         <br />
         <br />
