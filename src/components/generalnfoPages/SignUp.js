@@ -55,7 +55,7 @@ export default function SignUp(props) {
                 <ul>
                     <li>  07.04.2020 - 10.04.2020</li>       <br/>
                     <li>
-                       1 300 NOK
+                       1 690 NOK
                     </li>
                     <br/>
                 <li>Deadline: 15.03.2020</li>
@@ -79,7 +79,7 @@ export default function SignUp(props) {
                 <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includs</StyledATagLink>
                 <br/>
                 <br/>
-                <li>+ flight 6-7000 NOK both ways (Depends where you fly from)</li>
+                <li>+ flight 7000 NOK both ways</li>
                 <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/travel") }}>Read more about the travel</StyledATagLink>
                 <br/>
                 <br/>
