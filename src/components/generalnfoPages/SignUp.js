@@ -41,11 +41,8 @@ const MyWrapper = styled.div`
 
  `;
 
-
 export default function SignUp(props) {
     ScrollTop();
-
-
     // const [starState, setStarState] = useState();
     return (
         <MyWrapper>
@@ -53,13 +50,11 @@ export default function SignUp(props) {
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp-Norway <span role="img" aria-label="NO-flag">🇳🇴</span></StyledSTextSectionHeader></HeaderAligner>
                 <br />
                 <ul>
-                    <li>  07.04.2020 - 10.04.2020</li>       <br/>
-                    <li>
-                       1 690 NOK
-                    </li>
+                    <li>  07.04.2020 - 10.04.2020</li> 
                     <br/>
-                <li>Deadline: 15.03.2020</li>
-
+                    <li>1 690 NOK</li>
+                    <br/>
+                    <li>Deadline: 15.03.2020</li>
                 </ul>
                 <br />
                 <StyledText>
@@ -71,7 +66,6 @@ export default function SignUp(props) {
             </StyledDiv>
             <StyledDiv>
                 <HeaderAligner> <StyledSTextSectionHeader>Sign up to camp-Taiwan<span role="img" aria-label="PO-flag">🇹🇼</span></StyledSTextSectionHeader></HeaderAligner>
-               
                 <br />
                 <ul>
                     <li>  22.06.2020 - 07.07.2020</li><br/>
@@ -91,9 +85,8 @@ export default function SignUp(props) {
                 </ul>
                 <br />
                 <br/>
-                <StyledText>
-              
-              You sign up by sending the<StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink> to
+                <StyledText> You sign up by sending the<StyledATagLink href={ApplicationForm}> 
+                Sign up form </StyledATagLink> to
                   <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>
           </StyledText>
                 
