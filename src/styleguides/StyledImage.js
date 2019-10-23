@@ -8,6 +8,7 @@ height: 16vw;
 padding: 0;
 border-radius: 10px;
 object-fit: fill;
+cursor: pointer;
 
 @media (max-width: 1128px){
     height: 24vw;

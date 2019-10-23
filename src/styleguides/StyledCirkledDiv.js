@@ -23,19 +23,20 @@ padding: 2.5rem;
   background-image: url(${props => props.backgorund});
   background-repeat: no-repeat;
   background-size: cover;
+  color: black;
   &:hover {
     background-color: black;
-    color: white;
     border-radius: 20%;
+    color: white;
     box-shadow: 0px 2px 18px 10px rgba(0,0,0,0.2);
     
 
 }
-  @media (max-width: 1030px){
+  @media (max-width: 1230px){
+    color: white;
     max-width: 23rem;
     height: 300px;
     width: 300px; 
-    color: white;
     background-color: black;
     }
 `;

@@ -20,10 +20,10 @@ export default function Schedule(props) {
             <StyledText> 
                 Notice:
                 Phones are allowed during the camp, 
-                but after bedtime they are strictly forbidden. 
-                It's very important to get enough sleep to fully benefit from this camp.
-                And if you are alergic to something, please tell us before the camp so we can customize.
-                Always be on time, and be ready at least 5 min before activities start.
+                but after bedtime they are forbidden. 
+                It's very important to get enough sleep to fully benefit from the camp.
+                If you are alergic to something, please tell us before the camp so we can customize the meals.
+                Try to always be on time, and be ready at least 5 min before activities start.
                 <br/>
                 <br/>
                 <StyledSTextSectionHeader>Food</StyledSTextSectionHeader>
@@ -40,22 +40,23 @@ export default function Schedule(props) {
             <StyledH3>Day 1 Tuesday 07.04.2020 -Welcome to Harestua, Focus: basic footwork</StyledH3>
             <StyledText>
                 15.00-17.00- Arrival- Instalation and welcome to International Table Tennis Camp Norway. <br/>
+                17.00-19.15 Briefing and short practice.<br/>
                 17.00-18.00 Light food will be served<br/>
-                18.00-20.15 Briefing and short practice.<br/>
-                21.00 Making Teams, and reveal the first activity.<br/>
-                22:00- In bed, no phones 22:30 totaly quiet <br/><br/>
+                21.00   Reveal the first group-activity.<br/>
+                22:10- In bed, no phones 22:30 totaly quiet <br/><br/>
             </StyledText>
             <StyledH3>Day 2 -Just the beginning, let's start with the basics. Focus: Smart footwork</StyledH3>
             <StyledText>
-            07.00- The show must go on, wake up.<br/>    
-            07.20-  Gathering, be ready to go outside.<br/>
-            07.20-08.00 Games and running outside<br/>    
+            07.20- wake up.<br/>    
+            07.50-  Gathering, be ready .<br/>
             08.15-  Breakfast  <br/>
             08.45- preapare practice (remember fill bottles, towels and equipment. (camera if you want)) <br/>
-            09.15-11.30-   Practice ( 4 exercises + 1 secret)<br/>
+            09.00-11.30-   Practice ( 4 exercises + 1 secret)<br/>
             12.00-    Lunch <br/>
-            15.00-17.30-   Practice (2 exercises + multi-ball + service-receiving)<br/>
-            17.30-18.10-   Physical training  with Mikkel and Hidling!<br/>
+            14.45- preapare practice (remember fill bottles, towels and equipment. (camera if you want)) <br/>
+            15.00-17.00-   Practice (2 exercises + multi-ball + service-receiving)<br/>
+            17.00-17.45-   Physical training  with Hidling!<br/>
+            17.45-18.30 shower and get ready to eat dinner <br/>
             18.30-   Dinner (More information will come soon)<br/>
             19.30-20.30-   Learning table tennis theory and/or Watch matches on video <br/>    
             21.00-21-45-  Let the games begin  <br/>      
@@ -63,8 +64,8 @@ export default function Schedule(props) {
             </StyledText>
             <StyledH3>Day 3 - You just got served, did you receive? Focus: Serv, Tactics and attitude</StyledH3>
             <StyledText>
-            07.00- The show must go on, wake up.<br/>    
-            07.20-  Gathering, be ready to go outside.<br/>
+            07.20- The show must go on, wake up.<br/>    
+            07.50-  Gathering, be read<br/>
             07.20-08.00 Games and/or running outside<br/>    
             08.15-  Breakfast  <br/>
             08.45- preapare practice (remember fill bottles, towels and equipment. (camera if you want)) <br/>
@@ -73,8 +74,8 @@ export default function Schedule(props) {
             15.00-17.30-   Practice (2 exercises + multi-ball + service-receiving)<br/>
             17.30-18.10-   Physical training  with Hilding and Oscar!<br/>
             18.30-   Dinner (More information will come soon)<br/>
-            19.30-20.30-   Learning table tennis theory and/or Watch matches on video <br/> 
-            21.00-21-45-  The games must continue  <br/>      
+            19.30-20.00-   Learning table tennis theory and/or Watch matches on video <br/> 
+            20.30-21-45-  The games must continue  <br/>      
             22:00- In bed, no phones 22:30 totaly quiet <br/><br/>
             </StyledText>
             <StyledH3>Day 4 Friday 10.04.2020 Thank you for now and good luck! Focus: Repetition</StyledH3>

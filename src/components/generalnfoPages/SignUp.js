@@ -11,11 +11,6 @@ import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
 // import useLocalStorage from '../hooks/useLocalStorage';
 
 
-
-
-
-
-
 export const StyledATagLinkLocal = styled.a`
   color: black;
   cursor: pointer;
@@ -38,7 +33,6 @@ const MyWrapper = styled.div`
  align-items: center;
  justify-content: center;
  flex-wrap: wrap;
-
  `;
 
 export default function SignUp(props) {

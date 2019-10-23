@@ -23,7 +23,7 @@ padding: 20px;
 
 //Presentation-text
 //Test-text
-const info = "Click to read";
+const info = "Click to read more";
 
 
 //Picture-sources

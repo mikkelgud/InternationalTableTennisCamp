@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
 import StyledTextBoxDiv from '../../../styleguides/StyledImageShoverDivBox';
 import { StyledText } from '../../../styleguides/StyledText';
@@ -14,13 +14,33 @@ import BathAndSauna from '../../../Assets/PolandPoolSauna.png';
 import Handball from '../../../Assets/PolandHandBallField.png';
 import DiningHall from '../../../Assets/PolenSpiseSall.png';
 import { ScrollTop } from '../../../utils/ScrollToTopp';
+import ModelVeiw from '../../../utils/ModalWindow';
+
 
 
 export default function PolandTravel() {
     ScrollTop();
+        
+    const [clickedState, setClickedState] = useState(false);
+    const [bigScreenSource, setBigScreenSource] = useState("");
+    const [displayState, setDisplayState] = useState("none");
+
+    const toggleBigScreen = (source) => {
+        if (!clickedState && bigScreenSource !== source) {
+            setClickedState(!clickedState);
+            setBigScreenSource(source);
+            setDisplayState("block");
+        } else {
+            setBigScreenSource(source);
+        }
+    }
+
+        
+
 
     return (
         <>
+           {clickedState ? <ModelVeiw display={()=> displayState} source={bigScreenSource} onClick={() => {setDisplayState("none"); setClickedState(false); setBigScreenSource("");}}/> : null}
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Poland - Work in progress 
                 <span role="img" aria-label="work-emoji">👨🏽‍💻</span>
@@ -29,15 +49,15 @@ export default function PolandTravel() {
                 </StyledTextSectionHeader>
                 </StyledTextBoxDiv>
             <Wrapper> 
-            <StyledImage src={Campus}/>
-            <StyledImage src={Reception}/>
-            <StyledImage src={TableTennis}/>
-            <StyledImage src={DiningHall}/>
-            <StyledImage src={BathAndSauna}/>
-            <StyledImage src={Handball}/>
-            <StyledImage src={Beds}/>
-            <StyledImage src={Fotbal2}/>
-            <StyledImage src={TennisCourt}/>
+            <StyledImage src={Campus} onClick={() => {toggleBigScreen(Campus)}}/>
+            <StyledImage src={Reception} onClick={() => {toggleBigScreen(Reception)}}/>
+            <StyledImage src={TableTennis} onClick={() => {toggleBigScreen(TableTennis)}}/>
+            <StyledImage src={DiningHall} onClick={() => {toggleBigScreen(DiningHall)}}/>
+            <StyledImage src={BathAndSauna} onClick={() => {toggleBigScreen(BathAndSauna)}}/>
+            <StyledImage src={Handball} onClick={() => {toggleBigScreen(Handball)}}/>
+            <StyledImage src={Beds} onClick={() => {toggleBigScreen(Beds)}}/>
+            <StyledImage src={Fotbal2} onClick={() => {toggleBigScreen(Fotbal2)}}/>
+            <StyledImage src={TennisCourt} onClick={() => {toggleBigScreen(TennisCourt)}}/>
             </Wrapper>
             <StyledText>
             </StyledText>

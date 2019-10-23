@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import styled from "styled-components";
 import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
 import { StyledSTextSectionHeader } from '../../../styleguides/StyledSemiTextSectionHeader';
@@ -28,14 +28,11 @@ import BuildingBathroom from '../../../Assets/TaiwanBathRoom.jpeg';
 import BuildingBathroom1 from '../../../Assets/TaiwanBathroom1.jpeg';
 import BuildingBathroom2 from '../../../Assets/TaiwanBathroom2.jpeg';
 import BuildingGym from '../../../Assets/TaiwanGym.jpeg';
+import ModelVeiw from '../../../utils/ModalWindow';
 import BuildingGym1 from '../../../Assets/TaiwanGym2.jpeg';
+import {StyledImage} from '../../../styleguides/StyledImage';
 
 
-const StyledImage = styled.img`
-width: 100%;
-object-fit: contain;
-border-radius: 10px;
-`;
 
 const StyledIFrame = styled.iframe`
 width: 100%;
@@ -50,7 +47,24 @@ marign: 2rem 0;
 
 export default function TaiwanFacilites() {
     ScrollTop();
+
+    const [clickedState, setClickedState] = useState(false);
+    const [bigScreenSource, setBigScreenSource] = useState("");
+    const [displayState, setDisplayState] = useState("none");
+
+    const toggleBigScreen = (source) => {
+        if (!clickedState && bigScreenSource !== source) {
+            setClickedState(!clickedState);
+            setBigScreenSource(source);
+            setDisplayState("block");
+        } else {
+            setBigScreenSource(source);
+        }
+    }
+
     return (
+        <React.Fragment>
+        {clickedState ? <ModelVeiw display={()=> displayState} source={bigScreenSource} onClick={() => {setDisplayState("none"); setClickedState(false); setBigScreenSource("");}}/> : null}
         <StyledTextBoxDiv>
             <StyledTextSectionHeader>Welcome to Camp Taiwan in Tao Yuan</StyledTextSectionHeader>
             <StyledText>
@@ -64,31 +78,31 @@ export default function TaiwanFacilites() {
             <br />
             <StyledH3>the Practice-halls</StyledH3>
             <Wrapper>
-            <StyledImage src={practice01} />
-            <StyledImage src={practice11} />
-            <StyledImage src={practice21} />
-            <StyledImage src={practice31} />
-            <StyledImage src={practice41} />
-            <StyledImage src={practice} />
-            <StyledImage src={practice1} />
-            <StyledImage src={practice2} />
-            <StyledImage src={practice3} />
-            <StyledImage src={practice4} />
-            <StyledImage src={practice5} />
-            <StyledImage src={practice6} />
+            <StyledImage src={practice01} onClick={() => {toggleBigScreen(practice01)}} />
+            <StyledImage src={practice11}  onClick={() => {toggleBigScreen(practice11)}}/>
+            <StyledImage src={practice21} onClick={() => {toggleBigScreen(practice21)}}/>
+            <StyledImage src={practice31} onClick={() => {toggleBigScreen(practice31)}}/>
+            <StyledImage src={practice41} onClick={() => {toggleBigScreen(practice41)}}/>
+            <StyledImage src={practice} onClick={() => {toggleBigScreen(practice)}}/>
+            <StyledImage src={practice1} onClick={() => {toggleBigScreen(practice1)}}/>
+            <StyledImage src={practice2} onClick={() => {toggleBigScreen(practice2)}}/>
+            <StyledImage src={practice3} onClick={() => {toggleBigScreen(practice3)}}/>
+            <StyledImage src={practice4} onClick={() => {toggleBigScreen(practice4)}}/>
+            <StyledImage src={practice5} onClick={() => {toggleBigScreen(practice5)}}/>
+            <StyledImage src={practice6} onClick={() => {toggleBigScreen(practice6)}}/>
             </Wrapper>
             <StyledH3>The Buildning</StyledH3>
             <Wrapper>
-            <StyledImage src={BuildingRoom1} />
-            <StyledImage src={BuildingRoom2} />
-            <StyledImage src={BuildingRoom3} />
-            <StyledImage src={BuildingWash} />
-            <StyledImage src={BuildingLobby} />
-            <StyledImage src={BuildingBathroom} />
-            <StyledImage src={BuildingBathroom1} />
-            <StyledImage src={BuildingBathroom2} />
-            <StyledImage src={BuildingGym} />
-            <StyledImage src={BuildingGym1} />
+            <StyledImage src={BuildingRoom1} onClick={() => {toggleBigScreen(BuildingRoom1)}} />
+            <StyledImage src={BuildingRoom2} onClick={() => {toggleBigScreen(BuildingRoom2)}}/>
+            <StyledImage src={BuildingRoom3} onClick={() => {toggleBigScreen(BuildingRoom3)}}/>
+            <StyledImage src={BuildingWash} onClick={() => {toggleBigScreen(BuildingWash)}}/>
+            <StyledImage src={BuildingLobby} onClick={() => {toggleBigScreen(BuildingLobby)}}/>
+            <StyledImage src={BuildingBathroom} onClick={() => {toggleBigScreen(BuildingBathroom)}}/>
+            <StyledImage src={BuildingBathroom1} onClick={() => {toggleBigScreen(BuildingBathroom1)}}/>
+            <StyledImage src={BuildingBathroom2} onClick={() => {toggleBigScreen(BuildingBathroom2)}}/>
+            <StyledImage src={BuildingGym} onClick={() => {toggleBigScreen(BuildingGym)}}/>
+            <StyledImage src={BuildingGym1} onClick={() => {toggleBigScreen(BuildingGym1)}}/>
             </Wrapper>
                <StyledH3>Want to see and read more about the suroundings and culture in Tao yuan?
                Here are some videos you might find interesting to watch.</StyledH3>
@@ -99,5 +113,6 @@ export default function TaiwanFacilites() {
                <br/>             
                <br/>
         </StyledTextBoxDiv>
+        </React.Fragment>
     )
 }
