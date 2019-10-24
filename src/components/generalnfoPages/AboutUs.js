@@ -167,8 +167,8 @@ export default function AboutUs(props) {
           The camp will be arranged in a town called Tao Yuan.
           We are looking forward to show you the table tennis center
           , country and culture in Taiwan.
-          Taiwan is also very convenient to travel to, because we don't need visa,
-          Which make the traveling process a lot easier and cheaper than traveling to China.
+          Taiwan is also very convenient to travel to, because we DON'T need visa,
+          Which make the traveling process a lot easier and much cheaper than traveling to China.
           We would also like to welcome parents and coaches for this camp.
           We will all live at the same hotel, and eat the meals togheter.
           We will do our best to make this an experience that every participant, parent and coach can look back on

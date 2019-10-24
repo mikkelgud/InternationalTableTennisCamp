@@ -5,6 +5,7 @@ import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
 import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
 import { StyledText } from '../../../styleguides/StyledText';
 import { ScrollTop } from '../../../utils/ScrollToTopp';
+import {StyledATagLink} from '../../../styleguides/StyledATagLink';
 
 
 
@@ -55,8 +56,11 @@ export default function Stay() {
             <HeaderWrap>
                 <StyledTextSectionHeader>
                     Welcome to ITTC Taiwan
-                <StyledText>What would you like to know about?</StyledText>
-                </StyledTextSectionHeader>
+                    
+                <StyledText>What would you like to know about?
+            <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Taoyuan+City,+Taiwan/@39.409967,35.5145764,3.34z/data=!4m8!4m7!1m0!1m5!1m1!1s0x34683d0eceda863f:0x54e44f52583a486a!2m2!1d121.3009798!2d24.9936281"> Where is Tao Yuan?</StyledATagLink>
+            </StyledText>
+            </StyledTextSectionHeader>
             </HeaderWrap>
                     <Wrapper>
             <PlanLinkDiv to="/stay/Taiwan/schedule" text={scheduleText} header={scheduleHeader} />

@@ -73,7 +73,7 @@ export default function SignUp(props) {
                 <br/>
                 <li>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </li>   
                 <br/>
-                <li>There is no need for visa to enter Taiwan.</li>   
+                <li>There's NO need for a visa to enter Taiwan.</li>   
                 <br/>
                 <li>Deadline: 20.03.2020</li>
                 </ul>

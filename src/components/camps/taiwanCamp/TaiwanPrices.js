@@ -29,7 +29,7 @@ export default function Expences(props) {
     <li>3 meals every day. (Read more about our meals in Taiwan <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/schedule"); }}>in the schedule page</StyledATagLink>) <br/>(Notice: If you have any alergies please tell us before the camp). </li>
     <li>Information from coaches about what you have to work with when you get home.</li>
     <li>Travel from the airport to the hotel.</li>
-    <li>Massage.</li>
+    <li>Free Massage.</li>
     <li>Camp T-shirt.</li>
       </ul>
       <br/>
@@ -43,6 +43,8 @@ export default function Expences(props) {
           <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 250 NOK </StyledList>
           <br/>
           <StyledList>+ flight <br/> --> 7000 NOK</StyledList>
+          <br/>
+          <StyledList>There is NO need for a visa to enter Taiwan.</StyledList>   
           </ul>
       </StyledText>
       <br/>
