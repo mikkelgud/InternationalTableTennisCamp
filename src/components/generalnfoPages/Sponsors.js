@@ -43,7 +43,7 @@ const Sponsors = () => {
                 <LocalContainer>
                     <StyledATagLink href="http://www.classiccatering.no" target="blank"><StyledImage src={classiccatering} /></StyledATagLink><br />
                 </LocalContainer>  <LocalContainer>
-                    <StyledATagLink href="https://www.ttex.no" target="blank"><StyledImage src={ttex} /></StyledATagLink>
+                    {/* <StyledATagLink href="https://www.ttex.no" target="blank"><StyledImage src={ttex} /></StyledATagLink> */}
                 </LocalContainer>
                 <StyledText>An extra thanks to Harestua IL for kindly letting us arrange the camp with you on Harestua.</StyledText>
                 <LocalContainer>
