@@ -34,7 +34,7 @@ export default function Schedule(props) {
                  ITTC appreciates it a lot, and so will the participants.
                   </StyledATagLink> */}
                   It will be served breakfast, lunch and dinner every day.
-                  All meals will be suitable
+                  All our meals will be healthy and adapted to the amount of exercise.
                 </StyledText>
                 <br/>
             </StyledText>
