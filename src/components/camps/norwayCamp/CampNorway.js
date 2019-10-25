@@ -33,27 +33,27 @@ const scheduleText = "Read about how our days will be in Harestua. Practice, bed
 
 //Rules
 const rulesHeader = "Rules " + rulesEmoji;
-const rulesText = "Read about our rules and consequences. This is a must read page, so please learn the rules before attending the camps.";
+const rulesText = "Read about the camp rules and consequences. It is obligatory to read this page, so please learn the rules before attending the camps.";
 
 // Social
 const SocialHeader = "Social " + socialEmoji;
-const SocialText = "Read about activities we plan to do during the travels outside the camp and inside the camp."
+const SocialText = "Read about activities we plan to do during the camp."
 
 //Facilities
 const facilitiesHeader = "Facilities "+ facilitiesEmoji ;
-const facilitiesText = "Read about the facilities at the Harestua camp. Read about where we will sleep and where we will stay.";
+const facilitiesText = "Read about the facilities at the Harestua Camp. Read about where we will sleep and where we will stay.";
 
 //Prices
 const pricesHeader = "Prices " + pricesEmoji;
-const priceText = "Read about the price of the Camp on Harestua, and what's included in the price.";
+const priceText = "Read about the price of the Camp at Harestua, and what's included in the price.";
 
 //Pack my bag
 const packHeader = "Pack my Bag " + packEmoji;
-const packText = "Read about what you should remember for camp norway.";
+const packText = "Read about what you should remember to take with you to Camp Norway.";
 
 // const safteyHeader = "Safety ";
 // const safteyIcon = "user-shield";
-// const safteyText = "Read everything about how we will keep everybody safe during the travels, stay and return. And get information about what we need from you to make the camps safe."
+// const safteyText = "Read about how we will keep everybody safe whilst travelling and living at the camp. Get information about what we need from you to make the camps safe."
 // const safteyTo= "/safety";
 
 

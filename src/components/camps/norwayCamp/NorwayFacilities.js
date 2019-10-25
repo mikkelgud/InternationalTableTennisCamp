@@ -44,22 +44,22 @@ export default function NorwayTravel(props) {
                 <StyledText>
                     We will stay, practice, sleep and eat inside the Harestua Arena
                     <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828"> (Get destination). </StyledATagLink>
-                    Harestua is in the district of Lunner that’s only 30 minutes train from Oslo central station.
-                    Lunner is a small area of the municipality of Oppland.
-                    The population of Harestua is only 2323, so it's a very small and safe place.
-                   The sport arena is 2700 square meters, It has a modern table tennis hall,
+                    Harestua is situated 30 minutes away by train from Oslo Central Station, in the district of Lunner. 
+                    Lunner is a small area in the municipality of Oppland.
+                    Harestua is a small place with just over 2300 inhabitants, making it very safe.
+                   The sport arena is 2700 square meters and contains a modern table tennis hall,
                     athletics hall and gymnastics hall. It was built in 2016 and has a
-                     kitchen, wardrobe´s and confortable relaxing sections that will all be at our disposal during the camp.
-                    This facilities and placement is perfect for our players table tennis developement.
+                     kitchen, changing rooms and comfortable areas to relax in, which will be at our disposal during the camp.
+                    This facility and placement is perfect for our players table tennis developement.
             </StyledText>
                 <br />
                 <StyledSTextSectionHeader>Harestua facility pictures  </StyledSTextSectionHeader>
                 <StyledH3>The practice-hall</StyledH3>
                 <Wrapper>
-                    <StyledH3>Inside the buildning</StyledH3>
+                    <StyledH3>Inside the building</StyledH3>
                     <StyledImage src={Hall} onClick={() => {toggleBigScreen(Hall)}}/>
                     <StyledImage src={Hall1} onClick={() => {toggleBigScreen(Hall1)}}/>
-                    <StyledH3>Outside the buildning</StyledH3>
+                    <StyledH3>Outside the building</StyledH3>
                     <StyledImage src={Buildning} onClick={() => {toggleBigScreen(Buildning)}}/>
                     <StyledImage src={Buildning2} onClick={() => {toggleBigScreen(Buildning2)}}/>
                     <StyledH3>Surroundings</StyledH3>
@@ -67,7 +67,7 @@ export default function NorwayTravel(props) {
                     <StyledImage src={Kiwi} onClick={() => {toggleBigScreen(Kiwi)}} />
                 </Wrapper>
                 <StyledATagLink target="blank" href="https://sagparken.no/hva-er-sagparken/">
-                    Want to see and read more from Harestua?
+                    Want to see and read more about Harestua?
                </StyledATagLink>
                 <br />
                 <br />

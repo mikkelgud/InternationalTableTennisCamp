@@ -5,7 +5,7 @@ import { StyledText } from '../../styleguides/StyledText';
 import { StyledATagLink } from '../../styleguides/StyledATagLink';
 import { StyledImage } from '../../styleguides/StyledImage';
 import classiccatering from '../../Assets/classic.png';
-import ttex from '../../Assets/ttex.png';
+// import ttex from '../../Assets/ttex.png';
 import styled from 'styled-components';
 import { StyledH3 } from '../../styleguides/Styledh3';
 

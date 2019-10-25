@@ -13,21 +13,21 @@ export default function Safety(props) {
             <StyledTextSectionHeader>Safety during camps</StyledTextSectionHeader>
             <StyledText>
                 <StyledH3> First of all.</StyledH3>
-                The camp starts when we meet at the arranged meeting point.
-                This is important to have in mind, because from this point the camp rules are law.
-                These rules are made to ensure that everyone is safe and feel safe during the camp.
+                The camp begins when we meet at the arranged meeting point. From this point on the camp rules are to be followed by all participants. 
+                
+                These rules are made to ensure that everyone is safe and feels safe during the camp.
             </StyledText>
-            <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>If you haven't red the camp rules, click here.</StyledATagLink>
+            <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>If you haven't read the camp rules, click here.</StyledATagLink>
                 <br/>
             <br />
             <br />
             <StyledText>
-            <StyledH3>If you are under 18 years old, and traveling alone?</StyledH3>
-                Then there is a few things we need from your parents:
+            <StyledH3> Under 18 years old and travelling alone?</StyledH3>
+                This is what we need from parents:
                 <ul>
-                    <li>A Signature to ensure that all rules are red, and understood.</li>
-                    <li>A signature that permits the person under 18 to use the swimming pool, if that's available at the facilities.</li>
-                    <li>Everyone need to provide travelinsurance prove if traveling outside Scandinavia.</li>
+                    <li>A Signature to ensure that all rules are read and understood.</li>
+                    <li>A signature that permits the person under 18 to use the swimming pool if there is one available at the facilities.</li>
+                    <li>Everyone need to have travel insurance if travelling outside Scandinavia.</li>
                 </ul>
             </StyledText>
                  <br/>
@@ -35,9 +35,9 @@ export default function Safety(props) {
 <StyledH3>Social Safety</StyledH3>
             <StyledText>
              
-                For us, saftey is more than just making everyone safe.
-                It's also about creating an environment that is warm and inclusive between the travelers.
-                We will therefore arrange several social events during the camp, and spend time learning to know each other.
+                For us, saftey is more than just keeping everyone safe.
+                It's also about creating a warm and inclusive environment for all participants.
+                We will therefore arrange several social events during the camp, and spend time getting to know eachother.
             </StyledText>
             <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp-Norway here</StyledATagLink><br/>
             <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/social"); }}>Read about the social life on camp-Taiwan here</StyledATagLink>

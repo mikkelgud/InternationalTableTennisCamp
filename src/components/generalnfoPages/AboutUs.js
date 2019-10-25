@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styled from 'styled-components';
 import StyledDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledText } from "../../styleguides/StyledText";
@@ -79,13 +79,13 @@ margin: 1rem;
 
 export default function AboutUs(props) {
   const [hoverState, setHoverState] = useState(false);
-    const [signUpIconState, setSignUpIconState] = useState("door-closed");
-  
+  const [signUpIconState, setSignUpIconState] = useState("door-closed");
+
   const signUpItemOnHoverEffectToggle = () => {
     setHoverState(!hoverState);
     // setHoverState(!hoverState);
-    hoverState ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
-}
+    hoverState ? setSignUpIconState("door-closed") : setSignUpIconState("door-open");
+  }
   ScrollTop();
   return (
     <LocalWrapper>
@@ -96,49 +96,48 @@ export default function AboutUs(props) {
         <br />
         <StyledH3>Our Goals</StyledH3>
         <StyledText>
-          Our goal is to make table tennis camps that are fast developing, high quality and great socially for everyone, at all levels and ages.
-          We wanna make great experiences where people from all over the world,
-          get togheter for one common goal. 
-          And we want to create a platform where life lasting memories can be made.
-          Everyone in the ITTC-team are ambitious people who aim high. 
-          Therefore we hope and belive that one time in the future, we can reach that goal.
+          Our goal is to make table tennis camps that are of high quality for all levels and ages, where quick development and the social aspect is the main focus. 
+      
+          Our goal is to create a platform where life lasting memories can be made together with people from all around the world.
+          Everyone in the ITTC-team are ambitious people who aim high, which we are certain will result in a camp where the goals above are achieved and surpassed.
+          
         </StyledText>
         <br />
-        <StyledH3>We Offer</StyledH3>
+        <StyledH3>What We Offer</StyledH3>
         <StyledText>
-          We in International table tennis camp will deliver the higest level of practice for all levels and ages.
-          With a professional practice program, world-class coaches, custom sparring,
-          the best possible facilities and a high-skilled team with great spirit.
-          We hope to make an unforgettable experience for every participant.
-          We have a goal that everyone of our camp members, will reach their next step 
+          In the International Table Tennis Camp we aim to deliver the higest level of practice for all levels and ages.
+          With a professional training program, world-class coaches, custom sparring,
+          the best possible facilities and a high-skilled team with great spirit
+          we hope to make an unforgettable experience for every participant.
+          We have a goal that all participants at our camp will reach the next step
           in their table tennis career during our camps.
-          And we are sure that with the new knowledge absored during the camp, this will be possible.
-          We offer great social experiences, and hopefully you will find life lasting friends on our camps.
-          At the moment we offer 2 camps in respectively Norway and Taiwan.
-          Keep up with ittcamp.com to get the newest information about our camps.
+          We are certain that with the knowledge aquired throughout the camp this will be possible.
+          We offer great social experiences, and hopefully you will find life lasting friends at our camps.
+          At the moment we offer 2 camps in Norway and Taiwan, respectively.
+          Keep up with ittcamp.com to get the latest information about our camps.
         </StyledText>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader>
         <br />
         <StyledH3>Camp Norway</StyledH3>
-          <br/>
+        <br />
         <StyledText>
-          ITTC invite you to join ITTCamp- Norway 07.04.2020 - 10.04.2020.
+          ITTC invites you to join ITTCamp- Norway 07.04.2020 - 10.04.2020.
           The camp will be arranged in a small place called Harestua.
-           We wanna start small and will therefore have a:
+           We want to start small and will therefore have a:
           </StyledText>
-            <br />
+        <br />
         <StyledH3>
-        <div>
-          <ol>
-            <li>Maximum of 32 participants</li>
-            <br />
-            <li>Sign up deadline: 15.03.2020  </li>
-          </ol>
+          <div>
+            <ol>
+              <li>Maximum of 32 participants</li>
+              <br />
+              <li>Sign up deadline: 15.03.2020  </li>
+            </ol>
           </div>
         </StyledH3>
-          <StyledText>
+        <StyledText>
           <StyledIcon
             onMouseEnter={() => signUpItemOnHoverEffectToggle()}
             onMouseLeave={() => signUpItemOnHoverEffectToggle()}
@@ -154,61 +153,61 @@ export default function AboutUs(props) {
         <br />
         <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
         <br />
-        <StyledH3>Camp Taiwan</StyledH3> 
-          <br/>
+        <StyledH3>Camp Taiwan</StyledH3>
+        <br />
         <StyledText>
-          ITTC invite you to join ITTCamp- Taiwan 22.06.2020 - 07.07.2020.
+          ITTC invites you to join ITTCamp- Taiwan 22.06.2020 - 07.07.2020.
           We will practice with Taiwanese and Chinese sparring partners during the camp.
-          The place has all levels, whic makes the camp suitable for every table tennis enthusiast, whatever age or level.
-          The professional coaches at the table tennis center in Taiwan will also coach us. 
-          They speak a little english, but luckly for us Li Fen and Mikkel can translate if needed. 
-          <br/>
-          <br/>
+          The facility has players of all levels, which makes the camp suitable for every table tennis enthusiast, whatever age or level.
+          The professional coaches at the table tennis center in Taiwan will be coaching, together with translations from Li Fen and Mikkel (if needed).
+          
+          <br />
+          <br />
           The camp will be arranged in a town called Tao Yuan.
-          We are looking forward to show you the table tennis center
-          , country and culture in Taiwan.
-          Taiwan is also very convenient to travel to, because we DON'T need visa,
-          Which make the traveling process a lot easier and much cheaper than traveling to China.
-          We would also like to welcome parents and coaches for this camp.
-          We will all live at the same hotel, and eat the meals togheter.
+          We are looking forward to showing you the country and culture of Taiwan, as well as the top notch training facilities there. 
+      
+          Taiwan is also very convenient to travel to because a visa is not required,
+          which makes the travelling process a lot easier and much cheaper than travelling to China.
+          We would also like to welcome parents and coaches to this camp.
+          Everyone will live at the same hotel and eat the meals together.
           We will do our best to make this an experience that every participant, parent and coach can look back on
-          as an outstanding camp where they learned, developed and made good memorable moments for life.
+          as an outstanding camp where they learned, developed and made memories for life.
           To ensure the quality of the camp we have chosen a:
-          <br/>
-          </StyledText>
+          <br />
+        </StyledText>
         <StyledH3>
           <ol>
             <br />
             <li> Maximum of 30 players
                </li>
-               <br />
-          <li>
-            Deadline: 20.03.2020
+            <br />
+            <li>
+              Deadline: 20.03.2020
           </li>
           </ol>
         </StyledH3>
         <StyledText>
-          </StyledText>
+        </StyledText>
         <StyledText>
-        <StyledIcon
-                            onMouseEnter={()=> signUpItemOnHoverEffectToggle()}
-                            onMouseLeave={()=> signUpItemOnHoverEffectToggle()}
-                                onClick={() => { props.history.push("/signup") }} >
-                                <FontAwesomeIcon  icon={signUpIconState}/>
-                                Sign up
+          <StyledIcon
+            onMouseEnter={() => signUpItemOnHoverEffectToggle()}
+            onMouseLeave={() => signUpItemOnHoverEffectToggle()}
+            onClick={() => { props.history.push("/signup") }} >
+            <FontAwesomeIcon icon={signUpIconState} />
+            Sign up
                         </StyledIcon>
         </StyledText>
         <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <LeadersHeaderWrapper>
           <StyledSTextSectionHeader>Our Team</StyledSTextSectionHeader>
           <StyledATagLink onClick={() => { props.history.push("/leaders"); }}>
-               Leaders
+            Leaders
               </StyledATagLink><br />
         </LeadersHeaderWrapper>
         <StyledText>
@@ -224,7 +223,7 @@ export default function AboutUs(props) {
               <StyledATagLink onClick={() => { props.history.push("/leaders/Hilding-Persson"); }}>
                 <LinkVeiwMultiplier>Hilding Persson</LinkVeiwMultiplier>
               </StyledATagLink><br />
-             
+
             </div>
             <div>
               <StyledH3>Empolyed coaches;<br /><br /></StyledH3>
@@ -237,7 +236,7 @@ export default function AboutUs(props) {
               <StyledATagLink onClick={() => { props.history.push("/leaders/Eskil-Lindholm"); }}>
                 <LinkVeiwMultiplier>Eskil Lindholm</LinkVeiwMultiplier>
               </StyledATagLink><br />
-            
+
             </div>
             <div>
               <StyledH3>And our sponsors and other contributers:<br /><br /></StyledH3>
