@@ -5,7 +5,6 @@ import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeade
 import { StyledH3 } from '../../../styleguides/Styledh3';
 import { ScrollTop } from '../../../utils/ScrollToTopp';
 import { StyledSTextSectionHeader } from '../../../styleguides/StyledSemiTextSectionHeader';
-import { StyledATagLink } from '../../../styleguides/StyledATagLink';
 
 
 
@@ -28,12 +27,14 @@ export default function Schedule(props) {
                 <br/>
                 <StyledSTextSectionHeader>Food</StyledSTextSectionHeader>
                 <StyledText>
-                <StyledATagLink href="http://www.classiccatering.no" target="balnk"> 
+                {/* <StyledATagLink href="http://www.classiccatering.no" target="balnk"> 
                  Welcome to a healthy and tasty food experience. 
                  Our camp is very lucky to have Classic Catering serve us food. 
                  Thank you for your support! 
                  ITTC appreciates it a lot, and so will the participants.
-                  </StyledATagLink>
+                  </StyledATagLink> */}
+                  It will be served breakfast, lunch and dinner every day.
+                  All meals will be suitable
                 </StyledText>
                 <br/>
             </StyledText>

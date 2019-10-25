@@ -38,7 +38,7 @@ export default function Expenses(props) {
       <StyledH3>Prices</StyledH3>
       <StyledText>
           <ul>
-          <StyledList>4 day camp:<br/>--> 2 200 NOK </StyledList>
+          <StyledList>4 day camp:<br/>--> 2 400 NOK </StyledList>
           </ul>
       </StyledText>
       <br/>

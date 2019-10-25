@@ -46,7 +46,7 @@ export default function SignUp(props) {
                 <ul>
                     <li>  07.04.2020 - 10.04.2020</li> 
                     <br/>
-                    <li>2 200 NOK</li>
+                    <li>2 400 NOK</li>
                     <br/>
                     <li>Deadline: 15.03.2020</li>
                 </ul>
