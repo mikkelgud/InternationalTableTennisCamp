@@ -13,6 +13,8 @@ import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
 import { StyledH3 } from '../../../styleguides/Styledh3';
 import Station from '../../../Assets/HarestuaStasjon.jpeg';
 import Kiwi from '../../../Assets/HarestuaKiwi.jpg';
+import HarestuaHall from '../../../Assets/HarestuaHall.jpeg';
+import ArenaHandbal from '../../../Assets/ArenaHandbal.jpeg';
 import { StyledImage } from '../../../styleguides/StyledImage';
 import ModelVeiw from '../../../utils/ModalWindow';
 
@@ -54,12 +56,14 @@ export default function NorwayTravel(props) {
             </StyledText>
                 <br />
                 <StyledSTextSectionHeader>Harestua facility pictures  </StyledSTextSectionHeader>
-                <StyledH3>The practice-hall</StyledH3>
                 <Wrapper>
-                    <StyledH3>Inside the building</StyledH3>
-                    <StyledImage src={Hall} onClick={() => {toggleBigScreen(Hall)}}/>
+                <StyledH3>Inside the facility.<br/> The first hall</StyledH3>
+                <StyledImage src={HarestuaHall} onClick={() => {toggleBigScreen(HarestuaHall)}}/>
+                <StyledImage src={ArenaHandbal} onClick={() => {toggleBigScreen(ArenaHandbal)}}/>
+                <StyledH3> the second hall</StyledH3>
+                <StyledImage src={Hall} onClick={() => {toggleBigScreen(Hall)}}/>
                     <StyledImage src={Hall1} onClick={() => {toggleBigScreen(Hall1)}}/>
-                    <StyledH3>Outside the building</StyledH3>
+                    <StyledH3>Outside the facility</StyledH3>
                     <StyledImage src={Buildning} onClick={() => {toggleBigScreen(Buildning)}}/>
                     <StyledImage src={Buildning2} onClick={() => {toggleBigScreen(Buildning2)}}/>
                     <StyledH3>Surroundings</StyledH3>
