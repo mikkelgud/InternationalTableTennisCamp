@@ -64,7 +64,7 @@ export default function SignUp(props) {
                 <ul>
                     <li>  22.06.2020 - 07.07.2020</li><br/>
                 <li> 16 days: 12 750 NOK (10 750 NOK for companions)</li>
-                <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includs</StyledATagLink>
+                <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includes</StyledATagLink>
                 <br/>
                 <br/>
                 <li>+ flight 7000 NOK both ways</li>

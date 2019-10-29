@@ -33,7 +33,7 @@ const scheduleText = "Read about how our days will be in Harestua. Practice, bed
 
 //Rules
 const rulesHeader = "Rules " + rulesEmoji;
-const rulesText = "Read about the camp rules and consequences. It is obligatory to read this page, so please learn the rules before attending the camps.";
+const rulesText = "Read about the camp rules and consequences. It is obligatory to read this page, so please learn the rules before attending the camp.";
 
 // Social
 const SocialHeader = "Social " + socialEmoji;
