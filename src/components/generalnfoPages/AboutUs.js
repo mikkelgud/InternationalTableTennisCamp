@@ -79,9 +79,11 @@ export default function AboutUs(props) {
   return (
     <LocalWrapper>
       <StyledDiv>
+        <SomeAligner>
         <StyledTextSectionHeader>Welcome to ITTC! </StyledTextSectionHeader>
+        </SomeAligner>
         <br />
-        <StyledSTextSectionHeader>About Us</StyledSTextSectionHeader>
+        <br />
         <br />
         <StyledH3>Our Goals</StyledH3>
         <StyledText>
@@ -91,6 +93,7 @@ export default function AboutUs(props) {
           Everyone in the ITTC-team are ambitious people who aim high, which we are certain will result in a camp where the goals above are achieved and surpassed.
 
         </StyledText>
+        <br />
         <br />
         <StyledH3>What We Offer</StyledH3>
         <StyledText>
@@ -108,7 +111,7 @@ export default function AboutUs(props) {
         <br />
         <br />
         <br />
-        <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader>
+        <SomeAligner> <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader></SomeAligner>
         <br />
         <StyledH3>Camp Norway</StyledH3>
         <br />
@@ -144,9 +147,7 @@ export default function AboutUs(props) {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader>
+        <SomeAligner>   <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader></SomeAligner> 
         <br />
         <StyledH3>Camp Taiwan</StyledH3>
         <br />
@@ -198,7 +199,7 @@ export default function AboutUs(props) {
         <br />
         <br />
         <StyledText>
-          <LeadersHeaderWrapper>We are looking forward to see you soon at one of our camps! <br /><br />
+          <LeadersHeaderWrapper>We are looking forward to see you soon at one of our camps! We hope that you are as excited as we are<br /><br />
             Kind reagards:<br /><br />
             - International Table Tennis Camp Team
            </LeadersHeaderWrapper>
