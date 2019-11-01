@@ -25,7 +25,7 @@ const polandTravelText = "Camp Poland will be ready next autumn for sign up. You
 const polandTravelTo = "/stay/Poland";
 
 const NorwayTravelHeader = norwegianFlagEmoji + "Norway";
-const NorwayTravelText = "Read everything you need to know about your stay in Norway 07.04 - 10.04 2020.";
+const NorwayTravelText = "Read everything you need to know about your stay in Norway 07.04 - 10.04.2020.";
 const NorwayTravelTo = "/stay/Norway";
 
 const TaiwanTravelHeader = taiwanFlagEmoji + "Taiwan";

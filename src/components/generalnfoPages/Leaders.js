@@ -5,7 +5,7 @@ import PersonProfilePresentation from '../PersonProfilePresentation';
 import { StyledLink } from '../../styleguides/StyledLink';
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import Mikkel from '../../Assets/MikkelCut.jpg';
-import Maria from '../../Assets/MariaXiao.jpg';
+import Maria from '../../Assets/MariaXiao.jpeg';
 import LiFen from '../../Assets/LiFen.jpg';
 import HildingROR from '../../Assets/HildingPlaying.jpg';
 import {StyledATagLink} from '../../styleguides/StyledATagLink';

@@ -4,7 +4,7 @@ import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import { StyledText } from '../../styleguides/StyledText';
 import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledH3 } from '../../styleguides/Styledh3';
-import Maria from '../../Assets/MariaXiao.jpg';
+import Maria from '../../Assets/MariaXiao.jpeg';
 import { ScrollTop } from '../../utils/ScrollToTopp';
 
 
@@ -58,5 +58,6 @@ export default function MariaXiao() {
             </StyledText>
             <StyledText>
             </StyledText>
-        </StyledTextBoxDiv>);
+        </StyledTextBoxDiv>
+        );
 }

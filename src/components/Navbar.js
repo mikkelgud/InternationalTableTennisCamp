@@ -36,7 +36,7 @@ font-family: 'Oswald', sans-serif;
 `;
 
 const StyledImageLogo = styled.img`
-margin: 6px 0 0 -11px;
+margin: 6px 0 0 -27px;
 padding: 0 ;
 height: 3.5rem;
 width: 3.5rem;
