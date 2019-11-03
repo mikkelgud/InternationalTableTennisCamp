@@ -25,7 +25,7 @@ export default function Safety(props) {
             <StyledH3> Under 18 years old and travelling alone?</StyledH3>
                 This is what we need from parents:
                 <ul>
-                    <li>A Signature to ensure that all rules are read and understood.</li>
+                    <li>A signature to ensure that all rules are read and understood.</li>
                     <li>A signature that permits the person under 18 to use the swimming pool if there is one available at the facilities.</li>
                     <li>Everyone need to have travel insurance if travelling outside Scandinavia.</li>
                 </ul>

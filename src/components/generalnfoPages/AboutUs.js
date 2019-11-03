@@ -80,22 +80,22 @@ export default function AboutUs(props) {
     <LocalWrapper>
       <StyledDiv>
         <SomeAligner>
-        <StyledTextSectionHeader>Welcome to ITTC! </StyledTextSectionHeader>
+        <StyledTextSectionHeader>Welcome to International Table Tennis Camp! </StyledTextSectionHeader>
         </SomeAligner>
         <br />
         <br />
         <br />
-        <StyledH3>Our Goals</StyledH3>
+        <StyledSTextSectionHeader>Our Goals</StyledSTextSectionHeader>
         <StyledText>
           Our goal is to make table tennis camps that are of high quality for all levels and ages,
            where quick development and the social aspect is the main focus.
           Our goal is to create a platform where life lasting memories can be made together with people from all around the world.
-          Everyone in the ITTC-team are ambitious people who aim high, which we are certain will result in a camp where the goals above are achieved and surpassed.
+          Everyone in the ITTC-team are ambitious people who aim high, which we are certain will result in camps where the goals above are achieved and surpassed.
 
         </StyledText>
         <br />
         <br />
-        <StyledH3>What We Offer</StyledH3>
+        <StyledSTextSectionHeader>What We Offer</StyledSTextSectionHeader>
         <StyledText>
           In the International Table Tennis Camp we aim to deliver the higest level of practice for all levels and ages.
           With a professional training program, world-class coaches, custom sparring,
@@ -111,9 +111,9 @@ export default function AboutUs(props) {
         <br />
         <br />
         <br />
-        <SomeAligner> <StyledSTextSectionHeader>Our First Camp</StyledSTextSectionHeader></SomeAligner>
+        <SomeAligner> <StyledTextSectionHeader>Our First Camp</StyledTextSectionHeader></SomeAligner>
         <br />
-        <StyledH3>Camp Norway</StyledH3>
+        <StyledSTextSectionHeader>Camp Norway</StyledSTextSectionHeader>
         <br />
         <StyledText>
           ITTC invites you to join ITTCamp- Norway 07.04.2020 - 10.04.2020.
@@ -147,9 +147,10 @@ export default function AboutUs(props) {
         <br />
         <br />
         <br />
-        <SomeAligner>   <StyledSTextSectionHeader>Our Second Camp</StyledSTextSectionHeader></SomeAligner> 
         <br />
-        <StyledH3>Camp Taiwan</StyledH3>
+        <SomeAligner>   <StyledTextSectionHeader>Our Second Camp</StyledTextSectionHeader></SomeAligner> 
+        <br />
+        <StyledSTextSectionHeader>Camp Taiwan</StyledSTextSectionHeader>
         <br />
         <StyledText>
           ITTC invites you to join ITTCamp- Taiwan 22.06.2020 - 07.07.2020.
@@ -205,7 +206,7 @@ export default function AboutUs(props) {
            </LeadersHeaderWrapper>
           <StyledImageLogo src={Logo} /> <br/><br/><br/>
           <SomeAligner>
-          <StyledATagLink href="https://www.ittcamp.com">Travel back home</StyledATagLink>
+          <StyledATagLink onClick={() => { props.history.push("/") }}>Travel back home</StyledATagLink>
           </SomeAligner>
         </StyledText>
       </StyledDiv>

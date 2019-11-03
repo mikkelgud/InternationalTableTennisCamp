@@ -109,11 +109,12 @@ export default function Home() {
                 {informationLinks.map(
                     info => <PlanLinkDiv
                 onMouseEnter={() => info.key===6 ? sponsorItemOnHoverEffectToggle(): info.key ===5 ? signUpItemOnHoverEffectToggle(): null}
-                    onMouseLeave={() => info.key===6 ? sponsorItemOnHoverEffectToggle(): info.key ===5 ? signUpItemOnHoverEffectToggle(): null}
+                onMouseLeave={() => info.key===6 ? sponsorItemOnHoverEffectToggle(): info.key ===5 ? signUpItemOnHoverEffectToggle(): null}
                         to={info.to}
                         header={info.header}
                         text={info.text}
-                        icon={info.icon} />)}
+                        icon={info.icon} 
+                        key={info.key}/>)}
         </Wrapper>
     )
 }
