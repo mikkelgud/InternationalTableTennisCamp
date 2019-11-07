@@ -36,10 +36,13 @@ font-family: 'Roboto', sans-serif;
 const StyledLinkButtonLocal = styled.div`
 background-color: #ffffff;
 border-radius: 30px;
+text-align: center;
 padding: 1.2rem
 margin: 0.6rem;
 box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
-
+@media(max-width: 800px){
+    padding: 0.6rem
+}
 &:hover {
     background-color: #4267b2;
     color: white;
