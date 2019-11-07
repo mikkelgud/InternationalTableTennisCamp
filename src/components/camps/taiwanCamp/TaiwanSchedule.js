@@ -51,7 +51,7 @@ export default function TaiwanSchedule() {
                  Every friday and saturday we will eat in western restaurants.
             </StyledText><br/>
             <StyledSTextSectionHeader>
-            monday-saturday
+            Monday - Saturday
             </StyledSTextSectionHeader>
             <StyledText>
             07.00- The show must go on, wake up.<br/>    

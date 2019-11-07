@@ -7,4 +7,5 @@ export const StyledLink = Styled(({ ...props }) => <Link {...props} />)`
   color: black;
   cursor: pointer;
   border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
 `;

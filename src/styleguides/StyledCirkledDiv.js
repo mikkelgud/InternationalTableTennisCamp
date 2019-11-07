@@ -23,7 +23,7 @@ padding: 2.5rem;
   background-image: url(${props => props.backgorund});
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
+  color: #2b2b2b;
   &:hover {
     background-color: black;
     border-radius: 20%;
