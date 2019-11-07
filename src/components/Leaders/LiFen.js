@@ -46,7 +46,7 @@ export default function LiFen() {
             </StyledTextSectionHeader>
             <StyledText>
                 <br />
-                Li Fen was born in ShanDong, China.
+                Li Fen was born in the province ShanDong, China.
                 The European Champion is currently living in EsLöv, Sweden.
                 Where she on daily basis, practice with Eslöv Table Tennis club.
                 We in ITTC are very lucky to have her in our team, and with through out all three camps this year.
@@ -67,7 +67,6 @@ export default function LiFen() {
             <StyledText>
                 Li Fen speaks fluent English, Swedish and Chinese.
                 With all her experience and knowledge, she will be the main headcoach of our camps.
-                We know everyone will learn a lot from her during the camps.
                 She's also a warm and kind person who will be taking good care of everyone.
                 <br/>
                 <br />

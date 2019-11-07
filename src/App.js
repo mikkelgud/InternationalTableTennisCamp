@@ -36,13 +36,16 @@ import TaiwanPrices from './components/camps/taiwanCamp/TaiwanPrices';
 import TaiwanPackMyBags from './components/camps/taiwanCamp/TaiwanPackMyBags';
 import TaiwanFacilities from './components/camps/taiwanCamp/TaiwanFacilities';
 import Sponsors from './components/generalnfoPages/Sponsors';
+import WelcomePage from './components/WelcomeModule';
 
 
 
 function App() {
   return (
     <div className="App">
+     
       <Navbar/>
+      <WelcomePage/>
       <Switch>
         <Route path="/" exact component={Home} />
 
