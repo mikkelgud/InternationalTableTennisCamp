@@ -4,7 +4,7 @@ import travel from '../Assets/Travel.jpg'
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { StyledSTextSectionHeader } from '../styleguides/StyledSemiTextSectionHeader';
 import { StyledLink } from '../styleguides/StyledLink';
-
+import Logo from '../Assets/Bordtennislogo.png';
 
 
 
@@ -28,7 +28,7 @@ justify-content: center;
 const LocalWrapper = styled.div`
 display: flex;
 align-items: center;
-margin: 3.6rem;
+margin: 0rem;
 padding:2rem;
 font-family: 'Roboto', sans-serif;
 `
@@ -48,8 +48,15 @@ box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
     color: white;
     box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
 }
-
 `;
+
+const StyledImage = styled.img`
+object: contain;
+width: 5rem;
+&:hover {
+    box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
+}
+`
 
 
 
@@ -57,8 +64,9 @@ export default function WelcomeModule(props) {
     const [display, setDisplayState] = useState("flex")
     return (
         <StyledDiv onClick={() => setDisplayState("none")} display={display}>
-            <StyledTextSectionHeader style={{ color: "white", textAlign: "center" }}>Welcome to International Table Tennis Camp</StyledTextSectionHeader>
-            <StyledSTextSectionHeader style={{ color: "white", textAlign: "center", background: "-webkit-linear-gradient(#ffffff 0%, #ffffff 100%)", webkitBackgroundClip: "text",  webkitTextFillColor: "transparent", margin: "1rem"}}>Your goal is our mission</StyledSTextSectionHeader>
+                 
+            <StyledTextSectionHeader style={{ color: "white", textAlign: "center" }}>Welcome to International Table Tennis Camp </StyledTextSectionHeader>
+           
             <LocalWrapper>
                 <StyledLink to={"/home"}
                     onMouseEnter={props.onMouseEnter}
@@ -76,6 +84,9 @@ export default function WelcomeModule(props) {
                     </StyledLinkButtonLocal>
                 </StyledLink>
             </LocalWrapper>
+            <StyledSTextSectionHeader style={{ color: "white", textAlign: "center", background: "-webkit-linear-gradient(#ffffff 0%, #ffffff 100%)", webkitBackgroundClip: "text",  webkitTextFillColor: "transparent", margin: "1rem"}}>Your goal is our mission</StyledSTextSectionHeader>
+            <StyledImage src={Logo}/>
+
         </StyledDiv>
     )
 }
