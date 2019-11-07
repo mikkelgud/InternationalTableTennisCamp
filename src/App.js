@@ -43,9 +43,8 @@ import WelcomePage from './components/WelcomeModule';
 function App() {
   return (
     <div className="App">
-     
+            <WelcomePage/>
       <Navbar/>
-      <WelcomePage/>
       <Switch>
         <Route path="/" exact component={Home} />
 
