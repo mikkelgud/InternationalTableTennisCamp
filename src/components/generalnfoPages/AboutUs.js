@@ -80,7 +80,7 @@ export default function AboutUs(props) {
     <LocalWrapper>
       <StyledDiv>
         <SomeAligner>
-        <StyledTextSectionHeader>Welcome to International Table Tennis Camp! </StyledTextSectionHeader>
+        <StyledTextSectionHeader>About ITTC</StyledTextSectionHeader>
         </SomeAligner>
         <br />
         <br />

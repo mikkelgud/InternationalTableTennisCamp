@@ -7,6 +7,9 @@ text-decoration: none;
   &:hover{
     color: black;
 text-decoration: underline;
+  }
 
+  @media(max-width: 800px){
+    text-decoration: underline;
   }
 `
