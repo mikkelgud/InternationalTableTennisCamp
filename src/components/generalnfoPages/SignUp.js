@@ -33,12 +33,17 @@ export default function SignUp(props) {
     return (
         <MyWrapper>
             <StyledDiv>
-                <HeaderAligner> <StyledSTextSectionHeader>Sign up to one of our camps </StyledSTextSectionHeader></HeaderAligner>
+                <HeaderAligner>
+                    <StyledSTextSectionHeader>Sign up to one of our camps </StyledSTextSectionHeader>
+                </HeaderAligner>
                 <br />
-                <HeaderAligner> <StyledText> You sign up by sending the <StyledATagLink href={ApplicationForm}>
-                    Sign up form </StyledATagLink> to
-                  <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>
-                    .  </StyledText></HeaderAligner>
+                <HeaderAligner>
+                    <StyledText> You sign up by sending the
+                        <StyledATagLink href={ApplicationForm}>Sign up form </StyledATagLink>
+                        to
+                  <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
+                     </StyledText>
+                </HeaderAligner>
                 <br />
                 <StyledDiv>
                     <StyledSTextSectionHeader>Camp Norway</StyledSTextSectionHeader>
@@ -61,7 +66,7 @@ export default function SignUp(props) {
                     <br />
                     <ul>
                         <li>  22.06.2020 - 07.07.2020</li><br />
-                        <li> 16 days: 12 750 NOK (10 750 NOK for companions)</li>
+                        <li> 16 days: 12 750 NOK (10 750 NOK for companions(Non practicing participants))</li>
                         <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includes</StyledATagLink>
                         <br />
                         <br />
@@ -81,16 +86,16 @@ export default function SignUp(props) {
                 <br />
                 <br />
                 <br />
-               <HeaderAligner>
+                <HeaderAligner>
                     <StyledText>
-                    <StyledATagLink href={ApplicationForm}>
-                        #Get Sign up form
+                        <StyledATagLink href={ApplicationForm}>
+                            #Get Sign up form
                    </StyledATagLink>
-                </StyledText>
+                    </StyledText>
                 </HeaderAligner>
                 <br />
                 <br />
-                </StyledDiv>
+            </StyledDiv>
         </MyWrapper>
     );
 }

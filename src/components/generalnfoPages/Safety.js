@@ -1,50 +1,80 @@
 import React from 'react';
+import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import StyledDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../../styleguides/StyledText';
 import { StyledATagLink } from '../../styleguides/StyledATagLink';
-import { StyledH3 } from '../../styleguides/Styledh3';
+import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
 import { ScrollTop } from '../../utils/ScrollToTopp';
+import { StyledSTextSectionHeader } from '../../styleguides/StyledSemiTextSectionHeader';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
+
+const SomeAligner = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+`
 
 export default function Safety(props) {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Safety during camps</StyledTextSectionHeader>
+            <SomeAligner><StyledTextSectionHeader>Our Camps Safety </StyledTextSectionHeader></SomeAligner>
+            <br/>
+            <br/>
             <StyledText>
-                <StyledH3> First of all.</StyledH3>
-                The camp begins when we meet at the arranged meeting point. From this point on the camp rules are to be followed by all participants. 
-                
-                These rules are made to ensure that everyone is safe and feels safe during the camp.
-            </StyledText>
-            <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>If you haven't read the camp rules, click here.</StyledATagLink>
-                <br/>
-            <br />
-            <br />
+                <StyledSTextSectionHeader> First of all.</StyledSTextSectionHeader>
+                The camp begins when we meet at the arranged meeting point.
+                 From this point on the <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>camp-rules</StyledATagLink> are to be followed by all participants and companions(Non practicing participants). 
+                These rules are made to ensure that everyone is safe and feels safe during the camps.
+                <br />
+            <br/>
+                <br />
+                <StyledSTextSectionHeader>Social Safety</StyledSTextSectionHeader>
             <StyledText>
-            <StyledH3> Under 18 years old and travelling alone?</StyledH3>
-                This is what we need from parents:
-                <ul>
-                    <li>A signature to ensure that all rules are read and understood.</li>
-                    <li>A signature that permits the person under 18 to use the swimming pool if there is one available at the facilities.</li>
-                    <li>Everyone need to have travel insurance if travelling outside Scandinavia.</li>
-                </ul>
-            </StyledText>
-                 <br/>
-                 <br />
-<StyledH3>Social Safety</StyledH3>
-            <StyledText>
-             
                 For us, saftey is more than just keeping everyone safe.
                 It's also about creating a warm and inclusive environment for all participants.
                 We will therefore arrange several social events during the camp, and spend time getting to know eachother.
+                 Read more about our camps social life on 
+            <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}> social camp life Norway </StyledATagLink>
+            and 
+            <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/social"); }}> social camp life Taiwan</StyledATagLink>
+           .
             </StyledText>
-            <StyledATagLink onClick={() => { props.history.push("/stay/Norway/social"); }}>Read about the social life on camp-Norway here</StyledATagLink><br/>
-            <StyledATagLink onClick={() => { props.history.push("/stay/Taiwan/social"); }}>Read about the social life on camp-Taiwan here</StyledATagLink>
             <br/>
             <br/>
+            </StyledText>
+            <StyledSTextSectionHeader> Everyone has to remember:</StyledSTextSectionHeader>
+            <br />
+            <StyledText>
+            <ol>
+            <li>To have a travel insurance if travelling on one of our camps outside Scandinavia.</li>
+            <br />
+            <li>Read and understand the <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}> camp-rules</StyledATagLink>.</li>
+            </ol>
+            <br />
             <br/>
-            <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to ask us on contactus@ittcamp.com by clicking here.</StyledATagLink> 
+            </StyledText>
+            <StyledSTextSectionHeader> Under 18 years old and travelling alone?</StyledSTextSectionHeader>
+            <br />
+            <StyledText>
+                <ol>
+                    <li> Then a parent have to sign the 
+                    <StyledATagLink href={ApplicationForm}> sign up form </StyledATagLink>
+                     for the participant.</li>
+                 </ol>
+                 </StyledText>
+                 <br/>
+                 <br />
+
+            <br/>
+            <StyledSTextSectionHeader>Qustions?</StyledSTextSectionHeader>
+            <br />
+            <StyledText>
+                If you have any questions, send a mail to 
+            <StyledATagLink href="mailto: contactus@ittcamp.com"> <FontAwesomeIcon icon={["far","comments"]}/> contactus@ittcamp.com <FontAwesomeIcon icon={["far","comments"]}/></StyledATagLink>, and we will answer. 
+            </StyledText>
             <br/>
             <br/>
             <br/>
