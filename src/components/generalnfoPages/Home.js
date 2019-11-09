@@ -4,7 +4,6 @@ import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
 import { ScrollTop } from '../../utils/ScrollToTopp';
 import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 
-
 //stay
 const stayHeader = "Camps ";
 const stayText = "Read about our stay in Norway, China and Poland. Everything about where we will stay, how we will stay and the day to day life at the camps.";
@@ -104,7 +103,7 @@ export default function Home() {
     ];
     ScrollTop();
     return (
-         
+        <>
             <Wrapper>
                 {informationLinks.map(
                     info => <PlanLinkDiv
@@ -116,5 +115,6 @@ export default function Home() {
                         icon={info.icon} 
                         key={info.key}/>)}
         </Wrapper>
+    </>
     )
 }

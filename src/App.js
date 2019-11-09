@@ -40,13 +40,16 @@ import WelcomePage from './components/WelcomeModule';
 
 
 
+
 function App() {
   return (
     <div className="App">
-            <WelcomePage/>
-      <Navbar/>
+       <Switch>
+       <Navbar path="/:H"/>
+       <Route path="/" exact component={WelcomePage} />
+       </Switch>
       <Switch>
-        <Route path="/" exact component={Home} />
+         
 
          {/* HomePageLinks  */}
         <Route path="/signup" exact component={SignUp}/>
@@ -103,7 +106,7 @@ function App() {
 
        
       </Switch>
-      <Footer/>
+      <Footer path=":h/"/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import travel from '../Assets/Travel.jpg'
 import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
@@ -9,11 +9,12 @@ import Logo from '../Assets/Bordtennislogo.png';
 
 
 const StyledDiv = styled.div`
+top: 0;
 background-image: url(${travel});
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-display: ${props => props.display};
+display: flex;
 z-index: 3;
 border-radius: 0px;
 position: fixed;
@@ -61,11 +62,10 @@ width: 5rem;
 
 
 export default function WelcomeModule(props) {
-    const [display, setDisplayState] = useState("flex")
     return (
-        <StyledDiv onClick={() => setDisplayState("none")} display={display}>
+        <StyledDiv onClick={() => props.history.push("/home")}>
                  
-            <StyledTextSectionHeader style={{ color: "white", textAlign: "center" }}>Welcome to International Table Tennis Camp </StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{ color: "white", textAlign: "center" }}>Welcome to the International Table Tennis Camp </StyledTextSectionHeader>
            
             <LocalWrapper>
                 <StyledLink to={"/home"}
