@@ -39,7 +39,7 @@ export default function SignUp(props) {
                 <br />
                 <HeaderAligner>
                     <StyledText> You sign up by sending the
-                        <StyledATagLink href={ApplicationForm}>Sign up form </StyledATagLink>
+                        <StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink>
                         to
                   <StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
                      </StyledText>
@@ -89,7 +89,7 @@ export default function SignUp(props) {
                 <HeaderAligner>
                     <StyledText>
                         <StyledATagLink href={ApplicationForm}>
-                            #Get Sign up form
+                            #Download Sign up form
                    </StyledATagLink>
                     </StyledText>
                 </HeaderAligner>

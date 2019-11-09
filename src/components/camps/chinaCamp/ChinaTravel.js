@@ -47,6 +47,7 @@ export default function ChinaTravel() {
                 <span role="img" aria-label="work-emoji">👩🏻‍💻</span>
                 <span role="img" aria-label="work-emoji">👨🏼‍💻</span>
                 </StyledTextSectionHeader>
+                </StyledTextBoxDiv>
             <Wrapper> 
             <StyledImage src={ChinaHall} onClick={() => {toggleBigScreen(ChinaHall)}}/>
             <StyledImage src={ChinaHallWithPople} onClick={() => toggleBigScreen(ChinaHallWithPople)}/>
@@ -63,6 +64,6 @@ export default function ChinaTravel() {
             <StyledImage src={ChinaCoaches} onClick={() => toggleBigScreen(ChinaCoaches)}/>
             <StyledImage src={ChinaMontain} onClick={() => toggleBigScreen(ChinaMontain)}/>
             </Wrapper>
-            </StyledTextBoxDiv>
+      
   </>  )
 }

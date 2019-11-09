@@ -9,7 +9,7 @@ export default function Pack() {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Packing list</StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Packing list</StyledTextSectionHeader>
             <StyledText>
         It's cheap to buy things in Taiwan.
          So if you plan to bring things home, pack smart.

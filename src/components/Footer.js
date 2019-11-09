@@ -93,6 +93,7 @@ function Footer(props) {
         // setHoverState(!hoverState);
         hoverState ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
     }
+    
 
     return (
         <React.Fragment>
@@ -126,7 +127,7 @@ function Footer(props) {
                         < StyledIcon
                                 href="mailto: contactus@ittcamp.com" >
                                 <FontAwesomeIcon icon={["far","comments"]}/>
-                                Mail Us
+                                Contact Us
                         </ StyledIcon>
                     </StyledFooterItemDivContainer>
                     <StyledFooterItemDivContainer>

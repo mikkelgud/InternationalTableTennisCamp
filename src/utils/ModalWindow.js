@@ -8,8 +8,10 @@ z-index: 2;
 border-radius: 0px;
 position: fixed;
 width: 100vw;
-max-height: 100%;
+height: 100%;
 cursor: pointer;
+background-color: black;
+object-fit: contain;
 
 @media (max-width: 800px){
   border-radius: 0;

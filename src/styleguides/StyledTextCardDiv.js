@@ -33,7 +33,7 @@ padding: 2.5rem;
 
 export default function Card(props) {
     return(
-       <CardWrapper>
+       <CardWrapper onMouseLeave={props.onMouseLeave} onMouseEnter={props.onMouseEnter}>
          <CardBox backgorund={props.background}>
           {props.children}
         </CardBox>

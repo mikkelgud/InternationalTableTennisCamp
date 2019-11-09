@@ -1,42 +1,42 @@
 import React from 'react';
+import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import StyledDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledText } from '../../styleguides/StyledText';
-import { StyledATagLink } from '../../styleguides/StyledATagLink';
-import { StyledH3 } from '../../styleguides/Styledh3';
 import { ScrollTop } from '../../utils/ScrollToTopp';
+
+const StyledH3Local = styled.h3`
+font-weight: bold;
+font-size: 0.9rem;
+font-family: 'roboto', sans-serif;
+color: #f44336;
+`;
 
 export default function Rules() {
     ScrollTop();
 
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Rules</StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Rules</StyledTextSectionHeader>
+            <br/>
+            <br/>
             <StyledText>
-               This rules are law during the camps.
-               Everyone have to read this before attending the camps.
-               <br/>
-               <br/>
-            </StyledText>
-            <StyledText>
-                <StyledH3>The Rules</StyledH3>
-                <ul>
-                <li> Golden rule: Respect each other, leaders, equipment and others' personal belongings</li>
-                <li>Be responible, and take good care of the person next to you</li>
-                <li>Listen to Coach/leaders, their words are law during the camp</li>
-                <li>Be in time at all times</li>
-                <li>Speak only nice or constructively with each other, and about each other.</li>
-                <li>We are one team with one common goal at ITTC, act accordingly</li>
-                <li>Be cooperative, find solutions, not problems</li>
-                <li>Keep it clean and tidy at all times</li>
-                <li>Everyone is always welcome to join anyone. Take care and be nice to each other.</li>
-                <li>All use of drugs and alchol will lead to immediate repatriation without refound on own expense </li>
-                <li>Read the rules</li>
-                </ul>
+                <ol>
+                <li> Golden rule: Respect each other, leaders, equipment and others' personal belongings</li>  <br/>
+                <li>Be responsible, and take good care of the person next to you</li>  <br/>
+                <li>Listen to Coach/leaders, their words are law during the camp</li>  <br/>
+                <li>Be in time at all times</li>  <br/>
+                <li>Speak only nice or constructively with each other, and about each other.</li>  <br/>
+                <li>We are one team with one common goal at ITTC, act accordingly</li>  <br/>
+                <li>Be cooperative, find solutions, not problems</li>  <br/>
+                <li>Keep it clean and tidy at all times</li>  <br/>
+                <li>Everyone is always welcome to join anyone. Take care and be nice to each other.</li>  <br/>
+                <li>All use of drugs and alchol will lead to immediate repatriation without refound on own expense </li>  <br/>
+                <li>Read the rules</li>  <br/>
+                </ol>
                 <br/>
             </StyledText>
-           <StyledH3>Any deviation against the camp-rules, can lead to immediate repatriation without refound.</StyledH3>
-            <StyledATagLink href="mailto: contactus@ittcamp.com">If you have any questions, please don't hesitate to contact us at contactus@ittcamp.com by clicking here.</StyledATagLink> 
+           <StyledH3Local>Any deviation against the camp-rules can lead to immediate repatriation without refound.</StyledH3Local>
             <br/>
             <br/>
         </StyledDiv>

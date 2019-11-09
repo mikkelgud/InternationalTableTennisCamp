@@ -9,10 +9,12 @@ export default function PersonProfile(props) {
 ScrollTop();
     return ( 
         <StyledCirkledDiv background={props.background}>
+             <br/>
             <StyledTextSectionHeader>
                 {props.personName} {props.age}
             </StyledTextSectionHeader>
             <StyledText>
+                <br/>
                 {props.text}
             </StyledText>
             <StyledText>

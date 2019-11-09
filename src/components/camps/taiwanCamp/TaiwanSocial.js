@@ -16,7 +16,7 @@ export default function Social(props) {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Social life at the camp</StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Social life at the camp</StyledTextSectionHeader>
             <br/>
             <StyledText>
             <StyledH3>Sunday funday</StyledH3>

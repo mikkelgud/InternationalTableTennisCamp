@@ -8,4 +8,5 @@ export const StyledLink = Styled(({ ...props }) => <Link {...props} />)`
   cursor: pointer;
   border-radius: 15px;
   font-family: 'Roboto', sans-serif;
+ 
 `;

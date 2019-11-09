@@ -11,16 +11,17 @@ export default function TaiwanSchedule() {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>
                 Schedule 
             </StyledTextSectionHeader>
+            <br/>
             <StyledText>
                 We will try to make this camp as exiting, interesting and learning-packed as possible.  
                 Therefore we have arranged a great possibility to come and watch the taiwanese national team practice.
                 During the "show" our coaches will explain what we can learn from seeing the top level players practice,
                 and how this can help you improve your game.
                 We hope this will be both inspiring and developing for you. 
-                </StyledText><br/>
+                </StyledText><br/><br/>
             <StyledSTextSectionHeader>
             Meals
             </StyledSTextSectionHeader>
@@ -30,13 +31,13 @@ export default function TaiwanSchedule() {
                 We would also recomend you to bring some snacks from your country to the camp.
                 Because after a while, the taste of something familiar will be really nice.
                 For instance crispbread with some topping could save your practice.
-                </StyledText><br/>
+                </StyledText><br/><br/>
                 <StyledH3>Breakfast</StyledH3>
                 <StyledText>
                 The Breakfast will be provided by the hotel.
                 It will be served both western and eastern food for breakfast.
                 So it should be something for everyone there.  
-            </StyledText><br/>
+            </StyledText><br/><br/>
             <StyledH3>Lunch</StyledH3>
                 <StyledText>
                 The Lunch will be provided by ittc at restaurants.
@@ -44,12 +45,12 @@ export default function TaiwanSchedule() {
                 This is for making sure that all players get enough rest before the next practice.
                 We will of course try to find some place where everyone thrives and like the food.
                 If you're over 18 or traveling with your parents, it's of course allowed to go for lunch for yourself.
-            </StyledText><br/>
+            </StyledText><br/><br/>
             <StyledH3>Dinner</StyledH3>
                 <StyledText>
                 For dinner we will try different restaurant and show you some of the most tasty food Taiwan has to offer.
                  Every friday and saturday we will eat in western restaurants.
-            </StyledText><br/>
+            </StyledText><br/><br/>
             <StyledSTextSectionHeader>
             Monday - Saturday
             </StyledSTextSectionHeader>
@@ -63,7 +64,7 @@ export default function TaiwanSchedule() {
             18.30-  Gathering before dinner, go out to a restaurant and eat (Included in camp-price)<br/>
             20.30-21.00-   Learning table tennis theory and/or Watch matches on video. Or team meeting <br/> 
             21.00-21-45-   Rest<br/>      
-            22:30- In bed <br/><br/>
+            22:30- In bed <br/><br/><br/>
             </StyledText>
             <StyledSTextSectionHeader>
             sunday
@@ -74,6 +75,7 @@ export default function TaiwanSchedule() {
             08.00-  Breakfast  <br/>
             The rest of the day we will arrange sightseeing.
             What we will do with our sightseeing days, will be decided by the traveling-group's interests. 
+            <br/><br/><br/>
             </StyledText>
         </StyledDiv>
     )
