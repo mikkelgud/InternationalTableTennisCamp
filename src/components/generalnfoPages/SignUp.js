@@ -7,6 +7,7 @@ import { StyledATagLink } from '../../styleguides/StyledATagLink';
 import { StyledSTextSectionHeader } from '../../styleguides/StyledSemiTextSectionHeader.js';
 import { ScrollTop } from '../../utils/ScrollToTopp';
 import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import useLocalStorage from '../hooks/useLocalStorage';
 
@@ -29,12 +30,14 @@ const MyWrapper = styled.div`
 
 export default function SignUp(props) {
     ScrollTop();
-    // const [starState, setStarState] = useState();
+    // todo: dsfjodsjf
+    // ! bug to fix
+    // ? how to solve
     return (
         <MyWrapper>
             <StyledDiv>
                 <HeaderAligner>
-                    <StyledSTextSectionHeader>Sign up to one of our camps </StyledSTextSectionHeader>
+                    <StyledTextSectionHeader>Sign up to one of our camps </StyledTextSectionHeader>
                 </HeaderAligner>
                 <br />
                 <HeaderAligner>

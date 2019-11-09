@@ -8,6 +8,7 @@ import classiccatering from '../../Assets/classic.png';
 // import ttex from '../../Assets/ttex.png';
 import styled from 'styled-components';
 import { StyledH3 } from '../../styleguides/Styledh3';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const LocalWrapper = styled.div`
 display: flex;
@@ -26,16 +27,30 @@ align-items: center;
 width 100%;
 }
 `;
+const StyledIcon = styled.a`
+text-decoration: none;
+display: flex;
+  color:  black;
+  cursor: pointer;
+  font-size: 6rem;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1131s ease-in-out;
+  &:hover{
+    color: #283ca6;
+    font-size: 7rem;
+  }
+`;
 
 
 const Sponsors = () => {
     const Harestua = "https://scontent.fosl3-2.fna.fbcdn.net/v/t1.0-9/14332997_328338614181135_165321474244639133_n.jpg?_nc_cat=103&_nc_oc=AQnFyx5OWGfG9waVwGOB6-61_KcFFGD-zwPgMzgh8lDndWU78Zi3cP2Fj25DBi75HuM&_nc_ht=scontent.fosl3-2.fna&oh=e4a5af849f32723f59b905da1cf927e3&oe=5E132AE3";
     return (
-        <StyledTextBoxDiv>
-            <StyledTextSectionHeader>Our Sponsors And Contributors </StyledTextSectionHeader>
+        <StyledTextBoxDiv >
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Our Sponsors And Contributors </StyledTextSectionHeader>
             <br/>
-            <StyledText>
-                We are proud that these companies, clubs and Organizations have faith in our camp and we would officaly
+            <StyledText style={{textAlign: "center"}}>
+                We are proud that these companies, clubs and Organizations have faith in our camps and we would officaly
                 thank all of them. This wouldn't be possible without you.
     </StyledText>
             <LocalWrapper>
@@ -47,10 +62,13 @@ const Sponsors = () => {
                     <StyledATagLink href="https://www.harestua.info/harestua-il/bordtennis.html" target="blank"><StyledImage src={Harestua} /></StyledATagLink><br />
                 </LocalContainer>
             </LocalWrapper>
-           <StyledH3>Wanna be our sponsor?</StyledH3>
-            <StyledText>
-               Contact:
-               Hilding Totland Persson on +47 90231032 for more information.
+           <StyledH3 style={{textAlign: "center"}}>Wanna be our sponsor?</StyledH3>
+            <StyledText style={{textAlign: "center"}}>
+               Click the "Contact Us"-icon below and send us an E-mail. <br/><br/><br/>
+              <StyledIcon>
+              <FontAwesomeIcon icon={["far","comments"]} href="mailto: contactus@ittcamp.com"/>
+                  </StyledIcon> 
+                  <br/><br/><br/><br/>
            </StyledText>
         </StyledTextBoxDiv>
     )

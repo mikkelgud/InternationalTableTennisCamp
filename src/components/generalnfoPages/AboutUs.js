@@ -29,10 +29,17 @@ justify-content: center;
 const StyledImageLogo = styled.img`
 width: 10px;
 height: 10px;
-margin: -38px 333px 28px;
-@media (max-width: 432px){
-   display: none;
+margin: -38px 370px 21px;
+@media (max-width: 554px){
+  margin: -38px 82px 21px;
  }
+ @media (max-width: 400px){
+  margin: -38px 136px 21px;
+ }
+ @media (max-width: 342px){
+  margin: -38px 196px 21px;
+ }
+ 
 `;
 
 const LeadersHeaderWrapper = styled.div`
@@ -206,7 +213,7 @@ export default function AboutUs(props) {
            </LeadersHeaderWrapper>
           <StyledImageLogo src={Logo} /> <br/><br/><br/>
           <SomeAligner>
-          <StyledATagLink onClick={() => { props.history.push("/") }}>Travel back home</StyledATagLink>
+          <StyledATagLink onClick={() => { props.history.push("/home") }}>Travel back home</StyledATagLink>
           </SomeAligner>
         </StyledText>
       </StyledDiv>

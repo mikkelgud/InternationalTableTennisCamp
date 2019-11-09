@@ -77,6 +77,7 @@ export default function WelcomeModule(props) {
                 </StyledLink>
                 <StyledLink
                     to={"/signup"}
+                    onClick={e => {e.stopPropagation(); props.history.push("/signup")}}
                     onMouseEnter={props.onMouseEnter}
                     onMouseLeave={props.onMouseLeave}>
                     <StyledLinkButtonLocal>
