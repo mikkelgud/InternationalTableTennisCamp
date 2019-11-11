@@ -65,8 +65,8 @@ const Sponsors = () => {
            <StyledH3 style={{textAlign: "center"}}>Wanna be our sponsor?</StyledH3>
             <StyledText style={{textAlign: "center"}}>
                Click the "Contact Us"-icon below and send us an E-mail. <br/><br/><br/>
-              <StyledIcon>
-              <FontAwesomeIcon icon={["far","comments"]} href="mailto: contactus@ittcamp.com"/>
+              <StyledIcon href="mailto: contactus@ittcamp.com">
+              <FontAwesomeIcon icon={["far","comments"]} />
                   </StyledIcon> 
                   <br/><br/><br/><br/>
            </StyledText>
