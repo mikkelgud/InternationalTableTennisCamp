@@ -45,7 +45,7 @@ text-decoration: none;
   cursor: pointer;
   font-size: 1.3rem;
   position: absolute;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s ease-in-out;
   &:hover{
     color: #283ca6;
     font-size: 1.4rem;;
@@ -58,7 +58,7 @@ text-decoration: none;
   font-size: 2rem;
   font-family: 'Roboto',sans-serif;
   position: absolute;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
   &:hover{
     color: #283ca6;
     font-size: 2.2rem;;

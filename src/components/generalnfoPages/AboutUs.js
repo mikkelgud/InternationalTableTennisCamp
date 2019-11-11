@@ -33,6 +33,13 @@ margin: -38px 370px 21px;
 @media (max-width: 554px){
   margin: -38px 82px 21px;
  }
+ @media (max-width: 500px){
+  margin: -38px 371px 21px;
+ }
+ @media (max-width: 456px){
+  margin: -38px 82px 21px;
+ }
+
  @media (max-width: 400px){
   margin: -38px 136px 21px;
  }
