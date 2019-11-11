@@ -58,10 +58,10 @@ export default function SignUp(props) {
 
             <br />
             <StyledDiv background={campNorway} >
-                <StyledH3 style={{ fontSize: "1.9rem", color: "#ffffff"}}>Camp Norway   07.04.2020-10.04.2020</StyledH3>
+                <StyledH3 style={{ fontSize: "2.6rem", color: "#ffffff", textAlign: "center" , marginBottom: "120px"}}>Camp Norway   07.04.2020-10.04.2020</StyledH3>
                 <br />
                 <br />
-                <StyledText style={{ textAlign: "left", color: "#ffffff" , fontSize: "1.5rem", fontWeight: "lighter"}}>
+                <StyledText style={{ textAlign: "left", color: "#ffffff" , fontSize: "1.7rem", fontWeight: "lighter"}}>
                     <ul>
                     <li>  4 days: 2 400 NOK  </li><br />
                     <li>  Deadline: 15.03.2020 </li><br />
@@ -71,12 +71,12 @@ export default function SignUp(props) {
                 <br />
             </StyledDiv>
             <StyledDiv background={campTaiwan}>
-                <StyledSTextSectionHeader style={{ color: "white", fontSize: "1.9rem", marginBottom: "160px"  }}>Camp Taiwan 22.06.2020 - 07.07.2020</StyledSTextSectionHeader>
+                <StyledSTextSectionHeader style={{ color: "white", fontSize: "2.6rem", marginBottom: "120px", textAlign: "center"  }}>Camp Taiwan 22.06.2020 - 07.07.2020</StyledSTextSectionHeader>
                 <br />
                 <br />
                 <br />
                 <br />
-                <StyledText style={{ textAlign: "left", color: "#ffffff" , fontSize: "1.5rem", fontWeight: "lighter"}}>
+                <StyledText style={{ textAlign: "left", color: "#ffffff" , fontSize: "1.7rem", fontWeight: "lighter"}}>
                     <ul>
                         <li> 16 days: 12 750 NOK (10 750 NOK for companions(Non practicing participants))</li>
                         <StyledATagLink style={{ color: "#acb9ff" }}  onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includes</StyledATagLink>

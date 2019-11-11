@@ -19,7 +19,7 @@ export default function TaiwanSchedule() {
                 We will try to make this camp as exiting, interesting and learning-packed as possible.  
                 Therefore we have arranged a great possibility to come and watch the taiwanese national team practice.
                 During the "show" our coaches will explain what we can learn from seeing the top level players practice,
-                and how this can help you improve your game.
+                and how this can help you to improve your game.
                 We hope this will be both inspiring and developing for you. 
                 </StyledText><br/><br/>
             <StyledSTextSectionHeader>
@@ -40,16 +40,14 @@ export default function TaiwanSchedule() {
             </StyledText><br/><br/>
             <StyledH3>Lunch</StyledH3>
                 <StyledText>
-                The Lunch will be provided by ittc at restaurants.
-                We will try to go to the same place most of the time for lunch.
-                This is for making sure that all players get enough rest before the next practice.
-                We will of course try to find some place where everyone thrives and like the food.
+                We have to make sure that all players get enough rest before the next practice,
+                so the Lunch will be provided by ITTC ordered from restaurants.
                 If you're over 18 or traveling with your parents, it's of course allowed to go for lunch for yourself.
             </StyledText><br/><br/>
             <StyledH3>Dinner</StyledH3>
                 <StyledText>
                 For dinner we will try different restaurant and show you some of the most tasty food Taiwan has to offer.
-                 Every friday and saturday we will eat in western restaurants.
+                western food will also be an option.
             </StyledText><br/><br/>
             <StyledSTextSectionHeader>
             Monday - Saturday
