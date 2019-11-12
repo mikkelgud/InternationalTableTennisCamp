@@ -6,23 +6,23 @@ import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 
 //stay
 const stayHeader = "Camps ";
-const stayText = "Read about our stay in Norway, China and Poland. Everything about where we will stay, how we will stay and the day to day life at the camps.";
+const stayText = "Read everything you need to know about our camps in Norway and Taiwan.";
 const stayTo = "/stay";
 const stayIcon = "home";
 //safety
 const safteyHeader = "Safety ";
 const safteyIcon = "user-shield";
-const safteyText = "Read about how we will keep you safe during the camp and while travelling. Here you can also get information about what we need from you to keep the camp safe."
+const safteyText = "Read about how we will keep you safe during the camp and while travelling."
 const safteyTo = "/safety";
 //leaders
 const leadersHeader = "Leaders ";
 const leadersIcon = "users";
-const leadersText = "Read about the ITTC-team´s coaches and leaders. Get to know the people who will make you reach the next level in your career, aswell as take care of you.";
+const leadersText = "Read about the ITTC-team´s coaches and leaders. ";
 const leadersTo = "/leaders";
 //about us
 const aboutUsHeader = "About Us ";
 const aboutUsIcon = "users-cog";
-const aboutUsText = "Read about ITTC´s goals and motivation for organizing the camps. Here you can also learn more about the camps and read what we are all about!";
+const aboutUsText = "Read about ITTC´s goals and motivation for organizing the camps.";
 const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
@@ -30,7 +30,7 @@ const signUpText = "Read about how to sign up. We are looking forward to having 
 const signUpTo = "/Signup";
 //Ung cancer
 const sponsorHeader = "Sponsors ";
-const sponsorText = "Read about our sponsors and collaborators. Without them this camp wouldn't be possible.";
+const sponsorText = "Read about our sponsors and collaborators.";
 const sponsorTo = "/sponsors"
 
 

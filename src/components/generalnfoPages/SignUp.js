@@ -30,34 +30,43 @@ export default function SignUp(props) {
     // ? how to solve
     return (
         <MyWrapper>
-            <StyledDiv backgroundN={"linear-gradient(rgba(226, 234, 255) 0%, rgba(255,255,255,1) 100%);"}>
-                <StyledTextSectionHeader style={{ textAlign: "center" }}>Sign Up For Your Camp!</StyledTextSectionHeader>
-                <StyledText style={{ textAlign: "center" }}>
+            <StyledDiv
+                backgroundN={"linear-gradient(rgba(226, 234, 255) 0%, rgba(255,255,255,1) 100%);"}>
+                <StyledTextSectionHeader
+                    style={{ textAlign: "center" }}>
+                    Sign Up For Your Camp!
+                    </StyledTextSectionHeader>
+                <StyledText
+                    style={{ textAlign: "center" }}>
                     <br />
                     You sign up by sending the
-<StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink>
-                    to
-<StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
-</StyledText>
-
+          <StyledATagLink
+                        href={ApplicationForm}> Sign up form </StyledATagLink>
+                    to 
+                   <StyledATagLink
+                        href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
+                      </StyledText>
             </StyledDiv>
-            <StyledDiv background={campNorway} >
-                <StyledSTextSectionHeader style={{ 
-                    fontSize: "2.6rem", 
-                    color: "#ffffff", 
+            <StyledDiv
+                background={campNorway}>
+                <StyledSTextSectionHeader style={{
+                    fontSize: "2.6rem",
+                    color: "#ffffff",
                     textAlign: "center",
-                     marginBottom: "120px", 
-                     textShadow: "4px 4px black" }}>
-                         Camp Norway   07.04.2020-10.04.2020
+                    marginBottom: "120px",
+                    textShadow: "4px 4px black"
+                }}>
+                    Camp Norway   07.04.2020-10.04.2020
                          </StyledSTextSectionHeader>
                 <br />
                 <br />
-                <StyledText style={{ 
-                    textShadow: "2px 2px black", 
-                    textAlign: "left", 
-                    color: "#ffffff", 
-                    fontSize: "1.7rem", 
-                    fontWeight: "lighter" }}>
+                <StyledText style={{
+                    textShadow: "2px 2px black",
+                    textAlign: "left",
+                    color: "#ffffff",
+                    fontSize: "1.7rem",
+                    fontWeight: "lighter"
+                }}>
                     <ul>
                         <li>  4 days: 2 400 NOK  </li><br />
                         <li>  Deadline: 15.03.2020 </li><br />
@@ -66,27 +75,46 @@ export default function SignUp(props) {
                 </StyledText>
                 <br />
             </StyledDiv>
-            <StyledDiv background={campTaiwan}>
-                <StyledSTextSectionHeader style={{ 
-                    color: "white", 
+            <StyledDiv
+                background={campTaiwan}>
+                <StyledSTextSectionHeader style={{
+                    color: "white",
                     fontSize: "2.6rem",
-                     marginBottom: "120px",
-                      textAlign: "center",
-                       textShadow: "4px 4px black" }}>
+                    marginBottom: "120px",
+                    textAlign: "center",
+                    textShadow: "4px 4px black" }}>
                     Camp Taiwan 22.06.2020-07.07.2020
                     </StyledSTextSectionHeader>
                 <br />
                 <br />
                 <br />
                 <br />
-                <StyledText style={{ textAlign: "left", color: "#ffffff", fontSize: "1.7rem", fontWeight: "lighter", textShadow: "2px 2px black" }}>
+                <StyledText
+                    style={{
+                        textAlign: "left",
+                        color: "#ffffff",
+                        fontSize: "1.7rem",
+                        fontWeight: "lighter",
+                        textShadow: "2px 2px black"}}>
                     <ul>
                         <li> 16 days: 12 750 NOK (10 750 NOK for companions(Non practicing participants))</li>
-                        <StyledATagLink style={{ color: "#acb9ff" }} onClick={() => { props.history.push("/stay/Taiwan/prices") }}>Read more about prices and what this includes</StyledATagLink>
+                        <StyledATagLink
+                            style={{ color: "#acb9ff" }}
+                            onClick={() => {
+                                props.history.push("/stay/Taiwan/prices")
+                            }}>
+                            Read more about prices and what this includes
+                                </StyledATagLink>
                         <br />
                         <br />
                         <li>+ flight 7000 NOK both ways</li>
-                        <StyledATagLink style={{ color: "#acb9ff" }} onClick={() => { props.history.push("/stay/Taiwan/travel") }}>Read more about the travel</StyledATagLink>
+                        <StyledATagLink
+                            style={{ color: "#acb9ff" }}
+                            onClick={() => {
+                                props.history.push("/stay/Taiwan/travel")
+                            }}>
+                            Read more about the travel
+                                 </StyledATagLink>
                         <br />
                         <br />
                         <StyledListLocal>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </StyledListLocal>
@@ -95,18 +123,25 @@ export default function SignUp(props) {
                         <br />
                         <StyledListLocal>Deadline: 20.03.2020</StyledListLocal>
                     </ul>
-
                 </StyledText>
                 <br />
             </StyledDiv>
-            <StyledDiv backgroundN={"linear-gradient(rgb(241, 242, 255) 0%,rgb(255, 255, 255) 100%);"}>
-                <StyledTextSectionHeader style={{ textAlign: "center" }}>looking forward to seeing you</StyledTextSectionHeader>
-                <StyledText style={{ textAlign: "center" }}>
+            <StyledDiv
+                backgroundN={"linear-gradient(rgb(241, 242, 255) 0%,rgb(255, 255, 255) 100%);"}>
+                <StyledTextSectionHeader
+                    style={{ textAlign: "center" }}>
+                    looking forward to seeing you
+                    </StyledTextSectionHeader>
+                <StyledText
+                    style={{ textAlign: "center" }}>
                     <br />
                     You sign up by sending the
-<StyledATagLink href={ApplicationForm}> Sign up form </StyledATagLink>
+<StyledATagLink
+                        href={ApplicationForm}> Sign up form </StyledATagLink>
                     to
-<StyledATagLink href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
+<StyledATagLink
+                        href="mailto: join@ittcamp.com"> Join@ittcamp.com
+</StyledATagLink>.
 </StyledText>
                 <br />
                 <br />
@@ -114,9 +149,6 @@ export default function SignUp(props) {
                 <br />
                 <br />
             </StyledDiv>
-
-
-
         </MyWrapper>
     );
 }
