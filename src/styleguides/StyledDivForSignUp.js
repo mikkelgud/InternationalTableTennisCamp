@@ -21,7 +21,7 @@ padding: 8.8rem 2rem;
 transition: 0.6s ease-in-out;
 margin: 0 0 -30px 0;
 &:hover {
-    padding: 9.2rem 2.2rem;
+    padding: 9rem 2rem;
 }
 `;
 

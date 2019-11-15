@@ -18,9 +18,28 @@ const MyWrapper = styled.div`
  flex-wrap: wrap;
  `;
 
-const StyledListLocal = styled.li`
+const StyledSmalBox = styled.div`
+width: 50%;
+background-color: #00000091;
+border-radius: 25px;
+padding: 3.8rem 2.8rem;
+border: 17px solid #ffffff68;
+margin: 2rem 1rem;
+align-items: center;
+justify-content: center;
 
+@media(max-width: 800px){
+    width: 100%;
+}
+
+&:hover{
+background-color: #00020a91;
+}
  `;
+
+ const StyledListLocal = styled.li`
+ 
+ `
 
 
 export default function SignUp(props) {
@@ -53,13 +72,14 @@ export default function SignUp(props) {
                     fontSize: "2.6rem",
                     color: "#ffffff",
                     textAlign: "center",
-                    marginBottom: "120px",
+                    marginBottom: "50px",
                     textShadow: "4px 4px black"
                 }}>
                     Camp Norway   07.04.2020-10.04.2020
                          </StyledSTextSectionHeader>
                 <br />
                 <br />
+                <StyledSmalBox>
                 <StyledText style={{
                     textShadow: "2px 2px black",
                     textAlign: "left",
@@ -70,9 +90,13 @@ export default function SignUp(props) {
                     <ul>
                         <li>  4 days: 2 400 NOK  </li><br />
                         <li>  Deadline: 15.03.2020 </li><br />
-                        <StyledATagLink onClick={() => { props.history.push("/stay/Norway") }}> Read More about the camp </StyledATagLink><br />
+                        <StyledATagLink 
+                        style={{ color: "#acb9ff" }}
+                        onClick={() => { props.history.push("/stay/Norway") }}> 
+                        <li>Read More about the camp</li> </StyledATagLink><br />
                     </ul>
                 </StyledText>
+                </StyledSmalBox>
                 <br />
             </StyledDiv>
             <StyledDiv
@@ -80,7 +104,7 @@ export default function SignUp(props) {
                 <StyledSTextSectionHeader style={{
                     color: "white",
                     fontSize: "2.6rem",
-                    marginBottom: "120px",
+                    marginBottom: "50px",
                     textAlign: "center",
                     textShadow: "4px 4px black" }}>
                     Camp Taiwan 22.06.2020-07.07.2020
@@ -89,6 +113,7 @@ export default function SignUp(props) {
                 <br />
                 <br />
                 <br />
+                <StyledSmalBox>
                 <StyledText
                     style={{
                         textAlign: "left",
@@ -97,33 +122,30 @@ export default function SignUp(props) {
                         fontWeight: "lighter",
                         textShadow: "2px 2px black"}}>
                     <ul>
-                        <li> 16 days: 12 750 NOK (10 750 NOK for companions(Non practicing participants))</li>
-                        <StyledATagLink
-                            style={{ color: "#acb9ff" }}
-                            onClick={() => {
-                                props.history.push("/stay/Taiwan/prices")
-                            }}>
-                            Read more about prices and what this includes
-                                </StyledATagLink>
+                        <li> 16 Days: 12 750 NOK</li>
                         <br />
+                        <li> 16 Days tourist/parent: 10 750 NOK</li>
                         <br />
-                        <li>+ flight 7000 NOK both ways</li>
-                        <StyledATagLink
-                            style={{ color: "#acb9ff" }}
-                            onClick={() => {
-                                props.history.push("/stay/Taiwan/travel")
-                            }}>
-                            Read more about the travel
-                                 </StyledATagLink>
-                        <br />
+                        <li> And an additional cost of 7000 NOK for the flight ticket</li>
                         <br />
                         <StyledListLocal>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </StyledListLocal>
                         <br />
                         <StyledListLocal >There's NO need for a visa to enter Taiwan.</StyledListLocal>
                         <br />
                         <StyledListLocal>Deadline: 20.03.2020</StyledListLocal>
+                        <br/>
+                        <StyledATagLink
+                            style={{ color: "#acb9ff" }}
+                            onClick={() => {
+                                props.history.push("/stay/Taiwan/prices")
+                            }}><StyledListLocal>
+                            Read more about camp Taiwan
+                            </StyledListLocal>
+                                </StyledATagLink>
+                              
                     </ul>
                 </StyledText>
+                </StyledSmalBox>
                 <br />
             </StyledDiv>
             <StyledDiv
