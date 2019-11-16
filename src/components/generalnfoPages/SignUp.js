@@ -30,6 +30,7 @@ justify-content: center;
 
 @media(max-width: 800px){
     width: 100%;
+    margin: 1rem 0;
 }
 
 &:hover{
