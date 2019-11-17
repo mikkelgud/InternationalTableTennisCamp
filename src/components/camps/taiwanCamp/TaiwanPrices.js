@@ -40,7 +40,7 @@ export default function Expences(props) {
           <ul>
           <StyledList>Whole camp of 16 days for players:<br/>--> 12 750 NOK. </StyledList>
          <br/>
-          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 250 NOK </StyledList>
+          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 750 NOK </StyledList>
           <br/>
           <StyledList>+ flight <br/> --> 7000 NOK</StyledList>
           <br/>
@@ -56,15 +56,11 @@ export default function Expences(props) {
           <br/>
           <br/>
           Payment of the camp it self will be done after you get the member confirmation-email. 
-          In this email you will also get all the information you need about how to make the payment
+          In this email you will also get all the information you need about how to make the payment.
           The payment should happen before 01.06.2020. If the payment is not done before the payment-deadline,
           the participant is not longer considered a member of the camp.
           <br/>
          <br/>
-         The payment-
-          <ul>
-          <li>Is done by bank- transaction.</li>
-          </ul>
         <br/>
       </StyledText>
       </StyledTextBoxDiv>

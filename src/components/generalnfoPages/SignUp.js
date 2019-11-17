@@ -69,6 +69,7 @@ export default function SignUp(props) {
                       </StyledText>
             </StyledDiv>
             <StyledDiv
+            // "https://images.finncdn.no/dynamic/1600w/2019/8/vertical-2/26/5/156/033/335_430297305.jpg"
                 background={campNorway}>
                 <StyledSTextSectionHeader style={{
                     fontSize: "2.6rem",
@@ -95,7 +96,7 @@ export default function SignUp(props) {
                         <StyledATagLink 
                         style={{ color: "#acb9ff" }}
                         onClick={() => { props.history.push("/stay/Norway") }}> 
-                        <li>Read More about the camp</li> </StyledATagLink><br />
+                        <li>Read more about Camp Norway</li> </StyledATagLink><br />
                     </ul>
                 </StyledText>
                 </StyledSmalBox>
@@ -154,7 +155,7 @@ export default function SignUp(props) {
                 backgroundN={"linear-gradient(rgb(241, 242, 255) 0%,rgb(255, 255, 255) 100%);"}>
                 <StyledTextSectionHeader
                     style={{ textAlign: "center" }}>
-                    looking forward to seeing you
+                    Looking forward to seeing you
                     </StyledTextSectionHeader>
                 <StyledText
                     style={{ textAlign: "center" }}>
