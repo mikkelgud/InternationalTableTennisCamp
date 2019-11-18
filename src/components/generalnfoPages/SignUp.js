@@ -9,6 +9,7 @@ import ApplicationForm from "../../Assets/ApplicationITTCAMP.docx";
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import campNorway from '../../Assets/campHarestua.jpg';
 import campTaiwan from '../../Assets/campTaiwan.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const MyWrapper = styled.div`
@@ -46,13 +47,10 @@ background-color: #00020a91;
 
 export default function SignUp(props) {
     ScrollTop();
-    // todo: dsfjodsjf
-    // ! bug to fix
-    // ? how to solve
     return (
         <MyWrapper>
             <StyledDiv
-                backgroundN={"linear-gradient(rgba(226, 234, 255) 0%, rgba(255,255,255,1) 100%);"}>
+                backgroundN={"linear-gradient(rgba(226, 234, 255) 0%, rgba(255,255,255,1) 30%);"}>
                 <StyledTextSectionHeader
                     style={{ textAlign: "center" }}>
                     Sign Up For Your Camp!
@@ -62,7 +60,7 @@ export default function SignUp(props) {
                     <br />
                     You sign up by sending the
           <StyledATagLink
-                        href={ApplicationForm}> Sign up form </StyledATagLink>
+                        href={ApplicationForm}> <FontAwesomeIcon icon={"file-download"}/>Sign up form </StyledATagLink>
                     to 
                    <StyledATagLink
                         href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
@@ -162,7 +160,7 @@ export default function SignUp(props) {
                     <br />
                     You sign up by sending the
 <StyledATagLink
-                        href={ApplicationForm}> Sign up form </StyledATagLink>
+                        href={ApplicationForm}> <FontAwesomeIcon icon={"file-download"}/>Sign up form </StyledATagLink>
                     to
 <StyledATagLink
                         href="mailto: join@ittcamp.com"> Join@ittcamp.com

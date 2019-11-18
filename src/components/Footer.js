@@ -87,15 +87,27 @@ width: auto;
 function Footer(props) {
     const [hoverState, setHoverState] = useState(false);
     const [signUpIconState, setSignUpIconState] = useState("door-closed");
+    const mediaQueryMaxWidth = window.matchMedia("(max-width: 1050px)");
 
-
-
+   const mediaDoor =(mediaQueryMaxWidthProp)=>{
+       if(mediaQueryMaxWidthProp.matches && signUpIconState !== "door-open"){
+           setSignUpIconState("door-open");
+       } else if(!mediaQueryMaxWidthProp.matches && signUpIconState === "door-open"){
+        setSignUpIconState("door-closed");
+       }
+   }
+   if(mediaQueryMaxWidth.matches && signUpIconState !== "door-open"){
+    mediaDoor(mediaQueryMaxWidth);
+  }
+  mediaQueryMaxWidth.addListener(mediaDoor);
+ 
     const signUpItemOnHoverEffectToggle = () => {
         setHoverState(!hoverState);
         // setHoverState(!hoverState);
         hoverState ? setSignUpIconState("door-closed"):setSignUpIconState("door-open");
     }
-    
+
+
 
     return (
         <React.Fragment>
