@@ -1,31 +1,29 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import { StyledText } from '../../styleguides/StyledText';
 import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
 import { StyledH3 } from '../../styleguides/Styledh3';
+import ModelVeiw from '../../utils/ModalWindow';
 
-const HWrapper = styled.div`
-display: flex;
-align-itmes: flex-start;
-justify-content: flex-start;
-margin-left: 2rem;
-`;
 
 const StyledImageLocal = styled.img`
 display: flex;
-width: 50%;
+width: 60%;
 object-fit: contain;
+cursor: pointer;
 border-radius: 10px;
+margin: 2rem 2rem 1rem 1rem;
 @media (max-width: 1000px){
     width: 70%;
 }
 @media (max-width: 600px){
-    width: 90%;
+    width: 100%;
 }
 @media (max-width: 348px){
     width: 105%;
 }
+
 //  
 `;
 
@@ -37,21 +35,38 @@ const ScrollToTopp = () => {useEffect(() => {
 
 export default function LiFen() {
 
+    const [clickedState, setClickedState] = useState(false);
+    const [bigScreenSource, setBigScreenSource] = useState("");
+    const [displayState, setDisplayState] = useState("none");
+
+    const toggleBigScreen = (source) => {
+        if (!clickedState && bigScreenSource !== source) {
+            setClickedState(!clickedState);
+            setBigScreenSource(source);
+            setDisplayState("block");
+        } else {
+            setBigScreenSource(source);
+        }
+    }
+
+
    ScrollToTopp();
     return (
+        <React.Fragment>
+        {clickedState ? <ModelVeiw display={()=> displayState} source={bigScreenSource} onClick={() => {setDisplayState("none"); setClickedState(false); setBigScreenSource("");}}/> : null}
+
         <StyledTextBoxDiv>
-            <StyledTextSectionHeader>
-            <HWrapper>    Li Fen 42   </HWrapper>
-                    <StyledImageLocal src="https://farm1.static.flickr.com/806/26049640567_5df994de64_b.jpg" />
-            </StyledTextSectionHeader>
+              <StyledTextSectionHeader > Li Fen</StyledTextSectionHeader>   
             <StyledText>
                 <br />
-                Li Fen was born in the province ShanDong, China.
-                The European Champion is currently living in EsLöv, Sweden.
-                Where she on daily basis, practice with Eslöv Table Tennis club.
-                We in ITTC are very lucky to have her in our team, and with through out all three camps this year.
+                Li Fen was born in the province ShanDong, China.<br/>
+                The European Champion is currently living in EsLöv, Sweden.<br/>
+                Where she on daily basis, practice with Eslöv Table Tennis club.<br/>
+                We in ITTC are very lucky to have her on our team.
                 <br /> <br />
             </StyledText>
+            <StyledImageLocal src="https://farm1.static.flickr.com/806/26049640567_5df994de64_b.jpg" onClick={() => {toggleBigScreen("https://farm1.static.flickr.com/806/26049640567_5df994de64_b.jpg")}}/>
+            
             <StyledH3>Accomplishments </StyledH3>
             <StyledText>
                 <ul>
@@ -82,8 +97,11 @@ export default function LiFen() {
                 Li Fen will be everyones mother during travels,
                 so don't be affraid to ask her any questions you may have.
                 Everyone can learn a lot from her, so use that oppurtunity when you got it.
-            </StyledText>
+                <br/>            </StyledText>
+                <br/>            
+                <br/>            
+                <br/>            
         </StyledTextBoxDiv>
-        
+        </React.Fragment>
     )
 }

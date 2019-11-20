@@ -36,7 +36,7 @@ export default function MikkelGudmundsen() {
   return (
     <StyledTextBoxDiv>
       <StyledTextSectionHeader>
-        <HWrapper> Mikkel Gudmundsen 21</HWrapper>
+        <HWrapper> Mikkel Gudmundsen </HWrapper>
           <StyledImageLocal src={Mikkel} />
       </StyledTextSectionHeader>
       <br/>

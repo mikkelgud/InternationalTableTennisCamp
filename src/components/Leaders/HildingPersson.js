@@ -43,7 +43,7 @@ export default function Hilding() {
   return (
  <StyledTextBoxDiv>
       <StyledTextSectionHeader>
-      <HWrapper> Hilding Persson 21</HWrapper>
+      <HWrapper> Hilding Persson </HWrapper>
     
      <StyledImageLocal src={HildingPlaying}/>
        

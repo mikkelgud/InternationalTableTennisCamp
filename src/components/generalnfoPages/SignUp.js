@@ -138,12 +138,11 @@ export default function SignUp(props) {
                         <StyledATagLink
                             style={{ color: "#acb9ff" }}
                             onClick={() => {
-                                props.history.push("/stay/Taiwan/prices")
+                                props.history.push("/stay/Taiwan")
                             }}><StyledListLocal>
                             Read more about camp Taiwan
                             </StyledListLocal>
-                                </StyledATagLink>
-                              
+                                </StyledATagLink>                         
                     </ul>
                 </StyledText>
                 </StyledSmalBox>
@@ -169,7 +168,7 @@ export default function SignUp(props) {
                 <br />
                 <br />
                 <br />
-                <br />
+                <br /> 
                 <br />
             </StyledDiv>
         </MyWrapper>
