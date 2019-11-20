@@ -28,6 +28,8 @@ export default function Safety(props) {
                 The camp begins when we meet at the arranged meeting point.
                  From this point on the <StyledATagLink onClick={() => { props.history.push("/stay/rules"); }}>camp-rules</StyledATagLink> are to be followed by all participants and companions(Non practicing participants). 
                 These rules are made to ensure that everyone is safe and feels safe during the camps.
+                We would also like to welcome parents to join our camp in Taiwan at a lower cost
+                and hopefully have as many adults as possible with us at our camp.  
                 <br />
             <br/>
                 <br />
