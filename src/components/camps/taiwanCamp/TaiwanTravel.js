@@ -60,6 +60,10 @@ export default function TaiwanTravel() {
               </ol>
               <br/>
               <br/>
+              If you want to travel from other airports, or simply fix the travel yourself that's fine.
+               But please inform us about your travel-plan so we can coordinate the pick up at the airport in Taiwan, Tao Yuan.
+              <br/>
+              <br/>
               </StyledText>
               <StyledH3>Tickets and general information</StyledH3>
               <StyledText>
