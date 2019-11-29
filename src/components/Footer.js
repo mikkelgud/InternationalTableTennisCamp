@@ -145,6 +145,13 @@ function Footer(props) {
                         </ StyledIcon>
                     </StyledFooterItemDivContainer>
                     <StyledFooterItemDivContainer>
+                        <StyledIcon
+                                onClick={() => { props.history.push("/faq"); }}>
+                                <FontAwesomeIcon icon="question-circle"/>
+                                FAQ
+                        </StyledIcon>
+                    </StyledFooterItemDivContainer>
+                    <StyledFooterItemDivContainer>
                         <StyledIconBrands
                                 target="blank"
                                 href="https://www.facebook.com/ITTCamp-102692547780714/">
@@ -158,6 +165,7 @@ function Footer(props) {
                                 <FontAwesomeIcon icon={["fab", "instagram"]} />
                         </StyledIconBrands>
                     </StyledFooterItemDivContainer>
+                    
                 </Wrapper>
             </FooterStyleDivWrapper>
             </React.Fragment>

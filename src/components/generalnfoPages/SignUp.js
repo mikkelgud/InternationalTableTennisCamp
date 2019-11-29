@@ -55,15 +55,19 @@ export default function SignUp(props) {
                     style={{ textAlign: "center" }}>
                     Sign Up For Your Camp!
                     </StyledTextSectionHeader>
+                    <br />
                 <StyledText
                     style={{ textAlign: "center" }}>
+                        1. Fill in the  <StyledATagLink
+                        href={ApplicationForm}> <FontAwesomeIcon icon={"file-download"}/>Sign up form</StyledATagLink>.
                     <br />
-                    You sign up by sending the
-          <StyledATagLink
-                        href={ApplicationForm}> <FontAwesomeIcon icon={"file-download"}/>Sign up form </StyledATagLink>
-                    to 
+                    <br />
+                    2. Send the form to
                    <StyledATagLink
-                        href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>.
+                        href="mailto: join@ittcamp.com"> Join@ittcamp.com</StyledATagLink>. 
+                        <br/>
+                        <br/>
+                        3. Get a confirmation mail from us with payment information.
                       </StyledText>
             </StyledDiv>
             <StyledDiv

@@ -16,3 +16,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+details{
+  border:2px solid var(--c-dark);
+  display:block;
+}
+summary{
+  list-style-image: none;
+  cursor: pointer;
+  font-weight:bold;
+  position: relative;
+  padding:15px 30px;
+}
+summary:after{
+  content:"+";
+  position:absolute;
+  right:30px;
+  top:50%;
+  transform:translateY(-50%);
+
+}
+.summary-content{
+  padding:15px 30px;
+}
+
+details[open] summary:after{
+  content:"-";
+}
+details summary::-webkit-details-marker {
+display:none;
+}

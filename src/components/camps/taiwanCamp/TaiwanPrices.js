@@ -51,7 +51,7 @@ export default function Expences(props) {
       <StyledH3>Payment</StyledH3>
       <StyledText>
           After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          Then you confirm your membership by sending 7000 NOK for the flight ticket or if you want to buy the ticket for yourself, confirm by sending a deposit of 2000 NOK.
+          Then you confirm your membership by sending 7000 NOK for the flight ticket. If you are buying the ticket for yourself, you confirm by sending a deposit of 2000 NOK.
           <br/><StyledATagLink onClick={() => props.history.push("/stay/Taiwan/travels")}>Read more about the travel</StyledATagLink>
           <br/>
           <br/>
