@@ -26,7 +26,7 @@ const aboutUsText = "Read about ITTC´s goals and motivation for organizing the 
 const aboutUsTo = "/aboutus";
 //sign up
 const signUpHeader = "Sign Up ";
-const signUpText = "Read about how to sign up. We are looking forward to having you with us at our camp."
+const signUpText = "Read about how to sign up for our camps. We are looking forward to having you with us at our camp."
 const signUpTo = "/Signup";
 //Ung cancer
 const sponsorHeader = "Sponsors ";
