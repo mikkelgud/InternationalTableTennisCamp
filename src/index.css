@@ -18,7 +18,7 @@ code {
 }
 details{
   border:2px solid var(--c-dark);
-  display:block;
+  display: flex;
 }
 summary{
   list-style-image: none;
