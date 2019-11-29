@@ -10,7 +10,8 @@ export default function Pack() {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Packing list</StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Packing list</StyledTextSectionHeader>
+            <br/>
             <StyledText>
             Try to pack your bags according to the weather. We will spend some time outside...
             We do NOT offer bed, duvet, pillow or bed sheets.

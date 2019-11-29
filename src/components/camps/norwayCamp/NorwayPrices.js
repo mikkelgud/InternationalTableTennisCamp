@@ -18,7 +18,7 @@ export default function Expenses(props) {
 
   return (
       <StyledTextBoxDiv>
-      <StyledTextSectionHeader>Camp Norway Expenses</StyledTextSectionHeader>
+      <StyledTextSectionHeader style={{textAlign: "center"}}>Camp Norway Expenses</StyledTextSectionHeader>
       <br/>
       <StyledH3>Includes</StyledH3>
       <StyledText>

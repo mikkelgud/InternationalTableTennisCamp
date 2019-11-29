@@ -13,9 +13,10 @@ export default function Schedule(props) {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>
                 Schedule 
             </StyledTextSectionHeader>
+            <br/>
             <StyledText> 
                 Notice:
                 Phones are allowed during the camp, 

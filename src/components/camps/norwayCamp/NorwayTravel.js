@@ -11,7 +11,8 @@ export default function NorwayTravel() {
     ScrollTop();
     return (
         <StyledTextBoxDiv>
-            <StyledTextSectionHeader>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Welcome to Camp Norway in Harestua</StyledTextSectionHeader>
+            <br/>
             <StyledText> 
                 We hope to see as many nationalities as possible at our camp.
                 We will arrange pickups at the Harestua train station to begin with, but if people come in groups from other countries, we will arrange pick ups at the airport. 

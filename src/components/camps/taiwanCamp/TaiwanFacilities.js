@@ -67,6 +67,7 @@ export default function TaiwanFacilites() {
         {clickedState ? <ModelVeiw display={()=> displayState} source={bigScreenSource} onClick={() => {setDisplayState("none"); setClickedState(false); setBigScreenSource("");}}/> : null}
         <StyledTextBoxDiv>
             <StyledTextSectionHeader style={{textAlign: "center"}}>Welcome to Camp Taiwan in Tao Yuan</StyledTextSectionHeader>
+            <br/>
             <StyledText>
              To ensure everyones practice quality is facilitated for their maximum performance level,
               we choose to live in a high standard hotel as well as eating nutritious and healthy food.

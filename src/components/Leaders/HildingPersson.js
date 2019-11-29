@@ -51,7 +51,7 @@ export default function Hilding() {
       <br/>
      
       <StyledText>
-    Hilding's from Norway, and has been playing table tennis for 9 years.
+    Hilding's from Norway, and has been playing table tennis for 11 years.
     He's still one of the most active players from Norway.
     He studied in NTG-bærum, which is the top rated sport gymnasium in Norway.
     After that, Hilding went to Sweden, and lived in Eslöv for two years for profesional table tennis practice only.
@@ -78,7 +78,7 @@ export default function Hilding() {
         </ul>
         <br/>
         So; If you get any problems during camp, 
-        you will find a trusting good friend in Hidling.<br/>
+        you will find a trusting good friend in Hilding.<br/>
         Remember, you can always ask whatever you want, and ITTC-leaders will always take you serious.
         </StyledText>
         </StyledTextBoxDiv>

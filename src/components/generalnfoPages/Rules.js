@@ -24,8 +24,8 @@ export default function Rules() {
                 <ol>
                 <li> Golden rule: Respect each other, leaders, equipment and others' personal belongings</li>  <br/>
                 <li>Be responsible, and take good care of the person next to you</li>  <br/>
-                <li>Listen to Coach/leaders, their words are law during the camp</li>  <br/>
-                <li>Be in time at all times</li>  <br/>
+                <li>Listen to the Coaches/leaders. Their words are law during the camp</li>  <br/>
+                <li>Be on time at all times</li>  <br/>
                 <li>Speak only nice or constructively with each other, and about each other.</li>  <br/>
                 <li>We are one team with one common goal at ITTC, act accordingly</li>  <br/>
                 <li>Be cooperative, find solutions, not problems</li>  <br/>

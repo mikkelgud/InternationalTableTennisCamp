@@ -10,15 +10,19 @@ export default function Social() {
     ScrollTop();
     return (
         <StyledDiv>
-            <StyledTextSectionHeader>Social life at the camp</StyledTextSectionHeader>
-            <StyledText>
+            <StyledTextSectionHeader style={{textAlign: "center"}}>Social life at the camp</StyledTextSectionHeader>
+            <br/>
+            
             <StyledH3>Team-games</StyledH3>
+            <StyledText>
                 In the beginning of the camp we will divide the Participants into teams.
                 Every evening, the teams will compete in team games and fun competitions.
                This is a good way for the players to get to know each other, and for everyone to find new friends.
+               </StyledText>
                <br/>
                <br/>
             <StyledH3>Meetings</StyledH3>
+            <StyledText>
         After every practice, we will have small group talks to summarize the practise.
         During these conversations everyone will get the chance to talk about their experience during the practice.
         We believe that open honest conversations is the best way to make progress and to create a good enviorment.
@@ -28,6 +32,7 @@ export default function Social() {
         Li Fen will also hold lectures based on her experiences as a world-class player for many years.
         <br/>
         <br/>
+        </StyledText>
         <StyledH3>Tournament</StyledH3>
         <StyledText>
             The last day we will have a tournament, more information will come at the camp.
@@ -36,7 +41,6 @@ export default function Social() {
             <br/>
         It will be a lot of fun! We hope to see you in Harestua 😊
         </StyledText>
-            </StyledText>
         </StyledDiv>
         )
 }

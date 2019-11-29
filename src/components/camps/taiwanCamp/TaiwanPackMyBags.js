@@ -10,6 +10,7 @@ export default function Pack() {
     return (
         <StyledDiv>
             <StyledTextSectionHeader style={{textAlign: "center"}}>Packing list</StyledTextSectionHeader>
+            <br/>
             <StyledText>
         It's cheap to buy things in Taiwan.
          So if you plan to bring things home, pack smart.
