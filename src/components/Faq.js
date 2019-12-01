@@ -34,7 +34,7 @@ export default function Rules() {
                        </StyledText>
                         <br/><br/>
                         <StyledSTextSectionHeader style={{padding: "0 2rem"}}>For camp Norway:</StyledSTextSectionHeader>
-                       <StyledText style={{padding: "0 2rem"}}> No binding. Full refound if you can't come.</StyledText>
+                       <StyledText style={{padding: "0 2rem"}}> No binding. Full refound of camp price if you can't come.</StyledText>
                     <br/>
                     </div>
                

@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import history from './utils/history';
 import fontAwesomeLibraryLoader from './utils/faLibraryLoader';
+import withTracker from './hooks/withTracker';
 
 // import i18n (needs to be bundled ;))
 import './utils/i18n';
@@ -14,7 +15,7 @@ fontAwesomeLibraryLoader();
 
 ReactDOM.render(
     <Router history={history}>
-        <App />
+        <Route exact component={withTracker(App, {App})} />
     </Router>,
     document.getElementById('root'));
 

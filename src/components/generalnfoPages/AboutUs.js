@@ -126,7 +126,7 @@ export default function AboutUs(props) {
         <br />
         <StyledSTextSectionHeader>What We Offer</StyledSTextSectionHeader>
         <StyledText>
-          In the International Table Tennis Camp we aim to deliver the higest level of practice for all levels and ages.
+          In the International Table Tennis Camp we aim to deliver the highest level of practice for all levels and ages.
           With a professional training program, world-class coaches, custom sparring,
           the best possible facilities and a high-skilled team with great spirit
           we hope to make an unforgettable experience for every participant.
