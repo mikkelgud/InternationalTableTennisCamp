@@ -127,9 +127,9 @@ export default function SignUp(props) {
                         fontWeight: "lighter",
                         textShadow: "2px 2px black"}}>
                     <ul>
-                        <li> 16 Days: 12 750 NOK</li>
+                        <li> 16 Days for participant: 12 750 NOK</li>
                         <br />
-                        <li> 16 Days tourist/parent: 10 750 NOK</li>
+                        <li> 16 Days for tourist/parent: 10 750 NOK</li>
                         <br />
                         <li> And an additional cost of 7000 NOK for the flight ticket</li>
                         <br />
