@@ -129,7 +129,7 @@ export default function SignUp(props) {
                     <ul>
                         <li> 16 Days for participant: 12 750 NOK (≈1 275 Euro)</li>
                         <br />
-                        <li> 16 Days for tourist/parent: 10 750 NOK (≈700 Euro)</li>
+                        <li> 16 Days for tourist/parent: 10 750 NOK (≈1 075 Euro)</li>
                         <br />
                         <li> And an additional cost of 7000 NOK (≈700 Euro) for the flight ticket from Gardemoen or kastrup</li>
                         <br />
