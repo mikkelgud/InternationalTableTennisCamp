@@ -38,7 +38,7 @@ export default function Expenses(props) {
       <StyledSTextSectionHeader>Price</StyledSTextSectionHeader>
       <StyledText>
           <ul>
-          <StyledList>The whole camp:<br/><br/>--> 2 400 NOK </StyledList>
+          <StyledList>The whole camp:<br/><br/>--> 2 400 NOK  (=240euro)</StyledList>
           </ul>
       </StyledText>
       <br/>

@@ -38,11 +38,11 @@ export default function Expences(props) {
          <br/>
       <StyledText>
           <ul>
-          <StyledList>Whole camp of 16 days for players:<br/>--> 12 750 NOK. </StyledList>
+          <StyledList>Whole camp of 16 days for players:<br/>--> 12 750 NOK. (≈1 275 Euro) </StyledList>
          <br/>
-          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 750 NOK </StyledList>
+          <StyledList>Whole camp of 16 days for traveling companions (Non practicing participants) <br/> --> 10 750 NOK (≈1 075 Euro) </StyledList>
           <br/>
-          <StyledList>+ flight <br/> --> 7000 NOK</StyledList>
+          <StyledList>+ flight <br/> --> 7000 NOK (≈700 Euro)</StyledList>
           <br/>
           <StyledList>There is NO need for a visa to enter Taiwan.</StyledList>   
           </ul>
