@@ -121,7 +121,7 @@ export default function SignUp(props) {
                     <StyledList>
                         <StyledListUnit> 16 Days for participant: 12 750 NOK (≈1 275 Euro)</StyledListUnit>
                         <liStyledListUnit> 16 Days for tourist/parent: 10 750 NOK (≈1 075 Euro)</liStyledListUnit>
-                        <StyledListUnit> And an additional cost of 7000 NOK (≈700 Euro) for the flight ticket from Gardemoen or kastrup</StyledListUnit>
+                        <StyledListUnit> And an additional cost of 7000 NOK (≈700 Euro) for the flight ticket from Gardemoen or Kastrup</StyledListUnit>
                         <StyledListUnit>All travelers to Taiwan must hold a passport valid for at least 6 months from arrival day. </StyledListUnit>
                         <StyledListUnit >There's NO need for a visa to enter Taiwan.</StyledListUnit>
                         <StyledListUnit>Deadline: 20.03.2020</StyledListUnit>

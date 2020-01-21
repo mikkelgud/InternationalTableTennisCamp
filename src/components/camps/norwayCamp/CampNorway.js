@@ -62,6 +62,6 @@ export default function Stay() {
             <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Norway/pack-my-bag-please" text={packText} header={packHeader} />
         </Wrapper>
-        </>
+          </>
     )
 }
