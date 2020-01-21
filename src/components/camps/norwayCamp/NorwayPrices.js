@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { StyledText } from "../../../styleguides/StyledText";
 import { ScrollTop } from "../../../utils/ScrollToTopp";
 import { StyledTextSectionHeader } from "../../../styleguides/StyledSectionHeader";
@@ -7,10 +6,10 @@ import StyledTextBoxDiv from '../../../styleguides/StyledTextBoxDiv';
 import { StyledH3 } from "../../../styleguides/Styledh3";
 import { StyledATagLink } from "../../../styleguides/StyledATagLink";
 import { StyledSTextSectionHeader } from "../../../styleguides/StyledSemiTextSectionHeader";
+import { StyledList } from "../../../styleguides/StyledList";
+import { StyledListUnit } from "../../../styleguides/StyledListUnit";
+import { InfoBox } from "../../../styleguides/StyledInfoBox";
 
-const StyledList = styled.li`
-list-style-type: square;
-`;
 
 export default function Expenses(props) {
   ScrollTop();
@@ -19,47 +18,34 @@ export default function Expenses(props) {
   return (
       <StyledTextBoxDiv>
       <StyledTextSectionHeader style={{textAlign: "center"}}>Camp Norway Expenses</StyledTextSectionHeader>
-      <br/>
-      <StyledH3>Includes</StyledH3>
+      <InfoBox>
+          <StyledH3>Camp price:</StyledH3>
+          <StyledText>In NOK: 2 400 Kr </StyledText>
+          <StyledText>In Euro: 240 €</StyledText>
+          </InfoBox>
+          <InfoBox>
+      <StyledH3>Includes: </StyledH3>
       <StyledText>
-      <ul>
-    <li> 4 days camp with high quality traning.</li>
-    <li> High quality trainings every day of the camp. <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>(Look at schedule)</StyledATagLink></li>
-    <li>Lectures and team-building every evening with the coaches, including European champion Li Fen.</li>
-    <li>4 nights stay in the hall with night guards awake throughout the whole night. <br/>
-          (Notice: Mattress, duvet/sleepingbag, sheets and pillow are the participants own responsibility to bring)</li>
-    <li>3 meals every day. <br/>
-          (Notice: If you have any allergies please tell us before the camp).</li>
-          <li>Information from coaches about what you have to work with in the future.</li>
-          <li>Camp T-shirt.</li>
-      </ul>
+      <StyledList style={{listStyle: "ul" }}>
+    <StyledListUnit> 4 days camp with high quality trainings in Harestua.</StyledListUnit>
+    <StyledListUnit> High quality trainings every day of the camp. 
+      <StyledATagLink onClick={() => { props.history.push("/stay/Norway/schedule"); }}>(Look at schedule)</StyledATagLink></StyledListUnit>
+    <StyledListUnit>Lectures and team-building every evening with the coaches, including European champion Li Fen.</StyledListUnit>
+    <StyledListUnit>4 nights stay in the hall with night guards awake throughout the whole night. </StyledListUnit>
+       (Notice: Mattress, duvet/sleepingbag, sheets and pillow are the participants own responsibility to bring)
+    <StyledListUnit>3 meals every day.</StyledListUnit>
+         (Notice: If you have any allergies please tell us before the camp).
+          <StyledListUnit>Information from coaches about what you have to work with in the future.</StyledListUnit>
+          <StyledListUnit>Camp T-shirt.</StyledListUnit>
+  </StyledList>
       </StyledText>
-      <br/>
-      <StyledSTextSectionHeader>Price</StyledSTextSectionHeader>
-      <StyledText>
-          <ul>
-          <StyledList>The whole camp:<br/><br/>--> 2 400 NOK  (=240euro)</StyledList>
-          </ul>
-      </StyledText>
-      <br/>
+      </InfoBox>
+     
+     
       <StyledSTextSectionHeader>Payment</StyledSTextSectionHeader>
       <StyledText>
-          After you sign up for the camp, you will get a confirmation-mail back saying that you are a member of the camp.
-          If there's over 32 participants, we will select 32 players according to our impression from the sign up forms.
-          <br/>
-          <br/>
-          Payment will be done after you get the confirmation. 
-          In this email you will also get all the information you need about how to make the payment.
-          The payment should happen before the camp starts or at the first camp day.
-         <br/>
-         <br/>
-        <StyledSTextSectionHeader>The payment -</StyledSTextSectionHeader> 
-          <ul>
-          <li>Is done by bank- transaction. (preferred)</li>
-          <li>Or, by paying in cash at entry on the first day of the camp. </li>
-          </ul>
-        <br/>
-      </StyledText>
+          After you sign up for the camp, you will get a confirmation-mail with all the information about the payment. 
+</StyledText>
       </StyledTextBoxDiv>
   );
 }

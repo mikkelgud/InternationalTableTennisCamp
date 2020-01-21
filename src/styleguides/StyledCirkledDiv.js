@@ -18,16 +18,18 @@ padding: 2.5rem;
   border-radius: 100%;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
   border: 1px solid #000000;
-  transition: all 0.22678s ease-in-out;
+  transition: all 0.32678s ease-in-out;
   background-image: url(${props => props.backgorund});
   background-repeat: no-repeat;
   background-size: cover;
-  color: #cbcbcb;
+  color: #fafaff;
+  text-shadow: 2px 2px #010946;
   &:hover {
     background-color: black;
     border-radius: 20%;
     color: white;
     box-shadow: 0px 2px 18px 10px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px #010946;
 }
   @media (max-width: 1230px){
     color: white;

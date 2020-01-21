@@ -1,25 +1,24 @@
 import React from 'react';
 import { StyledText } from '../styleguides/StyledText';
 import StyledCirkledDiv from '../styleguides/StyledCirkledDiv';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 import { ScrollTop } from '../utils/ScrollToTopp';
+import { StyledTextSectionHeaderForHomePage } from '../styleguides/StyledTextSectionHeaderForHomePage';
 
 
 export default function PersonProfile(props) {
 ScrollTop();
     return ( 
         <StyledCirkledDiv background={props.background}>
-             <br/>
-            <StyledTextSectionHeader>
-                {props.personName} {props.age}
-            </StyledTextSectionHeader>
-            <StyledText>
-                <br/>
-                {props.text}
-            </StyledText>
-            <StyledText>
+            <StyledTextSectionHeaderForHomePage style={{margin: "8px 0 26px 5px"}}>
+                {props.personName}
+                {props.age}
+            </StyledTextSectionHeaderForHomePage>
+         <StyledText>
                 {props.willJoin}
-            </StyledText>
+         </StyledText>
+         <StyledText style={{fontStyle: "Italic"}}>
+                {props.text} 
+        </StyledText>
         </StyledCirkledDiv>
     )
 }

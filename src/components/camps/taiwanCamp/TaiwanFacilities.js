@@ -67,16 +67,13 @@ export default function TaiwanFacilites() {
         {clickedState ? <ModelVeiw display={()=> displayState} source={bigScreenSource} onClick={() => {setDisplayState("none"); setClickedState(false); setBigScreenSource("");}}/> : null}
         <StyledTextBoxDiv>
             <StyledTextSectionHeader style={{textAlign: "center"}}>Welcome to Camp Taiwan in Tao Yuan</StyledTextSectionHeader>
-            <br/>
             <StyledText>
              To ensure everyones practice quality is facilitated for their maximum performance level,
               we choose to live in a high standard hotel as well as eating nutritious and healthy food.
                The training center is placed few minutes walking distance from the hall and
             the training conditions are great with a lot of space and many tables.
             </StyledText>
-            <br />
             <StyledSTextSectionHeader>Taiwan Facility Pictures  </StyledSTextSectionHeader>
-            <br />
             <StyledH3>the Practice-halls</StyledH3>
             <Wrapper>
             <StyledImage src={practice01} onClick={() => {toggleBigScreen(practice01)}} />
@@ -107,12 +104,8 @@ export default function TaiwanFacilites() {
             </Wrapper>
                <StyledH3>Want to see and read more about the suroundings and culture in Tao yuan?
                Here are some videos you might find interesting to watch.</StyledH3>
-               <br/>
            <StyledIFrame  src="https://www.youtube.com/embed/QG1yFIG8w3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
-           <br/>
            <StyledIFrame src="https://www.youtube.com/embed/7eufzSHZFlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></StyledIFrame>
-               <br/>             
-               <br/>
         </StyledTextBoxDiv>
         </React.Fragment>
     )

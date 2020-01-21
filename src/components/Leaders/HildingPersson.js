@@ -1,41 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import { StyledText } from '../../styleguides/StyledText';
 import StyledTextBoxDiv from '../../styleguides/StyledTextBoxDiv';
 import HildingPlaying from '../../Assets/HildingPlaying.jpg';
 import { StyledH3 } from '../../styleguides/Styledh3';
 import { ScrollTop } from '../../utils/ScrollToTopp';
-
-
-
-const HWrapper = styled.div`
-display: flex;
-align-itmes: flex-start;
-justify-content: flex-start;
-margin-left: 0rem;
-
-@media (max-width: 520px){
-  margin-left: 0;
-}
-`;
-
-const StyledImageLocal = styled.img`
-display: flex;
-width: 50%;
-object-fit: contain;
-border-radius: 10px;
-@media (max-width: 1000px){
-  width: 80%;
-}
-@media (max-width: 600px){
-  width: 100%;
-}
-@media (max-width: 348px){
-  width: 105%;
-}
-`;
-
+import { StyledImageForLeaders } from '../../styleguides/StyledImageForLeaders';
+import { InfoBox } from '../../styleguides/StyledInfoBox';
 
 
 export default function Hilding() {
@@ -43,13 +14,11 @@ export default function Hilding() {
   return (
  <StyledTextBoxDiv>
       <StyledTextSectionHeader>
-      <HWrapper> Hilding Persson </HWrapper>
-    
-     <StyledImageLocal src={HildingPlaying}/>
-       
-      </StyledTextSectionHeader>
-      <br/>
-     
+       Hilding Persson 
+       </StyledTextSectionHeader>
+       <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
+     <StyledImageForLeaders src={HildingPlaying}/>
+     </div>
       <StyledText>
     Hilding's from Norway, and has been playing table tennis for 11 years.
     He's still one of the most active players from Norway.
@@ -59,15 +28,14 @@ export default function Hilding() {
      He has played 3 matches in Pingisligaen ( top divisjon in Sweden ) for Eslöv,
     and he also played Elit divition in Norway for Heros BTK last year. 
      He is currently working on the ITTC-project and studying massage in Oslo. 
-     <br/><br/>
         </StyledText>
         <StyledText>
           He's known for he's hard working spirit, and kindness.
           Due to this, he has established many great friendships with profesional players, 
           and know what it takes to reach the top-level in table tennis.
           We are very lucky to have him on our team. 
-          <br/><br/>
         </StyledText>
+        <InfoBox>
         <StyledH3>Responsibilities</StyledH3>
         <StyledText>       
          <ul>
@@ -76,10 +44,12 @@ export default function Hilding() {
            <li>Injuries and massage </li>
            <li>Coaching younger players </li>
         </ul>
-        <br/>
-        So; If you get any problems during camp, 
-        you will find a trusting good friend in Hilding.<br/>
-        Remember, you can always ask whatever you want, and ITTC-leaders will always take you serious.
+        </StyledText>
+        </InfoBox>
+        <StyledText>
+        If you get any problems during camp, 
+        you will find a trusting good friend in Hilding.
+        Remember, you can always ask whatever you want, and ITTC-leaders will take you serious.
         </StyledText>
         </StyledTextBoxDiv>
   )

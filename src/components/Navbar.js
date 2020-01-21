@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import Logo from '../Assets/Bordtennislogo.png';
 // import LanguageSelctorMenu, { englishLanguage } from "./Language";
 // import useLocalStorage from "../hooks/useLocalStorage";
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+// import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
 // import { keyframes } from 'styled-components';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -130,7 +130,7 @@ function NavBar(props) {
   return (
     <NavBarWrapper>
       <AppTitle onClick={() => { props.history.push("/home"); }}> <StyledImageLogo src={Logo} /></AppTitle>
-      <StyledTextSectionHeader>{props.header}</StyledTextSectionHeader>
+      {/* <StyledTextSectionHeader>{props.header}</StyledTextSectionHeader> */}
       {/* {isLanguageSelectorOpen ? null
         : <NavigationLinkEmoji
           emoji={language ? language.selectedLanguageIcon : initialLanguage.selectedLanguageIcon}

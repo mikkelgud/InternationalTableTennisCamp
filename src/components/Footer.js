@@ -71,7 +71,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-width: 80%;
+width: 90%;
 border-bottom: 1px solid #e1e4e8;
 border-bottom-size: 10%;
 `;

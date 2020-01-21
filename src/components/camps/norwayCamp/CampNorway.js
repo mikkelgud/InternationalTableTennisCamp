@@ -1,20 +1,10 @@
 import React from 'react';
 import PlanLinkDiv from '../../LinkDivCard';
-import styled from 'styled-components';
 import { Wrapper } from '../../../styleguides/StyledTextBoxWrapper';
 import { StyledTextSectionHeader } from '../../../styleguides/StyledSectionHeader';
 import { StyledText } from '../../../styleguides/StyledText';
 import { ScrollTop } from '../../../utils/ScrollToTopp';
-import {StyledATagLink} from '../../../styleguides/StyledATagLink';
 
-
-
-const HeaderWrap = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 2rem;
-`
 
 const scheduleEmoji = "🗓";
 const rulesEmoji = "📋";
@@ -33,7 +23,7 @@ const scheduleText = "Read about how our days will be in Harestua. Practice, bed
 
 //Rules
 const rulesHeader = "Rules " + rulesEmoji;
-const rulesText = "Read about the camp rules and consequences. It is obligatory to read this page, so please learn the rules before attending the camp.";
+const rulesText = "Read about the camp rules and consequences. Please learn the rules before attending the camp.";
 
 // Social
 const SocialHeader = "Social " + socialEmoji;
@@ -60,15 +50,9 @@ const packText = "Read about what you should remember to take with you to Camp N
 export default function Stay() {
     ScrollTop();
     return (
-<React.Fragment>
-            <HeaderWrap>
-                <StyledTextSectionHeader style={{textAlign: "center"}}>
-                    Welcome to ITTC Norway 
-                <StyledText>What would you like to know about?
-            <StyledATagLink target="blank" href="https://www.google.com/maps/dir//Harestua+Arena,+Elvefaret+22,+2743+Harestua/@60.2091828,10.713969,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46419f7b25edc42b:0xecdfa6f6adc8441d!2m2!1d10.7161577!2d60.2091828"> Where's Harestua?</StyledATagLink>              
-                </StyledText>
-                </StyledTextSectionHeader>
-            </HeaderWrap>
+   <>
+                <StyledTextSectionHeader style={{textAlign: "center"}}>Welcome to ITTC Norway </StyledTextSectionHeader>
+                <StyledText style={{textAlign: "center"}}>What would you like to know about this camp?</StyledText>
                     <Wrapper>
             <PlanLinkDiv to="/stay/Norway/schedule" text={scheduleText} header={scheduleHeader} />
             <PlanLinkDiv to="/stay/rules" text={rulesText} header={rulesHeader} />
@@ -78,6 +62,6 @@ export default function Stay() {
             <PlanLinkDiv to="/stay/Norway/facilities" text={facilitiesText} header={facilitiesHeader} />
             <PlanLinkDiv to="/stay/Norway/pack-my-bag-please" text={packText} header={packHeader} />
         </Wrapper>
-        </React.Fragment>
+        </>
     )
 }

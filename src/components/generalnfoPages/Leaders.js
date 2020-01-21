@@ -3,13 +3,12 @@ import styled from 'styled-components';
 import { Wrapper } from '../../styleguides/StyledTextBoxWrapper';
 import PersonProfilePresentation from '../PersonProfilePresentation';
 import { StyledLink } from '../../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 import Mikkel from '../../Assets/MikkelCut.jpg';
 import Maria from '../../Assets/MariaXiao.jpeg';
 import LiFen from '../../Assets/LiFen.jpg';
 import HildingROR from '../../Assets/HildingPlaying.jpg';
-import {StyledATagLink} from '../../styleguides/StyledATagLink';
 import { ScrollTop } from '../../utils/ScrollToTopp';
+import { StyledTextSectionHeader } from '../../styleguides/StyledSectionHeader';
 
 
 
@@ -27,7 +26,6 @@ const info = "Click to read more";
 
 
 //Picture-sources
-const Harestua = "https://scontent.fosl3-2.fna.fbcdn.net/v/t1.0-9/14332997_328338614181135_165321474244639133_n.jpg?_nc_cat=103&_nc_oc=AQnFyx5OWGfG9waVwGOB6-61_KcFFGD-zwPgMzgh8lDndWU78Zi3cP2Fj25DBi75HuM&_nc_ht=scontent.fosl3-2.fna&oh=e4a5af849f32723f59b905da1cf927e3&oe=5E132AE3";
 // const hildingPictureSource = "https://bordtennis.eai.se/wp-content/uploads/2018/06/Hilding.jpg";
 const oscarPictureSource = "https://www.ttcw.ch/clubdesk/fileservlet?inline=true&type=image&id=1000148";
 const Eskil = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-xGz9gk37dRk-IgJV9n8qQs_4Rssuh4Zz74OnJ1VQEn1d0511w";
@@ -97,13 +95,6 @@ const persons = [
    
 ]
 
-const harestua = [
-    { 
-    
-    picture: Harestua,
-    src:"https://www.harestua.info/harestua-il/bordtennis.html",
-}
-]
 
 export default function Leaders() {
     ScrollTop();
@@ -114,7 +105,7 @@ export default function Leaders() {
         </LeadersSectionsWrapper>
             <Wrapper>
                 {persons.map(person => (<StyledLink src={person.src} to={person.to}><PersonProfilePresentation age={person.age} personName={person.name} text={person.text} background={person.picture} willJoin={person.willJoin}/></StyledLink>))}
-           <StyledATagLink target="blank" href={harestua[0].src}><PersonProfilePresentation personName={harestua[0].name} background={harestua[0].picture} text={harestua[0].text} willJoin={harestua[0].willJoin} /></StyledATagLink></Wrapper>
+           </Wrapper>
         </>
         )
 }

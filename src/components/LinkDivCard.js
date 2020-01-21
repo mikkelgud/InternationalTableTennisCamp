@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../styleguides/StyledTextCardDiv';
 import { StyledLink } from '../styleguides/StyledLink';
-import { StyledTextSectionHeader } from '../styleguides/StyledSectionHeader';
+import { StyledTextSectionHeaderForHomePage } from '../styleguides/StyledTextSectionHeaderForHomePage';
 import { StyledTextHome} from '../styleguides/StyledTextHome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -12,10 +12,10 @@ export default function PlanLinkDiv(props) {
         <StyledLink to={props.to} onMouseEnter={props.onMouseEnter} 
         onMouseLeave={props.onMouseLeave}>
             <Card >
-    <StyledTextSectionHeader>
+    <StyledTextSectionHeaderForHomePage>
     {props.header} 
     <FontAwesomeIcon icon={props.icon}/>
-     </StyledTextSectionHeader>
+     </StyledTextSectionHeaderForHomePage>
                 <StyledTextHome >{props.text}</StyledTextHome>
              </Card>
         </StyledLink>

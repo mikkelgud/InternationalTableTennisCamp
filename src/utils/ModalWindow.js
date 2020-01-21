@@ -43,7 +43,8 @@ const ModalWindow = (props) => {
   return (
     <>
      <StyledIcon onClick={props.onClick}>
-       <FontAwesomeIcon icon="times"/>  </StyledIcon>
+       <FontAwesomeIcon icon="times"/>
+      </StyledIcon>
     <FullScreenPicture src={props.source} display={props.display} onClick={props.onClick}/>
     </>
     );
