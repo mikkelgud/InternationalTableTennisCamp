@@ -9,6 +9,7 @@ import classiccatering from '../../Assets/classic.png';
 import styled from 'styled-components';
 import { StyledH3 } from '../../styleguides/Styledh3';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { ScrollTop } from "../../utils/ScrollToTopp";
 
 const LocalWrapper = styled.div`
 display: flex;
@@ -44,6 +45,7 @@ display: flex;
 
 
 const Sponsors = () => {
+    ScrollTop();
     return (
         <StyledTextBoxDiv >
             <StyledTextSectionHeader style={{textAlign: "center"}}>Our Sponsors And Contributors </StyledTextSectionHeader>
