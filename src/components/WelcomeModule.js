@@ -62,8 +62,9 @@ width: 5rem;
 
 
 export default function WelcomeModule(props) {
+
     return (
-        <StyledDiv onClick={() => props.history.push("/home")}>
+        <StyledDiv onClick={() => props.history.push("/home")} onTouchMove={() => props.history.push("/home")}>
                  
             <StyledTextSectionHeader style={{ color: "white", textAlign: "center" }}>Welcome to the International Table Tennis Camp </StyledTextSectionHeader>
            
