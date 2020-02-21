@@ -36,13 +36,14 @@ font-family: 'Roboto', sans-serif;
 
 const StyledLinkButtonLocal = styled.div`
 background-color: #ffffff;
-border-radius: 30px;
+border-radius: 38px;
 text-align: center;
-padding: 1.2rem
+padding: 1.5263162rem
 margin: 0.6rem;
+width: 14rem;
+font-size: 1.7rem
 box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
 @media(max-width: 800px){
-    padding: 0.6rem
 }
 &:hover {
     background-color: #4267b2;
@@ -53,7 +54,7 @@ box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
 
 const StyledImage = styled.img`
 object: contain;
-width: 5rem;
+width: 7rem;
 &:hover {
     box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
 }

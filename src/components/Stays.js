@@ -29,7 +29,7 @@ const NorwayTravelText = "Read everything you need to know about your stay in No
 const NorwayTravelTo = "/stay/Norway";
 
 const TaiwanTravelHeader = taiwanFlagEmoji + "Taiwan";
-const TaiwanTravelText = "Read everything you need to know about your stay in Taiwan 22.06 - 07.07.2020.";
+const TaiwanTravelText = "This camp is currently set on hold due to the corona virus.";
 const TaiwanTravelTo = "/stay/Taiwan";
 
 
