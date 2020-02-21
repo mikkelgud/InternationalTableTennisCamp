@@ -21,7 +21,7 @@ export default function Pack() {
             <StyledH3>Remember:</StyledH3>
                 <StyledList>
                 <StyledListUnit>Racket and other table tennis equipment(Water bottle, towel..etc)</StyledListUnit>
-                <StyledListUnit>Clothes for 6 days (for table tennis, outside sport and free time)</StyledListUnit>
+                <StyledListUnit>Clothes for 4 days (for table tennis, outside sport and free time)</StyledListUnit>
                 <StyledListUnit>Shoes (for table tennis, jogging and free time)</StyledListUnit>
                 <StyledListUnit>Camera for video analyse (this is totally optional) </StyledListUnit>
                 <StyledListUnit>Normal clothes for outdoor activities</StyledListUnit>
