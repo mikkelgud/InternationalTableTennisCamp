@@ -56,7 +56,7 @@ function App() {
 
          {/* HomePageLinks  */}
          <Route path="/ContactUs" exact component={ContactUs}/>
-         <Route path="/vilkår" exact component={Vilkaar}/>
+         <Route path="/vilkaar" exact component={Vilkaar}/>
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/safety" exact component={Safety}/>
         <Route path="/aboutus" exact component={AboutUs} />        
