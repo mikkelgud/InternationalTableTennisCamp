@@ -39,6 +39,7 @@ import Sponsors from './components/generalnfoPages/Sponsors';
 import WelcomePage from './components/WelcomeModule';
 import Faq from './components/Faq';
 import ContactUs from './components/generalnfoPages/ContactUs';
+import Vilkaar from './components/generalnfoPages/Vilkaar';
 
 
 
@@ -55,6 +56,7 @@ function App() {
 
          {/* HomePageLinks  */}
          <Route path="/ContactUs" exact component={ContactUs}/>
+         <Route path="/vilkår" exact component={Vilkaar}/>
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/safety" exact component={Safety}/>
         <Route path="/aboutus" exact component={AboutUs} />        
