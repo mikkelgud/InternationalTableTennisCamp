@@ -38,6 +38,7 @@ import TaiwanFacilities from './components/camps/taiwanCamp/TaiwanFacilities';
 import Sponsors from './components/generalnfoPages/Sponsors';
 import WelcomePage from './components/WelcomeModule';
 import Faq from './components/Faq';
+import ContactUs from './components/generalnfoPages/ContactUs';
 
 
 
@@ -53,6 +54,7 @@ function App() {
          
 
          {/* HomePageLinks  */}
+         <Route path="/ContactUs" exact component={ContactUs}/>
         <Route path="/signup" exact component={SignUp}/>
         <Route path="/safety" exact component={Safety}/>
         <Route path="/aboutus" exact component={AboutUs} />        

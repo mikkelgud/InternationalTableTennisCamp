@@ -139,7 +139,7 @@ function Footer(props) {
                     </StyledFooterItemDivContainer>
                     <StyledFooterItemDivContainer>
                         < StyledIcon
-                                href="mailto: contactus@ittcamp.com" >
+                        onClick={() => { props.history.push("/contactus"); }}>
                                 <FontAwesomeIcon icon={["far","comments"]}/>
                                 Contact Us
                         </ StyledIcon>

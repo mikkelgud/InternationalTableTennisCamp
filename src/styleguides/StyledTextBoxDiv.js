@@ -19,8 +19,8 @@ padding: 2rem 6.7em;
 // box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-radius: 25px;
 @media (max-width: 500px){
-  width: 95vw;
-  padding: 2rem;
+  width: 100vw;
+  padding: 0.8rem;
 }
 `;
 

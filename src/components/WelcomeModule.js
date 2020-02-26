@@ -38,12 +38,14 @@ const StyledLinkButtonLocal = styled.div`
 background-color: #ffffff;
 border-radius: 38px;
 text-align: center;
-padding: 1.5263162rem
+padding: 1.3263162rem
 margin: 0.6rem;
-width: 14rem;
-font-size: 1.7rem
+width: 11.5rem;
+font-size: 1.1rem
 box-shadow: 0 1px 35px 0 rgba(32,33,36,0.28);
 @media(max-width: 800px){
+    padding: 1.263162rem
+    width: 8rem;
 }
 &:hover {
     background-color: #4267b2;
