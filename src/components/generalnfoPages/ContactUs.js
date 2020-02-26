@@ -49,7 +49,7 @@ export default function Leaders() {
         <StyledDiv>
         <StyledTextSectionHeader>Contact us</StyledTextSectionHeader>
         <InfoBox>
-        <StyledH3 style={{margin: "2rem"}}>Offical mail</StyledH3>
+        <StyledH3 style={{margin: "2rem"}}>Official mail</StyledH3>
 <LocalDiv>
         <StyledImageLocal src={Logo}/>
         

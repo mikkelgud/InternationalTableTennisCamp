@@ -50,7 +50,7 @@ const Sponsors = () => {
         <StyledTextBoxDiv >
             <StyledTextSectionHeader style={{textAlign: "center"}}>Our Sponsors And Contributors </StyledTextSectionHeader>
             <StyledText style={{textAlign: "center"}}>
-                We are proud that these companies, clubs and Organizations have faith in our camps and we would officaly
+                We are proud that these companies, clubs and Organizations have faith in our camps and we would officially
                 thank all of them. This wouldn't be possible without you.
     </StyledText>
             <LocalWrapper>
